@@ -3,21 +3,27 @@
 import csv
 
 # Paths to your files
-terms_file = 'Accipiter_gentilis-xref.tsv'
+terms_file = 'Agelastica_alni.tsv'
 data_file = 'aop_ke_ec.tsv'
 output_file = 'matched_sorted.tsv'
 
-# Read the list of terms from the first file
+# Read the rows from the first file and store the necessary information
 with open(terms_file, 'r') as f:
-    terms = [line.strip() for line in f]
+    terms = {}
+    for line in f:
+        columns = line.strip().split('\t')
+        if len(columns) >= 4:  # Ensure there are at least 4 columns
+            # Map the 4th column term to its corresponding first 3 columns
+            terms[columns[3]] = columns[:3]
 
-# Function to process and match rows
+# Function to process and match rows, adding corresponding columns
 def process_row(row, terms):
-    for term in terms:
+    for term, cols in terms.items():
         if term in row:
-            # Move the matching term to the first position
+            # Remove the matching term from its current position
             row.remove(term)
-            return [term] + row
+            # Prepend the corresponding three columns and the term to the row
+            return cols + [term] + row
     return None
 
 matched_rows = []
@@ -30,8 +36,8 @@ with open(data_file, 'r') as f:
         if processed_row:
             matched_rows.append(processed_row)
 
-# Sort the matched rows based on the first column (the term)
-matched_rows.sort(key=lambda x: x[0])
+# Sort the matched rows based on the first column (after the added columns, this will be the original term's first corresponding column)
+matched_rows.sort(key=lambda x: x[3])  # Sorting by the term itself, which is now at index 3
 
 # Write the matched and sorted rows to a new file
 with open(output_file, 'w', newline='') as f:
