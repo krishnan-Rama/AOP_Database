@@ -23,7 +23,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Extract the fourth column and save it to the output file
-zcat temp_input_file.tsv.gz | cut -f4 > "$output_file"
+zcat temp_input_file.tsv.gz | cut -f1-4 > "$output_file"
 
 # Clean up the temporary file
 rm temp_input_file.tsv.gz

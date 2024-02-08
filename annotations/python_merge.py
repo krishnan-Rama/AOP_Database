@@ -14,7 +14,7 @@ with open(terms_file, 'r') as f:
         columns = line.strip().split('\t')
         if len(columns) >= 4:  # Ensure there are at least 4 columns
             # Map the 4th column term to its corresponding first 3 columns
-            terms[columns[3]] = columns[:3]
+            terms[columns[:2]] = columns[:3]
 
 # Function to process and match rows, adding corresponding columns
 def process_row(row, terms):
