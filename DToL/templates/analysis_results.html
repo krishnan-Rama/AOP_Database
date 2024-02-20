@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Analysis Results for {{ species }} - {{ analysis_type }}</h1>
+    <ul>
+        {% for xref_id, info in enriched_data %}
+            <li>{{ xref_id }}: {{ info }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+

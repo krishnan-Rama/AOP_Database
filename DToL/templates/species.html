@@ -1,0 +1,14 @@
+<!-- Update species.html -->
+<form action="/analyze" method="post">
+    <select name="selected_species">
+        {% for species in species_names %}
+            <option value="{{ species }}">{{ species }}</option>
+        {% endfor %}
+    </select>
+    <select name="analysis_type">
+        <option value="AOP">AOP</option>
+        <option value="Event">Event</option>
+    </select>
+    <input type="submit" value="Analyze">
+</form>
+
