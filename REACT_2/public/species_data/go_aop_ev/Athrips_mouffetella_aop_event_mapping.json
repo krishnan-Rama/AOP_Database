@@ -1,0 +1,3295 @@
+[
+    {
+        "GO_Term": "GO:0005515",
+        "AOP_ID": "39",
+        "Event_ID": "396",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Covalent Binding, Protein"
+    },
+    {
+        "GO_Term": "GO:0005515",
+        "AOP_ID": "40",
+        "Event_ID": "396",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Covalent Binding, Protein"
+    },
+    {
+        "GO_Term": "GO:0005216",
+        "AOP_ID": "104",
+        "Event_ID": "697",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "impaired, ion channels"
+    },
+    {
+        "GO_Term": "GO:0005216",
+        "AOP_ID": "104",
+        "Event_ID": "697",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "impaired, ion channels"
+    },
+    {
+        "GO_Term": "GO:0016020",
+        "AOP_ID": "35",
+        "Event_ID": "46",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Accumulation, Biological membranes"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "15",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "46",
+        "Event_ID": "493",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "80",
+        "Event_ID": "664",
+        "Event_Type": "Key Event",
+        "Description": "Overwhelmed, Mitochondrial DNA repair mechanisms"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "139",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "141",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "207",
+        "Event_ID": "1281",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA Damage-Repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "272",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "296",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "322",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "397",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "432",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "443",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "478",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "8",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "61",
+        "Event_ID": "482",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, DHB4/HSD17B4"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "120",
+        "Event_ID": "790",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, 5\u03b1-reductase activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "122",
+        "Event_ID": "798",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Prolyl hydroxylases"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "131",
+        "Event_ID": "845",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, UROD"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "149",
+        "Event_ID": "973",
+        "Event_Type": "Key Event",
+        "Description": "KE5 : Decrease, AKT/eNOS activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "149",
+        "Event_ID": "973",
+        "Event_Type": "Key Event",
+        "Description": "KE5 : Decrease, AKT/eNOS activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "155",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "156",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "157",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "158",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "162",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "188",
+        "Event_ID": "1152",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Iodotyrosine deiodinase (IYD)"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "189",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "190",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "191",
+        "Event_ID": "1153",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 3"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "193",
+        "Event_ID": "1156",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Dual oxidase"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "194",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "458",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "21",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "21",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "310",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "310",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "455",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "455",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "456",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "456",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "173",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "237",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "451",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components"
+    },
+    {
+        "GO_Term": "GO:0006412",
+        "AOP_ID": "148",
+        "Event_ID": "962",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Mucin production"
+    },
+    {
+        "GO_Term": "GO:0006412",
+        "AOP_ID": "200",
+        "Event_ID": "1240",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Protein Production"
+    },
+    {
+        "GO_Term": "GO:0003714",
+        "AOP_ID": "6",
+        "Event_ID": "1000",
+        "Event_Type": "Key Event",
+        "Description": "stabilization, PPAR alpha co-repressor"
+    },
+    {
+        "GO_Term": "GO:0003714",
+        "AOP_ID": "6",
+        "Event_ID": "1000",
+        "Event_Type": "Key Event",
+        "Description": "stabilization, PPAR alpha co-repressor"
+    },
+    {
+        "GO_Term": "GO:0006629",
+        "AOP_ID": "166",
+        "Event_ID": "1060",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, lipid metabolism"
+    },
+    {
+        "GO_Term": "GO:0006629",
+        "AOP_ID": "513",
+        "Event_ID": "1060",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, lipid metabolism"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "58",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "60",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "61",
+        "Event_ID": "881",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "149",
+        "Event_ID": "934",
+        "Event_Type": "Key Event",
+        "Description": "KE3 : Decrease, Tetrahydrobiopterin"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "207",
+        "Event_ID": "1278",
+        "Event_Type": "Key Event",
+        "Description": "ROS formation"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "423",
+        "Event_ID": "1278",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "ROS formation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "3",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "34",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "48",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "77",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "78",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "79",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "80",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "87",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "130",
+        "Event_ID": "832",
+        "Event_Type": "Key Event",
+        "Description": "Injury, Mitochondria"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "144",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "178",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "200",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "205",
+        "Event_ID": "1260",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Direct mitochondrial inhibition"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "205",
+        "Event_ID": "1261",
+        "Event_Type": "Key Event",
+        "Description": "Mitochondrial impairment"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "207",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "273",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "324",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "325",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "326",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "335",
+        "Event_ID": "1261",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Mitochondrial impairment"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "377",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "423",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "437",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "476",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "479",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "480",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "481",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "517",
+        "Event_ID": "176"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "518",
+        "Event_ID": "176"
+    },
+    {
+        "GO_Term": "GO:0005886",
+        "AOP_ID": "35",
+        "Event_ID": "169",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Membrane integrity"
+    },
+    {
+        "GO_Term": "GO:0006750",
+        "AOP_ID": "209",
+        "Event_ID": "1287",
+        "Event_Type": "Key Event",
+        "Description": "Glutathione synthesis"
+    },
+    {
+        "GO_Term": "GO:0031012",
+        "AOP_ID": "200",
+        "Event_ID": "1195",
+        "Event_Type": "Key Event",
+        "Description": "modulation, Extracellular Matrix Composition "
+    },
+    {
+        "GO_Term": "GO:0006470",
+        "AOP_ID": "315",
+        "Event_ID": "1716",
+        "Event_Type": "Key Event",
+        "Description": "Blockade of STAT5 phosphorylation"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "111",
+        "Event_ID": "743",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Testosterone binding to androgen receptor (hypothalamus)"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "320",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "374",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "379",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "381",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "385",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "394",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "395",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "406",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "407",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "422",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "426",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "427",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "428",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "430",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "468",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "506",
+        "Event_ID": "2158",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Influenza A Virus (IAV) binds sialic acid glycan receptor"
+    },
+    {
+        "GO_Term": "GO:0016055",
+        "AOP_ID": "19",
+        "Event_ID": "310",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, Wnt pathway"
+    },
+    {
+        "GO_Term": "GO:0005874",
+        "AOP_ID": "106",
+        "Event_ID": "720",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Microtubule dynamics"
+    },
+    {
+        "GO_Term": "GO:0016301",
+        "AOP_ID": "499",
+        "Event_ID": "2146",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2"
+    },
+    {
+        "GO_Term": "GO:0016301",
+        "AOP_ID": "500",
+        "Event_ID": "2146",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2"
+    },
+    {
+        "GO_Term": "GO:0006606",
+        "AOP_ID": "506",
+        "Event_ID": "2192",
+        "Event_Type": "Key Event",
+        "Description": "Influenza A Virus production increased"
+    },
+    {
+        "GO_Term": "GO:0016209",
+        "AOP_ID": "284",
+        "Event_ID": "926",
+        "Event_Type": "Key Event",
+        "Description": "Oxidation, Glutathione (To be considered with MIE)"
+    },
+    {
+        "GO_Term": "GO:0016209",
+        "AOP_ID": "413",
+        "Event_ID": "926",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Oxidation, Glutathione (To be considered with MIE)"
+    },
+    {
+        "GO_Term": "GO:0004970",
+        "AOP_ID": "48",
+        "Event_ID": "875",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of agonist, Ionotropic glutamate receptors"
+    },
+    {
+        "GO_Term": "GO:0004970",
+        "AOP_ID": "475",
+        "Event_ID": "875",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of agonist, Ionotropic glutamate receptors"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "41",
+        "Event_ID": "853",
+        "Event_Type": "Key Event",
+        "Description": "Changes/Inhibition, Cellular Homeostasis and Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "64",
+        "Event_ID": "496",
+        "Event_Type": "Key Event",
+        "Description": "Increased apoptosis, decreased fetal/adult Leydig Cells "
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "70",
+        "Event_ID": "648",
+        "Event_Type": "Key Event",
+        "Description": "Decreased steroidogenesis, Increased Apoptosis of Adult Leydig Cells"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "71",
+        "Event_ID": "525",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis of adult Leydig cells, Decreased testosterone by adult Leydig cells"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "200",
+        "Event_ID": "1183",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Apoptosis (Epithelial Cells)"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "205",
+        "Event_ID": "1262",
+        "Event_Type": "Adverse Outcome",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "207",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "212",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "285",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "393",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "419",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "439",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "441",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "452",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "460",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "476",
+        "Event_ID": "496",
+        "Event_Type": "Key Event",
+        "Description": "Increased apoptosis, decreased fetal/adult Leydig Cells "
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "476",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "491",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "495",
+        "Event_ID": "1183",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Apoptosis (Epithelial Cells)"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "500",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "502",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis"
+    },
+    {
+        "GO_Term": "GO:0000104",
+        "AOP_ID": "457",
+        "Event_ID": "2118",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Succinate dehydrogenase, inhibited"
+    },
+    {
+        "GO_Term": "GO:0045281",
+        "AOP_ID": "457",
+        "Event_ID": "2118",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Succinate dehydrogenase, inhibited"
+    },
+    {
+        "GO_Term": "GO:0045281",
+        "AOP_ID": "457",
+        "Event_ID": "2118",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Succinate dehydrogenase, inhibited"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "212",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "393",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "396",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1222",
+        "Event_Type": "Key Event",
+        "Description": "SP (Substance P) release, Local increase of SP"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1433",
+        "Event_Type": "Key Event",
+        "Description": "Increased CGRP, neuronal release of CGRP"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1435",
+        "Event_Type": "Key Event",
+        "Description": "Increased neurokinin A (NKA) by neuronal cells"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "106",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "303",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "303",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "396",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1896",
+        "Event_Type": "Key Event",
+        "Description": "Genomic instability"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "416",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "416",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "417",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "417",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "435",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "443",
+        "Event_ID": "1669",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "443",
+        "Event_ID": "1669",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "451",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "451",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "503",
+        "Event_ID": "1896",
+        "Event_Type": "Key Event",
+        "Description": "Genomic instability"
+    },
+    {
+        "GO_Term": "GO:0004713",
+        "AOP_ID": "399",
+        "Event_ID": "1884",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition of Fyna"
+    },
+    {
+        "GO_Term": "GO:0005388",
+        "AOP_ID": "26",
+        "Event_ID": "51",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Ca++ ATPase"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "12",
+        "Event_ID": "52",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Calcium influx"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "13",
+        "Event_ID": "52",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Calcium influx"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "28",
+        "Event_ID": "49",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Ca and HCO3 transport to shell gland"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "48",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "196",
+        "Event_ID": "1218",
+        "Event_Type": "Key Event",
+        "Description": "Opening of calcium channel, Calcium influx"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "281",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "464",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "475",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "6",
+        "Event_ID": "1528",
+        "Event_Type": "Key Event",
+        "Description": "Fatty Acid Beta Oxidation, Decreased"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "36",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "57",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "58",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "60",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "61",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "318",
+        "Event_ID": "860",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial Fatty Acid Beta Oxidation"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "497",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation"
+    },
+    {
+        "GO_Term": "GO:0019226",
+        "AOP_ID": "4",
+        "Event_ID": "1267",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Ecdysis motoneuron bursts"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "8",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "42",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "134",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "152",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "300",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "442",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "8",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "19",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "42",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "107",
+        "Event_ID": "1214",
+        "Event_Type": "Key Event",
+        "Description": "Altered gene expression specific to CAR activation, Hepatocytes"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "134",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "152",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "300",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "305",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "307",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "344",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "345",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "458",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "459",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered "
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "495",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "34",
+        "Event_ID": "89",
+        "Event_Type": "Key Event",
+        "Description": "Synthesis, De Novo FA"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "58",
+        "Event_ID": "458",
+        "Event_Type": "Key Event",
+        "Description": "Increased, De Novo FA synthesis"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "61",
+        "Event_ID": "458",
+        "Event_Type": "Key Event",
+        "Description": "Increased, De Novo FA synthesis"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "518",
+        "Event_ID": "89",
+        "Event_Type": "Key Event",
+        "Description": "Synthesis, De Novo FA"
+    },
+    {
+        "GO_Term": "GO:0015631",
+        "AOP_ID": "106",
+        "Event_ID": "718",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding, Tubulin"
+    },
+    {
+        "GO_Term": "GO:0006897",
+        "AOP_ID": "144",
+        "Event_ID": "1539",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Endocytotic lysosomal uptake"
+    },
+    {
+        "GO_Term": "GO:0004517",
+        "AOP_ID": "32",
+        "Event_ID": "147",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "77",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "87",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "88",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "89",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0006809",
+        "AOP_ID": "149",
+        "Event_ID": "933",
+        "Event_Type": "Key Event",
+        "Description": "KE6 : Depletion, Nitric Oxide"
+    },
+    {
+        "GO_Term": "GO:0035076",
+        "AOP_ID": "4",
+        "Event_ID": "103",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increase, Ecdysone receptor agonism"
+    },
+    {
+        "GO_Term": "GO:0030163",
+        "AOP_ID": "6",
+        "Event_ID": "863",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Catabolism of Muscle Protein"
+    },
+    {
+        "GO_Term": "GO:0007605",
+        "AOP_ID": "410",
+        "Event_ID": "1008",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Hearing"
+    },
+    {
+        "GO_Term": "GO:0007051",
+        "AOP_ID": "106",
+        "Event_ID": "721",
+        "Event_Type": "Key Event",
+        "Description": "Disorganization, Meiotic Spindle"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "1",
+        "Event_ID": "57",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation, Cell proliferation in the absence of cytotoxicity"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "37",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "39",
+        "Event_ID": "272",
+        "Event_Type": "Key Event",
+        "Description": "Activation/Proliferation, T-cells"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "40",
+        "Event_ID": "272",
+        "Event_Type": "Key Event",
+        "Description": "Activation/Proliferation, T-cells"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "41",
+        "Event_ID": "854",
+        "Event_Type": "Key Event",
+        "Description": "Alterations, Cellular proliferation / hyperplasia"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "51",
+        "Event_ID": "416",
+        "Event_Type": "Key Event",
+        "Description": "Increase proliferation, Leydig cell "
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "107",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "110",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "114",
+        "Event_ID": "778",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (corneal cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "115",
+        "Event_ID": "781",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (forestomach epithelial cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "117",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "118",
+        "Event_ID": "787",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (hepatocytes)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "119",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "121",
+        "Event_ID": "795",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (urothelial cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "136",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "136",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "162",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "164",
+        "Event_ID": "1042",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation/Clonal Expansion, smooth muscle"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "166",
+        "Event_ID": "1062",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Cellular proliferation / hyperplasia of acinar cells"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "167",
+        "Event_ID": "1067",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation/Clonal Expansion, aberrant basal cells"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "171",
+        "Event_ID": "1089",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Cell Proliferation (mesothelium)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "200",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "263",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "267",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "272",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "272",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "286",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "290",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "293",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "294",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "303",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "303",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "335",
+        "Event_ID": "795",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (urothelial cells)"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "399",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "409",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "409",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "420",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "420",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "432",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "432",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "451",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "451",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "460",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "478",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "478",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "491",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "495",
+        "Event_ID": "854",
+        "Event_Type": "Key Event",
+        "Description": "Alterations, Cellular proliferation / hyperplasia"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "502",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation"
+    },
+    {
+        "GO_Term": "GO:0007059",
+        "AOP_ID": "103",
+        "Event_ID": "696",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Chromosome misseggregation"
+    },
+    {
+        "GO_Term": "GO:0006839",
+        "AOP_ID": "18",
+        "Event_ID": "447",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Cholesterol transport in mitochondria"
+    },
+    {
+        "GO_Term": "GO:0006839",
+        "AOP_ID": "51",
+        "Event_ID": "447",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Cholesterol transport in mitochondria"
+    },
+    {
+        "GO_Term": "GO:0005819",
+        "AOP_ID": "106",
+        "Event_ID": "721",
+        "Event_Type": "Key Event",
+        "Description": "Disorganization, Meiotic Spindle"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "3",
+        "Event_ID": "887",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "273",
+        "Event_ID": "887",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "276",
+        "Event_ID": "887",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)"
+    },
+    {
+        "GO_Term": "GO:0007009",
+        "AOP_ID": "205",
+        "Event_ID": "1259",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "narcosis"
+    },
+    {
+        "GO_Term": "GO:0007010",
+        "AOP_ID": "70",
+        "Event_ID": "649",
+        "Event_Type": "Key Event",
+        "Description": "Decreased steroidogenesis, Alterations in the Leydig Cell Cytoskeleton"
+    },
+    {
+        "GO_Term": "GO:0016043",
+        "AOP_ID": "205",
+        "Event_ID": "1258",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decompartmentalization"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "69",
+        "Event_ID": "642",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decreased Cholesterol, Decreased De Novo Biosynthesis of Choleseterol"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "124",
+        "Event_ID": "807",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, cholesterol"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "323",
+        "Event_ID": "807",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, cholesterol"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "8",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "10",
+        "Event_ID": "669",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Neuronal synaptic inhibition"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "42",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "134",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "152",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "300",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "458",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "459",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "490",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered"
+    },
+    {
+        "GO_Term": "GO:0004364",
+        "AOP_ID": "209",
+        "Event_ID": "1286",
+        "Event_Type": "Key Event",
+        "Description": "Down Regulation, GSS and GSTs gene"
+    },
+    {
+        "GO_Term": "GO:0032367",
+        "AOP_ID": "69",
+        "Event_ID": "644",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decreased Cholesterol, Decreased Transport of Cholesterol to the Inner Mitochondrial Membrane"
+    },
+    {
+        "GO_Term": "GO:0016310",
+        "AOP_ID": "148",
+        "Event_ID": "941",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, EGFR"
+    },
+    {
+        "GO_Term": "GO:0004620",
+        "AOP_ID": "130",
+        "Event_ID": "828",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Phospholipase A"
+    },
+    {
+        "GO_Term": "GO:0042373",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone"
+    },
+    {
+        "GO_Term": "GO:0004500",
+        "AOP_ID": "73",
+        "Event_ID": "526",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Inhibition of Dopamine-beta-hydroxylase"
+    },
+    {
+        "GO_Term": "GO:0003868",
+        "AOP_ID": "114",
+        "Event_ID": "766",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, 4-hydroxyphenyl-pyruvate dioxygenase (HPPD) enzyme"
+    },
+    {
+        "GO_Term": "GO:0003707",
+        "AOP_ID": "102",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte"
+    },
+    {
+        "GO_Term": "GO:0003707",
+        "AOP_ID": "103",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "3",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "273",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "276",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "212",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "274",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "275",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "449",
+        "Event_ID": "1502",
+        "Event_Type": "Key Event",
+        "Description": "Histone deacetylase inhibition"
+    },
+    {
+        "GO_Term": "GO:0004363",
+        "AOP_ID": "209",
+        "Event_ID": "1286",
+        "Event_Type": "Key Event",
+        "Description": "Down Regulation, GSS and GSTs gene"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "320",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "379",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "394",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "406",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "407",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "422",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "430",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "468",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "14",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "277",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "278",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "447",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "113",
+        "Event_ID": "760",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Glutamate-gated chloride channel"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "161",
+        "Event_ID": "1018",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Glutamate-gated chloride channels"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "424",
+        "Event_ID": "1906",
+        "Event_Type": "Key Event",
+        "Description": "Cystic Fibrosis Transmembrane Regulator Function, Decreased"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "471",
+        "Event_ID": "1018",
+        "Event_Type": "Key Event",
+        "Description": "Activation, Glutamate-gated chloride channels"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "8",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "162",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "194",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "458",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "23",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "25",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "30",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "122",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "123",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "310",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver"
+    },
+    {
+        "GO_Term": "GO:0005765",
+        "AOP_ID": "144",
+        "Event_ID": "1539",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Endocytotic lysosomal uptake"
+    },
+    {
+        "GO_Term": "GO:0006788",
+        "AOP_ID": "31",
+        "Event_ID": "213",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "8",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "8",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "11",
+        "Event_ID": "245",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, PXR/SXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "33",
+        "Event_ID": "9",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, 5HT2c"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "66",
+        "Event_Type": "Key Event",
+        "Description": "Activation, ChREBP"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "41",
+        "Event_ID": "165",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Long term AHR receptor driven direct and indirect gene expression changes"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "456",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Suppression, Constitutive androstane receptor, NR1l3"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "66",
+        "Event_Type": "Key Event",
+        "Description": "Activation, ChREBP"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "59",
+        "Event_ID": "461",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Suppression, HNF4alpha"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "60",
+        "Event_ID": "245",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, PXR/SXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "60",
+        "Event_ID": "471",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, FoxA2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "478",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NRF2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "479",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NR1H4"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "480",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SHP"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "483",
+        "Event_Type": "Key Event",
+        "Description": "Activation, LXR alpha"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "879",
+        "Event_Type": "Key Event",
+        "Description": "Activation, MTTP"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "62",
+        "Event_ID": "484",
+        "Event_Type": "Key Event",
+        "Description": "Activation, AKT2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "62",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "73",
+        "Event_ID": "529",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, GnRH cfos activity"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "77",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "87",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "88",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "89",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "91",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "93",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "94",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "102",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "103",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "107",
+        "Event_ID": "715",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Constitutive androstane receptor"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "123",
+        "Event_ID": "801",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "modulation, Unknown"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "126",
+        "Event_ID": "849",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Antgonism of NE receptor"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "126",
+        "Event_ID": "529",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, GnRH cfos activity"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "138",
+        "Event_ID": "877",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, organic anion transporter 1 (OAT1)"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "153",
+        "Event_ID": "964",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle between diestrus 2 and proestrus inhibits aromatase conversion of testosterone to estradiol"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "192",
+        "Event_ID": "1155",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Pendrin"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "194",
+        "Event_ID": "1157",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Hepatic nuclear receptor(s)"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "196",
+        "Event_ID": "1215",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "TRPA1 activation, TRPA1 Receptor"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "197",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "200",
+        "Event_ID": "1181",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Estrogen receptor"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "200",
+        "Event_ID": "1191",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Non-genomic signaling"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "201",
+        "Event_ID": "1205",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Juvenile hormone receptor"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1174",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NADPH Oxidase"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1279",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1280",
+        "Event_Type": "Key Event",
+        "Description": "Activation, HIF-1"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1282",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JAK/STAT pathway"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1282",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JAK/STAT pathway"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1283",
+        "Event_Type": "Key Event",
+        "Description": "Activation, TGF-beta pathway"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1292",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JNK"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1293",
+        "Event_Type": "Key Event",
+        "Description": "Activation, FOXO"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1294",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Wnt pathway"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "347",
+        "Event_ID": "1292",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JNK"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "347",
+        "Event_ID": "1283",
+        "Event_Type": "Key Event",
+        "Description": "Activation, TGF-beta pathway"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "471",
+        "Event_ID": "2151",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, neurotransmitter release"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "499",
+        "Event_ID": "2151",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, neurotransmitter release"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "517",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "517",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "518",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "518",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR"
+    },
+    {
+        "GO_Term": "GO:0003989",
+        "AOP_ID": "58",
+        "Event_ID": "470",
+        "Event_Type": "Key Event",
+        "Description": "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)"
+    },
+    {
+        "GO_Term": "GO:0004100",
+        "AOP_ID": "342",
+        "Event_ID": "1522",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Chitin synthase 1"
+    },
+    {
+        "GO_Term": "GO:0004100",
+        "AOP_ID": "360",
+        "Event_ID": "1522",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Chitin synthase 1"
+    },
+    {
+        "GO_Term": "GO:0019432",
+        "AOP_ID": "58",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation"
+    },
+    {
+        "GO_Term": "GO:0019432",
+        "AOP_ID": "60",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation"
+    },
+    {
+        "GO_Term": "GO:0022904",
+        "AOP_ID": "457",
+        "Event_ID": "2120",
+        "Event_Type": "Key Event",
+        "Description": "Superoxide generation, increased"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "16",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "281",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "312",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "405",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "450",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "471",
+        "Event_ID": "12",
+        "Event_Type": "Key Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "130",
+        "Event_ID": "831",
+        "Event_Type": "Key Event",
+        "Description": "Disturbance, Lysosomal function"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "144",
+        "Event_ID": "898",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Lysosome"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "257",
+        "Event_ID": "831",
+        "Event_Type": "Key Event",
+        "Description": "Disturbance, Lysosomal function"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "257",
+        "Event_ID": "898",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Lysosome"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "220",
+        "Event_ID": "1394",
+        "Event_Type": "Key Event",
+        "Description": "Induction, persistent proliferation/sustained proliferation"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "377",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "379",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "406",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "407",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "488",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response"
+    },
+    {
+        "GO_Term": "GO:0005746",
+        "AOP_ID": "26",
+        "Event_ID": "178",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Mitochondrial electron transport chain"
+    },
+    {
+        "GO_Term": "GO:0005746",
+        "AOP_ID": "284",
+        "Event_ID": "178",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Mitochondrial electron transport chain"
+    },
+    {
+        "GO_Term": "GO:0007269",
+        "AOP_ID": "96",
+        "Event_ID": "600",
+        "Event_Type": "Key Event",
+        "Description": "Overactivation, Neuronotransmitter release"
+    },
+    {
+        "GO_Term": "GO:0007269",
+        "AOP_ID": "153",
+        "Event_ID": "968",
+        "Event_Type": "Key Event",
+        "Description": "Decreased Kisspeptin release from neurons in AVPV, Decreased hypothalamic estrogen reduces kisspeptinergic neuron response "
+    },
+    {
+        "GO_Term": "GO:0008255",
+        "AOP_ID": "4",
+        "Event_ID": "988",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Circulating ecdysis triggering hormone"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "342",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "343",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "358",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "359",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "360",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "361",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting"
+    },
+    {
+        "GO_Term": "GO:0048019",
+        "AOP_ID": "6",
+        "Event_ID": "998",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of antagonist, PPAR alpha"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "34",
+        "Event_ID": "264",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBP-1c"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "58",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "61",
+        "Event_ID": "878",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, SREBP1c"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "62",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "411",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "424",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "425",
+        "Event_ID": "1912",
+        "Event_Type": "Key Event",
+        "Description": "Motile Cilia Number/Length, Decreased"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "425",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased"
+    },
+    {
+        "GO_Term": "GO:0048870",
+        "AOP_ID": "200",
+        "Event_ID": "1241",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Motility"
+    },
+    {
+        "GO_Term": "GO:0048870",
+        "AOP_ID": "439",
+        "Event_ID": "1241",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Motility"
+    }
+]
