@@ -1,0 +1,88 @@
+{
+    "id": 164,
+    "title": "Beta-2 adrenergic agonist activity leading to mesovarian leiomyomas in the rat and mouse",
+    "short_name": "Beta-2 adrenergic agonist induction of mesovarian leiomyomas",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1038,
+            "event": "Activation, beta-2 adrenergic receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1039,
+            "event": "Increased activity, beta-2 adrenergic receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1040,
+            "event": "relaxation, smooth muscle",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1042,
+            "event": "Proliferation/Clonal Expansion, smooth muscle",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1043,
+            "event": "Hypertrophy/hyperplasia, smooth muscle",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1044,
+            "event": "Promotion, mesovarian leiomyomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 745,
+            "upstream_event_id": 1038,
+            "upstream_event": "Activation, beta-2 adrenergic receptor",
+            "downstream_event_id": 1039,
+            "downstream_event": "Increased activity, beta-2 adrenergic receptor"
+        },
+        {
+            "relation": 746,
+            "upstream_event_id": 1039,
+            "upstream_event": "Increased activity, beta-2 adrenergic receptor",
+            "downstream_event_id": 1040,
+            "downstream_event": "relaxation, smooth muscle"
+        },
+        {
+            "relation": 747,
+            "upstream_event_id": 1040,
+            "upstream_event": "relaxation, smooth muscle",
+            "downstream_event_id": 1042,
+            "downstream_event": "Proliferation/Clonal Expansion, smooth muscle"
+        },
+        {
+            "relation": 748,
+            "upstream_event_id": 1042,
+            "upstream_event": "Proliferation/Clonal Expansion, smooth muscle",
+            "downstream_event_id": 1043,
+            "downstream_event": "Hypertrophy/hyperplasia, smooth muscle"
+        },
+        {
+            "relation": 749,
+            "upstream_event_id": 1043,
+            "upstream_event": "Hypertrophy/hyperplasia, smooth muscle",
+            "downstream_event_id": 1044,
+            "downstream_event": "Promotion, mesovarian leiomyomas"
+        }
+    ]
+}

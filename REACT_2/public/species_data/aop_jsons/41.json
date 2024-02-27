@@ -1,0 +1,97 @@
+{
+    "id": 41,
+    "title": "Sustained AhR Activation leading to Rodent Liver Tumours",
+    "short_name": "Sustained AhR Activation leading to Rodent Liver Tumours",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 272,
+        "created_at": "2013-08-29T17:44:03.000-04:00",
+        "updated_at": "2021-04-13T09:39:55.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 165,
+            "event": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 139,
+            "event": "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 853,
+            "event": "Changes/Inhibition, Cellular Homeostasis and Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 854,
+            "event": "Alterations, Cellular proliferation / hyperplasia",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 856,
+            "event": "Formation, Hepatocellular and Bile duct tumors",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 564,
+            "upstream_event_id": 165,
+            "upstream_event": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+            "downstream_event_id": 853,
+            "downstream_event": "Changes/Inhibition, Cellular Homeostasis and Apoptosis"
+        },
+        {
+            "relation": 565,
+            "upstream_event_id": 165,
+            "upstream_event": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+            "downstream_event_id": 139,
+            "downstream_event": "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects"
+        },
+        {
+            "relation": 566,
+            "upstream_event_id": 165,
+            "upstream_event": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+            "downstream_event_id": 854,
+            "downstream_event": "Alterations, Cellular proliferation / hyperplasia"
+        },
+        {
+            "relation": 567,
+            "upstream_event_id": 165,
+            "upstream_event": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+            "downstream_event_id": 856,
+            "downstream_event": "Formation, Hepatocellular and Bile duct tumors"
+        },
+        {
+            "relation": 661,
+            "upstream_event_id": 853,
+            "upstream_event": "Changes/Inhibition, Cellular Homeostasis and Apoptosis",
+            "downstream_event_id": 139,
+            "downstream_event": "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects"
+        },
+        {
+            "relation": 662,
+            "upstream_event_id": 139,
+            "upstream_event": "N/A, Hepatotoxicity, Hepatopathy, including a constellation of observable effects",
+            "downstream_event_id": 854,
+            "downstream_event": "Alterations, Cellular proliferation / hyperplasia"
+        },
+        {
+            "relation": 663,
+            "upstream_event_id": 854,
+            "upstream_event": "Alterations, Cellular proliferation / hyperplasia",
+            "downstream_event_id": 856,
+            "downstream_event": "Formation, Hepatocellular and Bile duct tumors"
+        }
+    ]
+}

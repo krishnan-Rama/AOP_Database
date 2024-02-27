@@ -1,0 +1,76 @@
+{
+    "id": 115,
+    "title": "Epithelial cytotoxicity leading to forestomach tumors (in mouse and rat)",
+    "short_name": "Epithelial cytotoxicity- forestomach tumor",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 780,
+            "event": "Increase, Cytotoxicity (epithelial cells)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 781,
+            "event": "Increase, Regenerative cell proliferation (forestomach epithelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 782,
+            "event": "Increase, Hyperplasia (forestomach epithelial cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 779,
+            "event": "Increase, Papillomas/carcinomas (squamous cells)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 441,
+            "upstream_event_id": 780,
+            "upstream_event": "Increase, Cytotoxicity (epithelial cells)",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 442,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 781,
+            "downstream_event": "Increase, Regenerative cell proliferation (forestomach epithelial cells)"
+        },
+        {
+            "relation": 443,
+            "upstream_event_id": 781,
+            "upstream_event": "Increase, Regenerative cell proliferation (forestomach epithelial cells)",
+            "downstream_event_id": 782,
+            "downstream_event": "Increase, Hyperplasia (forestomach epithelial cells)"
+        },
+        {
+            "relation": 444,
+            "upstream_event_id": 782,
+            "upstream_event": "Increase, Hyperplasia (forestomach epithelial cells)",
+            "downstream_event_id": 779,
+            "downstream_event": "Increase, Papillomas/carcinomas (squamous cells)"
+        }
+    ]
+}

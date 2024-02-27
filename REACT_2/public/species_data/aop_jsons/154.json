@@ -1,0 +1,113 @@
+{
+    "id": 154,
+    "title": "Inhibition of Calcineurin Activity Leading to Impaired T-Cell Dependent Antibody Response",
+    "short_name": "Immunosuppression",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 251,
+        "created_at": "2016-05-06T23:33:16.000-04:00",
+        "updated_at": "2023-12-22T00:23:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 163,
+            "stressor_name": "Tacrolimus (also FK506)"
+        },
+        {
+            "stressor_id": 294,
+            "stressor_name": "Cyclosporin"
+        },
+        {
+            "stressor_id": 529,
+            "stressor_name": "Pimecrolimus"
+        },
+        {
+            "stressor_id": 530,
+            "stressor_name": "Gossypol"
+        },
+        {
+            "stressor_id": 531,
+            "stressor_name": "Kaempferol"
+        },
+        {
+            "stressor_id": 532,
+            "stressor_name": "Dodecylbenzene sulfonate"
+        },
+        {
+            "stressor_id": 533,
+            "stressor_name": "Dibefurin"
+        },
+        {
+            "stressor_id": 534,
+            "stressor_name": "Ascomycin"
+        },
+        {
+            "stressor_id": 535,
+            "stressor_name": "1,5-dibenzoyloxymethyl-norcantharidin"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 980,
+            "event": "Inhibition, Calcineurin Activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 979,
+            "event": "Interference, nuclear localization of NFAT",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 981,
+            "event": "Reduction, NFAT/AP-1 complex formation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1202,
+            "event": "Suppression, IL-2 and IL-4 production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 984,
+            "event": "Impairment, T-cell dependent antibody response",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1563,
+            "upstream_event_id": 980,
+            "upstream_event": "Inhibition, Calcineurin Activity",
+            "downstream_event_id": 979,
+            "downstream_event": "Interference, nuclear localization of NFAT"
+        },
+        {
+            "relation": 1270,
+            "upstream_event_id": 979,
+            "upstream_event": "Interference, nuclear localization of NFAT",
+            "downstream_event_id": 981,
+            "downstream_event": "Reduction, NFAT/AP-1 complex formation"
+        },
+        {
+            "relation": 1271,
+            "upstream_event_id": 981,
+            "upstream_event": "Reduction, NFAT/AP-1 complex formation",
+            "downstream_event_id": 1202,
+            "downstream_event": "Suppression, IL-2 and IL-4 production"
+        },
+        {
+            "relation": 1272,
+            "upstream_event_id": 1202,
+            "upstream_event": "Suppression, IL-2 and IL-4 production",
+            "downstream_event_id": 984,
+            "downstream_event": "Impairment, T-cell dependent antibody response"
+        }
+    ]
+}

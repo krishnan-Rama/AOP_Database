@@ -1,0 +1,88 @@
+{
+    "id": 480,
+    "title": "Mitochondrial complexes inhibition leading to heart failure via decreased ATP production",
+    "short_name": "Mitochondrial complexes inhibition leading to heart failure II",
+    "created_at": "2023-01-05T06:31:36.000-05:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 13469,
+        "created_at": "2022-09-19T09:29:03.000-04:00",
+        "updated_at": "2023-03-22T11:05:41.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 105,
+            "event": "Inhibition, Mitochondrial Electron Transport Chain Complexes",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 40,
+            "event": "Decrease, Mitochondrial ATP production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1532,
+            "event": "Decrease, Cardiac contractility ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1535,
+            "event": "Heart failure ",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3311,
+            "upstream_event_id": 105,
+            "upstream_event": "Inhibition, Mitochondrial Electron Transport Chain Complexes",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 3312,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 40,
+            "downstream_event": "Decrease, Mitochondrial ATP production"
+        },
+        {
+            "relation": 3313,
+            "upstream_event_id": 40,
+            "upstream_event": "Decrease, Mitochondrial ATP production",
+            "downstream_event_id": 1532,
+            "downstream_event": "Decrease, Cardiac contractility "
+        },
+        {
+            "relation": 3314,
+            "upstream_event_id": 1532,
+            "upstream_event": "Decrease, Cardiac contractility ",
+            "downstream_event_id": 1535,
+            "downstream_event": "Heart failure "
+        },
+        {
+            "relation": 3315,
+            "upstream_event_id": 1535,
+            "upstream_event": "Heart failure ",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        }
+    ]
+}

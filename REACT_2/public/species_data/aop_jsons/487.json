@@ -1,0 +1,61 @@
+{
+    "id": 487,
+    "title": "Unknown MIE altering cholesterol metabolism leading to decreased cognition",
+    "short_name": "Cholesterol metabolism and DNT",
+    "created_at": "2023-02-22T06:43:07.000-05:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 9061,
+        "created_at": "2022-02-16T08:01:58.000-05:00",
+        "updated_at": "2023-02-21T08:39:30.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 761,
+            "stressor_name": "Tian Ma (Tall Gastrodia Tuber)"
+        },
+        {
+            "stressor_id": 758,
+            "stressor_name": "3,3\u2032,5,5\u2032 tetrabromobisphenol A"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1114,
+            "event": "Unknown, MIE",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2115,
+            "event": "Altered, cholesterol metabolism",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2116,
+            "event": "Decreased, oligodendrocyte differentiation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2107,
+            "event": "Hypomyelination",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2108,
+            "event": "Altered, white brain matter",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

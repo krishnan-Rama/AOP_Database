@@ -1,0 +1,62 @@
+{
+    "id": 345,
+    "title": "Androgen receptor (AR) antagonism leading to decreased fertility in females",
+    "short_name": "AR antagonism leading to decreased fertility",
+    "created_at": "2020-05-19T16:32:18.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 918,
+        "created_at": "2019-06-27T09:30:29.000-04:00",
+        "updated_at": "2023-08-02T04:46:41.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 137,
+            "stressor_name": "Flutamide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 26,
+            "event": "Antagonism, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 286,
+            "event": "Altered, Transcription of genes by the androgen receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1800,
+            "event": "Granulosa cell proliferation of gonadotropin-independent follicles, Reduced",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 972,
+            "event": "Decreased fertility, Reduced number of oocytes ovulated ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2335,
+            "upstream_event_id": 26,
+            "upstream_event": "Antagonism, Androgen receptor",
+            "downstream_event_id": 286,
+            "downstream_event": "Altered, Transcription of genes by the androgen receptor"
+        },
+        {
+            "relation": 2499,
+            "upstream_event_id": 286,
+            "upstream_event": "Altered, Transcription of genes by the androgen receptor",
+            "downstream_event_id": 1800,
+            "downstream_event": "Granulosa cell proliferation of gonadotropin-independent follicles, Reduced"
+        }
+    ]
+}

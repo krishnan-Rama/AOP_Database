@@ -1,0 +1,301 @@
+{
+    "id": 200,
+    "title": "Estrogen receptor activation leading to breast cancer  ",
+    "short_name": "ER activation to breast cancer ",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 236,
+        "created_at": "2016-06-01T15:38:30.000-04:00",
+        "updated_at": "2021-04-13T09:41:15.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1181,
+            "event": "Activation, Estrogen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1182,
+            "event": "Increase, Cell Proliferation (Epithelial Cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1183,
+            "event": "Decreased, Apoptosis (Epithelial Cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1187,
+            "event": "Increased, ER binding to DNA (classical pathway) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1188,
+            "event": "Increased, ER binding to T.F. to DNA (non-classical pathway)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1189,
+            "event": "Increased, Proliferation (Endothelial cells) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1190,
+            "event": "Increased, Migration (Endothelial Cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1191,
+            "event": "Increased, Non-genomic signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1192,
+            "event": "Increased, Ductal Hyperplasia ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1195,
+            "event": "modulation, Extracellular Matrix Composition ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1196,
+            "event": "Increased, Invasion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1197,
+            "event": "Activation, Fibroblasts",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1198,
+            "event": "Activation, Macrophages",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1213,
+            "event": "Increased, Angiogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1239,
+            "event": "Altered, Gene Expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1240,
+            "event": "Altered, Protein Production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1241,
+            "event": "Increased, Motility",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1242,
+            "event": "Increased, Second Messenger Production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1193,
+            "event": "N/A, Breast Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 937,
+            "upstream_event_id": 1181,
+            "upstream_event": "Activation, Estrogen receptor",
+            "downstream_event_id": 1187,
+            "downstream_event": "Increased, ER binding to DNA (classical pathway) "
+        },
+        {
+            "relation": 938,
+            "upstream_event_id": 1182,
+            "upstream_event": "Increase, Cell Proliferation (Epithelial Cells)",
+            "downstream_event_id": 1192,
+            "downstream_event": "Increased, Ductal Hyperplasia "
+        },
+        {
+            "relation": 939,
+            "upstream_event_id": 1183,
+            "upstream_event": "Decreased, Apoptosis (Epithelial Cells)",
+            "downstream_event_id": 1192,
+            "downstream_event": "Increased, Ductal Hyperplasia "
+        },
+        {
+            "relation": 940,
+            "upstream_event_id": 1181,
+            "upstream_event": "Activation, Estrogen receptor",
+            "downstream_event_id": 1188,
+            "downstream_event": "Increased, ER binding to T.F. to DNA (non-classical pathway)"
+        },
+        {
+            "relation": 941,
+            "upstream_event_id": 1187,
+            "upstream_event": "Increased, ER binding to DNA (classical pathway) ",
+            "downstream_event_id": 1182,
+            "downstream_event": "Increase, Cell Proliferation (Epithelial Cells)"
+        },
+        {
+            "relation": 942,
+            "upstream_event_id": 1188,
+            "upstream_event": "Increased, ER binding to T.F. to DNA (non-classical pathway)",
+            "downstream_event_id": 1182,
+            "downstream_event": "Increase, Cell Proliferation (Epithelial Cells)"
+        },
+        {
+            "relation": 943,
+            "upstream_event_id": 1192,
+            "upstream_event": "Increased, Ductal Hyperplasia ",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        },
+        {
+            "relation": 960,
+            "upstream_event_id": 1189,
+            "upstream_event": "Increased, Proliferation (Endothelial cells) ",
+            "downstream_event_id": 1213,
+            "downstream_event": "Increased, Angiogenesis"
+        },
+        {
+            "relation": 961,
+            "upstream_event_id": 1190,
+            "upstream_event": "Increased, Migration (Endothelial Cells)",
+            "downstream_event_id": 1213,
+            "downstream_event": "Increased, Angiogenesis"
+        },
+        {
+            "relation": 981,
+            "upstream_event_id": 1181,
+            "upstream_event": "Activation, Estrogen receptor",
+            "downstream_event_id": 1191,
+            "downstream_event": "Increased, Non-genomic signaling"
+        },
+        {
+            "relation": 982,
+            "upstream_event_id": 1191,
+            "upstream_event": "Increased, Non-genomic signaling",
+            "downstream_event_id": 1188,
+            "downstream_event": "Increased, ER binding to T.F. to DNA (non-classical pathway)"
+        },
+        {
+            "relation": 983,
+            "upstream_event_id": 1187,
+            "upstream_event": "Increased, ER binding to DNA (classical pathway) ",
+            "downstream_event_id": 1239,
+            "downstream_event": "Altered, Gene Expression"
+        },
+        {
+            "relation": 984,
+            "upstream_event_id": 1188,
+            "upstream_event": "Increased, ER binding to T.F. to DNA (non-classical pathway)",
+            "downstream_event_id": 1239,
+            "downstream_event": "Altered, Gene Expression"
+        },
+        {
+            "relation": 985,
+            "upstream_event_id": 1239,
+            "upstream_event": "Altered, Gene Expression",
+            "downstream_event_id": 1240,
+            "downstream_event": "Altered, Protein Production"
+        },
+        {
+            "relation": 986,
+            "upstream_event_id": 1240,
+            "upstream_event": "Altered, Protein Production",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 987,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1194,
+            "downstream_event": "Increase, DNA damage"
+        },
+        {
+            "relation": 988,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 1239,
+            "downstream_event": "Altered, Gene Expression"
+        },
+        {
+            "relation": 989,
+            "upstream_event_id": 1191,
+            "upstream_event": "Increased, Non-genomic signaling",
+            "downstream_event_id": 1239,
+            "downstream_event": "Altered, Gene Expression"
+        },
+        {
+            "relation": 990,
+            "upstream_event_id": 1240,
+            "upstream_event": "Altered, Protein Production",
+            "downstream_event_id": 1189,
+            "downstream_event": "Increased, Proliferation (Endothelial cells) "
+        },
+        {
+            "relation": 991,
+            "upstream_event_id": 1240,
+            "upstream_event": "Altered, Protein Production",
+            "downstream_event_id": 1183,
+            "downstream_event": "Decreased, Apoptosis (Epithelial Cells)"
+        },
+        {
+            "relation": 992,
+            "upstream_event_id": 1240,
+            "upstream_event": "Altered, Protein Production",
+            "downstream_event_id": 1241,
+            "downstream_event": "Increased, Motility"
+        },
+        {
+            "relation": 993,
+            "upstream_event_id": 1241,
+            "upstream_event": "Increased, Motility",
+            "downstream_event_id": 1196,
+            "downstream_event": "Increased, Invasion"
+        },
+        {
+            "relation": 994,
+            "upstream_event_id": 1181,
+            "upstream_event": "Activation, Estrogen receptor",
+            "downstream_event_id": 1242,
+            "downstream_event": "Increased, Second Messenger Production"
+        },
+        {
+            "relation": 995,
+            "upstream_event_id": 1242,
+            "upstream_event": "Increased, Second Messenger Production",
+            "downstream_event_id": 1191,
+            "downstream_event": "Increased, Non-genomic signaling"
+        }
+    ]
+}

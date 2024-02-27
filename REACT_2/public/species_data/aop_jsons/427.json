@@ -1,0 +1,67 @@
+{
+    "id": 427,
+    "title": "ACE2 downregulation following SARS-CoV-2 infection triggers dysregulation of RAAS and can lead to heart failure.",
+    "short_name": "Downregulation of ACE2 causes multi-factorial heart injury and heart failure.",
+    "created_at": "2021-10-15T13:54:54.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 4405,
+        "created_at": "2021-04-06T10:08:28.000-04:00",
+        "updated_at": "2023-01-11T16:32:15.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1787,
+            "event": "Downregulation, ACE2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1935,
+            "event": "Angiotensin (1-7) levels diminished",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1936,
+            "event": "Angiotensin II degradation reduced",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1741,
+            "event": "Induced, Angiotensin (Ang) II accumulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1853,
+            "event": "Hyperactivation of ACE/Ang-II/AT1R axis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1937,
+            "event": "ADAM17 expression induction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1938,
+            "event": "ACE2 increased shedding",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1535,
+            "event": "Heart failure ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

@@ -1,0 +1,97 @@
+{
+    "id": 291,
+    "title": "Mitochondrial ATP synthase antagonism leading to growth inhibition (2)",
+    "short_name": "Mitochondrial ATP synthase antagonism leading to growth inhibition (2)",
+    "created_at": "2019-04-22T04:45:23.000-04:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 442,
+            "stressor_name": "5-Azacytidine"
+        },
+        {
+            "stressor_id": 443,
+            "stressor_name": "Decitabine"
+        },
+        {
+            "stressor_id": 444,
+            "stressor_name": "Sinefungin"
+        },
+        {
+            "stressor_id": 445,
+            "stressor_name": "Psammaplin A"
+        },
+        {
+            "stressor_id": 446,
+            "stressor_name": "Hydralazine hydrochloride"
+        },
+        {
+            "stressor_id": 447,
+            "stressor_name": "Zebularine"
+        },
+        {
+            "stressor_id": 448,
+            "stressor_name": "RG 108"
+        },
+        {
+            "stressor_id": 449,
+            "stressor_name": "Temozolomide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1785,
+            "event": "Increase, Mitochondrial ATP synthase antagonism",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1771,
+            "event": "Decrease, Adenosine triphosphate pool",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1825,
+            "event": "Increase, Cell death",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1521,
+            "event": "Decrease, Growth",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2418,
+            "upstream_event_id": 1785,
+            "upstream_event": "Increase, Mitochondrial ATP synthase antagonism",
+            "downstream_event_id": 1771,
+            "downstream_event": "Decrease, Adenosine triphosphate pool"
+        },
+        {
+            "relation": 2419,
+            "upstream_event_id": 1771,
+            "upstream_event": "Decrease, Adenosine triphosphate pool",
+            "downstream_event_id": 1825,
+            "downstream_event": "Increase, Cell death"
+        },
+        {
+            "relation": 2420,
+            "upstream_event_id": 1825,
+            "upstream_event": "Increase, Cell death",
+            "downstream_event_id": 1521,
+            "downstream_event": "Decrease, Growth"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": 268,
+    "title": "Uncoupling of oxidative phosphorylation leading to growth inhibition via mitochondrial swelling",
+    "short_name": "Uncoupling of OXPHOS leading to growth inhibition 6",
+    "created_at": "2018-06-12T04:33:44.000-04:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1446,
+            "event": "Decrease, Coupling of oxidative phosphorylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2072,
+            "event": "Increase, Mitochondrial swelling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1521,
+            "event": "Decrease, Growth",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3270,
+            "upstream_event_id": 1446,
+            "upstream_event": "Decrease, Coupling of oxidative phosphorylation",
+            "downstream_event_id": 2072,
+            "downstream_event": "Increase, Mitochondrial swelling"
+        },
+        {
+            "relation": 3271,
+            "upstream_event_id": 2072,
+            "upstream_event": "Increase, Mitochondrial swelling",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 3272,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1521,
+            "downstream_event": "Decrease, Growth"
+        }
+    ]
+}

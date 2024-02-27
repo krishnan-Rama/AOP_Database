@@ -1,0 +1,118 @@
+{
+    "id": 392,
+    "title": "Decreased fibrinolysis and activated bradykinin system leading to hyperinflammation",
+    "short_name": " Dysregulated fibrinolysis/bradykinin leading to hyperinflammation",
+    "created_at": "2021-04-20T02:35:18.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 259,
+        "created_at": "2014-10-30T03:38:57.000-04:00",
+        "updated_at": "2023-05-12T04:10:02.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 624,
+            "stressor_name": "Sars-CoV-2"
+        },
+        {
+            "stressor_id": 224,
+            "stressor_name": "nanoparticles"
+        },
+        {
+            "stressor_id": 634,
+            "stressor_name": "nanomaterials"
+        },
+        {
+            "stressor_id": 749,
+            "stressor_name": "Titanium dioxide nanoparticles"
+        },
+        {
+            "stressor_id": 750,
+            "stressor_name": "Iron nanoparticles"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1866,
+            "event": "Fibrinolysis, decreased",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1867,
+            "event": "Bradykinin system, hyperactivated",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1868,
+            "event": "Hyperinflammation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2633,
+            "upstream_event_id": 1866,
+            "upstream_event": "Fibrinolysis, decreased",
+            "downstream_event_id": 1867,
+            "downstream_event": "Bradykinin system, hyperactivated"
+        },
+        {
+            "relation": 2638,
+            "upstream_event_id": 1866,
+            "upstream_event": "Fibrinolysis, decreased",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 2637,
+            "upstream_event_id": 1867,
+            "upstream_event": "Bradykinin system, hyperactivated",
+            "downstream_event_id": 1866,
+            "downstream_event": "Fibrinolysis, decreased"
+        },
+        {
+            "relation": 2634,
+            "upstream_event_id": 1867,
+            "upstream_event": "Bradykinin system, hyperactivated",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 2639,
+            "upstream_event_id": 1867,
+            "upstream_event": "Bradykinin system, hyperactivated",
+            "downstream_event_id": 1868,
+            "downstream_event": "Hyperinflammation"
+        },
+        {
+            "relation": 2635,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 2636,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1868,
+            "downstream_event": "Hyperinflammation"
+        }
+    ]
+}

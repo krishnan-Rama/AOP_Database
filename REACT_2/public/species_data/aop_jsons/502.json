@@ -1,0 +1,56 @@
+{
+    "id": 502,
+    "title": "Decrease, cholesterol synthesis leads to orofacial clefting",
+    "short_name": "Decrease, cholesterol synthesis leads to OFC",
+    "created_at": "2023-06-28T08:18:39.000-04:00",
+    "updated_at": "2023-08-31T09:40:10.000-04:00",
+    "corresponding_author": {
+        "id": 10937,
+        "created_at": "2022-06-10T09:38:36.000-04:00",
+        "updated_at": "2023-11-21T14:32:49.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 2041,
+            "event": "Decrease, palatal shelf outgrowth",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1821,
+            "event": "Decrease, Cell proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2043,
+            "event": "Decrease, Sonic Hedgehog second messenger production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2040,
+            "event": "Decrease, GLI1/2 target gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2028,
+            "event": "Decrease, GLI1/2 translocation to nucleus ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2042,
+            "event": "Orofacial clefting",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

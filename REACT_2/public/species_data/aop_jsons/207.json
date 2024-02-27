@@ -1,0 +1,131 @@
+{
+    "id": 207,
+    "title": "NADPH oxidase and P38 MAPK activation leading to reproductive failure in Caenorhabditis elegans",
+    "short_name": "NADPH oxidase activation leading to reproductive failure",
+    "created_at": "2017-02-15T03:09:24.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 392,
+        "created_at": "2017-02-08T10:41:54.000-05:00",
+        "updated_at": "2023-11-12T23:35:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 252,
+            "stressor_name": "Silver nanoparticles"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1174,
+            "event": "Activation, NADPH Oxidase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1278,
+            "event": "ROS formation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1279,
+            "event": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1280,
+            "event": "Activation, HIF-1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1281,
+            "event": "Increased, DNA Damage-Repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 176,
+            "event": "Damaging, Mitochondria",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1277,
+            "event": "Reproductive failure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1097,
+            "upstream_event_id": 1174,
+            "upstream_event": "Activation, NADPH Oxidase",
+            "downstream_event_id": 1278,
+            "downstream_event": "ROS formation"
+        },
+        {
+            "relation": 1098,
+            "upstream_event_id": 1278,
+            "upstream_event": "ROS formation",
+            "downstream_event_id": 1279,
+            "downstream_event": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK"
+        },
+        {
+            "relation": 1099,
+            "upstream_event_id": 1279,
+            "upstream_event": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK",
+            "downstream_event_id": 1281,
+            "downstream_event": "Increased, DNA Damage-Repair"
+        },
+        {
+            "relation": 1100,
+            "upstream_event_id": 1279,
+            "upstream_event": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK",
+            "downstream_event_id": 176,
+            "downstream_event": "Damaging, Mitochondria"
+        },
+        {
+            "relation": 1101,
+            "upstream_event_id": 1279,
+            "upstream_event": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK",
+            "downstream_event_id": 1280,
+            "downstream_event": "Activation, HIF-1"
+        },
+        {
+            "relation": 1102,
+            "upstream_event_id": 1280,
+            "upstream_event": "Activation, HIF-1",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 1103,
+            "upstream_event_id": 1281,
+            "upstream_event": "Increased, DNA Damage-Repair",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 1104,
+            "upstream_event_id": 176,
+            "upstream_event": "Damaging, Mitochondria",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 1105,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 1277,
+            "downstream_event": "Reproductive failure"
+        }
+    ]
+}

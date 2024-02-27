@@ -1,0 +1,107 @@
+{
+    "id": 99,
+    "title": "Histamine (H2) receptor antagonism leading to reduced survival",
+    "short_name": "H2 block to reduced survival",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 638,
+            "event": "Antagonism, Histamine Receptor (H2)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 633,
+            "event": "Decrease, histaminergic neuron excitation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 634,
+            "event": "N/A, sedation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 635,
+            "event": "Decreased, locomotion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 636,
+            "event": "Decreased, survival",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 588,
+            "event": "Increased, predation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 316,
+            "upstream_event_id": 633,
+            "upstream_event": "Decrease, histaminergic neuron excitation",
+            "downstream_event_id": 634,
+            "downstream_event": "N/A, sedation"
+        },
+        {
+            "relation": 317,
+            "upstream_event_id": 634,
+            "upstream_event": "N/A, sedation",
+            "downstream_event_id": 635,
+            "downstream_event": "Decreased, locomotion"
+        },
+        {
+            "relation": 318,
+            "upstream_event_id": 635,
+            "upstream_event": "Decreased, locomotion",
+            "downstream_event_id": 588,
+            "downstream_event": "Increased, predation"
+        },
+        {
+            "relation": 321,
+            "upstream_event_id": 588,
+            "upstream_event": "Increased, predation",
+            "downstream_event_id": 636,
+            "downstream_event": "Decreased, survival"
+        },
+        {
+            "relation": 725,
+            "upstream_event_id": 638,
+            "upstream_event": "Antagonism, Histamine Receptor (H2)",
+            "downstream_event_id": 633,
+            "downstream_event": "Decrease, histaminergic neuron excitation"
+        },
+        {
+            "relation": 1512,
+            "upstream_event_id": 633,
+            "upstream_event": "Decrease, histaminergic neuron excitation",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 1513,
+            "upstream_event_id": 341,
+            "upstream_event": "Impairment, Learning and memory",
+            "downstream_event_id": 635,
+            "downstream_event": "Decreased, locomotion"
+        }
+    ]
+}

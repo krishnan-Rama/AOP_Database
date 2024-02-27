@@ -1,0 +1,88 @@
+{
+    "id": 383,
+    "title": "Inhibition of Angiotensin-converting enzyme 2 leading to liver fibrosis",
+    "short_name": "ACE2 inhibition, liver fibrosis",
+    "created_at": "2021-03-30T13:45:49.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1740,
+            "event": "Induced dysregulation of ACE2 ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1743,
+            "event": "Increase plasma Ang II",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1852,
+            "event": "Increased Ang II type 1 receptor (AT1R)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1501,
+            "event": "Increased, extracellular matrix deposition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 344,
+            "event": "N/A, Liver fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2579,
+            "upstream_event_id": 1852,
+            "upstream_event": "Increased Ang II type 1 receptor (AT1R)",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2763,
+            "upstream_event_id": 1743,
+            "upstream_event": "Increase plasma Ang II",
+            "downstream_event_id": 1852,
+            "downstream_event": "Increased Ang II type 1 receptor (AT1R)"
+        },
+        {
+            "relation": 2580,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1501,
+            "downstream_event": "Increased, extracellular matrix deposition"
+        },
+        {
+            "relation": 2581,
+            "upstream_event_id": 1501,
+            "upstream_event": "Increased, extracellular matrix deposition",
+            "downstream_event_id": 344,
+            "downstream_event": "N/A, Liver fibrosis"
+        },
+        {
+            "relation": 2762,
+            "upstream_event_id": 1740,
+            "upstream_event": "Induced dysregulation of ACE2 ",
+            "downstream_event_id": 1743,
+            "downstream_event": "Increase plasma Ang II"
+        }
+    ]
+}

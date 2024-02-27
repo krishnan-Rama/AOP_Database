@@ -1,0 +1,131 @@
+{
+    "id": 494,
+    "title": "AhR activation leading to liver fibrosis ",
+    "short_name": "AhR and liver fibrosis ",
+    "created_at": "2023-04-13T08:31:32.000-04:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 16786,
+        "created_at": "2023-03-31T16:57:39.000-04:00",
+        "updated_at": "2023-12-11T06:18:54.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 80,
+            "event": "Up Regulation, CYP1A1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1364,
+            "event": "Increase, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 345,
+            "event": "N/A, Liver Steatosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 265,
+            "event": "Activation, Stellate cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1494,
+            "event": "Leukocyte recruitment/activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1501,
+            "event": "Increased, extracellular matrix deposition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 344,
+            "event": "N/A, Liver fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3415,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 80,
+            "downstream_event": "Up Regulation, CYP1A1"
+        },
+        {
+            "relation": 3416,
+            "upstream_event_id": 80,
+            "upstream_event": "Up Regulation, CYP1A1",
+            "downstream_event_id": 1364,
+            "downstream_event": "Increase, Reactive oxygen species"
+        },
+        {
+            "relation": 3417,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 345,
+            "downstream_event": "N/A, Liver Steatosis"
+        },
+        {
+            "relation": 3418,
+            "upstream_event_id": 345,
+            "upstream_event": "N/A, Liver Steatosis",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 3419,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 265,
+            "downstream_event": "Activation, Stellate cells"
+        },
+        {
+            "relation": 3420,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1494,
+            "downstream_event": "Leukocyte recruitment/activation"
+        },
+        {
+            "relation": 3421,
+            "upstream_event_id": 1494,
+            "upstream_event": "Leukocyte recruitment/activation",
+            "downstream_event_id": 1501,
+            "downstream_event": "Increased, extracellular matrix deposition"
+        },
+        {
+            "relation": 3422,
+            "upstream_event_id": 265,
+            "upstream_event": "Activation, Stellate cells",
+            "downstream_event_id": 1501,
+            "downstream_event": "Increased, extracellular matrix deposition"
+        },
+        {
+            "relation": 3423,
+            "upstream_event_id": 1501,
+            "upstream_event": "Increased, extracellular matrix deposition",
+            "downstream_event_id": 344,
+            "downstream_event": "N/A, Liver fibrosis"
+        }
+    ]
+}

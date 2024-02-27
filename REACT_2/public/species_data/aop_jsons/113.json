@@ -1,0 +1,88 @@
+{
+    "id": 113,
+    "title": "Glutamate-gated chloride channel activation leading to acute mortality",
+    "short_name": "GluCl activation to mortality",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 6446,
+        "created_at": "2021-10-01T10:20:53.000-04:00",
+        "updated_at": "2022-03-28T14:36:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 760,
+            "event": "Activation, Glutamate-gated chloride channel",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 761,
+            "event": "Increased, Chloride conductance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 763,
+            "event": "hyperpolarisation, neuron",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 764,
+            "event": "N/A, Ataxia, paralysis, or hyperactivity",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 765,
+            "event": "Decreased, population 1",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 418,
+            "upstream_event_id": 760,
+            "upstream_event": "Activation, Glutamate-gated chloride channel",
+            "downstream_event_id": 761,
+            "downstream_event": "Increased, Chloride conductance"
+        },
+        {
+            "relation": 419,
+            "upstream_event_id": 763,
+            "upstream_event": "hyperpolarisation, neuron",
+            "downstream_event_id": 764,
+            "downstream_event": "N/A, Ataxia, paralysis, or hyperactivity"
+        },
+        {
+            "relation": 420,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 765,
+            "downstream_event": "Decreased, population 1"
+        },
+        {
+            "relation": 421,
+            "upstream_event_id": 764,
+            "upstream_event": "N/A, Ataxia, paralysis, or hyperactivity",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 422,
+            "upstream_event_id": 761,
+            "upstream_event": "Increased, Chloride conductance",
+            "downstream_event_id": 763,
+            "downstream_event": "hyperpolarisation, neuron"
+        }
+    ]
+}

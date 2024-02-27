@@ -1,0 +1,76 @@
+{
+    "id": 513,
+    "title": "Reactive Oxygen (ROS) formation leads to cancer via Peroxisome proliferation-activated receptor (PPAR) pathway",
+    "short_name": "ROS formation leads to cancer via PPAR pathway",
+    "created_at": "2023-10-18T08:50:57.000-04:00",
+    "updated_at": "2024-01-31T09:55:20.000-05:00",
+    "corresponding_author": {
+        "id": 17529,
+        "created_at": "2023-05-10T14:47:26.000-04:00",
+        "updated_at": "2024-02-26T08:52:40.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 233,
+            "event": "Decreased, PPAR-gamma activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1060,
+            "event": "Alteration, lipid metabolism",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1513,
+            "event": "General Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 885,
+            "event": "Increase, Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3689,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 233,
+            "downstream_event": "Decreased, PPAR-gamma activation"
+        },
+        {
+            "relation": 3690,
+            "upstream_event_id": 233,
+            "upstream_event": "Decreased, PPAR-gamma activation",
+            "downstream_event_id": 1060,
+            "downstream_event": "Alteration, lipid metabolism"
+        },
+        {
+            "relation": 3691,
+            "upstream_event_id": 1060,
+            "upstream_event": "Alteration, lipid metabolism",
+            "downstream_event_id": 1513,
+            "downstream_event": "General Apoptosis"
+        },
+        {
+            "relation": 3692,
+            "upstream_event_id": 1513,
+            "upstream_event": "General Apoptosis",
+            "downstream_event_id": 885,
+            "downstream_event": "Increase, Cancer"
+        }
+    ]
+}

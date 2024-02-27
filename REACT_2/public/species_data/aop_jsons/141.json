@@ -1,0 +1,57 @@
+{
+    "id": 141,
+    "title": "Alkylation of DNA leading to cancer 2",
+    "short_name": "DNA alkylation -> cancer 2",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 61,
+        "created_at": "2013-12-16T13:44:19.000-05:00",
+        "updated_at": "2023-01-09T20:14:28.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 97,
+            "event": "Alkylation, DNA",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 885,
+            "event": "Increase, Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 592,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 593,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 885,
+            "downstream_event": "Increase, Cancer"
+        }
+    ]
+}

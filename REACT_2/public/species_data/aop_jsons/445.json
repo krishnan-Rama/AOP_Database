@@ -1,0 +1,126 @@
+{
+    "id": 445,
+    "title": "Estrogen Receptor Alpha Agonism leads to Impaired Reproduction",
+    "short_name": "ER\u03b1 Agonism leads to Impaired Reproduction",
+    "created_at": "2022-04-05T00:44:11.000-04:00",
+    "updated_at": "2023-04-29T16:03:06.000-04:00",
+    "corresponding_author": {
+        "id": 2944,
+        "created_at": "2021-01-25T13:11:17.000-05:00",
+        "updated_at": "2022-08-15T02:42:13.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1065,
+            "event": "Activation, estrogen receptor alpha",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1985,
+            "event": "Increased, Kisspeptin signalling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1986,
+            "event": "Decreased, Gonadotropins",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1987,
+            "event": "Decreased, Androgen and Progestin ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1988,
+            "event": "Decreased, Maturation Inducing Steroid Surge by Granulosa cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1989,
+            "event": "Impaired, Oocyte maturation and ovulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1990,
+            "event": "Increased, Oocyte Atresia",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1991,
+            "event": "Impaired, Reproduction",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3101,
+            "upstream_event_id": 1065,
+            "upstream_event": "Activation, estrogen receptor alpha",
+            "downstream_event_id": 1985,
+            "downstream_event": "Increased, Kisspeptin signalling"
+        },
+        {
+            "relation": 3055,
+            "upstream_event_id": 1985,
+            "upstream_event": "Increased, Kisspeptin signalling",
+            "downstream_event_id": 1986,
+            "downstream_event": "Decreased, Gonadotropins"
+        },
+        {
+            "relation": 3102,
+            "upstream_event_id": 1065,
+            "upstream_event": "Activation, estrogen receptor alpha",
+            "downstream_event_id": 1986,
+            "downstream_event": "Decreased, Gonadotropins"
+        },
+        {
+            "relation": 3057,
+            "upstream_event_id": 1986,
+            "upstream_event": "Decreased, Gonadotropins",
+            "downstream_event_id": 1987,
+            "downstream_event": "Decreased, Androgen and Progestin "
+        },
+        {
+            "relation": 3185,
+            "upstream_event_id": 1065,
+            "upstream_event": "Activation, estrogen receptor alpha",
+            "downstream_event_id": 1991,
+            "downstream_event": "Impaired, Reproduction"
+        },
+        {
+            "relation": 3058,
+            "upstream_event_id": 1987,
+            "upstream_event": "Decreased, Androgen and Progestin ",
+            "downstream_event_id": 1988,
+            "downstream_event": "Decreased, Maturation Inducing Steroid Surge by Granulosa cells"
+        },
+        {
+            "relation": 3059,
+            "upstream_event_id": 1988,
+            "upstream_event": "Decreased, Maturation Inducing Steroid Surge by Granulosa cells",
+            "downstream_event_id": 1989,
+            "downstream_event": "Impaired, Oocyte maturation and ovulation"
+        },
+        {
+            "relation": 3060,
+            "upstream_event_id": 1989,
+            "upstream_event": "Impaired, Oocyte maturation and ovulation",
+            "downstream_event_id": 1990,
+            "downstream_event": "Increased, Oocyte Atresia"
+        },
+        {
+            "relation": 3061,
+            "upstream_event_id": 1990,
+            "upstream_event": "Increased, Oocyte Atresia",
+            "downstream_event_id": 1991,
+            "downstream_event": "Impaired, Reproduction"
+        }
+    ]
+}

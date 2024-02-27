@@ -1,0 +1,88 @@
+{
+    "id": 112,
+    "title": "Increased dopaminergic activity leading to endometrial adenocarcinomas (in Wistar rat)",
+    "short_name": "Dopaminergic activity- endometrial carcinoma",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 746,
+            "event": "Increase, Dopaminergic activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 747,
+            "event": "Decreased, Prolactin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 748,
+            "event": "Increased, Estrogen receptor (ER) activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 749,
+            "event": "Decreased, Progesterone from corpus luteum",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 772,
+            "event": "Increase, Hyperplasia (glandular epithelial cells of endometrium)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 773,
+            "event": "Increase, Endometrial adenocarcinomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 402,
+            "upstream_event_id": 746,
+            "upstream_event": "Increase, Dopaminergic activity",
+            "downstream_event_id": 747,
+            "downstream_event": "Decreased, Prolactin"
+        },
+        {
+            "relation": 403,
+            "upstream_event_id": 747,
+            "upstream_event": "Decreased, Prolactin",
+            "downstream_event_id": 748,
+            "downstream_event": "Increased, Estrogen receptor (ER) activity"
+        },
+        {
+            "relation": 404,
+            "upstream_event_id": 748,
+            "upstream_event": "Increased, Estrogen receptor (ER) activity",
+            "downstream_event_id": 749,
+            "downstream_event": "Decreased, Progesterone from corpus luteum"
+        },
+        {
+            "relation": 432,
+            "upstream_event_id": 772,
+            "upstream_event": "Increase, Hyperplasia (glandular epithelial cells of endometrium)",
+            "downstream_event_id": 773,
+            "downstream_event": "Increase, Endometrial adenocarcinomas"
+        },
+        {
+            "relation": 433,
+            "upstream_event_id": 749,
+            "upstream_event": "Decreased, Progesterone from corpus luteum",
+            "downstream_event_id": 772,
+            "downstream_event": "Increase, Hyperplasia (glandular epithelial cells of endometrium)"
+        }
+    ]
+}

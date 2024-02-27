@@ -1,0 +1,137 @@
+{
+    "id": 459,
+    "title": "AhR activation in the thyroid leading to Subsequent Adverse Neurodevelopmental Outcomes in Mammals",
+    "short_name": "AhR activation in the thyroid leading to Adverse Neurodevelopmental Outcomes in Mammals",
+    "created_at": "2022-06-30T18:12:04.000-04:00",
+    "updated_at": "2023-06-06T10:32:06.000-04:00",
+    "corresponding_author": {
+        "id": 9052,
+        "created_at": "2022-02-15T12:18:39.000-05:00",
+        "updated_at": "2023-12-18T06:04:15.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 249,
+            "stressor_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+        },
+        {
+            "stressor_id": 768,
+            "stressor_name": "PCB 126"
+        },
+        {
+            "stressor_id": 148,
+            "stressor_name": "Polychlorinated biphenyl"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 850,
+            "event": "Induction, CYP1A2/CYP1A5",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1969,
+            "event": "Increase, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 280,
+            "event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 756,
+            "event": "Hippocampal gene expression, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3424,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 850,
+            "downstream_event": "Induction, CYP1A2/CYP1A5"
+        },
+        {
+            "relation": 3445,
+            "upstream_event_id": 850,
+            "upstream_event": "Induction, CYP1A2/CYP1A5",
+            "downstream_event_id": 1969,
+            "downstream_event": "Increase, Oxidative Stress"
+        },
+        {
+            "relation": 3446,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 3447,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 3448,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 280,
+            "downstream_event": "Thyroxine (T4) in neuronal tissue, Decreased "
+        },
+        {
+            "relation": 3449,
+            "upstream_event_id": 280,
+            "upstream_event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "downstream_event_id": 756,
+            "downstream_event": "Hippocampal gene expression, Altered "
+        },
+        {
+            "relation": 3450,
+            "upstream_event_id": 756,
+            "upstream_event": "Hippocampal gene expression, Altered ",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 3451,
+            "upstream_event_id": 758,
+            "upstream_event": "Hippocampal Physiology, Altered",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        }
+    ]
+}

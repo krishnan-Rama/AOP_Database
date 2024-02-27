@@ -1,0 +1,88 @@
+{
+    "id": 105,
+    "title": "Alpha2u-microglobulin cytotoxicity leading to renal tubular adenomas and carcinomas (in male rat)",
+    "short_name": "\u03b12u-globulin- renal adenomas/carcinomas",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 714,
+            "event": "Increased, Binding of chemicals to 2u (serum)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 708,
+            "event": "Increased, Accumulation of alpha2u microglobulin (proximal tubular epithelium)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 709,
+            "event": "Increase, Cytotoxicity (renal tubular cell)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 710,
+            "event": "Increase, Regenerative cell proliferation (tubular epithelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 767,
+            "event": "Increase, Hyperplasia (renal tubular cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 713,
+            "event": "Increase, Adenomas/carcinomas (renal tubular)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 389,
+            "upstream_event_id": 714,
+            "upstream_event": "Increased, Binding of chemicals to 2u (serum)",
+            "downstream_event_id": 708,
+            "downstream_event": "Increased, Accumulation of alpha2u microglobulin (proximal tubular epithelium)"
+        },
+        {
+            "relation": 390,
+            "upstream_event_id": 708,
+            "upstream_event": "Increased, Accumulation of alpha2u microglobulin (proximal tubular epithelium)",
+            "downstream_event_id": 709,
+            "downstream_event": "Increase, Cytotoxicity (renal tubular cell)"
+        },
+        {
+            "relation": 391,
+            "upstream_event_id": 709,
+            "upstream_event": "Increase, Cytotoxicity (renal tubular cell)",
+            "downstream_event_id": 710,
+            "downstream_event": "Increase, Regenerative cell proliferation (tubular epithelial cells)"
+        },
+        {
+            "relation": 423,
+            "upstream_event_id": 710,
+            "upstream_event": "Increase, Regenerative cell proliferation (tubular epithelial cells)",
+            "downstream_event_id": 767,
+            "downstream_event": "Increase, Hyperplasia (renal tubular cells)"
+        },
+        {
+            "relation": 424,
+            "upstream_event_id": 767,
+            "upstream_event": "Increase, Hyperplasia (renal tubular cells)",
+            "downstream_event_id": 713,
+            "downstream_event": "Increase, Adenomas/carcinomas (renal tubular)"
+        }
+    ]
+}

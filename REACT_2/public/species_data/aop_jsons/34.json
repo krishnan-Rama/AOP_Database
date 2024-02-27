@@ -1,0 +1,181 @@
+{
+    "id": 34,
+    "title": "LXR activation leading to hepatic steatosis",
+    "short_name": "LXR Activation to Liver Steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 217,
+        "created_at": "2013-07-16T14:43:19.000-04:00",
+        "updated_at": "2021-04-13T09:40:06.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 167,
+            "event": "Activation, LXR",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 228,
+            "event": "peroxisome proliferator activated receptor promoter demethylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 54,
+            "event": "Up Regulation, CD36",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 115,
+            "event": "Increase, FA Influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 66,
+            "event": "Activation, ChREBP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 264,
+            "event": "Activation, SREBP-1c",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 116,
+            "event": "Activation, FAS",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 258,
+            "event": "Activation, SCD-1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 89,
+            "event": "Synthesis, De Novo FA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 291,
+            "event": "Accumulation, Triglyceride",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 176,
+            "event": "Damaging, Mitochondria",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 345,
+            "event": "N/A, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 73,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 54,
+            "downstream_event": "Up Regulation, CD36"
+        },
+        {
+            "relation": 74,
+            "upstream_event_id": 54,
+            "upstream_event": "Up Regulation, CD36",
+            "downstream_event_id": 115,
+            "downstream_event": "Increase, FA Influx"
+        },
+        {
+            "relation": 75,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 66,
+            "downstream_event": "Activation, ChREBP"
+        },
+        {
+            "relation": 76,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 264,
+            "downstream_event": "Activation, SREBP-1c"
+        },
+        {
+            "relation": 77,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 116,
+            "downstream_event": "Activation, FAS"
+        },
+        {
+            "relation": 78,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 258,
+            "downstream_event": "Activation, SCD-1"
+        },
+        {
+            "relation": 79,
+            "upstream_event_id": 258,
+            "upstream_event": "Activation, SCD-1",
+            "downstream_event_id": 89,
+            "downstream_event": "Synthesis, De Novo FA"
+        },
+        {
+            "relation": 80,
+            "upstream_event_id": 66,
+            "upstream_event": "Activation, ChREBP",
+            "downstream_event_id": 89,
+            "downstream_event": "Synthesis, De Novo FA"
+        },
+        {
+            "relation": 81,
+            "upstream_event_id": 264,
+            "upstream_event": "Activation, SREBP-1c",
+            "downstream_event_id": 89,
+            "downstream_event": "Synthesis, De Novo FA"
+        },
+        {
+            "relation": 82,
+            "upstream_event_id": 116,
+            "upstream_event": "Activation, FAS",
+            "downstream_event_id": 89,
+            "downstream_event": "Synthesis, De Novo FA"
+        },
+        {
+            "relation": 83,
+            "upstream_event_id": 89,
+            "upstream_event": "Synthesis, De Novo FA",
+            "downstream_event_id": 291,
+            "downstream_event": "Accumulation, Triglyceride"
+        },
+        {
+            "relation": 84,
+            "upstream_event_id": 115,
+            "upstream_event": "Increase, FA Influx",
+            "downstream_event_id": 291,
+            "downstream_event": "Accumulation, Triglyceride"
+        },
+        {
+            "relation": 85,
+            "upstream_event_id": 291,
+            "upstream_event": "Accumulation, Triglyceride",
+            "downstream_event_id": 176,
+            "downstream_event": "Damaging, Mitochondria"
+        },
+        {
+            "relation": 131,
+            "upstream_event_id": 228,
+            "upstream_event": "peroxisome proliferator activated receptor promoter demethylation",
+            "downstream_event_id": 54,
+            "downstream_event": "Up Regulation, CD36"
+        }
+    ]
+}

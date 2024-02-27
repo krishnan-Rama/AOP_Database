@@ -1,0 +1,112 @@
+{
+    "id": 26,
+    "title": "Calcium-mediated neuronal ROS production and energy imbalance",
+    "short_name": "Calcium-mediated neuronal ROS production and energy imbalance",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 56,
+        "created_at": "2014-03-03T12:01:56.000-05:00",
+        "updated_at": "2021-04-13T09:41:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 51,
+            "event": "Inhibition, Ca++ ATPase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 50,
+            "event": "Increase, Ca++ (intracellular)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 178,
+            "event": "Disruption, Mitochondrial electron transport chain",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 40,
+            "event": "Decrease, Mitochondrial ATP production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 193,
+            "event": "Decreased, Nitric Oxide",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 166,
+            "event": "Decreased, Long-term potentiation (LTP)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 356,
+            "event": "Increased, Oxidative damage",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 34,
+            "upstream_event_id": 51,
+            "upstream_event": "Inhibition, Ca++ ATPase",
+            "downstream_event_id": 50,
+            "downstream_event": "Increase, Ca++ (intracellular)"
+        },
+        {
+            "relation": 35,
+            "upstream_event_id": 50,
+            "upstream_event": "Increase, Ca++ (intracellular)",
+            "downstream_event_id": 178,
+            "downstream_event": "Disruption, Mitochondrial electron transport chain"
+        },
+        {
+            "relation": 36,
+            "upstream_event_id": 178,
+            "upstream_event": "Disruption, Mitochondrial electron transport chain",
+            "downstream_event_id": 40,
+            "downstream_event": "Decrease, Mitochondrial ATP production"
+        },
+        {
+            "relation": 37,
+            "upstream_event_id": 178,
+            "upstream_event": "Disruption, Mitochondrial electron transport chain",
+            "downstream_event_id": 257,
+            "downstream_event": "Increase, Reactive Oxygen Species production"
+        },
+        {
+            "relation": 38,
+            "upstream_event_id": 193,
+            "upstream_event": "Decreased, Nitric Oxide",
+            "downstream_event_id": 166,
+            "downstream_event": "Decreased, Long-term potentiation (LTP)"
+        },
+        {
+            "relation": 39,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 193,
+            "downstream_event": "Decreased, Nitric Oxide"
+        },
+        {
+            "relation": 40,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 356,
+            "downstream_event": "Increased, Oxidative damage"
+        }
+    ]
+}

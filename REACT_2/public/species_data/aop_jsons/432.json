@@ -1,0 +1,72 @@
+{
+    "id": 432,
+    "title": "Deposition of Energy by Ionizing Radiation leading to Acute Myeloid Leukemia",
+    "short_name": "Ionizing Radiation-Induced AML",
+    "created_at": "2021-12-02T10:13:33.000-05:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 4693,
+        "created_at": "2021-05-12T04:44:36.000-04:00",
+        "updated_at": "2022-08-18T04:30:51.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1632,
+            "event": "Increase in reactive oxygen and nitrogen species (RONS)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 876,
+            "event": "Increase, Mutations in Critical Genes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1493,
+            "event": "Increased Pro-inflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 403,
+            "event": "Suppression, Immune system",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1955,
+            "event": "Acute Myeloid Leukemia",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

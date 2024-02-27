@@ -1,0 +1,72 @@
+{
+    "id": 426,
+    "title": "SARS-CoV-2 spike protein binding to ACE2 receptors expressed on pericytes leads to endothelial cell dysfunction, microvascular injury and myocardial infarction. ",
+    "short_name": "Pericytes possess a key role in the heart injury by COVID-19.",
+    "created_at": "2021-10-15T12:13:06.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 4405,
+        "created_at": "2021-04-06T10:08:28.000-04:00",
+        "updated_at": "2023-01-11T16:32:15.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1535,
+            "event": "Heart failure ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1750,
+            "event": "Increased inflammatory immune responses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1913,
+            "event": "Endothelial cell dysfunction ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1666,
+            "event": "Induced, dysfunction of microcirculation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1946,
+            "event": "Impaired mechanotransduction of pericytes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1947,
+            "event": "Pericyte dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1948,
+            "event": "Increased ACE2 expression",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1934,
+            "event": "Myocardial Infarction",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

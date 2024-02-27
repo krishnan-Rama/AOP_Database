@@ -1,0 +1,173 @@
+{
+    "id": 483,
+    "title": "Deposition of Energy Leading to Learning and Memory Impairment",
+    "short_name": "Deposition of Energy Leading to Learning and Memory Impairment",
+    "created_at": "2023-01-25T09:03:29.000-05:00",
+    "updated_at": "2023-06-08T12:37:11.000-04:00",
+    "corresponding_author": {
+        "id": 475,
+        "created_at": "2017-09-13T13:30:53.000-04:00",
+        "updated_at": "2024-02-16T11:14:45.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2066,
+            "event": "Altered Signaling Pathways",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1492,
+            "event": "Tissue resident cell activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2097,
+            "event": "Increase, Pro-Inflammatory Mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2098,
+            "event": "Increase, Neural Remodeling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1635,
+            "event": "Increase, DNA strand breaks",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3325,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 3332,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 2098,
+            "downstream_event": "Increase, Neural Remodeling"
+        },
+        {
+            "relation": 3333,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 3326,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1492,
+            "downstream_event": "Tissue resident cell activation"
+        },
+        {
+            "relation": 3334,
+            "upstream_event_id": 2097,
+            "upstream_event": "Increase, Pro-Inflammatory Mediators",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 3327,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 2066,
+            "downstream_event": "Altered Signaling Pathways"
+        },
+        {
+            "relation": 3328,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1492,
+            "downstream_event": "Tissue resident cell activation"
+        },
+        {
+            "relation": 3329,
+            "upstream_event_id": 1492,
+            "upstream_event": "Tissue resident cell activation",
+            "downstream_event_id": 2097,
+            "downstream_event": "Increase, Pro-Inflammatory Mediators"
+        },
+        {
+            "relation": 3330,
+            "upstream_event_id": 2097,
+            "upstream_event": "Increase, Pro-Inflammatory Mediators",
+            "downstream_event_id": 2098,
+            "downstream_event": "Increase, Neural Remodeling"
+        },
+        {
+            "relation": 3331,
+            "upstream_event_id": 2098,
+            "upstream_event": "Increase, Neural Remodeling",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 3335,
+            "upstream_event_id": 2066,
+            "upstream_event": "Altered Signaling Pathways",
+            "downstream_event_id": 2098,
+            "downstream_event": "Increase, Neural Remodeling"
+        },
+        {
+            "relation": 3336,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 2098,
+            "downstream_event": "Increase, Neural Remodeling"
+        },
+        {
+            "relation": 3348,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 3377,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 3378,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 2066,
+            "downstream_event": "Altered Signaling Pathways"
+        }
+    ]
+}

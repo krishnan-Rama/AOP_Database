@@ -1,0 +1,76 @@
+{
+    "id": 109,
+    "title": "Cytotoxicity leading to bronchioloalveolar adenomas and carcinomas (in mouse)",
+    "short_name": "Cytotoxicity- bronchiolar adenoma/carcinoma",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 770,
+            "event": "Increase, Cytotoxicity (club cells)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 733,
+            "event": "Increase, Necrosis (terminal bronchiolar cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 734,
+            "event": "Increase, Regenerative cell proliferation (terminal bronchiolar epithelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 735,
+            "event": "Increase, Hyperplasia (terminal bronchiolar cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 736,
+            "event": "Increase, Adenomas/carcinomas (bronchioloalveolar)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 397,
+            "upstream_event_id": 733,
+            "upstream_event": "Increase, Necrosis (terminal bronchiolar cells)",
+            "downstream_event_id": 734,
+            "downstream_event": "Increase, Regenerative cell proliferation (terminal bronchiolar epithelial cells)"
+        },
+        {
+            "relation": 398,
+            "upstream_event_id": 734,
+            "upstream_event": "Increase, Regenerative cell proliferation (terminal bronchiolar epithelial cells)",
+            "downstream_event_id": 735,
+            "downstream_event": "Increase, Hyperplasia (terminal bronchiolar cells)"
+        },
+        {
+            "relation": 399,
+            "upstream_event_id": 735,
+            "upstream_event": "Increase, Hyperplasia (terminal bronchiolar cells)",
+            "downstream_event_id": 736,
+            "downstream_event": "Increase, Adenomas/carcinomas (bronchioloalveolar)"
+        },
+        {
+            "relation": 429,
+            "upstream_event_id": 770,
+            "upstream_event": "Increase, Cytotoxicity (club cells)",
+            "downstream_event_id": 733,
+            "downstream_event": "Increase, Necrosis (terminal bronchiolar cells)"
+        }
+    ]
+}

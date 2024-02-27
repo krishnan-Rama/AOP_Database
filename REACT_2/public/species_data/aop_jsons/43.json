@@ -1,0 +1,85 @@
+{
+    "id": 43,
+    "title": "Disruption of VEGFR Signaling Leading to Developmental Defects",
+    "short_name": "Developmental Vascular Toxicity",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-08-28T08:42:24.000-04:00",
+    "corresponding_author": {
+        "id": 190,
+        "created_at": "2013-07-02T14:37:00.000-04:00",
+        "updated_at": "2016-11-29T18:41:13.000-05:00",
+        "subscribed": true,
+        "novice": false
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 55,
+            "stressor_name": "Vatalanib"
+        },
+        {
+            "stressor_id": 169,
+            "stressor_name": "Sunitinib malate Sunitinib (INN)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 305,
+            "event": "Inhibition, VegfR2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 28,
+            "event": "Reduction, Angiogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 110,
+            "event": "Impairment, Endothelial network",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 298,
+            "event": "Insufficiency, Vascular",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1001,
+            "event": "Increased, Developmental Defects",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 94,
+            "upstream_event_id": 305,
+            "upstream_event": "Inhibition, VegfR2",
+            "downstream_event_id": 28,
+            "downstream_event": "Reduction, Angiogenesis"
+        },
+        {
+            "relation": 95,
+            "upstream_event_id": 28,
+            "upstream_event": "Reduction, Angiogenesis",
+            "downstream_event_id": 110,
+            "downstream_event": "Impairment, Endothelial network"
+        },
+        {
+            "relation": 96,
+            "upstream_event_id": 110,
+            "upstream_event": "Impairment, Endothelial network",
+            "downstream_event_id": 298,
+            "downstream_event": "Insufficiency, Vascular"
+        },
+        {
+            "relation": 679,
+            "upstream_event_id": 298,
+            "upstream_event": "Insufficiency, Vascular",
+            "downstream_event_id": 1001,
+            "downstream_event": "Increased, Developmental Defects"
+        }
+    ]
+}

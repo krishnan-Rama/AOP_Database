@@ -1,0 +1,157 @@
+{
+    "id": 144,
+    "title": "Endocytic lysosomal uptake leading to liver fibrosis",
+    "short_name": "lysosomal uptake induced liver fibrosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 678,
+        "created_at": "2018-07-19T05:09:36.000-04:00",
+        "updated_at": "2019-11-10T04:18:08.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 224,
+            "stressor_name": "nanoparticles"
+        },
+        {
+            "stressor_id": 225,
+            "stressor_name": "ROS"
+        },
+        {
+            "stressor_id": 226,
+            "stressor_name": "o-methyl-serine dodecylamide hydrochloride (MSDH)"
+        },
+        {
+            "stressor_id": 228,
+            "stressor_name": "3-aminopropanal"
+        },
+        {
+            "stressor_id": 229,
+            "stressor_name": "artesunate"
+        },
+        {
+            "stressor_id": 389,
+            "stressor_name": "Chloroquine bis(phosphate)"
+        },
+        {
+            "stressor_id": 390,
+            "stressor_name": "Norfloxacin"
+        },
+        {
+            "stressor_id": 391,
+            "stressor_name": "Ciprofloxacin"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1539,
+            "event": "Endocytotic lysosomal uptake",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 898,
+            "event": "Disruption, Lysosome",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1493,
+            "event": "Increased Pro-inflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1494,
+            "event": "Leukocyte recruitment/activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 265,
+            "event": "Activation, Stellate cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 68,
+            "event": "Accumulation, Collagen",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 344,
+            "event": "N/A, Liver fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1693,
+            "upstream_event_id": 1539,
+            "upstream_event": "Endocytotic lysosomal uptake",
+            "downstream_event_id": 898,
+            "downstream_event": "Disruption, Lysosome"
+        },
+        {
+            "relation": 1694,
+            "upstream_event_id": 898,
+            "upstream_event": "Disruption, Lysosome",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 618,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 1695,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1493,
+            "downstream_event": "Increased Pro-inflammatory mediators"
+        },
+        {
+            "relation": 1696,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 1494,
+            "downstream_event": "Leukocyte recruitment/activation"
+        },
+        {
+            "relation": 1697,
+            "upstream_event_id": 1494,
+            "upstream_event": "Leukocyte recruitment/activation",
+            "downstream_event_id": 265,
+            "downstream_event": "Activation, Stellate cells"
+        },
+        {
+            "relation": 1698,
+            "upstream_event_id": 265,
+            "upstream_event": "Activation, Stellate cells",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        },
+        {
+            "relation": 1699,
+            "upstream_event_id": 68,
+            "upstream_event": "Accumulation, Collagen",
+            "downstream_event_id": 344,
+            "downstream_event": "N/A, Liver fibrosis"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": 104,
+    "title": "Altered ion channel activity leading impaired heart function",
+    "short_name": "chemical-induced arrthymias",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 101,
+        "created_at": "2015-07-30T09:11:14.000-04:00",
+        "updated_at": "2021-04-13T09:40:47.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 697,
+            "event": "impaired, ion channels",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 698,
+            "event": "Altered, Action Potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 699,
+            "event": "Increased, cardiac arrthymia",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 386,
+            "upstream_event_id": 697,
+            "upstream_event": "impaired, ion channels",
+            "downstream_event_id": 698,
+            "downstream_event": "Altered, Action Potential"
+        },
+        {
+            "relation": 387,
+            "upstream_event_id": 698,
+            "upstream_event": "Altered, Action Potential",
+            "downstream_event_id": 699,
+            "downstream_event": "Increased, cardiac arrthymia"
+        },
+        {
+            "relation": 388,
+            "upstream_event_id": 699,
+            "upstream_event": "Increased, cardiac arrthymia",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        }
+    ]
+}

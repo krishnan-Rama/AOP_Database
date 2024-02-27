@@ -1,0 +1,144 @@
+{
+    "id": 296,
+    "title": "Oxidative DNA damage leading to chromosomal aberrations and mutations",
+    "short_name": "Oxidative DNA damage, chromosomal aberrations and mutations",
+    "created_at": "2019-05-19T16:13:15.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 61,
+        "created_at": "2013-12-16T13:44:19.000-05:00",
+        "updated_at": "2023-01-09T20:14:28.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 454,
+            "stressor_name": "Hydrogen peroxide"
+        },
+        {
+            "stressor_id": 455,
+            "stressor_name": "Potassium bromate"
+        },
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        },
+        {
+            "stressor_id": 456,
+            "stressor_name": "Cadmium chloride"
+        },
+        {
+            "stressor_id": 457,
+            "stressor_name": "tert-Butyl hydroperoxide"
+        },
+        {
+            "stressor_id": 303,
+            "stressor_name": "Reactive oxygen species"
+        },
+        {
+            "stressor_id": 514,
+            "stressor_name": "Hydroquinone"
+        },
+        {
+            "stressor_id": 515,
+            "stressor_name": "4-Nitroquinoline 1-oxide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1634,
+            "event": "Increase, Oxidative damage to DNA",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1635,
+            "event": "Increase, DNA strand breaks",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1636,
+            "event": "Increase, Chromosomal aberrations",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1907,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 1905,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 1901,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 1906,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1902,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 1927,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1904,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1903,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 1935,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        }
+    ]
+}

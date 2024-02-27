@@ -1,0 +1,167 @@
+{
+    "id": 460,
+    "title": "Antagonism of Smoothened receptor leading to orofacial clefting",
+    "short_name": "Antagonism SMO leads to OFC",
+    "created_at": "2022-07-13T15:09:57.000-04:00",
+    "updated_at": "2023-11-14T13:47:12.000-05:00",
+    "corresponding_author": {
+        "id": 10937,
+        "created_at": "2022-06-10T09:38:36.000-04:00",
+        "updated_at": "2023-11-21T14:32:49.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 746,
+            "stressor_name": "Vismodegib"
+        },
+        {
+            "stressor_id": 748,
+            "stressor_name": "Cyclopamine"
+        },
+        {
+            "stressor_id": 752,
+            "stressor_name": "SANT-1"
+        },
+        {
+            "stressor_id": 753,
+            "stressor_name": "SANT-2"
+        },
+        {
+            "stressor_id": 754,
+            "stressor_name": "SANT-3"
+        },
+        {
+            "stressor_id": 755,
+            "stressor_name": "SANT-4"
+        },
+        {
+            "stressor_id": 765,
+            "stressor_name": "Piperonyl butoxide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2027,
+            "event": "Antagonism, Smoothened receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2044,
+            "event": "Decrease, Smoothend relocation and activation ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2028,
+            "event": "Decrease, GLI1/2 translocation to nucleus ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2040,
+            "event": "Decrease, GLI1/2 target gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2043,
+            "event": "Decrease, Sonic Hedgehog second messenger production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1821,
+            "event": "Decrease, Cell proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2041,
+            "event": "Decrease, palatal shelf outgrowth",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2042,
+            "event": "Orofacial clefting",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3426,
+            "upstream_event_id": 2027,
+            "upstream_event": "Antagonism, Smoothened receptor",
+            "downstream_event_id": 2042,
+            "downstream_event": "Orofacial clefting"
+        },
+        {
+            "relation": 3189,
+            "upstream_event_id": 2027,
+            "upstream_event": "Antagonism, Smoothened receptor",
+            "downstream_event_id": 2044,
+            "downstream_event": "Decrease, Smoothend relocation and activation "
+        },
+        {
+            "relation": 3190,
+            "upstream_event_id": 2044,
+            "upstream_event": "Decrease, Smoothend relocation and activation ",
+            "downstream_event_id": 2028,
+            "downstream_event": "Decrease, GLI1/2 translocation to nucleus "
+        },
+        {
+            "relation": 3175,
+            "upstream_event_id": 2028,
+            "upstream_event": "Decrease, GLI1/2 translocation to nucleus ",
+            "downstream_event_id": 2040,
+            "downstream_event": "Decrease, GLI1/2 target gene expression"
+        },
+        {
+            "relation": 3186,
+            "upstream_event_id": 2040,
+            "upstream_event": "Decrease, GLI1/2 target gene expression",
+            "downstream_event_id": 2043,
+            "downstream_event": "Decrease, Sonic Hedgehog second messenger production"
+        },
+        {
+            "relation": 3366,
+            "upstream_event_id": 2043,
+            "upstream_event": "Decrease, Sonic Hedgehog second messenger production",
+            "downstream_event_id": 1821,
+            "downstream_event": "Decrease, Cell proliferation"
+        },
+        {
+            "relation": 3178,
+            "upstream_event_id": 1821,
+            "upstream_event": "Decrease, Cell proliferation",
+            "downstream_event_id": 2041,
+            "downstream_event": "Decrease, palatal shelf outgrowth"
+        },
+        {
+            "relation": 3180,
+            "upstream_event_id": 2041,
+            "upstream_event": "Decrease, palatal shelf outgrowth",
+            "downstream_event_id": 2042,
+            "downstream_event": "Orofacial clefting"
+        },
+        {
+            "relation": 3383,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 2041,
+            "downstream_event": "Decrease, palatal shelf outgrowth"
+        },
+        {
+            "relation": 3405,
+            "upstream_event_id": 2040,
+            "upstream_event": "Decrease, GLI1/2 target gene expression",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        }
+    ]
+}

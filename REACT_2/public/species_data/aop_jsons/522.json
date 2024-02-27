@@ -1,0 +1,93 @@
+{
+    "id": 522,
+    "title": "Estrogen antagonism leading to increased risk of autism-like behavior",
+    "short_name": "Estrogen antagonism leading to increased risk of autism-like behavior",
+    "created_at": "2024-01-25T09:48:07.000-05:00",
+    "updated_at": "2024-01-25T21:58:38.000-05:00",
+    "corresponding_author": {
+        "id": 9715,
+        "created_at": "2022-04-11T09:30:48.000-04:00",
+        "updated_at": "2024-01-24T09:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 521,
+            "stressor_name": "Bisphenol A"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 112,
+            "event": "Antagonism, Estrogen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2207,
+            "event": "inhibition, EKR1/2 signaling pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 195,
+            "event": "Inhibition, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2208,
+            "event": "Aberrant, synaptic formation and plasticity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 386,
+            "event": "Decrease of neuronal network function",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2209,
+            "event": "autism-like behavior",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3726,
+            "upstream_event_id": 112,
+            "upstream_event": "Antagonism, Estrogen receptor",
+            "downstream_event_id": 2207,
+            "downstream_event": "inhibition, EKR1/2 signaling pathway"
+        },
+        {
+            "relation": 3727,
+            "upstream_event_id": 2207,
+            "upstream_event": "inhibition, EKR1/2 signaling pathway",
+            "downstream_event_id": 2208,
+            "downstream_event": "Aberrant, synaptic formation and plasticity"
+        },
+        {
+            "relation": 3728,
+            "upstream_event_id": 2208,
+            "upstream_event": "Aberrant, synaptic formation and plasticity",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        },
+        {
+            "relation": 3729,
+            "upstream_event_id": 386,
+            "upstream_event": "Decrease of neuronal network function",
+            "downstream_event_id": 2209,
+            "downstream_event": "autism-like behavior"
+        },
+        {
+            "relation": 3730,
+            "upstream_event_id": 195,
+            "upstream_event": "Inhibition, NMDARs",
+            "downstream_event_id": 2208,
+            "downstream_event": "Aberrant, synaptic formation and plasticity"
+        }
+    ]
+}

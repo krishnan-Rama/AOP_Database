@@ -1,0 +1,95 @@
+{
+    "id": 39,
+    "title": "Covalent Binding, Protein, leading to Increase, Allergic Respiratory Hypersensitivity Response",
+    "short_name": "Covalent binding to proteins leads to Respiratory Sensitisation/Sensitization/Allergy",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 1824,
+        "created_at": "2020-07-31T17:18:28.000-04:00",
+        "updated_at": "2023-08-21T09:03:08.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 747,
+            "stressor_name": "Toluene diisocyanate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 396,
+            "event": "Covalent Binding, Protein",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 398,
+            "event": "Activation, Dendritic Cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 272,
+            "event": "Activation/Proliferation, T-cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 313,
+            "event": "Increase, Allergic Respiratory Hypersensitivity Response",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3080,
+            "upstream_event_id": 396,
+            "upstream_event": "Covalent Binding, Protein",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 3081,
+            "upstream_event_id": 396,
+            "upstream_event": "Covalent Binding, Protein",
+            "downstream_event_id": 313,
+            "downstream_event": "Increase, Allergic Respiratory Hypersensitivity Response"
+        },
+        {
+            "relation": 2337,
+            "upstream_event_id": 396,
+            "upstream_event": "Covalent Binding, Protein",
+            "downstream_event_id": 398,
+            "downstream_event": "Activation, Dendritic Cells"
+        },
+        {
+            "relation": 3082,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 398,
+            "downstream_event": "Activation, Dendritic Cells"
+        },
+        {
+            "relation": 1588,
+            "upstream_event_id": 398,
+            "upstream_event": "Activation, Dendritic Cells",
+            "downstream_event_id": 272,
+            "downstream_event": "Activation/Proliferation, T-cells"
+        },
+        {
+            "relation": 1590,
+            "upstream_event_id": 272,
+            "upstream_event": "Activation/Proliferation, T-cells",
+            "downstream_event_id": 313,
+            "downstream_event": "Increase, Allergic Respiratory Hypersensitivity Response"
+        }
+    ]
+}

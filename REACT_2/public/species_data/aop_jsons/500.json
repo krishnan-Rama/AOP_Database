@@ -1,0 +1,128 @@
+{
+    "id": 500,
+    "title": "Activation of MEK-ERK1/2 leads to deficits in learning and cognition via ROS and apoptosis",
+    "short_name": "MEK-ERK1/2 activation leading to deficits in learning and cognition via ROS",
+    "created_at": "2023-06-20T16:29:51.000-04:00",
+    "updated_at": "2023-08-23T10:22:07.000-04:00",
+    "corresponding_author": {
+        "id": 1120,
+        "created_at": "2019-11-01T12:32:35.000-04:00",
+        "updated_at": "2024-02-22T15:02:52.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 675,
+            "stressor_name": "Heavy metals (cadmium, lead, copper, iron, nickel)"
+        },
+        {
+            "stressor_id": 59,
+            "stressor_name": "Lead"
+        },
+        {
+            "stressor_id": 635,
+            "stressor_name": "Arsenic"
+        },
+        {
+            "stressor_id": 335,
+            "stressor_name": "Cadmium"
+        },
+        {
+            "stressor_id": 721,
+            "stressor_name": "Manganese"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2146,
+            "event": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1339,
+            "event": "Increase, intracellular calcium",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1968,
+            "event": "Increase, Mitochondrial Dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3495,
+            "upstream_event_id": 2146,
+            "upstream_event": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2",
+            "downstream_event_id": 1339,
+            "downstream_event": "Increase, intracellular calcium"
+        },
+        {
+            "relation": 3527,
+            "upstream_event_id": 1339,
+            "upstream_event": "Increase, intracellular calcium",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 3496,
+            "upstream_event_id": 1339,
+            "upstream_event": "Increase, intracellular calcium",
+            "downstream_event_id": 1968,
+            "downstream_event": "Increase, Mitochondrial Dysfunction"
+        },
+        {
+            "relation": 3523,
+            "upstream_event_id": 1968,
+            "upstream_event": "Increase, Mitochondrial Dysfunction",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 3525,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 3526,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3520,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        }
+    ]
+}

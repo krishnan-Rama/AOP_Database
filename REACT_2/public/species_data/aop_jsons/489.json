@@ -1,0 +1,57 @@
+{
+    "id": 489,
+    "title": "Inhibition of voltage-gated sodium channels leading to decreased cognition",
+    "short_name": "Voltage-gated sodium channels and DNT",
+    "created_at": "2023-02-22T08:31:03.000-05:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 9061,
+        "created_at": "2022-02-16T08:01:58.000-05:00",
+        "updated_at": "2023-02-21T08:39:30.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 762,
+            "stressor_name": " Deltamethrin"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1353,
+            "event": "Binding to voltage-gated sodium channel",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1977,
+            "event": "Disruption of sodium channel gating kinetics",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2116,
+            "event": "Decreased, oligodendrocyte differentiation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2107,
+            "event": "Hypomyelination",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2108,
+            "event": "Altered, white brain matter",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

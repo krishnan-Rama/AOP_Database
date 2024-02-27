@@ -1,0 +1,88 @@
+{
+    "id": 206,
+    "title": "Peroxisome proliferator-activated receptors \u03b3 inactivation leading to lung fibrosis",
+    "short_name": "PPAR\u03b3 inactivation leading to lung fibrosis",
+    "created_at": "2017-02-15T02:34:56.000-05:00",
+    "updated_at": "2023-11-13T00:23:25.000-05:00",
+    "corresponding_author": {
+        "id": 392,
+        "created_at": "2017-02-08T10:41:54.000-05:00",
+        "updated_at": "2023-11-12T23:35:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1270,
+            "event": "Inactivation of PPAR\u03b3",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1271,
+            "event": "Activation of TGF-\u03b2 signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1275,
+            "event": "Collagen Deposition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1457,
+            "event": "Induction, Epithelial Mesenchymal Transition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1276,
+            "event": "Lung fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1090,
+            "upstream_event_id": 1270,
+            "upstream_event": "Inactivation of PPAR\u03b3",
+            "downstream_event_id": 1271,
+            "downstream_event": "Activation of TGF-\u03b2 signaling"
+        },
+        {
+            "relation": 1614,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1457,
+            "downstream_event": "Induction, Epithelial Mesenchymal Transition"
+        },
+        {
+            "relation": 1096,
+            "upstream_event_id": 1275,
+            "upstream_event": "Collagen Deposition",
+            "downstream_event_id": 1276,
+            "downstream_event": "Lung fibrosis"
+        },
+        {
+            "relation": 1700,
+            "upstream_event_id": 1271,
+            "upstream_event": "Activation of TGF-\u03b2 signaling",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 1701,
+            "upstream_event_id": 1457,
+            "upstream_event": "Induction, Epithelial Mesenchymal Transition",
+            "downstream_event_id": 1275,
+            "downstream_event": "Collagen Deposition"
+        }
+    ]
+}

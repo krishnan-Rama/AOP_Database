@@ -1,0 +1,101 @@
+{
+    "id": 413,
+    "title": "Oxidation and antagonism of reduced glutathione leading to mortality via acute renal failure",
+    "short_name": "Oxidation of Reduced Glutathione Leading to Mortality",
+    "created_at": "2021-08-05T13:59:48.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 4745,
+        "created_at": "2021-05-18T14:35:11.000-04:00",
+        "updated_at": "2021-12-09T21:09:04.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 664,
+            "stressor_name": "Uranium"
+        },
+        {
+            "stressor_id": 635,
+            "stressor_name": "Arsenic"
+        },
+        {
+            "stressor_id": 665,
+            "stressor_name": "Bis(2,4,6-trimethylphenyl)-lambda~2~-germane--selenium (1/1)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 926,
+            "event": "Oxidation, Glutathione (To be considered with MIE)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1445,
+            "event": "Increased, Lipid peroxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1607,
+            "event": "Increase, Necrosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 759,
+            "event": "Increased, Kidney Failure",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2793,
+            "upstream_event_id": 926,
+            "upstream_event": "Oxidation, Glutathione (To be considered with MIE)",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2794,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1445,
+            "downstream_event": "Increased, Lipid peroxidation"
+        },
+        {
+            "relation": 2795,
+            "upstream_event_id": 1445,
+            "upstream_event": "Increased, Lipid peroxidation",
+            "downstream_event_id": 1607,
+            "downstream_event": "Increase, Necrosis"
+        },
+        {
+            "relation": 2796,
+            "upstream_event_id": 1607,
+            "upstream_event": "Increase, Necrosis",
+            "downstream_event_id": 759,
+            "downstream_event": "Increased, Kidney Failure"
+        },
+        {
+            "relation": 2797,
+            "upstream_event_id": 759,
+            "upstream_event": "Increased, Kidney Failure",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        }
+    ]
+}

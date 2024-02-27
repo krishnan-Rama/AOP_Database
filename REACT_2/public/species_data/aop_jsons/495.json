@@ -1,0 +1,138 @@
+{
+    "id": 495,
+    "title": "Androgen receptor activation leading to prostate cancer",
+    "short_name": "Androgen receptor activation leading to prostate cancer",
+    "created_at": "2023-05-11T11:10:36.000-04:00",
+    "updated_at": "2023-05-11T11:42:34.000-04:00",
+    "corresponding_author": {
+        "id": 10964,
+        "created_at": "2022-06-14T01:52:10.000-04:00",
+        "updated_at": "2023-10-31T03:00:14.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 785,
+            "event": "Activation, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 286,
+            "event": "Altered, Transcription of genes by the androgen receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2134,
+            "event": "Increase, Androgen receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1183,
+            "event": "Decreased, Apoptosis (Epithelial Cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1599,
+            "event": "Inflamatory events in light-exposed tissues",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 854,
+            "event": "Alterations, Cellular proliferation / hyperplasia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1196,
+            "event": "Increased, Invasion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2136,
+            "event": "prostatic intraepithelial neoplasia",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2135,
+            "event": "Prostate cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3452,
+            "upstream_event_id": 785,
+            "upstream_event": "Activation, Androgen receptor",
+            "downstream_event_id": 286,
+            "downstream_event": "Altered, Transcription of genes by the androgen receptor"
+        },
+        {
+            "relation": 3453,
+            "upstream_event_id": 286,
+            "upstream_event": "Altered, Transcription of genes by the androgen receptor",
+            "downstream_event_id": 2134,
+            "downstream_event": "Increase, Androgen receptor"
+        },
+        {
+            "relation": 3454,
+            "upstream_event_id": 2134,
+            "upstream_event": "Increase, Androgen receptor",
+            "downstream_event_id": 854,
+            "downstream_event": "Alterations, Cellular proliferation / hyperplasia"
+        },
+        {
+            "relation": 3455,
+            "upstream_event_id": 854,
+            "upstream_event": "Alterations, Cellular proliferation / hyperplasia",
+            "downstream_event_id": 2136,
+            "downstream_event": "prostatic intraepithelial neoplasia"
+        },
+        {
+            "relation": 3456,
+            "upstream_event_id": 2136,
+            "upstream_event": "prostatic intraepithelial neoplasia",
+            "downstream_event_id": 2135,
+            "downstream_event": "Prostate cancer"
+        },
+        {
+            "relation": 3457,
+            "upstream_event_id": 785,
+            "upstream_event": "Activation, Androgen receptor",
+            "downstream_event_id": 1183,
+            "downstream_event": "Decreased, Apoptosis (Epithelial Cells)"
+        },
+        {
+            "relation": 3458,
+            "upstream_event_id": 1183,
+            "upstream_event": "Decreased, Apoptosis (Epithelial Cells)",
+            "downstream_event_id": 854,
+            "downstream_event": "Alterations, Cellular proliferation / hyperplasia"
+        },
+        {
+            "relation": 3459,
+            "upstream_event_id": 785,
+            "upstream_event": "Activation, Androgen receptor",
+            "downstream_event_id": 1599,
+            "downstream_event": "Inflamatory events in light-exposed tissues"
+        },
+        {
+            "relation": 3460,
+            "upstream_event_id": 1599,
+            "upstream_event": "Inflamatory events in light-exposed tissues",
+            "downstream_event_id": 1196,
+            "downstream_event": "Increased, Invasion"
+        },
+        {
+            "relation": 3461,
+            "upstream_event_id": 1599,
+            "upstream_event": "Inflamatory events in light-exposed tissues",
+            "downstream_event_id": 2136,
+            "downstream_event": "prostatic intraepithelial neoplasia"
+        }
+    ]
+}

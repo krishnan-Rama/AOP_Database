@@ -1,0 +1,358 @@
+{
+    "id": 214,
+    "title": "Network of SSRIs (selective serotonin reuptake inhibitors)",
+    "short_name": "Network of SSRIs",
+    "created_at": "2017-04-13T14:11:48.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 56,
+        "created_at": "2014-03-03T12:01:56.000-05:00",
+        "updated_at": "2021-04-13T09:41:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 270,
+            "stressor_name": "SSRI (Selective serotonin reuptake inhibitor)"
+        },
+        {
+            "stressor_id": 272,
+            "stressor_name": "Increase cortisone levels (induced by stress)"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1316,
+            "event": "Inhibit, serotonin transporter activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1317,
+            "event": "Decreased, serotonin transporter activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1318,
+            "event": "Decreased, extracellular sodium (Na+) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1319,
+            "event": "Decreased, extracellular chloride (Cl-)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1320,
+            "event": "Increased, extracellular serotonin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1347,
+            "event": "Decreased, extracellular serotonin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1321,
+            "event": "Increased, intracellular sodium (Na+)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1322,
+            "event": "Increased, intracellular chloride (Cl-)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1323,
+            "event": "Decreased, intracellular serotonin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1324,
+            "event": "Decreased, packaged serotonin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1325,
+            "event": "Decreased, synaptic release",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1326,
+            "event": "Increased, 5-HT3 (5-hydroxytryptamine)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1328,
+            "event": "Inactivated, 5-HTR (serotonin receptors)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1329,
+            "event": "Reduce expression, BDNF (Brain-derived neurotrophic factor)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1330,
+            "event": "Decreased, neuroplasticity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1334,
+            "event": "Increase, cortisone",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 122,
+            "event": "Activation, Glucocorticoid Receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1335,
+            "event": "Reduced, BDNF (Brain-derived neurotrophic factor)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1336,
+            "event": "Activation, 5-HT2A (Serotonin 2A)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1337,
+            "event": "Activate, PLC (Phospholipase C)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1338,
+            "event": "Increase, inositol triphosphate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1339,
+            "event": "Increase, intracellular calcium",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1340,
+            "event": "Activate, calmodulin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1341,
+            "event": "Increase, myosin light chain phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1342,
+            "event": "Increase, vascular smooth muscle contraction",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1344,
+            "event": "Increased, seizure",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1345,
+            "event": "Increased, agitation",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1346,
+            "event": "Increased, depression",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1343,
+            "event": "Increase, hypertension",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1177,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1321,
+            "downstream_event": "Increased, intracellular sodium (Na+)"
+        },
+        {
+            "relation": 1178,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1322,
+            "downstream_event": "Increased, intracellular chloride (Cl-)"
+        },
+        {
+            "relation": 1179,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1318,
+            "downstream_event": "Decreased, extracellular sodium (Na+) "
+        },
+        {
+            "relation": 1180,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1319,
+            "downstream_event": "Decreased, extracellular chloride (Cl-)"
+        },
+        {
+            "relation": 1181,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1320,
+            "downstream_event": "Increased, extracellular serotonin"
+        },
+        {
+            "relation": 1182,
+            "upstream_event_id": 1317,
+            "upstream_event": "Decreased, serotonin transporter activity",
+            "downstream_event_id": 1323,
+            "downstream_event": "Decreased, intracellular serotonin"
+        },
+        {
+            "relation": 1183,
+            "upstream_event_id": 1323,
+            "upstream_event": "Decreased, intracellular serotonin",
+            "downstream_event_id": 1324,
+            "downstream_event": "Decreased, packaged serotonin"
+        },
+        {
+            "relation": 1184,
+            "upstream_event_id": 1324,
+            "upstream_event": "Decreased, packaged serotonin",
+            "downstream_event_id": 1325,
+            "downstream_event": "Decreased, synaptic release"
+        },
+        {
+            "relation": 1185,
+            "upstream_event_id": 1325,
+            "upstream_event": "Decreased, synaptic release",
+            "downstream_event_id": 1347,
+            "downstream_event": "Decreased, extracellular serotonin"
+        },
+        {
+            "relation": 1186,
+            "upstream_event_id": 1347,
+            "upstream_event": "Decreased, extracellular serotonin",
+            "downstream_event_id": 1326,
+            "downstream_event": "Increased, 5-HT3 (5-hydroxytryptamine)"
+        },
+        {
+            "relation": 1187,
+            "upstream_event_id": 1347,
+            "upstream_event": "Decreased, extracellular serotonin",
+            "downstream_event_id": 1328,
+            "downstream_event": "Inactivated, 5-HTR (serotonin receptors)"
+        },
+        {
+            "relation": 1188,
+            "upstream_event_id": 1347,
+            "upstream_event": "Decreased, extracellular serotonin",
+            "downstream_event_id": 1336,
+            "downstream_event": "Activation, 5-HT2A (Serotonin 2A)"
+        },
+        {
+            "relation": 1189,
+            "upstream_event_id": 1336,
+            "upstream_event": "Activation, 5-HT2A (Serotonin 2A)",
+            "downstream_event_id": 1337,
+            "downstream_event": "Activate, PLC (Phospholipase C)"
+        },
+        {
+            "relation": 1190,
+            "upstream_event_id": 1337,
+            "upstream_event": "Activate, PLC (Phospholipase C)",
+            "downstream_event_id": 1338,
+            "downstream_event": "Increase, inositol triphosphate"
+        },
+        {
+            "relation": 1191,
+            "upstream_event_id": 1338,
+            "upstream_event": "Increase, inositol triphosphate",
+            "downstream_event_id": 1339,
+            "downstream_event": "Increase, intracellular calcium"
+        },
+        {
+            "relation": 1192,
+            "upstream_event_id": 1339,
+            "upstream_event": "Increase, intracellular calcium",
+            "downstream_event_id": 1340,
+            "downstream_event": "Activate, calmodulin"
+        },
+        {
+            "relation": 1193,
+            "upstream_event_id": 1340,
+            "upstream_event": "Activate, calmodulin",
+            "downstream_event_id": 1341,
+            "downstream_event": "Increase, myosin light chain phosphorylation"
+        },
+        {
+            "relation": 1194,
+            "upstream_event_id": 1341,
+            "upstream_event": "Increase, myosin light chain phosphorylation",
+            "downstream_event_id": 1342,
+            "downstream_event": "Increase, vascular smooth muscle contraction"
+        },
+        {
+            "relation": 1195,
+            "upstream_event_id": 1342,
+            "upstream_event": "Increase, vascular smooth muscle contraction",
+            "downstream_event_id": 1343,
+            "downstream_event": "Increase, hypertension"
+        },
+        {
+            "relation": 1196,
+            "upstream_event_id": 1326,
+            "upstream_event": "Increased, 5-HT3 (5-hydroxytryptamine)",
+            "downstream_event_id": 1344,
+            "downstream_event": "Increased, seizure"
+        },
+        {
+            "relation": 1197,
+            "upstream_event_id": 1328,
+            "upstream_event": "Inactivated, 5-HTR (serotonin receptors)",
+            "downstream_event_id": 1329,
+            "downstream_event": "Reduce expression, BDNF (Brain-derived neurotrophic factor)"
+        },
+        {
+            "relation": 1198,
+            "upstream_event_id": 1329,
+            "upstream_event": "Reduce expression, BDNF (Brain-derived neurotrophic factor)",
+            "downstream_event_id": 1330,
+            "downstream_event": "Decreased, neuroplasticity"
+        },
+        {
+            "relation": 1199,
+            "upstream_event_id": 1330,
+            "upstream_event": "Decreased, neuroplasticity",
+            "downstream_event_id": 1345,
+            "downstream_event": "Increased, agitation"
+        },
+        {
+            "relation": 1200,
+            "upstream_event_id": 1330,
+            "upstream_event": "Decreased, neuroplasticity",
+            "downstream_event_id": 1346,
+            "downstream_event": "Increased, depression"
+        },
+        {
+            "relation": 1201,
+            "upstream_event_id": 1334,
+            "upstream_event": "Increase, cortisone",
+            "downstream_event_id": 122,
+            "downstream_event": "Activation, Glucocorticoid Receptor"
+        },
+        {
+            "relation": 1202,
+            "upstream_event_id": 122,
+            "upstream_event": "Activation, Glucocorticoid Receptor",
+            "downstream_event_id": 1335,
+            "downstream_event": "Reduced, BDNF (Brain-derived neurotrophic factor)"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "id": 401,
+    "title": "G protein-coupled estrogen receptor 1 (GPER) signal pathway in the lipid metabolism disrupting effects",
+    "short_name": "endocrine disrupting effect",
+    "created_at": "2021-06-17T03:15:27.000-04:00",
+    "updated_at": "2023-05-26T03:09:55.000-04:00",
+    "corresponding_author": {
+        "id": 900,
+        "created_at": "2019-06-10T03:59:01.000-04:00",
+        "updated_at": "2023-06-13T22:56:45.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 548,
+            "stressor_name": "Triphenyl phosphate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2029,
+            "event": "protein-coupled estrogen receptor 1 (GPER) activation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1310,
+            "event": "Activation, PI3K",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1299,
+            "event": "Activation, AKT",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1300,
+            "event": "Activation, mTORC1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1995,
+            "event": "Abnormal lipid metabolism",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 472,
+            "event": "Down Regulation, CPT1A",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1284,
+            "event": "Up Regulation, SREBF2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 462,
+            "event": "Up Regulation, SCD-1",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1489,
+            "event": "N/A, Steatohepatisis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

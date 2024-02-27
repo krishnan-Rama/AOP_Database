@@ -1,0 +1,81 @@
+{
+    "id": 330,
+    "title": "Excessive reactive oxygen species production leading to mortality (4)",
+    "short_name": "Excessive ROS leading to mortality (4)",
+    "created_at": "2020-04-19T04:49:22.000-04:00",
+    "updated_at": "2023-11-16T15:55:27.000-05:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 274,
+            "stressor_name": "Ultraviolet B radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1608,
+            "event": "Increase, Oxidative DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1461,
+            "event": "Increase, DNA double-strand breaks",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1365,
+            "event": "Increase, Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2141,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 1608,
+            "downstream_event": "Increase, Oxidative DNA damage"
+        },
+        {
+            "relation": 2144,
+            "upstream_event_id": 1365,
+            "upstream_event": "Increase, Apoptosis",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 3693,
+            "upstream_event_id": 1608,
+            "upstream_event": "Increase, Oxidative DNA damage",
+            "downstream_event_id": 1461,
+            "downstream_event": "Increase, DNA double-strand breaks"
+        },
+        {
+            "relation": 3694,
+            "upstream_event_id": 1461,
+            "upstream_event": "Increase, DNA double-strand breaks",
+            "downstream_event_id": 1365,
+            "downstream_event": "Increase, Apoptosis"
+        }
+    ]
+}

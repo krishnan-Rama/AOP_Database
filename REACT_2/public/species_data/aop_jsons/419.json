@@ -1,0 +1,41 @@
+{
+    "id": 419,
+    "title": "Aryl hydrocarbon receptor activation leading to impaired lung function through P53 toxicity pathway",
+    "short_name": "AHR activation decreasing lung function via P53 tox path",
+    "created_at": "2021-08-14T02:00:31.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 5473,
+        "created_at": "2021-07-29T06:52:04.000-04:00",
+        "updated_at": "2023-04-14T00:28:31.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1923,
+            "event": "Altered gene expression, P53 dependent apoptosis pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1250,
+            "event": "Decrease, Lung function",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

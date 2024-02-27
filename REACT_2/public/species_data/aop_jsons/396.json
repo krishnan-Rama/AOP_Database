@@ -1,0 +1,270 @@
+{
+    "id": 396,
+    "title": "Deposition of ionizing energy leads to population decline via impaired meiosis",
+    "short_name": "Deposition of ionizing energy leads to population decline via impaired meiosis",
+    "created_at": "2021-05-11T05:06:20.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 4457,
+        "created_at": "2021-04-13T08:46:25.000-04:00",
+        "updated_at": "2023-04-13T07:51:40.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 273,
+            "stressor_name": "Gamma radiation"
+        },
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1550,
+            "event": "Deposition of Ionizing Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1364,
+            "event": "Increase, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 752,
+            "event": "Altered, Meiotic chromosome dynamics",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1775,
+            "event": "Increase, Oocyte apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1798,
+            "event": "Decreased spermatogenesis ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1505,
+            "event": "Cell cycle, disrupted",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1366,
+            "event": "Decrease, Oogenesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1696,
+            "event": "Decrease of egg production and cummulative fecundity",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1863,
+            "event": "Decrease, Reproduction",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 997,
+            "event": "Decreased, Population size",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2673,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2686,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 2693,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1775,
+            "downstream_event": "Increase, Oocyte apoptosis"
+        },
+        {
+            "relation": 2697,
+            "upstream_event_id": 1775,
+            "upstream_event": "Increase, Oocyte apoptosis",
+            "downstream_event_id": 1696,
+            "downstream_event": "Decrease of egg production and cummulative fecundity"
+        },
+        {
+            "relation": 2688,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 752,
+            "downstream_event": "Altered, Meiotic chromosome dynamics"
+        },
+        {
+            "relation": 2674,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1194,
+            "downstream_event": "Increase, DNA damage"
+        },
+        {
+            "relation": 2675,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 2689,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1798,
+            "downstream_event": "Decreased spermatogenesis "
+        },
+        {
+            "relation": 2690,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2676,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 752,
+            "downstream_event": "Altered, Meiotic chromosome dynamics"
+        },
+        {
+            "relation": 2691,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 1696,
+            "downstream_event": "Decrease of egg production and cummulative fecundity"
+        },
+        {
+            "relation": 2677,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 1775,
+            "downstream_event": "Increase, Oocyte apoptosis"
+        },
+        {
+            "relation": 2692,
+            "upstream_event_id": 1550,
+            "upstream_event": "Deposition of Ionizing Energy",
+            "downstream_event_id": 997,
+            "downstream_event": "Decreased, Population size"
+        },
+        {
+            "relation": 2678,
+            "upstream_event_id": 752,
+            "upstream_event": "Altered, Meiotic chromosome dynamics",
+            "downstream_event_id": 1775,
+            "downstream_event": "Increase, Oocyte apoptosis"
+        },
+        {
+            "relation": 2679,
+            "upstream_event_id": 752,
+            "upstream_event": "Altered, Meiotic chromosome dynamics",
+            "downstream_event_id": 1798,
+            "downstream_event": "Decreased spermatogenesis "
+        },
+        {
+            "relation": 2680,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1775,
+            "downstream_event": "Increase, Oocyte apoptosis"
+        },
+        {
+            "relation": 3262,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 1505,
+            "downstream_event": "Cell cycle, disrupted"
+        },
+        {
+            "relation": 3263,
+            "upstream_event_id": 1505,
+            "upstream_event": "Cell cycle, disrupted",
+            "downstream_event_id": 752,
+            "downstream_event": "Altered, Meiotic chromosome dynamics"
+        },
+        {
+            "relation": 3264,
+            "upstream_event_id": 1775,
+            "upstream_event": "Increase, Oocyte apoptosis",
+            "downstream_event_id": 1366,
+            "downstream_event": "Decrease, Oogenesis"
+        },
+        {
+            "relation": 2682,
+            "upstream_event_id": 1775,
+            "upstream_event": "Increase, Oocyte apoptosis",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2681,
+            "upstream_event_id": 1798,
+            "upstream_event": "Decreased spermatogenesis ",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2684,
+            "upstream_event_id": 1798,
+            "upstream_event": "Decreased spermatogenesis ",
+            "downstream_event_id": 1696,
+            "downstream_event": "Decrease of egg production and cummulative fecundity"
+        },
+        {
+            "relation": 2683,
+            "upstream_event_id": 406,
+            "upstream_event": "impaired, Fertility",
+            "downstream_event_id": 1696,
+            "downstream_event": "Decrease of egg production and cummulative fecundity"
+        },
+        {
+            "relation": 2685,
+            "upstream_event_id": 1696,
+            "upstream_event": "Decrease of egg production and cummulative fecundity",
+            "downstream_event_id": 997,
+            "downstream_event": "Decreased, Population size"
+        }
+    ]
+}

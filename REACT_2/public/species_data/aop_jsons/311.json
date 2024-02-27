@@ -1,0 +1,105 @@
+{
+    "id": 311,
+    "title": "Deposition of energy leading to population decline via DNA oxidation and oocyte apoptosis",
+    "short_name": "Energy deposition leading to population decline via DNA oxidation and oocyte apoptosis",
+    "created_at": "2019-11-18T04:01:38.000-05:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 273,
+            "stressor_name": "Gamma radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1634,
+            "event": "Increase, Oxidative damage to DNA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1775,
+            "event": "Increase, Oocyte apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1366,
+            "event": "Decrease, Oogenesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3000,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 257,
+            "downstream_event": "Increase, Reactive Oxygen Species production"
+        },
+        {
+            "relation": 3001,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 1634,
+            "downstream_event": "Increase, Oxidative damage to DNA"
+        },
+        {
+            "relation": 3002,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 1775,
+            "downstream_event": "Increase, Oocyte apoptosis"
+        },
+        {
+            "relation": 3003,
+            "upstream_event_id": 1775,
+            "upstream_event": "Increase, Oocyte apoptosis",
+            "downstream_event_id": 1366,
+            "downstream_event": "Decrease, Oogenesis"
+        },
+        {
+            "relation": 3004,
+            "upstream_event_id": 1366,
+            "upstream_event": "Decrease, Oogenesis",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 3005,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

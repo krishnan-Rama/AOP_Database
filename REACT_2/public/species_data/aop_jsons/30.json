@@ -1,0 +1,88 @@
+{
+    "id": 30,
+    "title": "Estrogen receptor antagonism leading to reproductive dysfunction",
+    "short_name": "Estrogen receptor antagonism leading to reproductive dysfunction",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 313,
+        "created_at": "2013-05-02T08:44:29.000-04:00",
+        "updated_at": "2024-01-31T12:20:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 112,
+            "event": "Antagonism, Estrogen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 285,
+            "event": "Reduction, Vitellogenin synthesis in liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 309,
+            "event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 146,
+            "upstream_event_id": 112,
+            "upstream_event": "Antagonism, Estrogen receptor",
+            "downstream_event_id": 285,
+            "downstream_event": "Reduction, Vitellogenin synthesis in liver"
+        },
+        {
+            "relation": 147,
+            "upstream_event_id": 285,
+            "upstream_event": "Reduction, Vitellogenin synthesis in liver",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 148,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 309,
+            "downstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"
+        },
+        {
+            "relation": 149,
+            "upstream_event_id": 309,
+            "upstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 150,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

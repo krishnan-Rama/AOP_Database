@@ -1,0 +1,64 @@
+{
+    "id": 191,
+    "title": "Type III iodotyrosine deiodinase (DIO3) inhibition leading to altered amphibian metamorphosis",
+    "short_name": "DIO3 inhib alters metamorphosis",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 142,
+        "created_at": "2015-07-24T10:53:28.000-04:00",
+        "updated_at": "2021-07-13T15:26:42.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1153,
+            "event": "Inhibition, Deiodinase 3",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1154,
+            "event": "Increased, Triiodothyronine (T3) in tissues",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1829,
+            "event": "Altered, Thyroid hormone-dependent gene expression",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1101,
+            "event": "Altered, Amphibian metamorphosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 894,
+            "upstream_event_id": 1153,
+            "upstream_event": "Inhibition, Deiodinase 3",
+            "downstream_event_id": 1154,
+            "downstream_event": "Increased, Triiodothyronine (T3) in tissues"
+        },
+        {
+            "relation": 2446,
+            "upstream_event_id": 1154,
+            "upstream_event": "Increased, Triiodothyronine (T3) in tissues",
+            "downstream_event_id": 1829,
+            "downstream_event": "Altered, Thyroid hormone-dependent gene expression"
+        },
+        {
+            "relation": 2447,
+            "upstream_event_id": 1829,
+            "upstream_event": "Altered, Thyroid hormone-dependent gene expression",
+            "downstream_event_id": 1101,
+            "downstream_event": "Altered, Amphibian metamorphosis"
+        }
+    ]
+}

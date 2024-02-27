@@ -1,0 +1,76 @@
+{
+    "id": 318,
+    "title": "Glucocorticoid Receptor activation leading to hepatic steatosis",
+    "short_name": "GR activation leading to hepatic steatosis",
+    "created_at": "2020-02-22T08:39:30.000-05:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 955,
+        "created_at": "2019-09-11T03:53:52.000-04:00",
+        "updated_at": "2023-03-10T02:23:20.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 122,
+            "event": "Activation, Glucocorticoid Receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1834,
+            "event": "Decrease, Acyl-CoA dehydrogenases",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 860,
+            "event": "Decreased, Mitochondrial Fatty Acid Beta Oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 291,
+            "event": "Accumulation, Triglyceride",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2488,
+            "upstream_event_id": 122,
+            "upstream_event": "Activation, Glucocorticoid Receptor",
+            "downstream_event_id": 1834,
+            "downstream_event": "Decrease, Acyl-CoA dehydrogenases"
+        },
+        {
+            "relation": 2486,
+            "upstream_event_id": 1834,
+            "upstream_event": "Decrease, Acyl-CoA dehydrogenases",
+            "downstream_event_id": 860,
+            "downstream_event": "Decreased, Mitochondrial Fatty Acid Beta Oxidation"
+        },
+        {
+            "relation": 2483,
+            "upstream_event_id": 860,
+            "upstream_event": "Decreased, Mitochondrial Fatty Acid Beta Oxidation",
+            "downstream_event_id": 291,
+            "downstream_event": "Accumulation, Triglyceride"
+        },
+        {
+            "relation": 2487,
+            "upstream_event_id": 291,
+            "upstream_event": "Accumulation, Triglyceride",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        }
+    ]
+}

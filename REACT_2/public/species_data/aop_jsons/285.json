@@ -1,0 +1,100 @@
+{
+    "id": 285,
+    "title": "Inhibition of N-linked glycosylation leads to liver injury",
+    "short_name": "Inhibition of N-linked glycosylation leads to liver injury",
+    "created_at": "2019-03-06T07:18:36.000-05:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 410,
+        "created_at": "2017-03-10T05:23:56.000-05:00",
+        "updated_at": "2023-12-11T05:22:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1604,
+            "event": "Inhibition of N-linked glycosylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1605,
+            "event": "Accumulation of misfolded proteins",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1512,
+            "event": "Unfolded Protein Response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1606,
+            "event": "Activation of hepatic stellate cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1549,
+            "event": "Liver Injury",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1810,
+            "upstream_event_id": 1604,
+            "upstream_event": "Inhibition of N-linked glycosylation",
+            "downstream_event_id": 1605,
+            "downstream_event": "Accumulation of misfolded proteins"
+        },
+        {
+            "relation": 1811,
+            "upstream_event_id": 1605,
+            "upstream_event": "Accumulation of misfolded proteins",
+            "downstream_event_id": 1512,
+            "downstream_event": "Unfolded Protein Response"
+        },
+        {
+            "relation": 1812,
+            "upstream_event_id": 1512,
+            "upstream_event": "Unfolded Protein Response",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 1813,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 1606,
+            "downstream_event": "Activation of hepatic stellate cells"
+        },
+        {
+            "relation": 1814,
+            "upstream_event_id": 1606,
+            "upstream_event": "Activation of hepatic stellate cells",
+            "downstream_event_id": 1549,
+            "downstream_event": "Liver Injury"
+        },
+        {
+            "relation": 1815,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 1549,
+            "downstream_event": "Liver Injury"
+        }
+    ]
+}

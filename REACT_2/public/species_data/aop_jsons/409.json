@@ -1,0 +1,144 @@
+{
+    "id": 409,
+    "title": "Frustrated phagocytosis leads to malignant mesothelioma",
+    "short_name": "Frustrated phagocytosis leads to malignant mesothelioma",
+    "created_at": "2021-07-05T06:19:06.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 259,
+        "created_at": "2014-10-30T03:38:57.000-04:00",
+        "updated_at": "2023-05-12T04:10:02.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 306,
+            "stressor_name": "Multi-walled carbon nanotubes"
+        },
+        {
+            "stressor_id": 671,
+            "stressor_name": "Asbestos fibers"
+        },
+        {
+            "stressor_id": 500,
+            "stressor_name": "High aspect ratio material"
+        },
+        {
+            "stressor_id": 318,
+            "stressor_name": "Carbon nanotubes"
+        },
+        {
+            "stressor_id": 338,
+            "stressor_name": "Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres"
+        },
+        {
+            "stressor_id": 305,
+            "stressor_name": "Single walled carbon nanotubes"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1668,
+            "event": "Frustrated phagocytosis",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1669,
+            "event": "Increased, DNA damage and mutation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1896,
+            "event": "Genomic instability",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1090,
+            "event": "Increased, mesotheliomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2726,
+            "upstream_event_id": 1668,
+            "upstream_event": "Frustrated phagocytosis",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 2734,
+            "upstream_event_id": 1668,
+            "upstream_event": "Frustrated phagocytosis",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2727,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 2729,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2730,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1669,
+            "downstream_event": "Increased, DNA damage and mutation"
+        },
+        {
+            "relation": 2731,
+            "upstream_event_id": 1669,
+            "upstream_event": "Increased, DNA damage and mutation",
+            "downstream_event_id": 1896,
+            "downstream_event": "Genomic instability"
+        },
+        {
+            "relation": 2732,
+            "upstream_event_id": 1896,
+            "upstream_event": "Genomic instability",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 2733,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 1090,
+            "downstream_event": "Increased, mesotheliomas"
+        }
+    ]
+}

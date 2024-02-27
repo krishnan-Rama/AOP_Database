@@ -1,0 +1,119 @@
+{
+    "id": 18,
+    "title": "PPAR\u03b1 activation in utero leading to impaired fertility in males",
+    "short_name": "PPAR\u03b1 activation leading to impaired fertility",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 109,
+        "created_at": "2016-07-01T09:27:11.000-04:00",
+        "updated_at": "2021-04-13T09:40:27.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 266,
+            "event": "Decrease, Steroidogenic acute regulatory protein (STAR)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 447,
+            "event": "Reduction, Cholesterol transport in mitochondria",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 413,
+            "event": "Reduction, Testosterone synthesis in Leydig cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 446,
+            "event": "Reduction, fetal/adult testosterone ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 289,
+            "event": "Decrease, Translocator protein (TSPO)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 348,
+            "event": "Malformation, Male reproductive tract",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 151,
+            "upstream_event_id": 266,
+            "upstream_event": "Decrease, Steroidogenic acute regulatory protein (STAR)",
+            "downstream_event_id": 447,
+            "downstream_event": "Reduction, Cholesterol transport in mitochondria"
+        },
+        {
+            "relation": 152,
+            "upstream_event_id": 447,
+            "upstream_event": "Reduction, Cholesterol transport in mitochondria",
+            "downstream_event_id": 413,
+            "downstream_event": "Reduction, Testosterone synthesis in Leydig cells"
+        },
+        {
+            "relation": 153,
+            "upstream_event_id": 413,
+            "upstream_event": "Reduction, Testosterone synthesis in Leydig cells",
+            "downstream_event_id": 446,
+            "downstream_event": "Reduction, fetal/adult testosterone "
+        },
+        {
+            "relation": 240,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 266,
+            "downstream_event": "Decrease, Steroidogenic acute regulatory protein (STAR)"
+        },
+        {
+            "relation": 241,
+            "upstream_event_id": 289,
+            "upstream_event": "Decrease, Translocator protein (TSPO)",
+            "downstream_event_id": 447,
+            "downstream_event": "Reduction, Cholesterol transport in mitochondria"
+        },
+        {
+            "relation": 242,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 289,
+            "downstream_event": "Decrease, Translocator protein (TSPO)"
+        },
+        {
+            "relation": 303,
+            "upstream_event_id": 348,
+            "upstream_event": "Malformation, Male reproductive tract",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 304,
+            "upstream_event_id": 446,
+            "upstream_event": "Reduction, fetal/adult testosterone ",
+            "downstream_event_id": 348,
+            "downstream_event": "Malformation, Male reproductive tract"
+        }
+    ]
+}

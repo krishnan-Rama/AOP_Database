@@ -1,0 +1,87 @@
+{
+    "id": 21,
+    "title": "Aryl hydrocarbon receptor activation leading to early life stage mortality, via increased COX-2",
+    "short_name": "AhR mediated mortality, via COX-2",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 220,
+        "created_at": "2014-01-14T10:18:33.000-05:00",
+        "updated_at": "2021-04-13T09:41:19.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 249,
+            "stressor_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 944,
+            "event": "dimerization, AHR/ARNT",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1269,
+            "event": "Increase, COX-2 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 317,
+            "event": "Altered, Cardiovascular development/function",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 947,
+            "event": "Increase, Early Life Stage Mortality",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 1617,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 947,
+            "downstream_event": "Increase, Early Life Stage Mortality"
+        },
+        {
+            "relation": 1086,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 944,
+            "downstream_event": "dimerization, AHR/ARNT"
+        },
+        {
+            "relation": 1087,
+            "upstream_event_id": 944,
+            "upstream_event": "dimerization, AHR/ARNT",
+            "downstream_event_id": 1269,
+            "downstream_event": "Increase, COX-2 expression"
+        },
+        {
+            "relation": 1088,
+            "upstream_event_id": 1269,
+            "upstream_event": "Increase, COX-2 expression",
+            "downstream_event_id": 317,
+            "downstream_event": "Altered, Cardiovascular development/function"
+        },
+        {
+            "relation": 1616,
+            "upstream_event_id": 317,
+            "upstream_event": "Altered, Cardiovascular development/function",
+            "downstream_event_id": 947,
+            "downstream_event": "Increase, Early Life Stage Mortality"
+        }
+    ]
+}

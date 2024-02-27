@@ -1,0 +1,72 @@
+{
+    "id": 397,
+    "title": "Bulky DNA adducts leading to mutations",
+    "short_name": "Bulky DNA adducts leading to mutations",
+    "created_at": "2021-05-17T09:08:02.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 61,
+        "created_at": "2013-12-16T13:44:19.000-05:00",
+        "updated_at": "2023-01-09T20:14:28.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 250,
+            "stressor_name": "Polycyclic aromatic hydrocarbons (PAHs)"
+        },
+        {
+            "stressor_id": 284,
+            "stressor_name": "Aristolochic acid"
+        },
+        {
+            "stressor_id": 61,
+            "stressor_name": "Aflatoxin B1"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1879,
+            "event": "Bulky DNA adducts, increase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2694,
+            "upstream_event_id": 1879,
+            "upstream_event": "Bulky DNA adducts, increase",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 2696,
+            "upstream_event_id": 1879,
+            "upstream_event": "Bulky DNA adducts, increase",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 2695,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        }
+    ]
+}

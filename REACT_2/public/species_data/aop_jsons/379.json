@@ -1,0 +1,112 @@
+{
+    "id": 379,
+    "title": "Binding to ACE2 leading to thrombosis and disseminated intravascular coagulation",
+    "short_name": "SARS-CoV2 to thrombosis and DIC",
+    "created_at": "2021-03-25T19:30:46.000-04:00",
+    "updated_at": "2023-11-20T21:16:40.000-05:00",
+    "corresponding_author": {
+        "id": 355,
+        "created_at": "2016-12-05T02:52:54.000-05:00",
+        "updated_at": "2024-02-25T18:50:18.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 633,
+            "stressor_name": "Stressor:624 SARS-CoV-2"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1901,
+            "event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1869,
+            "event": "Diminished protective oxidative stress response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1845,
+            "event": "Coagulation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1846,
+            "event": "Thrombosis and Disseminated Intravascular Coagulation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3104,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 3107,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1901,
+            "downstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2"
+        },
+        {
+            "relation": 3108,
+            "upstream_event_id": 1901,
+            "upstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 2640,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1869,
+            "downstream_event": "Diminished protective oxidative stress response"
+        },
+        {
+            "relation": 2641,
+            "upstream_event_id": 1869,
+            "upstream_event": "Diminished protective oxidative stress response",
+            "downstream_event_id": 1845,
+            "downstream_event": "Coagulation"
+        },
+        {
+            "relation": 2642,
+            "upstream_event_id": 1845,
+            "upstream_event": "Coagulation",
+            "downstream_event_id": 1869,
+            "downstream_event": "Diminished protective oxidative stress response"
+        },
+        {
+            "relation": 2526,
+            "upstream_event_id": 1845,
+            "upstream_event": "Coagulation",
+            "downstream_event_id": 1846,
+            "downstream_event": "Thrombosis and Disseminated Intravascular Coagulation"
+        }
+    ]
+}

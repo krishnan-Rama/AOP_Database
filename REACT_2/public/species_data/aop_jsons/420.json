@@ -1,0 +1,41 @@
+{
+    "id": 420,
+    "title": "Aryl hydrocarbon receptor activation leading to lung cancer through sustained NRF2 toxicity pathway",
+    "short_name": "AHR leading to lung cancer via NRF2 tox path",
+    "created_at": "2021-08-14T02:01:32.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 5473,
+        "created_at": "2021-07-29T06:52:04.000-04:00",
+        "updated_at": "2023-04-14T00:28:31.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1917,
+            "event": "Altered gene expression, NRF2 dependent antioxidant pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1670,
+            "event": "Lung cancer",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": []
+}

@@ -1,0 +1,90 @@
+{
+    "id": 520,
+    "title": "Retinoic acid receptor agonism during neurodevelopment leading to impaired learning and memory",
+    "short_name": "RAR agonism during neurodevelopment leading to impaired learning and memory",
+    "created_at": "2024-01-14T09:50:34.000-05:00",
+    "updated_at": "2024-02-02T04:46:38.000-05:00",
+    "corresponding_author": {
+        "id": 8768,
+        "created_at": "2022-01-27T09:26:32.000-05:00",
+        "updated_at": "2024-01-09T10:53:41.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2201,
+            "event": "Agonism, Retinoic acid receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2202,
+            "event": "Altered expression of cell cycle genes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2203,
+            "event": "Decreased proliferation of cortical neural progenitor cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2204,
+            "event": "Altered brain morphology",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3714,
+            "upstream_event_id": 2201,
+            "upstream_event": "Agonism, Retinoic acid receptor",
+            "downstream_event_id": 2202,
+            "downstream_event": "Altered expression of cell cycle genes"
+        },
+        {
+            "relation": 3718,
+            "upstream_event_id": 2201,
+            "upstream_event": "Agonism, Retinoic acid receptor",
+            "downstream_event_id": 2203,
+            "downstream_event": "Decreased proliferation of cortical neural progenitor cells"
+        },
+        {
+            "relation": 3715,
+            "upstream_event_id": 2202,
+            "upstream_event": "Altered expression of cell cycle genes",
+            "downstream_event_id": 2203,
+            "downstream_event": "Decreased proliferation of cortical neural progenitor cells"
+        },
+        {
+            "relation": 3719,
+            "upstream_event_id": 2201,
+            "upstream_event": "Agonism, Retinoic acid receptor",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 3716,
+            "upstream_event_id": 2203,
+            "upstream_event": "Decreased proliferation of cortical neural progenitor cells",
+            "downstream_event_id": 2204,
+            "downstream_event": "Altered brain morphology"
+        },
+        {
+            "relation": 3717,
+            "upstream_event_id": 2204,
+            "upstream_event": "Altered brain morphology",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        }
+    ]
+}

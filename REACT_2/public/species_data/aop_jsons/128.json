@@ -1,0 +1,246 @@
+{
+    "id": 128,
+    "title": "Kidney dysfunction by decreased thyroid hormone",
+    "short_name": "Kidney dysfunction",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 585,
+        "created_at": "2018-03-20T08:57:53.000-04:00",
+        "updated_at": "2022-04-25T22:08:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 813,
+            "event": "Increased, Serum creatinine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 823,
+            "event": "Occurrence, Cystic dilatation (renal tubule)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 824,
+            "event": "Occurrence, Cytoplasmic vacuolization (podocyte)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 818,
+            "event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 819,
+            "event": "Decreased, Glomerular filtration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 820,
+            "event": "Decreased, Renal plasma flow",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 821,
+            "event": "Decreased, Sodium reabsorption",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 825,
+            "event": "Decreased, Renal ability to dilute urine",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 814,
+            "event": "Occurrence, Kidney toxicity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2805,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 2806,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 818,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)"
+        },
+        {
+            "relation": 2807,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 823,
+            "downstream_event": "Occurrence, Cystic dilatation (renal tubule)"
+        },
+        {
+            "relation": 2808,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 824,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)"
+        },
+        {
+            "relation": 494,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 813,
+            "downstream_event": "Increased, Serum creatinine"
+        },
+        {
+            "relation": 497,
+            "upstream_event_id": 813,
+            "upstream_event": "Increased, Serum creatinine",
+            "downstream_event_id": 818,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)"
+        },
+        {
+            "relation": 498,
+            "upstream_event_id": 813,
+            "upstream_event": "Increased, Serum creatinine",
+            "downstream_event_id": 823,
+            "downstream_event": "Occurrence, Cystic dilatation (renal tubule)"
+        },
+        {
+            "relation": 500,
+            "upstream_event_id": 813,
+            "upstream_event": "Increased, Serum creatinine",
+            "downstream_event_id": 824,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)"
+        },
+        {
+            "relation": 501,
+            "upstream_event_id": 818,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)",
+            "downstream_event_id": 819,
+            "downstream_event": "Decreased, Glomerular filtration"
+        },
+        {
+            "relation": 502,
+            "upstream_event_id": 818,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)",
+            "downstream_event_id": 820,
+            "downstream_event": "Decreased, Renal plasma flow"
+        },
+        {
+            "relation": 503,
+            "upstream_event_id": 818,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)",
+            "downstream_event_id": 821,
+            "downstream_event": "Decreased, Sodium reabsorption"
+        },
+        {
+            "relation": 504,
+            "upstream_event_id": 818,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Renal tubule)",
+            "downstream_event_id": 825,
+            "downstream_event": "Decreased, Renal ability to dilute urine"
+        },
+        {
+            "relation": 505,
+            "upstream_event_id": 823,
+            "upstream_event": "Occurrence, Cystic dilatation (renal tubule)",
+            "downstream_event_id": 819,
+            "downstream_event": "Decreased, Glomerular filtration"
+        },
+        {
+            "relation": 506,
+            "upstream_event_id": 823,
+            "upstream_event": "Occurrence, Cystic dilatation (renal tubule)",
+            "downstream_event_id": 820,
+            "downstream_event": "Decreased, Renal plasma flow"
+        },
+        {
+            "relation": 507,
+            "upstream_event_id": 823,
+            "upstream_event": "Occurrence, Cystic dilatation (renal tubule)",
+            "downstream_event_id": 821,
+            "downstream_event": "Decreased, Sodium reabsorption"
+        },
+        {
+            "relation": 508,
+            "upstream_event_id": 823,
+            "upstream_event": "Occurrence, Cystic dilatation (renal tubule)",
+            "downstream_event_id": 825,
+            "downstream_event": "Decreased, Renal ability to dilute urine"
+        },
+        {
+            "relation": 509,
+            "upstream_event_id": 824,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)",
+            "downstream_event_id": 819,
+            "downstream_event": "Decreased, Glomerular filtration"
+        },
+        {
+            "relation": 510,
+            "upstream_event_id": 824,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)",
+            "downstream_event_id": 820,
+            "downstream_event": "Decreased, Renal plasma flow"
+        },
+        {
+            "relation": 511,
+            "upstream_event_id": 824,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)",
+            "downstream_event_id": 821,
+            "downstream_event": "Decreased, Sodium reabsorption"
+        },
+        {
+            "relation": 512,
+            "upstream_event_id": 824,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (podocyte)",
+            "downstream_event_id": 825,
+            "downstream_event": "Decreased, Renal ability to dilute urine"
+        },
+        {
+            "relation": 513,
+            "upstream_event_id": 819,
+            "upstream_event": "Decreased, Glomerular filtration",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        },
+        {
+            "relation": 514,
+            "upstream_event_id": 820,
+            "upstream_event": "Decreased, Renal plasma flow",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        },
+        {
+            "relation": 515,
+            "upstream_event_id": 821,
+            "upstream_event": "Decreased, Sodium reabsorption",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        },
+        {
+            "relation": 516,
+            "upstream_event_id": 825,
+            "upstream_event": "Decreased, Renal ability to dilute urine",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        }
+    ]
+}

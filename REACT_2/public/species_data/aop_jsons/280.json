@@ -1,0 +1,107 @@
+{
+    "id": 280,
+    "title": "\u03b1-diketone-induced bronchiolitis obliterans",
+    "short_name": "\u03b1-diketone-induced bronchiolitis obliterans",
+    "created_at": "2019-01-30T09:26:02.000-05:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 410,
+        "created_at": "2017-03-10T05:23:56.000-05:00",
+        "updated_at": "2023-12-11T05:22:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1584,
+            "event": "Interaction of \u03b1-diketones with arginine residues",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1585,
+            "event": "Proteasomal dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1586,
+            "event": "Airway epithelial injury",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1457,
+            "event": "Induction, Epithelial Mesenchymal Transition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1587,
+            "event": "Fibroproliferative airway lesions",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1588,
+            "event": "Bronchiolitis obliterans",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1772,
+            "upstream_event_id": 1584,
+            "upstream_event": "Interaction of \u03b1-diketones with arginine residues",
+            "downstream_event_id": 1585,
+            "downstream_event": "Proteasomal dysfunction"
+        },
+        {
+            "relation": 1773,
+            "upstream_event_id": 1585,
+            "upstream_event": "Proteasomal dysfunction",
+            "downstream_event_id": 1586,
+            "downstream_event": "Airway epithelial injury"
+        },
+        {
+            "relation": 1774,
+            "upstream_event_id": 1586,
+            "upstream_event": "Airway epithelial injury",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 1775,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1457,
+            "downstream_event": "Induction, Epithelial Mesenchymal Transition"
+        },
+        {
+            "relation": 1776,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1587,
+            "downstream_event": "Fibroproliferative airway lesions"
+        },
+        {
+            "relation": 1777,
+            "upstream_event_id": 1457,
+            "upstream_event": "Induction, Epithelial Mesenchymal Transition",
+            "downstream_event_id": 1587,
+            "downstream_event": "Fibroproliferative airway lesions"
+        },
+        {
+            "relation": 1778,
+            "upstream_event_id": 1587,
+            "upstream_event": "Fibroproliferative airway lesions",
+            "downstream_event_id": 1588,
+            "downstream_event": "Bronchiolitis obliterans"
+        }
+    ]
+}

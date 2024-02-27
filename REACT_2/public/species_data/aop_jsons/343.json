@@ -1,0 +1,101 @@
+{
+    "id": 343,
+    "title": "S-adenosylmethionine depletion leading to population decline (2)",
+    "short_name": "SAM depletion leading to population decline (2)",
+    "created_at": "2020-05-08T07:10:57.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 370,
+            "stressor_name": "Teflubenzuron"
+        },
+        {
+            "stressor_id": 371,
+            "stressor_name": "Diflubenzuron"
+        },
+        {
+            "stressor_id": 373,
+            "stressor_name": "Glibenclamide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1525,
+            "event": "Increase, Sulfonylurea receptor binding",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1527,
+            "event": "Increase, Cell membrane depolarization",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1526,
+            "event": "Increase, Opening of voltage-dependent calcium channel",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1523,
+            "event": "Decrease, Cuticular chitin content",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1524,
+            "event": "Increase, Premature molting",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2179,
+            "upstream_event_id": 1525,
+            "upstream_event": "Increase, Sulfonylurea receptor binding",
+            "downstream_event_id": 1527,
+            "downstream_event": "Increase, Cell membrane depolarization"
+        },
+        {
+            "relation": 2180,
+            "upstream_event_id": 1527,
+            "upstream_event": "Increase, Cell membrane depolarization",
+            "downstream_event_id": 1526,
+            "downstream_event": "Increase, Opening of voltage-dependent calcium channel"
+        },
+        {
+            "relation": 2181,
+            "upstream_event_id": 1526,
+            "upstream_event": "Increase, Opening of voltage-dependent calcium channel",
+            "downstream_event_id": 1523,
+            "downstream_event": "Decrease, Cuticular chitin content"
+        },
+        {
+            "relation": 2182,
+            "upstream_event_id": 1523,
+            "upstream_event": "Decrease, Cuticular chitin content",
+            "downstream_event_id": 1524,
+            "downstream_event": "Increase, Premature molting"
+        },
+        {
+            "relation": 2183,
+            "upstream_event_id": 1524,
+            "upstream_event": "Increase, Premature molting",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        }
+    ]
+}

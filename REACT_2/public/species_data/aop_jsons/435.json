@@ -1,0 +1,88 @@
+{
+    "id": 435,
+    "title": "Deposition of ionising energy leads to population decline via pollen abnormal",
+    "short_name": "Deposition of ionising energy leads to population decline via pollen abnormal",
+    "created_at": "2022-01-21T07:24:51.000-05:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 453,
+        "created_at": "2017-06-29T04:13:07.000-04:00",
+        "updated_at": "2024-01-03T04:30:59.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 752,
+            "event": "Altered, Meiotic chromosome dynamics",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1965,
+            "event": "Increase, Pollen abnormal",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1863,
+            "event": "Decrease, Reproduction",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 442,
+            "event": "Decreased, Population trajectory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2925,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1194,
+            "downstream_event": "Increase, DNA damage"
+        },
+        {
+            "relation": 2926,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 752,
+            "downstream_event": "Altered, Meiotic chromosome dynamics"
+        },
+        {
+            "relation": 2927,
+            "upstream_event_id": 752,
+            "upstream_event": "Altered, Meiotic chromosome dynamics",
+            "downstream_event_id": 1965,
+            "downstream_event": "Increase, Pollen abnormal"
+        },
+        {
+            "relation": 2928,
+            "upstream_event_id": 1965,
+            "upstream_event": "Increase, Pollen abnormal",
+            "downstream_event_id": 1863,
+            "downstream_event": "Decrease, Reproduction"
+        },
+        {
+            "relation": 2929,
+            "upstream_event_id": 1863,
+            "upstream_event": "Decrease, Reproduction",
+            "downstream_event_id": 442,
+            "downstream_event": "Decreased, Population trajectory"
+        }
+    ]
+}

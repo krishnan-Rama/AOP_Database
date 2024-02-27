@@ -1,0 +1,66 @@
+{
+    "id": 485,
+    "title": "Thyroid hormone antagonism leading to impaired oligodendrocyte maturation during development and subsequent decreased cognition",
+    "short_name": "TR antagonism leading to decreased cognition",
+    "created_at": "2023-02-21T10:28:10.000-05:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 9061,
+        "created_at": "2022-02-16T08:01:58.000-05:00",
+        "updated_at": "2023-02-21T08:39:30.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 758,
+            "stressor_name": "3,3\u2032,5,5\u2032 tetrabromobisphenol A"
+        },
+        {
+            "stressor_id": 759,
+            "stressor_name": "NH-375"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1656,
+            "event": "Antagonism, Thyroid Receptor ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2104,
+            "event": "Decreased, thyroid hormone binding to thyroid hormone receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2105,
+            "event": "Decreased, myelin basic protein expression in oligodendrocytes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2106,
+            "event": "Impaired, oligodendrocyte maturation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2107,
+            "event": "Hypomyelination",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2108,
+            "event": "Altered, white brain matter",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

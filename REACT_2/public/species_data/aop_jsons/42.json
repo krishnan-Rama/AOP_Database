@@ -1,0 +1,156 @@
+{
+    "id": 42,
+    "title": "Inhibition of Thyroperoxidase and Subsequent Adverse Neurodevelopmental Outcomes in Mammals",
+    "short_name": "TPO Inhibition and Altered Neurodevelopment",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 77,
+        "created_at": "2013-05-02T08:31:41.000-04:00",
+        "updated_at": "2023-11-08T05:49:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 37,
+            "stressor_name": "Methimazole"
+        },
+        {
+            "stressor_id": 48,
+            "stressor_name": "Propylthiouracil"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 279,
+            "event": "Thyroperoxidase, Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 280,
+            "event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 756,
+            "event": "Hippocampal gene expression, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 757,
+            "event": "Hippocampal anatomy, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 99,
+            "upstream_event_id": 279,
+            "upstream_event": "Thyroperoxidase, Inhibition",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 101,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 611,
+            "upstream_event_id": 279,
+            "upstream_event": "Thyroperoxidase, Inhibition",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 100,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 280,
+            "downstream_event": "Thyroxine (T4) in neuronal tissue, Decreased "
+        },
+        {
+            "relation": 412,
+            "upstream_event_id": 280,
+            "upstream_event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "downstream_event_id": 756,
+            "downstream_event": "Hippocampal gene expression, Altered "
+        },
+        {
+            "relation": 413,
+            "upstream_event_id": 756,
+            "upstream_event": "Hippocampal gene expression, Altered ",
+            "downstream_event_id": 757,
+            "downstream_event": "Hippocampal anatomy, Altered "
+        },
+        {
+            "relation": 415,
+            "upstream_event_id": 757,
+            "upstream_event": "Hippocampal anatomy, Altered ",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 414,
+            "upstream_event_id": 758,
+            "upstream_event": "Hippocampal Physiology, Altered",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        },
+        {
+            "relation": 1132,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 756,
+            "downstream_event": "Hippocampal gene expression, Altered "
+        },
+        {
+            "relation": 1133,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 757,
+            "downstream_event": "Hippocampal anatomy, Altered "
+        },
+        {
+            "relation": 1134,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 130,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        }
+    ]
+}

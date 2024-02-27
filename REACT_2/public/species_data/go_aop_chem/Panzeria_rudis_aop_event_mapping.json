@@ -1,0 +1,4237 @@
+[
+    {
+        "GO_Term": "GO:0016020",
+        "AOP_ID": "35",
+        "Event_ID": "46",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Accumulation, Biological membranes",
+        "AOP_Short_Name": "Narcosis leading to respiratory failure",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "6",
+        "Event_ID": "1528",
+        "Event_Type": "Key Event",
+        "Description": "Fatty Acid Beta Oxidation, Decreased",
+        "AOP_Short_Name": "PPAR\u03b1 antagonism leading to body-weight loss",
+        "Stressor_Name": "GW6471, Nitrotoluenes (hypothesized binding), PPARalpha antagonists"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "36",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "Peroxisomal Fatty Acid Beta-Oxidation Inhibition Leading to Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "57",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "AhR activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "58",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "60",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "PXR activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "61",
+        "Event_ID": "451",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "318",
+        "Event_ID": "860",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial Fatty Acid Beta Oxidation",
+        "AOP_Short_Name": "GR activation leading to hepatic steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006635",
+        "AOP_ID": "497",
+        "Event_ID": "179",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Mitochondrial fatty acid beta-oxidation",
+        "AOP_Short_Name": "ERa inactivation leads to insulin resistance in skeletal muscle and metabolic syndrome",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005515",
+        "AOP_ID": "39",
+        "Event_ID": "396",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Covalent Binding, Protein",
+        "AOP_Short_Name": "Covalent binding to proteins leads to Respiratory Sensitisation/Sensitization/Allergy",
+        "Stressor_Name": "Toluene diisocyanate"
+    },
+    {
+        "GO_Term": "GO:0005515",
+        "AOP_ID": "40",
+        "Event_ID": "396",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Covalent Binding, Protein",
+        "AOP_Short_Name": "Skin Sensitisation AOP",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007269",
+        "AOP_ID": "96",
+        "Event_ID": "600",
+        "Event_Type": "Key Event",
+        "Description": "Overactivation, Neuronotransmitter release",
+        "AOP_Short_Name": "sodium channel modulation ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007269",
+        "AOP_ID": "153",
+        "Event_ID": "968",
+        "Event_Type": "Key Event",
+        "Description": "Decreased Kisspeptin release from neurons in AVPV, Decreased hypothalamic estrogen reduces kisspeptinergic neuron response ",
+        "AOP_Short_Name": "Aromatase Inhibition in Female Rats",
+        "Stressor_Name": "Letrozole, Fadrozole, 1,2,4-triazole"
+    },
+    {
+        "GO_Term": "GO:0005216",
+        "AOP_ID": "104",
+        "Event_ID": "697",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "impaired, ion channels",
+        "AOP_Short_Name": "chemical-induced arrthymias",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005216",
+        "AOP_ID": "104",
+        "Event_ID": "697",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "impaired, ion channels",
+        "AOP_Short_Name": "chemical-induced arrthymias",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0032367",
+        "AOP_ID": "69",
+        "Event_ID": "644",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decreased Cholesterol, Decreased Transport of Cholesterol to the Inner Mitochondrial Membrane",
+        "AOP_Short_Name": "Decrease Adult Testosterone",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "21",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AhR mediated mortality, via COX-2",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "21",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AhR mediated mortality, via COX-2",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AHR activation to ELS mortality, via VEGF",
+        "Stressor_Name": "Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polychlorinated dibenzofurans"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AHR activation to ELS mortality, via VEGF",
+        "Stressor_Name": "Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polychlorinated dibenzofurans"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha",
+        "AOP_Short_Name": "AHR activation to ELS mortality, via VEGF",
+        "Stressor_Name": "Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polychlorinated dibenzofurans"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "150",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha",
+        "AOP_Short_Name": "AHR activation to ELS mortality, via VEGF",
+        "Stressor_Name": "Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polychlorinated dibenzofurans"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AhR activation leading to preeclampsia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AhR activation leading to preeclampsia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha",
+        "AOP_Short_Name": "AhR activation leading to preeclampsia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "151",
+        "Event_ID": "945",
+        "Event_Type": "Key Event",
+        "Description": "reduced dimerization, ARNT/HIF1-alpha",
+        "AOP_Short_Name": "AhR activation leading to preeclampsia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "310",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AHR mediated epigenetic reproductive failure",
+        "Stressor_Name": "benzo[a]pyrene"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "310",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "AHR mediated epigenetic reproductive failure",
+        "Stressor_Name": "benzo[a]pyrene"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "455",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "Ahr mediated early stage mortality via craniofacial malformations",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "455",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "Ahr mediated early stage mortality via craniofacial malformations",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "456",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "Ahr mediated early stage mortality via cardiovascular toxicity",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0046983",
+        "AOP_ID": "456",
+        "Event_ID": "944",
+        "Event_Type": "Key Event",
+        "Description": "dimerization, AHR/ARNT",
+        "AOP_Short_Name": "Ahr mediated early stage mortality via cardiovascular toxicity",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "8",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "61",
+        "Event_ID": "482",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, DHB4/HSD17B4",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "120",
+        "Event_ID": "790",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, 5\u03b1-reductase activity",
+        "AOP_Short_Name": "5\u03b1-reductase- Leydig tumor",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "122",
+        "Event_ID": "798",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Prolyl hydroxylases",
+        "AOP_Short_Name": "Prolyl hydroxylase inhibition ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "131",
+        "Event_ID": "845",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, UROD",
+        "AOP_Short_Name": "AHR activation-uroporphyria",
+        "Stressor_Name": "Dibenzo-p-dioxin, Polychlorinated biphenyl, Hexachlorobenzene, Polycyclic aromatic hydrocarbons (PAHs)"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "149",
+        "Event_ID": "973",
+        "Event_Type": "Key Event",
+        "Description": "KE5 : Decrease, AKT/eNOS activity",
+        "AOP_Short_Name": "Hypertension",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "149",
+        "Event_ID": "973",
+        "Event_Type": "Key Event",
+        "Description": "KE5 : Decrease, AKT/eNOS activity",
+        "AOP_Short_Name": "Hypertension",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "155",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2",
+        "AOP_Short_Name": "DIO2i posterior swim bladder",
+        "Stressor_Name": "iopanoic acid"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "156",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2",
+        "AOP_Short_Name": "DIO2i anterior swim bladder",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "157",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1",
+        "AOP_Short_Name": "DIO1i posterior swim bladder",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "158",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1",
+        "AOP_Short_Name": "DIO1i anterior swim bladder ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "162",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "thyroid follicular cell adenomas and carcinomas",
+        "Stressor_Name": "Phenobarbital, thiazopyr, Pyrethrins and Pyrethroids"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone",
+        "AOP_Short_Name": "VKOR inhibition resulting in coagulopathy",
+        "Stressor_Name": "Warfarin, coumachlor, coumatetralyl, chlorophacinone, diphacinone, pindone, 3-[3-(4'-bromo[1,1'-biphenyl]-4-yl)-3-hydroxy-1-phenylpropyl]-4-hydroxy-2-benzopyrone"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "188",
+        "Event_ID": "1152",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Iodotyrosine deiodinase (IYD)",
+        "AOP_Short_Name": "IYD inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "189",
+        "Event_ID": "1009",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 1",
+        "AOP_Short_Name": "DIO1 inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "190",
+        "Event_ID": "1002",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 2",
+        "AOP_Short_Name": "DIO2 inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "191",
+        "Event_ID": "1153",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Deiodinase 3",
+        "AOP_Short_Name": "DIO3 inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "193",
+        "Event_ID": "1156",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Dual oxidase",
+        "AOP_Short_Name": "DUOX inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "194",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "Hepatic nuclear receptor activation alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003824",
+        "AOP_ID": "458",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "AhR activation in the liver leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), Polychlorinated biphenyl, PCB 126"
+    },
+    {
+        "GO_Term": "GO:0005886",
+        "AOP_ID": "35",
+        "Event_ID": "169",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Membrane integrity",
+        "AOP_Short_Name": "Narcosis leading to respiratory failure",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "15",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Alkylation of DNA leading to heritable mutations",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "46",
+        "Event_ID": "493",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts",
+        "AOP_Short_Name": "Mutagenic MOA for Cancer 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "80",
+        "Event_ID": "664",
+        "Event_Type": "Key Event",
+        "Description": "Overwhelmed, Mitochondrial DNA repair mechanisms",
+        "AOP_Short_Name": "nAChR activation - colony loss 4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "139",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "DNA alkylation -> cancer 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "141",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "DNA alkylation -> cancer 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "207",
+        "Event_ID": "1281",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA Damage-Repair",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "272",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Deposition of energy leading to lung cancer",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "296",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Oxidative DNA damage, chromosomal aberrations and mutations",
+        "Stressor_Name": "Hydrogen peroxide, Potassium bromate, Ionizing Radiation, Cadmium chloride, tert-Butyl hydroperoxide, Reactive oxygen species, Hydroquinone, 4-Nitroquinoline 1-oxide"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "322",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Alkylation of DNA leading to reduced sperm count",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "397",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Bulky DNA adducts leading to mutations",
+        "Stressor_Name": "Polycyclic aromatic hydrocarbons (PAHs), Aristolochic acid, Aflatoxin B1"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "432",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Ionizing Radiation-Induced AML",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "443",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "DNA damage and metastatic breast  cancer",
+        "Stressor_Name": "Ethyl alcohol"
+    },
+    {
+        "GO_Term": "GO:0006281",
+        "AOP_ID": "478",
+        "Event_ID": "155",
+        "Event_Type": "Key Event",
+        "Description": "Inadequate DNA repair",
+        "AOP_Short_Name": "Deposition of energy leading to cataracts",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0016301",
+        "AOP_ID": "499",
+        "Event_ID": "2146",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2",
+        "AOP_Short_Name": "MEK-ERK1/2 activation leading to deficits in learning and cognition",
+        "Stressor_Name": "Lead, Arsenic, Cadmium, Manganese, Heavy metals (cadmium, lead, copper, iron, nickel)"
+    },
+    {
+        "GO_Term": "GO:0016301",
+        "AOP_ID": "500",
+        "Event_ID": "2146",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation of mitogen-activated protein kinase kinase, extracellular signal-regulated kinase 1/2",
+        "AOP_Short_Name": "MEK-ERK1/2 activation leading to deficits in learning and cognition via ROS",
+        "Stressor_Name": "Heavy metals (cadmium, lead, copper, iron, nickel), Lead, Arsenic, Cadmium, Manganese"
+    },
+    {
+        "GO_Term": "GO:0006470",
+        "AOP_ID": "315",
+        "Event_ID": "1716",
+        "Event_Type": "Key Event",
+        "Description": "Blockade of STAT5 phosphorylation",
+        "AOP_Short_Name": "Immune dysfunction induced by JAK3 inhibition",
+        "Stressor_Name": "PF-06651600 (CAS No\uff1a1792180-81-4), , RB1"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "41",
+        "Event_ID": "853",
+        "Event_Type": "Key Event",
+        "Description": "Changes/Inhibition, Cellular Homeostasis and Apoptosis",
+        "AOP_Short_Name": "Sustained AhR Activation leading to Rodent Liver Tumours",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "64",
+        "Event_ID": "496",
+        "Event_Type": "Key Event",
+        "Description": "Increased apoptosis, decreased fetal/adult Leydig Cells ",
+        "AOP_Short_Name": "Adult Leydig Cell Dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "70",
+        "Event_ID": "648",
+        "Event_Type": "Key Event",
+        "Description": "Decreased steroidogenesis, Increased Apoptosis of Adult Leydig Cells",
+        "AOP_Short_Name": "Decreased Adult Testosterone 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "71",
+        "Event_ID": "525",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis of adult Leydig cells, Decreased testosterone by adult Leydig cells",
+        "AOP_Short_Name": "Decreased Adult Testosterone 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "200",
+        "Event_ID": "1183",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Apoptosis (Epithelial Cells)",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "205",
+        "Event_ID": "1262",
+        "Event_Type": "Adverse Outcome",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "AOP on basal cytotoxicity",
+        "Stressor_Name": "Chemical"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "207",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "212",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Histone deacetylase inhibition leading to testicular atrophy",
+        "Stressor_Name": "Methoxyacetic acid, Butyrate, Trichostatin A, Valproate"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "285",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Inhibition of N-linked glycosylation leads to liver injury",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "393",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Thyroid hormone effect",
+        "Stressor_Name": "Triphenyl phosphate"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "419",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "AHR activation decreasing lung function via P53 tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "439",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "AhR activation to breast cancer",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "441",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Increased DNA damages during embryonic development lead to microcephaly",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "452",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "PM-induced respiratory toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "460",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Antagonism SMO leads to OFC",
+        "Stressor_Name": "Vismodegib, Cyclopamine, SANT-1, SANT-2, SANT-3, SANT-4, Piperonyl butoxide"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "476",
+        "Event_ID": "496",
+        "Event_Type": "Key Event",
+        "Description": "Increased apoptosis, decreased fetal/adult Leydig Cells ",
+        "AOP_Short_Name": "Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "476",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "491",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Decrease, GLI1/2 target gene expression leads to OFC",
+        "Stressor_Name": "GANT 58, GANT61"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "495",
+        "Event_ID": "1183",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Apoptosis (Epithelial Cells)",
+        "AOP_Short_Name": "Androgen receptor activation leading to prostate cancer",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "500",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "MEK-ERK1/2 activation leading to deficits in learning and cognition via ROS",
+        "Stressor_Name": "Heavy metals (cadmium, lead, copper, iron, nickel), Lead, Arsenic, Cadmium, Manganese"
+    },
+    {
+        "GO_Term": "GO:0006915",
+        "AOP_ID": "502",
+        "Event_ID": "1262",
+        "Event_Type": "Key Event",
+        "Description": "Apoptosis",
+        "AOP_Short_Name": "Decrease, cholesterol synthesis leads to OFC",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "16",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "AChE inhibition - acute mortality",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "281",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "AChE Inhibition Leading to Neurodegeneration",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "312",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "AChE inhibition - acute mortality via predation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "405",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "Organo-Phosphate Chemicals leading to impaired cognitive function",
+        "Stressor_Name": "Organophosphates, Paraoxon, Methyl parathion, Ethyl Parathion, N-methyl Carbamates"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "450",
+        "Event_ID": "12",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "Organo-Phosphate Chemicals leading to sensory axonal peripheral neuropathy and mortality",
+        "Stressor_Name": "Paraoxon, Methyl parathion, Ethyl Parathion, Organophosphates"
+    },
+    {
+        "GO_Term": "GO:0003990",
+        "AOP_ID": "471",
+        "Event_ID": "12",
+        "Event_Type": "Key Event",
+        "Description": "Acetylcholinesterase (AchE) Inhibition",
+        "AOP_Short_Name": "elavl3, sox10, mbp induced neuronal effects",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "212",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted",
+        "AOP_Short_Name": "Histone deacetylase inhibition leading to testicular atrophy",
+        "Stressor_Name": "Methoxyacetic acid, Butyrate, Trichostatin A, Valproate"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "393",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted",
+        "AOP_Short_Name": "Thyroid hormone effect",
+        "Stressor_Name": "Triphenyl phosphate"
+    },
+    {
+        "GO_Term": "GO:0051726",
+        "AOP_ID": "396",
+        "Event_ID": "1505",
+        "Event_Type": "Key Event",
+        "Description": "Cell cycle, disrupted",
+        "AOP_Short_Name": "Deposition of ionizing energy leads to population decline via impaired meiosis",
+        "Stressor_Name": "Gamma radiation, Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "106",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics",
+        "AOP_Short_Name": "Tubulin binding and aneuploidy",
+        "Stressor_Name": "Colchicine, Vinblastine sulfate, Benomyl, Nocodazole"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "303",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Frustrated phagocytosis-induced lung cancer",
+        "Stressor_Name": "High aspect ratio material"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "303",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Frustrated phagocytosis-induced lung cancer",
+        "Stressor_Name": "High aspect ratio material"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "396",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics",
+        "AOP_Short_Name": "Deposition of ionizing energy leads to population decline via impaired meiosis",
+        "Stressor_Name": "Gamma radiation, Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Frustrated phagocytosis leads to malignant mesothelioma",
+        "Stressor_Name": "Multi-walled carbon nanotubes, Asbestos fibers, High aspect ratio material, Carbon nanotubes, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres, Single walled carbon nanotubes"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Frustrated phagocytosis leads to malignant mesothelioma",
+        "Stressor_Name": "Multi-walled carbon nanotubes, Asbestos fibers, High aspect ratio material, Carbon nanotubes, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres, Single walled carbon nanotubes"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "409",
+        "Event_ID": "1896",
+        "Event_Type": "Key Event",
+        "Description": "Genomic instability",
+        "AOP_Short_Name": "Frustrated phagocytosis leads to malignant mesothelioma",
+        "Stressor_Name": "Multi-walled carbon nanotubes, Asbestos fibers, High aspect ratio material, Carbon nanotubes, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres, Single walled carbon nanotubes"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "416",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "AHR activation leading to lung cancer via IL-6 tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "416",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "AHR activation leading to lung cancer via IL-6 tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "417",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "AHR activation leading to lung cancer via AHR-ARNT tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "417",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "AHR activation leading to lung cancer via AHR-ARNT tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "435",
+        "Event_ID": "752",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Meiotic chromosome dynamics",
+        "AOP_Short_Name": "Deposition of ionising energy leads to population decline via pollen abnormal",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "443",
+        "Event_ID": "1669",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "DNA damage and metastatic breast  cancer",
+        "Stressor_Name": "Ethyl alcohol"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "443",
+        "Event_ID": "1669",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "DNA damage and metastatic breast  cancer",
+        "Stressor_Name": "Ethyl alcohol"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "451",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Interaction with lung cells leads to lung cancer",
+        "Stressor_Name": "nanoparticles, welding fumes, Carbon black, Diesel engine exhaust, nanomaterials, Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "451",
+        "Event_ID": "1669",
+        "Event_Type": "Key Event",
+        "Description": "Increased, DNA damage and mutation",
+        "AOP_Short_Name": "Interaction with lung cells leads to lung cancer",
+        "Stressor_Name": "nanoparticles, welding fumes, Carbon black, Diesel engine exhaust, nanomaterials, Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0005694",
+        "AOP_ID": "503",
+        "Event_ID": "1896",
+        "Event_Type": "Key Event",
+        "Description": "Genomic instability",
+        "AOP_Short_Name": "Activation of uterine estrogen receptor-alfa, endometrial adenocarcinoma",
+        "Stressor_Name": "Tamoxifen, 17beta-Estradiol"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "130",
+        "Event_ID": "831",
+        "Event_Type": "Key Event",
+        "Description": "Disturbance, Lysosomal function",
+        "AOP_Short_Name": "Inhibition of LPLA2, hepatotoxicity ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "144",
+        "Event_ID": "898",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Lysosome",
+        "AOP_Short_Name": "lysosomal uptake induced liver fibrosis",
+        "Stressor_Name": "nanoparticles, ROS, o-methyl-serine dodecylamide hydrochloride (MSDH), 3-aminopropanal, artesunate, Chloroquine bis(phosphate), Norfloxacin, Ciprofloxacin"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "257",
+        "Event_ID": "831",
+        "Event_Type": "Key Event",
+        "Description": "Disturbance, Lysosomal function",
+        "AOP_Short_Name": "Receptor mediated endocytosis and lysosomal overload leading to kidney toxicity",
+        "Stressor_Name": "Aminoglycosides, Gentamicin, Tobramycin, Vancomycin, Polymyxin B, Colistin, Albumin, low molecular weight proteins, Cadmium"
+    },
+    {
+        "GO_Term": "GO:0005764",
+        "AOP_ID": "257",
+        "Event_ID": "898",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Lysosome",
+        "AOP_Short_Name": "Receptor mediated endocytosis and lysosomal overload leading to kidney toxicity",
+        "Stressor_Name": "Aminoglycosides, Gentamicin, Tobramycin, Vancomycin, Polymyxin B, Colistin, Albumin, low molecular weight proteins, Cadmium"
+    },
+    {
+        "GO_Term": "GO:0006629",
+        "AOP_ID": "166",
+        "Event_ID": "1060",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, lipid metabolism",
+        "AOP_Short_Name": "PPAR\u03b1 activation and pancreatic acinar tumors",
+        "Stressor_Name": "PERFLUOROOCTANOIC ACID"
+    },
+    {
+        "GO_Term": "GO:0006629",
+        "AOP_ID": "513",
+        "Event_ID": "1060",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, lipid metabolism",
+        "AOP_Short_Name": "ROS formation leads to cancer via PPAR pathway",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007010",
+        "AOP_ID": "70",
+        "Event_ID": "649",
+        "Event_Type": "Key Event",
+        "Description": "Decreased steroidogenesis, Alterations in the Leydig Cell Cytoskeleton",
+        "AOP_Short_Name": "Decreased Adult Testosterone 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "111",
+        "Event_ID": "743",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Testosterone binding to androgen receptor (hypothalamus)",
+        "AOP_Short_Name": "Decreased AR activity- Leydig cell tumors",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "320",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV-2 leads to acute respiratory distress",
+        "Stressor_Name": "SARS-CoV, HCoV-NL63, Sars-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "374",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Sars-CoV-2 causes encephalitis",
+        "Stressor_Name": "Sars-CoV-2, Virus, bacteria"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "379",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV2 to thrombosis and DIC",
+        "Stressor_Name": "Stressor:624 SARS-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "381",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "S glycoprotein, taste impairment",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "385",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Viral spike protein interaction with ACE2 leads to microvascular dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "394",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV-2 causes anosmia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "395",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Sars-CoV-2 causes stroke",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "406",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV2 to hyperinflammation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "407",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV2 to pyroptosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "422",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV-2 leads to intestinal barrier disruption",
+        "Stressor_Name": "Sars-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "426",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Pericytes possess a key role in the heart injury by COVID-19.",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "427",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Downregulation of ACE2 causes multi-factorial heart injury and heart failure.",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "428",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "ACE2 dysregulation leads to gut dysbiosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "430",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "SARS-CoV-2 leads to infection proliferation",
+        "Stressor_Name": "SARS-CoV, Sars-CoV-2, HCoV-NL63"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "468",
+        "Event_ID": "1739",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding to ACE2",
+        "AOP_Short_Name": "Cytopathic SARS-CoV-2 leads to hyperinflammation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005102",
+        "AOP_ID": "506",
+        "Event_ID": "2158",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Influenza A Virus (IAV) binds sialic acid glycan receptor",
+        "AOP_Short_Name": "IAV infection proliferation",
+        "Stressor_Name": "Influenza Virus"
+    },
+    {
+        "GO_Term": "GO:0016055",
+        "AOP_ID": "19",
+        "Event_ID": "310",
+        "Event_Type": "Key Event",
+        "Description": "Alteration, Wnt pathway",
+        "AOP_Short_Name": "AR antagonism leading to foetal feminisation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006412",
+        "AOP_ID": "148",
+        "Event_ID": "962",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Mucin production",
+        "AOP_Short_Name": "Decreased lung function",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0006412",
+        "AOP_ID": "200",
+        "Event_ID": "1240",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Protein Production",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "3",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Mitochondrial dysfunction and Neurotoxicity",
+        "Stressor_Name": "MPP+, Rotenone"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "34",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "48",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "ionotropic glutamatergic receptors and cognition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "77",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR activation - colony death 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "78",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR activation - colony death/failure2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "79",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR activation - colony loss 3",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "80",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR activation - colony loss 4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "87",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR activation - colony loss 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "130",
+        "Event_ID": "832",
+        "Event_Type": "Key Event",
+        "Description": "Injury, Mitochondria",
+        "AOP_Short_Name": "Inhibition of LPLA2, hepatotoxicity ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "144",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "lysosomal uptake induced liver fibrosis",
+        "Stressor_Name": "nanoparticles, ROS, o-methyl-serine dodecylamide hydrochloride (MSDH), 3-aminopropanal, artesunate, Chloroquine bis(phosphate), Norfloxacin, Ciprofloxacin"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "178",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "nAChR to colony loss/failure",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "200",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "205",
+        "Event_ID": "1260",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Direct mitochondrial inhibition",
+        "AOP_Short_Name": "AOP on basal cytotoxicity",
+        "Stressor_Name": "Chemical"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "205",
+        "Event_ID": "1261",
+        "Event_Type": "Key Event",
+        "Description": "Mitochondrial impairment",
+        "AOP_Short_Name": "AOP on basal cytotoxicity",
+        "Stressor_Name": "Chemical"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "207",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 1",
+        "Stressor_Name": "2,4-Dinitrophenol, Pentachlorophenol, Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone, Carbonyl cyanide m-chlorophenyl hydrazone, Triclosan, Dinoseb, 3,5-Dichlorophenol, Emodin, Arsenite, Niclosamide ethanolamine, Oxyclozanide"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 1",
+        "Stressor_Name": "2,4-Dinitrophenol, Pentachlorophenol, Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone, Carbonyl cyanide m-chlorophenyl hydrazone, Triclosan, Dinoseb, 3,5-Dichlorophenol, Emodin, Arsenite, Niclosamide ethanolamine, Oxyclozanide"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "263",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 1",
+        "Stressor_Name": "2,4-Dinitrophenol, Pentachlorophenol, Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone, Carbonyl cyanide m-chlorophenyl hydrazone, Triclosan, Dinoseb, 3,5-Dichlorophenol, Emodin, Arsenite, Niclosamide ethanolamine, Oxyclozanide"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "264",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 3",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 3",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "265",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 3",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "266",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "267",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 6",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 6",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "268",
+        "Event_ID": "1446",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decrease, Coupling of oxidative phosphorylation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 6",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "273",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Mitochondrial complex inhibition leading to liver injury",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "324",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Thermal stress leading to population decline (1)",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "325",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Thermal stress leading to population decline (2)",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "326",
+        "Event_ID": "177",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Thermal stress leading to population decline (3)",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "335",
+        "Event_ID": "1261",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Mitochondrial impairment",
+        "AOP_Short_Name": "Chemical cytotoxicity leading to urothelial carcinogenesis",
+        "Stressor_Name": "Diuron, DCA, DCPMU"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "377",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "TLR9 activation leading to Multi Organ Failure and ARDS",
+        "Stressor_Name": "cell free mitochondrial DNA (mtDNA), unmethylated CpG motifs (DNA;RNA;ODN), SARS-CoV, Sars-CoV-2, Danger Associated Molecular Patters (DAMPs), Pathogen Associated Molecular Patterns (PAMPs)"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "423",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "hepatocyte apoptosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "437",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Inhibition of Mt-ETC complexes leading to kidney toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "476",
+        "Event_ID": "176",
+        "Event_Type": "Key Event",
+        "Description": "Damaging, Mitochondria",
+        "AOP_Short_Name": "Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "479",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Mitochondrial complexes inhibition leading to heart failure",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "480",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "Mitochondrial complexes inhibition leading to heart failure II",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "481",
+        "Event_ID": "177",
+        "Event_Type": "Key Event",
+        "Description": "N/A, Mitochondrial dysfunction 1",
+        "AOP_Short_Name": "AOPs of SiNPs: ROS-mediated oxidative stress increased respiratory toxicity.",
+        "Stressor_Name": "Silica nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "517",
+        "Event_ID": "176",
+        "AOP_Short_Name": "PXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005739",
+        "AOP_ID": "518",
+        "Event_ID": "176",
+        "AOP_Short_Name": "LXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0004100",
+        "AOP_ID": "342",
+        "Event_ID": "1522",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Chitin synthase 1",
+        "AOP_Short_Name": "SAM depletion leading to population decline (1)",
+        "Stressor_Name": "Nikkomycins, Polyoxin B"
+    },
+    {
+        "GO_Term": "GO:0004100",
+        "AOP_ID": "360",
+        "Event_ID": "1522",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Chitin synthase 1",
+        "AOP_Short_Name": "CHS-1 inhibition leading to mortality",
+        "Stressor_Name": "Polyoxin B, Polyoxin D, Nikkomycins, Captan, Captafol, Folpet"
+    },
+    {
+        "GO_Term": "GO:0005874",
+        "AOP_ID": "106",
+        "Event_ID": "720",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Microtubule dynamics",
+        "AOP_Short_Name": "Tubulin binding and aneuploidy",
+        "Stressor_Name": "Colchicine, Vinblastine sulfate, Benomyl, Nocodazole"
+    },
+    {
+        "GO_Term": "GO:0006606",
+        "AOP_ID": "506",
+        "Event_ID": "2192",
+        "Event_Type": "Key Event",
+        "Description": "Influenza A Virus production increased",
+        "AOP_Short_Name": "IAV infection proliferation",
+        "Stressor_Name": "Influenza Virus"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "34",
+        "Event_ID": "89",
+        "Event_Type": "Key Event",
+        "Description": "Synthesis, De Novo FA",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "58",
+        "Event_ID": "458",
+        "Event_Type": "Key Event",
+        "Description": "Increased, De Novo FA synthesis",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "61",
+        "Event_ID": "458",
+        "Event_Type": "Key Event",
+        "Description": "Increased, De Novo FA synthesis",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006633",
+        "AOP_ID": "518",
+        "Event_ID": "89",
+        "Event_Type": "Key Event",
+        "Description": "Synthesis, De Novo FA",
+        "AOP_Short_Name": "LXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "58",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "60",
+        "Event_ID": "454",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride formation",
+        "AOP_Short_Name": "PXR activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "61",
+        "Event_ID": "881",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Triglyceride",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "149",
+        "Event_ID": "934",
+        "Event_Type": "Key Event",
+        "Description": "KE3 : Decrease, Tetrahydrobiopterin",
+        "AOP_Short_Name": "Hypertension",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "207",
+        "Event_ID": "1278",
+        "Event_Type": "Key Event",
+        "Description": "ROS formation",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0009058",
+        "AOP_ID": "423",
+        "Event_ID": "1278",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "ROS formation",
+        "AOP_Short_Name": "hepatocyte apoptosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1222",
+        "Event_Type": "Key Event",
+        "Description": "SP (Substance P) release, Local increase of SP",
+        "AOP_Short_Name": "TRPA1 activation leads to pulmonary sensory irritation",
+        "Stressor_Name": "Dibenzo[B,F][1,4]Oxazepine, 2-Chlorobenzalmalononitrile"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1433",
+        "Event_Type": "Key Event",
+        "Description": "Increased CGRP, neuronal release of CGRP",
+        "AOP_Short_Name": "TRPA1 activation leads to pulmonary sensory irritation",
+        "Stressor_Name": "Dibenzo[B,F][1,4]Oxazepine, 2-Chlorobenzalmalononitrile"
+    },
+    {
+        "GO_Term": "GO:0005184",
+        "AOP_ID": "196",
+        "Event_ID": "1435",
+        "Event_Type": "Key Event",
+        "Description": "Increased neurokinin A (NKA) by neuronal cells",
+        "AOP_Short_Name": "TRPA1 activation leads to pulmonary sensory irritation",
+        "Stressor_Name": "Dibenzo[B,F][1,4]Oxazepine, 2-Chlorobenzalmalononitrile"
+    },
+    {
+        "GO_Term": "GO:0004713",
+        "AOP_ID": "399",
+        "Event_ID": "1884",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition of Fyna",
+        "AOP_Short_Name": "Inhibition of Fyna leading to increased mortality",
+        "Stressor_Name": "Rosmarinic acid, Saracatinib, Staurosporine"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "113",
+        "Event_ID": "760",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Glutamate-gated chloride channel",
+        "AOP_Short_Name": "GluCl activation to mortality",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "161",
+        "Event_ID": "1018",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Glutamate-gated chloride channels",
+        "AOP_Short_Name": "GluCl activation leading to mortality",
+        "Stressor_Name": "Emamectin benzoate"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "424",
+        "Event_ID": "1906",
+        "Event_Type": "Key Event",
+        "Description": "Cystic Fibrosis Transmembrane Regulator Function, Decreased",
+        "AOP_Short_Name": "Ox stress-mediated CFTR/ASL/CBF/MCC impairment",
+        "Stressor_Name": "Acrolein, Ozone, Cigarette smoke"
+    },
+    {
+        "GO_Term": "GO:0005254",
+        "AOP_ID": "471",
+        "Event_ID": "1018",
+        "Event_Type": "Key Event",
+        "Description": "Activation, Glutamate-gated chloride channels",
+        "AOP_Short_Name": "elavl3, sox10, mbp induced neuronal effects",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006788",
+        "AOP_ID": "31",
+        "Event_ID": "213",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+        "AOP_Short_Name": "Hemoglobin oxidation leading to hematotoxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "173",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components",
+        "AOP_Short_Name": "Substance interaction with the pulmonary cell membrane leading to pulmonary fibrosis",
+        "Stressor_Name": "Bleomycin, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "237",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components",
+        "AOP_Short_Name": "Interaction with lung cells leading to atherosclerosis",
+        "Stressor_Name": "Lipopolysaccharride, Graphene oxide nanoparticles, Carbon nanotubes, Insoluble nano-sized particles, Virus"
+    },
+    {
+        "GO_Term": "GO:0002224",
+        "AOP_ID": "451",
+        "Event_ID": "1495",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Substance interaction with the lung resident cell membrane components",
+        "AOP_Short_Name": "Interaction with lung cells leads to lung cancer",
+        "Stressor_Name": "nanoparticles, welding fumes, Carbon black, Diesel engine exhaust, nanomaterials, Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0045281",
+        "AOP_ID": "457",
+        "Event_ID": "2118",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Succinate dehydrogenase, inhibited",
+        "AOP_Short_Name": "Succinate dehydrogenase inhibition leading to increased insulin resistance",
+        "Stressor_Name": "Di(2-ethylhexyl) phthalate, Mono(2-ethylhexyl) phthalate"
+    },
+    {
+        "GO_Term": "GO:0045281",
+        "AOP_ID": "457",
+        "Event_ID": "2118",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Succinate dehydrogenase, inhibited",
+        "AOP_Short_Name": "Succinate dehydrogenase inhibition leading to increased insulin resistance",
+        "Stressor_Name": "Di(2-ethylhexyl) phthalate, Mono(2-ethylhexyl) phthalate"
+    },
+    {
+        "GO_Term": "GO:0007051",
+        "AOP_ID": "106",
+        "Event_ID": "721",
+        "Event_Type": "Key Event",
+        "Description": "Disorganization, Meiotic Spindle",
+        "AOP_Short_Name": "Tubulin binding and aneuploidy",
+        "Stressor_Name": "Colchicine, Vinblastine sulfate, Benomyl, Nocodazole"
+    },
+    {
+        "GO_Term": "GO:0048019",
+        "AOP_ID": "6",
+        "Event_ID": "998",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of antagonist, PPAR alpha",
+        "AOP_Short_Name": "PPAR\u03b1 antagonism leading to body-weight loss",
+        "Stressor_Name": "GW6471, Nitrotoluenes (hypothesized binding), PPARalpha antagonists"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "12",
+        "Event_ID": "52",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Calcium influx",
+        "AOP_Short_Name": "Binding of antagonist to NMDARs can lead to neuroinflammation and neurodegeneration",
+        "Stressor_Name": "Lead"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "13",
+        "Event_ID": "52",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, Calcium influx",
+        "AOP_Short_Name": "Binding of antagonist to NMDARs impairs cognition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "28",
+        "Event_ID": "49",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Ca and HCO3 transport to shell gland",
+        "AOP_Short_Name": "Cyclooxygenase inhibition leading reproductive failure",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "48",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload",
+        "AOP_Short_Name": "ionotropic glutamatergic receptors and cognition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "196",
+        "Event_ID": "1218",
+        "Event_Type": "Key Event",
+        "Description": "Opening of calcium channel, Calcium influx",
+        "AOP_Short_Name": "TRPA1 activation leads to pulmonary sensory irritation",
+        "Stressor_Name": "Dibenzo[B,F][1,4]Oxazepine, 2-Chlorobenzalmalononitrile"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "281",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload",
+        "AOP_Short_Name": "AChE Inhibition Leading to Neurodegeneration",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "464",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload",
+        "AOP_Short_Name": "Calcium overload driven development of parkinsonian motor deficits",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006816",
+        "AOP_ID": "475",
+        "Event_ID": "389",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Intracellular Calcium overload",
+        "AOP_Short_Name": "IGR binding leads to impairment of learning and memory (via loss of drebrin)",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0022904",
+        "AOP_ID": "457",
+        "Event_ID": "2120",
+        "Event_Type": "Key Event",
+        "Description": "Superoxide generation, increased",
+        "AOP_Short_Name": "Succinate dehydrogenase inhibition leading to increased insulin resistance",
+        "Stressor_Name": "Di(2-ethylhexyl) phthalate, Mono(2-ethylhexyl) phthalate"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "212",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition",
+        "AOP_Short_Name": "Histone deacetylase inhibition leading to testicular atrophy",
+        "Stressor_Name": "Methoxyacetic acid, Butyrate, Trichostatin A, Valproate"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "274",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition",
+        "AOP_Short_Name": "HDAC inhibition leads to impeded craniofacial development",
+        "Stressor_Name": "Valproic acid, Butyrate, Trichostatin A, Suberoylanilide hydroxamic acid, MS-275, Apicidin"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "275",
+        "Event_ID": "1502",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Histone deacetylase inhibition",
+        "AOP_Short_Name": "HDAC inhibition leads to neural tube defects",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0004857",
+        "AOP_ID": "449",
+        "Event_ID": "1502",
+        "Event_Type": "Key Event",
+        "Description": "Histone deacetylase inhibition",
+        "AOP_Short_Name": "CerS leads to NTDs",
+        "Stressor_Name": "Fumonisin B1"
+    },
+    {
+        "GO_Term": "GO:0007059",
+        "AOP_ID": "103",
+        "Event_ID": "696",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Chromosome misseggregation",
+        "AOP_Short_Name": "Cyclooxygenase inhibition  5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0016209",
+        "AOP_ID": "284",
+        "Event_ID": "926",
+        "Event_Type": "Key Event",
+        "Description": "Oxidation, Glutathione (To be considered with MIE)",
+        "AOP_Short_Name": "Oxidative stress in chronic kidney disease ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0016209",
+        "AOP_ID": "413",
+        "Event_ID": "926",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Oxidation, Glutathione (To be considered with MIE)",
+        "AOP_Short_Name": "Oxidation of Reduced Glutathione Leading to Mortality",
+        "Stressor_Name": "Uranium, Arsenic, Bis(2,4,6-trimethylphenyl)-lambda~2~-germane--selenium (1/1)"
+    },
+    {
+        "GO_Term": "GO:0003714",
+        "AOP_ID": "6",
+        "Event_ID": "1000",
+        "Event_Type": "Key Event",
+        "Description": "stabilization, PPAR alpha co-repressor",
+        "AOP_Short_Name": "PPAR\u03b1 antagonism leading to body-weight loss",
+        "Stressor_Name": "GW6471, Nitrotoluenes (hypothesized binding), PPARalpha antagonists"
+    },
+    {
+        "GO_Term": "GO:0003714",
+        "AOP_ID": "6",
+        "Event_ID": "1000",
+        "Event_Type": "Key Event",
+        "Description": "stabilization, PPAR alpha co-repressor",
+        "AOP_Short_Name": "PPAR\u03b1 antagonism leading to body-weight loss",
+        "Stressor_Name": "GW6471, Nitrotoluenes (hypothesized binding), PPARalpha antagonists"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "1",
+        "Event_ID": "57",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation, Cell proliferation in the absence of cytotoxicity",
+        "AOP_Short_Name": "Liver damage and hepatocellular carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "37",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)",
+        "AOP_Short_Name": "PPARalpha-dependent liver tumors in rodents",
+        "Stressor_Name": "pirinixic acid, Clofibrate, Bis(2-ethylhexyl) phthalate, Nafenopin, ciprofibrate, Gemfibrozil, PERFLUOROOCTANOIC ACID, Bezafibrate, Fenofibrate"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "39",
+        "Event_ID": "272",
+        "Event_Type": "Key Event",
+        "Description": "Activation/Proliferation, T-cells",
+        "AOP_Short_Name": "Covalent binding to proteins leads to Respiratory Sensitisation/Sensitization/Allergy",
+        "Stressor_Name": "Toluene diisocyanate"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "40",
+        "Event_ID": "272",
+        "Event_Type": "Key Event",
+        "Description": "Activation/Proliferation, T-cells",
+        "AOP_Short_Name": "Skin Sensitisation AOP",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "41",
+        "Event_ID": "854",
+        "Event_Type": "Key Event",
+        "Description": "Alterations, Cellular proliferation / hyperplasia",
+        "AOP_Short_Name": "Sustained AhR Activation leading to Rodent Liver Tumours",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "51",
+        "Event_ID": "416",
+        "Event_Type": "Key Event",
+        "Description": "Increase proliferation, Leydig cell ",
+        "AOP_Short_Name": "PPAR and reproductive toxicity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "107",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)",
+        "AOP_Short_Name": "CAR activation- Hepatocellular tumors",
+        "Stressor_Name": "Phenobarbital, metofluthrin, TCPOBOP"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "110",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)",
+        "AOP_Short_Name": "Iodide pump inhibition- follicular adenoma/carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "114",
+        "Event_ID": "778",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (corneal cells)",
+        "AOP_Short_Name": "HPPD- corneal papilloma/carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "115",
+        "Event_ID": "781",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (forestomach epithelial cells)",
+        "AOP_Short_Name": "Epithelial cytotoxicity- forestomach tumor",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "117",
+        "Event_ID": "716",
+        "Event_Type": "Key Event",
+        "Description": "Increase, cell proliferation (hepatocytes)",
+        "AOP_Short_Name": "AR- HCC",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "118",
+        "Event_ID": "787",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (hepatocytes)",
+        "AOP_Short_Name": "Chronic cytotoxicity- HCC",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "119",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)",
+        "AOP_Short_Name": "Thyroid peroxidase- follicular adenoma/carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "121",
+        "Event_ID": "795",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (urothelial cells)",
+        "AOP_Short_Name": "Urinary calculi- urothelial papilloma/carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "136",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "pH Induced Nasal Tumors",
+        "Stressor_Name": "Vinyl acetate"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "136",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "pH Induced Nasal Tumors",
+        "Stressor_Name": "Vinyl acetate"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "162",
+        "Event_ID": "739",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Hypertrophy and proliferation (follicular cell)",
+        "AOP_Short_Name": "thyroid follicular cell adenomas and carcinomas",
+        "Stressor_Name": "Phenobarbital, thiazopyr, Pyrethrins and Pyrethroids"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "164",
+        "Event_ID": "1042",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation/Clonal Expansion, smooth muscle",
+        "AOP_Short_Name": "Beta-2 adrenergic agonist induction of mesovarian leiomyomas",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "166",
+        "Event_ID": "1062",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Cellular proliferation / hyperplasia of acinar cells",
+        "AOP_Short_Name": "PPAR\u03b1 activation and pancreatic acinar tumors",
+        "Stressor_Name": "PERFLUOROOCTANOIC ACID"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "167",
+        "Event_ID": "1067",
+        "Event_Type": "Key Event",
+        "Description": "Proliferation/Clonal Expansion, aberrant basal cells",
+        "AOP_Short_Name": "Early onset ER activity and endometrial carcinoma",
+        "Stressor_Name": "Diethylstilbestrol, Genistein"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "171",
+        "Event_ID": "1089",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Cell Proliferation (mesothelium)",
+        "AOP_Short_Name": "Chronic cytotoxicity of the serous membrane and mesotheliomas.",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "200",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "263",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 1",
+        "Stressor_Name": "2,4-Dinitrophenol, Pentachlorophenol, Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone, Carbonyl cyanide m-chlorophenyl hydrazone, Triclosan, Dinoseb, 3,5-Dichlorophenol, Emodin, Arsenite, Niclosamide ethanolamine, Oxyclozanide"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "267",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Uncoupling of OXPHOS leading to growth inhibition 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "272",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Deposition of energy leading to lung cancer",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "272",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Deposition of energy leading to lung cancer",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "286",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Mitochondrial complex III antagonism leading to growth inhibition (1)",
+        "Stressor_Name": "Antimycin A"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "290",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Mitochondrial ATP synthase antagonism leading to growth inhibition (1)",
+        "Stressor_Name": "5-Azacytidine, Decitabine, Sinefungin, Psammaplin A, Hydralazine hydrochloride, Zebularine, RG 108, Temozolomide"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "293",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)",
+        "AOP_Short_Name": "Increased DNA damage leading to breast cancer",
+        "Stressor_Name": "Ionizing Radiation, Other DNA damaging agents"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "294",
+        "Event_ID": "1182",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation (Epithelial Cells)",
+        "AOP_Short_Name": "RONS leading to breast cancer",
+        "Stressor_Name": "Ionizing Radiation, Other DNA damaging agents"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "303",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Frustrated phagocytosis-induced lung cancer",
+        "Stressor_Name": "High aspect ratio material"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "303",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Frustrated phagocytosis-induced lung cancer",
+        "Stressor_Name": "High aspect ratio material"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "335",
+        "Event_ID": "795",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Regenerative cell proliferation (urothelial cells)",
+        "AOP_Short_Name": "Chemical cytotoxicity leading to urothelial carcinogenesis",
+        "Stressor_Name": "Diuron, DCA, DCPMU"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "399",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Inhibition of Fyna leading to increased mortality",
+        "Stressor_Name": "Rosmarinic acid, Saracatinib, Staurosporine"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "409",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Frustrated phagocytosis leads to malignant mesothelioma",
+        "Stressor_Name": "Multi-walled carbon nanotubes, Asbestos fibers, High aspect ratio material, Carbon nanotubes, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres, Single walled carbon nanotubes"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "409",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Frustrated phagocytosis leads to malignant mesothelioma",
+        "Stressor_Name": "Multi-walled carbon nanotubes, Asbestos fibers, High aspect ratio material, Carbon nanotubes, Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres, Single walled carbon nanotubes"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "420",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "AHR leading to lung cancer via NRF2 tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "420",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "AHR leading to lung cancer via NRF2 tox path",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "432",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Ionizing Radiation-Induced AML",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "432",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Ionizing Radiation-Induced AML",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "451",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Interaction with lung cells leads to lung cancer",
+        "Stressor_Name": "nanoparticles, welding fumes, Carbon black, Diesel engine exhaust, nanomaterials, Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "451",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Interaction with lung cells leads to lung cancer",
+        "Stressor_Name": "nanoparticles, welding fumes, Carbon black, Diesel engine exhaust, nanomaterials, Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "460",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Antagonism SMO leads to OFC",
+        "Stressor_Name": "Vismodegib, Cyclopamine, SANT-1, SANT-2, SANT-3, SANT-4, Piperonyl butoxide"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "478",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Deposition of energy leading to cataracts",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "478",
+        "Event_ID": "870",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Cell Proliferation",
+        "AOP_Short_Name": "Deposition of energy leading to cataracts",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "491",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Decrease, GLI1/2 target gene expression leads to OFC",
+        "Stressor_Name": "GANT 58, GANT61"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "495",
+        "Event_ID": "854",
+        "Event_Type": "Key Event",
+        "Description": "Alterations, Cellular proliferation / hyperplasia",
+        "AOP_Short_Name": "Androgen receptor activation leading to prostate cancer",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008283",
+        "AOP_ID": "502",
+        "Event_ID": "1821",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Cell proliferation",
+        "AOP_Short_Name": "Decrease, cholesterol synthesis leads to OFC",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008255",
+        "AOP_ID": "4",
+        "Event_ID": "988",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Circulating ecdysis triggering hormone",
+        "AOP_Short_Name": "EcR agonism leading to incomplete ecdysis associated mortality",
+        "Stressor_Name": "Tebufenozide, 20-hydroxyecdysone, Ponasterone A, Methoxyfenozide, Halofenozide, Chromafenozide, Cyasterone, Makisterone A, Inokosterone, Ecdysone, RH-5849"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "342",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "SAM depletion leading to population decline (1)",
+        "Stressor_Name": "Nikkomycins, Polyoxin B"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "343",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "SAM depletion leading to population decline (2)",
+        "Stressor_Name": "Teflubenzuron, Diflubenzuron, Glibenclamide"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "358",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "Chitinase inhibition leading to mortality",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "359",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "Chitobiase inhibition leading to mortality",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "360",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "CHS-1 inhibition leading to mortality",
+        "Stressor_Name": "Polyoxin B, Polyoxin D, Nikkomycins, Captan, Captafol, Folpet"
+    },
+    {
+        "GO_Term": "GO:0018990",
+        "AOP_ID": "361",
+        "Event_ID": "1524",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Premature molting",
+        "AOP_Short_Name": "SUR binding leading to mortality",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006750",
+        "AOP_ID": "209",
+        "Event_ID": "1287",
+        "Event_Type": "Key Event",
+        "Description": "Glutathione synthesis",
+        "AOP_Short_Name": "Cholesterol and glutathione leading to hepatotoxicity: Multi-OMICS approach",
+        "Stressor_Name": "Silica nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0030163",
+        "AOP_ID": "6",
+        "Event_ID": "863",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Catabolism of Muscle Protein",
+        "AOP_Short_Name": "PPAR\u03b1 antagonism leading to body-weight loss",
+        "Stressor_Name": "GW6471, Nitrotoluenes (hypothesized binding), PPARalpha antagonists"
+    },
+    {
+        "GO_Term": "GO:0015631",
+        "AOP_ID": "106",
+        "Event_ID": "718",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding, Tubulin",
+        "AOP_Short_Name": "Tubulin binding and aneuploidy",
+        "Stressor_Name": "Colchicine, Vinblastine sulfate, Benomyl, Nocodazole"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "69",
+        "Event_ID": "642",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decreased Cholesterol, Decreased De Novo Biosynthesis of Choleseterol",
+        "AOP_Short_Name": "Decrease Adult Testosterone",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "124",
+        "Event_ID": "807",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, cholesterol",
+        "AOP_Short_Name": "HMGCR inhibition to male fertility",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006695",
+        "AOP_ID": "323",
+        "Event_ID": "807",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, cholesterol",
+        "AOP_Short_Name": "PPARa Agonism Impairs Fish Reproduction",
+        "Stressor_Name": "Clofibrate, Gemfibrozil, Fenofibrate"
+    },
+    {
+        "GO_Term": "GO:0005746",
+        "AOP_ID": "26",
+        "Event_ID": "178",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Mitochondrial electron transport chain",
+        "AOP_Short_Name": "Calcium-mediated neuronal ROS production and energy imbalance",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005746",
+        "AOP_ID": "284",
+        "Event_ID": "178",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, Mitochondrial electron transport chain",
+        "AOP_Short_Name": "Oxidative stress in chronic kidney disease ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005765",
+        "AOP_ID": "144",
+        "Event_ID": "1539",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Endocytotic lysosomal uptake",
+        "AOP_Short_Name": "lysosomal uptake induced liver fibrosis",
+        "Stressor_Name": "nanoparticles, ROS, o-methyl-serine dodecylamide hydrochloride (MSDH), 3-aminopropanal, artesunate, Chloroquine bis(phosphate), Norfloxacin, Ciprofloxacin"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "220",
+        "Event_ID": "1394",
+        "Event_Type": "Key Event",
+        "Description": "Induction, persistent proliferation/sustained proliferation",
+        "AOP_Short_Name": "Cyp2E1 Activation Leading to Liver Cancer",
+        "Stressor_Name": ">85 known Cyp2E1 substrates"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "377",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response",
+        "AOP_Short_Name": "TLR9 activation leading to Multi Organ Failure and ARDS",
+        "Stressor_Name": "cell free mitochondrial DNA (mtDNA), unmethylated CpG motifs (DNA;RNA;ODN), SARS-CoV, Sars-CoV-2, Danger Associated Molecular Patters (DAMPs), Pathogen Associated Molecular Patterns (PAMPs)"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "379",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response",
+        "AOP_Short_Name": "SARS-CoV2 to thrombosis and DIC",
+        "Stressor_Name": "Stressor:624 SARS-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "406",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response",
+        "AOP_Short_Name": "SARS-CoV2 to hyperinflammation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "407",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response",
+        "AOP_Short_Name": "SARS-CoV2 to pyroptosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0034599",
+        "AOP_ID": "488",
+        "Event_ID": "1869",
+        "Event_Type": "Key Event",
+        "Description": "Diminished protective oxidative stress response",
+        "AOP_Short_Name": "Increased ROS and DNT",
+        "Stressor_Name": "Tian Ma (Tall Gastrodia Tuber)"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "411",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased",
+        "AOP_Short_Name": "Oxidative stress Leading to Decreased Lung Function",
+        "Stressor_Name": "Acrolein, Ozone, Cigarette smoke, Nitrogen dioxide, Diesel engine exhaust"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "424",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased",
+        "AOP_Short_Name": "Ox stress-mediated CFTR/ASL/CBF/MCC impairment",
+        "Stressor_Name": "Acrolein, Ozone, Cigarette smoke"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "425",
+        "Event_ID": "1912",
+        "Event_Type": "Key Event",
+        "Description": "Motile Cilia Number/Length, Decreased",
+        "AOP_Short_Name": "ox stress-mediated FOXJ1/cilia/CBF/MCC impairment",
+        "Stressor_Name": "Cigarette smoke"
+    },
+    {
+        "GO_Term": "GO:0031514",
+        "AOP_ID": "425",
+        "Event_ID": "1908",
+        "Event_Type": "Key Event",
+        "Description": "Cilia Beat Frequency, Decreased",
+        "AOP_Short_Name": "ox stress-mediated FOXJ1/cilia/CBF/MCC impairment",
+        "Stressor_Name": "Cigarette smoke"
+    },
+    {
+        "GO_Term": "GO:0048870",
+        "AOP_ID": "200",
+        "Event_ID": "1241",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Motility",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0048870",
+        "AOP_ID": "439",
+        "Event_ID": "1241",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Motility",
+        "AOP_Short_Name": "AhR activation to breast cancer",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+    },
+    {
+        "GO_Term": "GO:0004620",
+        "AOP_ID": "130",
+        "Event_ID": "828",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Phospholipase A",
+        "AOP_Short_Name": "Inhibition of LPLA2, hepatotoxicity ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0016043",
+        "AOP_ID": "205",
+        "Event_ID": "1258",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decompartmentalization",
+        "AOP_Short_Name": "AOP on basal cytotoxicity",
+        "Stressor_Name": "Chemical"
+    },
+    {
+        "GO_Term": "GO:0004363",
+        "AOP_ID": "209",
+        "Event_ID": "1286",
+        "Event_Type": "Key Event",
+        "Description": "Down Regulation, GSS and GSTs gene",
+        "AOP_Short_Name": "Cholesterol and glutathione leading to hepatotoxicity: Multi-OMICS approach",
+        "Stressor_Name": "Silica nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "3",
+        "Event_ID": "887",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+        "AOP_Short_Name": "Mitochondrial dysfunction and Neurotoxicity",
+        "Stressor_Name": "MPP+, Rotenone"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "273",
+        "Event_ID": "887",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+        "AOP_Short_Name": "Mitochondrial complex inhibition leading to liver injury",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0008137",
+        "AOP_ID": "276",
+        "Event_ID": "887",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+        "AOP_Short_Name": "Complex I inhibition leads to Fanconi syndrome",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006897",
+        "AOP_ID": "144",
+        "Event_ID": "1539",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Endocytotic lysosomal uptake",
+        "AOP_Short_Name": "lysosomal uptake induced liver fibrosis",
+        "Stressor_Name": "nanoparticles, ROS, o-methyl-serine dodecylamide hydrochloride (MSDH), 3-aminopropanal, artesunate, Chloroquine bis(phosphate), Norfloxacin, Ciprofloxacin"
+    },
+    {
+        "GO_Term": "GO:0016310",
+        "AOP_ID": "148",
+        "Event_ID": "941",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, EGFR",
+        "AOP_Short_Name": "Decreased lung function",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "8",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "42",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "TPO Inhibition and Altered Neurodevelopment",
+        "Stressor_Name": "Methimazole, Propylthiouracil"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "134",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "NIS and Cognitive Dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "152",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "Transthyretin interference",
+        "Stressor_Name": "Halogenated phenols, Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polybrominated diphenyl ethers, Isoflavones, Perflourinated chemicals, Phthalates, Tetrabromobisphenol A, Clonixin, Meclofenamic acid, 2,6-dinitro-p-cresol, Triclopyr, 2,2',4,4'-Tetrahydroxybenzophenone"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "300",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "TR Antagonism and DNT",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007420",
+        "AOP_ID": "442",
+        "Event_ID": "757",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal anatomy, Altered ",
+        "AOP_Short_Name": "Binding to VGSC during development leads to cognitive impairment",
+        "Stressor_Name": "Pyrethrins and Pyrethroids"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "77",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony death 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "87",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "88",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 6",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0005516",
+        "AOP_ID": "89",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 7",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003707",
+        "AOP_ID": "102",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte",
+        "AOP_Short_Name": "Cyclooxygenase inhibition  4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003707",
+        "AOP_ID": "103",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte",
+        "AOP_Short_Name": "Cyclooxygenase inhibition  5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007605",
+        "AOP_ID": "410",
+        "Event_ID": "1008",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Hearing",
+        "AOP_Short_Name": "GSK3beta inactivation leads to increased mortality",
+        "Stressor_Name": "BIO (6-bromoindirubin-3\u2019-oxime) "
+    },
+    {
+        "GO_Term": "GO:0031012",
+        "AOP_ID": "200",
+        "Event_ID": "1195",
+        "Event_Type": "Key Event",
+        "Description": "modulation, Extracellular Matrix Composition ",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0004364",
+        "AOP_ID": "209",
+        "Event_ID": "1286",
+        "Event_Type": "Key Event",
+        "Description": "Down Regulation, GSS and GSTs gene",
+        "AOP_Short_Name": "Cholesterol and glutathione leading to hepatotoxicity: Multi-OMICS approach",
+        "Stressor_Name": "Silica nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0006694",
+        "AOP_ID": "70",
+        "Event_ID": "640",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Decreased steroidogenesis, Proteomic alterations in the adult Leydig cell",
+        "AOP_Short_Name": "Decreased Adult Testosterone 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0004500",
+        "AOP_ID": "73",
+        "Event_ID": "526",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Inhibition of Dopamine-beta-hydroxylase",
+        "AOP_Short_Name": "DBH inhibition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "8",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "10",
+        "Event_ID": "669",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Neuronal synaptic inhibition",
+        "AOP_Short_Name": "Blocking iGABA receptor ion channel leading to seizures",
+        "Stressor_Name": "Picrotoxin, Lindane, Dieldrin, Heptachlor, Endosulfan, RDX, Fipronil"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "42",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "TPO Inhibition and Altered Neurodevelopment",
+        "Stressor_Name": "Methimazole, Propylthiouracil"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "134",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "NIS and Cognitive Dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "152",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "Transthyretin interference",
+        "Stressor_Name": "Halogenated phenols, Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polybrominated diphenyl ethers, Isoflavones, Perflourinated chemicals, Phthalates, Tetrabromobisphenol A, Clonixin, Meclofenamic acid, 2,6-dinitro-p-cresol, Triclopyr, 2,2',4,4'-Tetrahydroxybenzophenone"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "300",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "TR Antagonism and DNT",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "458",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "AhR activation in the liver leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), Polychlorinated biphenyl, PCB 126"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "459",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "AhR activation in the thyroid leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), PCB 126, Polychlorinated biphenyl"
+    },
+    {
+        "GO_Term": "GO:0007268",
+        "AOP_ID": "490",
+        "Event_ID": "758",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal Physiology, Altered",
+        "AOP_Short_Name": "Co-activation of IP3R and RyR to socio-economic burden through lower IQ",
+        "Stressor_Name": "Chlorpyrifos, Chlorpyrifos oxon, Organophosphates"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "8",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "19",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "AR antagonism leading to foetal feminisation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "42",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "TPO Inhibition and Altered Neurodevelopment",
+        "Stressor_Name": "Methimazole, Propylthiouracil"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "107",
+        "Event_ID": "1214",
+        "Event_Type": "Key Event",
+        "Description": "Altered gene expression specific to CAR activation, Hepatocytes",
+        "AOP_Short_Name": "CAR activation- Hepatocellular tumors",
+        "Stressor_Name": "Phenobarbital, metofluthrin, TCPOBOP"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "134",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "NIS and Cognitive Dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "152",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "Transthyretin interference",
+        "Stressor_Name": "Halogenated phenols, Polychlorinated biphenyl, Polychlorinated dibenzodioxins, Polybrominated diphenyl ethers, Isoflavones, Perflourinated chemicals, Phthalates, Tetrabromobisphenol A, Clonixin, Meclofenamic acid, 2,6-dinitro-p-cresol, Triclopyr, 2,2',4,4'-Tetrahydroxybenzophenone"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "300",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "TR Antagonism and DNT",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "305",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "5\u03b1-reductase inhibition leading to short AGD",
+        "Stressor_Name": "Finasteride"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "307",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "Decreased testosterone synthesis leading to short AGD",
+        "Stressor_Name": "Dibutyl phthalate, Bis(2-ethylhexyl) phthalate"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "344",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "AR antagonism leading to NR",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "345",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "AR antagonism leading to decreased fertility",
+        "Stressor_Name": "Flutamide"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "458",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "AhR activation in the liver leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), Polychlorinated biphenyl, PCB 126"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "459",
+        "Event_ID": "756",
+        "Event_Type": "Key Event",
+        "Description": "Hippocampal gene expression, Altered ",
+        "AOP_Short_Name": "AhR activation in the thyroid leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), PCB 126, Polychlorinated biphenyl"
+    },
+    {
+        "GO_Term": "GO:0010468",
+        "AOP_ID": "495",
+        "Event_ID": "286",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Transcription of genes by the androgen receptor",
+        "AOP_Short_Name": "Androgen receptor activation leading to prostate cancer",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0019226",
+        "AOP_ID": "4",
+        "Event_ID": "1267",
+        "Event_Type": "Key Event",
+        "Description": "Decrease, Ecdysis motoneuron bursts",
+        "AOP_Short_Name": "EcR agonism leading to incomplete ecdysis associated mortality",
+        "Stressor_Name": "Tebufenozide, 20-hydroxyecdysone, Ponasterone A, Methoxyfenozide, Halofenozide, Chromafenozide, Cyasterone, Makisterone A, Inokosterone, Ecdysone, RH-5849"
+    },
+    {
+        "GO_Term": "GO:0004517",
+        "AOP_ID": "32",
+        "Event_ID": "147",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307",
+        "AOP_Short_Name": "Inhibition of iNOS, hepatotoxicity, and regenerative proliferation leading to liver tumors",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006809",
+        "AOP_ID": "149",
+        "Event_ID": "933",
+        "Event_Type": "Key Event",
+        "Description": "KE6 : Depletion, Nitric Oxide",
+        "AOP_Short_Name": "Hypertension",
+        "Stressor_Name": "Reactive oxygen species"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "3",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+        "AOP_Short_Name": "Mitochondrial dysfunction and Neurotoxicity",
+        "Stressor_Name": "MPP+, Rotenone"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "273",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+        "AOP_Short_Name": "Mitochondrial complex inhibition leading to liver injury",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0006120",
+        "AOP_ID": "276",
+        "Event_ID": "888",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+        "AOP_Short_Name": "Complex I inhibition leads to Fanconi syndrome",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003857",
+        "AOP_ID": "36",
+        "Event_ID": "8",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, 3-hydroxyacyl-CoA dehydrogenase type-2 activity",
+        "AOP_Short_Name": "Peroxisomal Fatty Acid Beta-Oxidation Inhibition Leading to Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003857",
+        "AOP_ID": "209",
+        "Event_ID": "1288",
+        "Event_Type": "Key Event",
+        "Description": "Activation, 3-hydroxy-3-methylglutaryl-CoA reductase gene",
+        "AOP_Short_Name": "Cholesterol and glutathione leading to hepatotoxicity: Multi-OMICS approach",
+        "Stressor_Name": "Silica nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0005388",
+        "AOP_ID": "26",
+        "Event_ID": "51",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Ca++ ATPase",
+        "AOP_Short_Name": "Calcium-mediated neuronal ROS production and energy imbalance",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0042373",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone",
+        "AOP_Short_Name": "VKOR inhibition resulting in coagulopathy",
+        "Stressor_Name": "Warfarin, coumachlor, coumatetralyl, chlorophacinone, diphacinone, pindone, 3-[3-(4'-bromo[1,1'-biphenyl]-4-yl)-3-hydroxy-1-phenylpropyl]-4-hydroxy-2-benzopyrone"
+    },
+    {
+        "GO_Term": "GO:0007009",
+        "AOP_ID": "205",
+        "Event_ID": "1259",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "narcosis",
+        "AOP_Short_Name": "AOP on basal cytotoxicity",
+        "Stressor_Name": "Chemical"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "14",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)",
+        "AOP_Short_Name": "Glucocorticoid Receptor, Activation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "277",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)",
+        "AOP_Short_Name": "Impaired IL-1R1 signaling leading to impairment of TDAR",
+        "Stressor_Name": "IL-1 receptor antagonist\uff08IL-1Ra\uff09(Anakinra), anti-IL-1b antibody (Canakinumab), soluble IL-1R (Rilonacept), anti-IL-1b antibody (Gevokizumab), Dexamethasone, minocycline, Belnacasan (VX-765), Pralnacasan (VX-740, HMR3480), cinnamic aldehyde, Dimethyl fumarate, curcumin, iguratimod, (-)-Epigallocatechin gallate, TAK-242, IRAK4 inhibitors, Dehydroxymethylepoxyquinomicin (DHMEQ)"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "278",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)",
+        "AOP_Short_Name": "IKK complex inhibition leading to liver injury",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0007249",
+        "AOP_ID": "447",
+        "Event_ID": "202",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Nuclear factor kappa B (NF-kB)",
+        "AOP_Short_Name": "Kidney failure induced by inhibition of mitochondrial ETC",
+        "Stressor_Name": "Uranium, Uranium, soluble salts"
+    },
+    {
+        "GO_Term": "GO:0035076",
+        "AOP_ID": "4",
+        "Event_ID": "103",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increase, Ecdysone receptor agonism",
+        "AOP_Short_Name": "EcR agonism leading to incomplete ecdysis associated mortality",
+        "Stressor_Name": "Tebufenozide, 20-hydroxyecdysone, Ponasterone A, Methoxyfenozide, Halofenozide, Chromafenozide, Cyasterone, Makisterone A, Inokosterone, Ecdysone, RH-5849"
+    },
+    {
+        "GO_Term": "GO:0003989",
+        "AOP_ID": "58",
+        "Event_ID": "470",
+        "Event_Type": "Key Event",
+        "Description": "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "8",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "162",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "thyroid follicular cell adenomas and carcinomas",
+        "Stressor_Name": "Phenobarbital, thiazopyr, Pyrethrins and Pyrethroids"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "194",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "Hepatic nuclear receptor activation alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0015020",
+        "AOP_ID": "458",
+        "Event_ID": "295",
+        "Event_Type": "Key Event",
+        "Description": "Induction, Upregulation of glucuronyltransferase activity",
+        "AOP_Short_Name": "AhR activation in the liver leading to Adverse Neurodevelopmental Outcomes in Mammals",
+        "Stressor_Name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD), Polychlorinated biphenyl, PCB 126"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "34",
+        "Event_ID": "264",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBP-1c",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "58",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "61",
+        "Event_ID": "878",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, SREBP1c",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0032933",
+        "AOP_ID": "62",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1",
+        "AOP_Short_Name": "AKT2 activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "8",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "8",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2",
+        "AOP_Short_Name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "11",
+        "Event_ID": "245",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, PXR/SXR",
+        "AOP_Short_Name": "Pentachlorophenol Acute Response by Percellome",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "33",
+        "Event_ID": "9",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, 5HT2c",
+        "AOP_Short_Name": "Kidney toxicity induced by activation of 5HT2C",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "34",
+        "Event_ID": "66",
+        "Event_Type": "Key Event",
+        "Description": "Activation, ChREBP",
+        "AOP_Short_Name": "LXR Activation to Liver Steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "41",
+        "Event_ID": "165",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Long term AHR receptor driven direct and indirect gene expression changes",
+        "AOP_Short_Name": "Sustained AhR Activation leading to Rodent Liver Tumours",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "456",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Suppression, Constitutive androstane receptor, NR1l3",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "66",
+        "Event_Type": "Key Event",
+        "Description": "Activation, ChREBP",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "58",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "NR1I3 suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "59",
+        "Event_ID": "461",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Suppression, HNF4alpha",
+        "AOP_Short_Name": "HNF4A suppression to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "60",
+        "Event_ID": "245",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, PXR/SXR",
+        "AOP_Short_Name": "PXR activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "60",
+        "Event_ID": "471",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, FoxA2",
+        "AOP_Short_Name": "PXR activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "478",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NRF2",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "479",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NR1H4",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "480",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SHP",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "483",
+        "Event_Type": "Key Event",
+        "Description": "Activation, LXR alpha",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "61",
+        "Event_ID": "879",
+        "Event_Type": "Key Event",
+        "Description": "Activation, MTTP",
+        "AOP_Short_Name": "NRF2/FXR to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "62",
+        "Event_ID": "484",
+        "Event_Type": "Key Event",
+        "Description": "Activation, AKT2",
+        "AOP_Short_Name": "AKT2 activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "62",
+        "Event_ID": "457",
+        "Event_Type": "Key Event",
+        "Description": "Activation, SREBF1",
+        "AOP_Short_Name": "AKT2 activation to steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "73",
+        "Event_ID": "529",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, GnRH cfos activity",
+        "AOP_Short_Name": "DBH inhibition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "77",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony death 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "87",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "88",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 6",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "89",
+        "Event_ID": "1243",
+        "Event_Type": "Key Event",
+        "Description": "Altered, Ca2+-calmodulin activated signal transduction",
+        "AOP_Short_Name": "nAChR activation - colony loss 7",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "91",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel",
+        "AOP_Short_Name": "sodium channel inhibition 1",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "93",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel",
+        "AOP_Short_Name": "sodium channel inhibition 2",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "94",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel",
+        "AOP_Short_Name": "sodium channel inhibition 3",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "102",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte",
+        "AOP_Short_Name": "Cyclooxygenase inhibition  4",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "103",
+        "Event_ID": "692",
+        "Event_Type": "Key Event",
+        "Description": "Reduced, Maturation inducing steroid receptor signalling, oocyte",
+        "AOP_Short_Name": "Cyclooxygenase inhibition  5",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "107",
+        "Event_ID": "715",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Constitutive androstane receptor",
+        "AOP_Short_Name": "CAR activation- Hepatocellular tumors",
+        "Stressor_Name": "Phenobarbital, metofluthrin, TCPOBOP"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "123",
+        "Event_ID": "801",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "modulation, Unknown",
+        "AOP_Short_Name": "Unknown MIE leading to reprodl",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "126",
+        "Event_ID": "849",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Antgonism of NE receptor",
+        "AOP_Short_Name": "\u03b1-noradrenergic- reduced fecundity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "126",
+        "Event_ID": "529",
+        "Event_Type": "Key Event",
+        "Description": "Decreased, GnRH cfos activity",
+        "AOP_Short_Name": "\u03b1-noradrenergic- reduced fecundity",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "138",
+        "Event_ID": "877",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, organic anion transporter 1 (OAT1)",
+        "AOP_Short_Name": "OAT1 inhibition",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "153",
+        "Event_ID": "964",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle between diestrus 2 and proestrus inhibits aromatase conversion of testosterone to estradiol",
+        "AOP_Short_Name": "Aromatase Inhibition in Female Rats",
+        "Stressor_Name": "Letrozole, Fadrozole, 1,2,4-triazole"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "187",
+        "Event_ID": "1134",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone",
+        "AOP_Short_Name": "VKOR inhibition resulting in coagulopathy",
+        "Stressor_Name": "Warfarin, coumachlor, coumatetralyl, chlorophacinone, diphacinone, pindone, 3-[3-(4'-bromo[1,1'-biphenyl]-4-yl)-3-hydroxy-1-phenylpropyl]-4-hydroxy-2-benzopyrone"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "192",
+        "Event_ID": "1155",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, Pendrin",
+        "AOP_Short_Name": "Pendrin inhib alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "194",
+        "Event_ID": "1157",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Hepatic nuclear receptor(s)",
+        "AOP_Short_Name": "Hepatic nuclear receptor activation alters metamorphosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "196",
+        "Event_ID": "1215",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "TRPA1 activation, TRPA1 Receptor",
+        "AOP_Short_Name": "TRPA1 activation leads to pulmonary sensory irritation",
+        "Stressor_Name": "Dibenzo[B,F][1,4]Oxazepine, 2-Chlorobenzalmalononitrile"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "197",
+        "Event_ID": "584",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, sodium channel",
+        "AOP_Short_Name": "Nav1.1 inhibition to population decline",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "200",
+        "Event_ID": "1181",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Estrogen receptor",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "200",
+        "Event_ID": "1191",
+        "Event_Type": "Key Event",
+        "Description": "Increased, Non-genomic signaling",
+        "AOP_Short_Name": "ER activation to breast cancer ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "201",
+        "Event_ID": "1205",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Juvenile hormone receptor",
+        "AOP_Short_Name": "JHR agonism leading to population decline",
+        "Stressor_Name": "fenoxycarb, DIOFENOLAN, pyriproxyfen, (7S)-Hydroprene, kinoprene"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1174",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, NADPH Oxidase",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1279",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative Stress / Activation, PMK-1 P38 MAPK",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "207",
+        "Event_ID": "1280",
+        "Event_Type": "Key Event",
+        "Description": "Activation, HIF-1",
+        "AOP_Short_Name": "NADPH oxidase activation leading to reproductive failure",
+        "Stressor_Name": "Silver nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1282",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JAK/STAT pathway",
+        "AOP_Short_Name": "JAK/STAT and TGF-beta  pathways activation leading to reproductive failure",
+        "Stressor_Name": "UV-activated Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1282",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JAK/STAT pathway",
+        "AOP_Short_Name": "JAK/STAT and TGF-beta  pathways activation leading to reproductive failure",
+        "Stressor_Name": "UV-activated Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "208",
+        "Event_ID": "1283",
+        "Event_Type": "Key Event",
+        "Description": "Activation, TGF-beta pathway",
+        "AOP_Short_Name": "JAK/STAT and TGF-beta  pathways activation leading to reproductive failure",
+        "Stressor_Name": "UV-activated Titanium dioxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1292",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JNK",
+        "AOP_Short_Name": "JNK, FOXO and WNT alteration leading to reproductive failure: Multi-OMICS approach",
+        "Stressor_Name": "Graphene oxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1293",
+        "Event_Type": "Key Event",
+        "Description": "Activation, FOXO",
+        "AOP_Short_Name": "JNK, FOXO and WNT alteration leading to reproductive failure: Multi-OMICS approach",
+        "Stressor_Name": "Graphene oxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "210",
+        "Event_ID": "1294",
+        "Event_Type": "Key Event",
+        "Description": "Inhibition, Wnt pathway",
+        "AOP_Short_Name": "JNK, FOXO and WNT alteration leading to reproductive failure: Multi-OMICS approach",
+        "Stressor_Name": "Graphene oxide nanoparticles"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "347",
+        "Event_ID": "1292",
+        "Event_Type": "Key Event",
+        "Description": "Activation, JNK",
+        "AOP_Short_Name": "TLR4 activation, PPAR gamma activation and Pulmonary fibrosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "347",
+        "Event_ID": "1283",
+        "Event_Type": "Key Event",
+        "Description": "Activation, TGF-beta pathway",
+        "AOP_Short_Name": "TLR4 activation, PPAR gamma activation and Pulmonary fibrosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "471",
+        "Event_ID": "2151",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, neurotransmitter release",
+        "AOP_Short_Name": "elavl3, sox10, mbp induced neuronal effects",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "499",
+        "Event_ID": "2151",
+        "Event_Type": "Key Event",
+        "Description": "Disruption, neurotransmitter release",
+        "AOP_Short_Name": "MEK-ERK1/2 activation leading to deficits in learning and cognition",
+        "Stressor_Name": "Lead, Arsenic, Cadmium, Manganese, Heavy metals (cadmium, lead, copper, iron, nickel)"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "517",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2",
+        "AOP_Short_Name": "PXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "517",
+        "Event_ID": "239",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, Pregnane-X receptor, NR1l2",
+        "AOP_Short_Name": "PXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "518",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "LXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0023052",
+        "AOP_ID": "518",
+        "Event_ID": "167",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Activation, LXR",
+        "AOP_Short_Name": "LXR activation leads to liver steatosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "23",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "Androgen receptor agonism leading to reproductive dysfunction",
+        "Stressor_Name": "17beta-Trenbolone"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "25",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "Aromatase inhibition leading to reproductive dysfunction",
+        "Stressor_Name": "Fadrozole"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "30",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "Estrogen receptor antagonism leading to reproductive dysfunction",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "122",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "Prolyl hydroxylase inhibition ",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "123",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "Unknown MIE leading to reprodl",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0009306",
+        "AOP_ID": "310",
+        "Event_ID": "285",
+        "Event_Type": "Key Event",
+        "Description": "Reduction, Vitellogenin synthesis in liver",
+        "AOP_Short_Name": "AHR mediated epigenetic reproductive failure",
+        "Stressor_Name": "benzo[a]pyrene"
+    },
+    {
+        "GO_Term": "GO:1901031",
+        "AOP_ID": "296",
+        "Event_ID": "1634",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Increase, Oxidative damage to DNA",
+        "AOP_Short_Name": "Oxidative DNA damage, chromosomal aberrations and mutations",
+        "Stressor_Name": "Hydrogen peroxide, Potassium bromate, Ionizing Radiation, Cadmium chloride, tert-Butyl hydroperoxide, Reactive oxygen species, Hydroquinone, 4-Nitroquinoline 1-oxide"
+    },
+    {
+        "GO_Term": "GO:1901031",
+        "AOP_ID": "299",
+        "Event_ID": "1634",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative damage to DNA",
+        "AOP_Short_Name": "Energy deposition leading to population decline via DNA oxidation and follicular atresia",
+        "Stressor_Name": "Gamma radiation, Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:1901031",
+        "AOP_ID": "311",
+        "Event_ID": "1634",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative damage to DNA",
+        "AOP_Short_Name": "Energy deposition leading to population decline via DNA oxidation and oocyte apoptosis",
+        "Stressor_Name": "Gamma radiation"
+    },
+    {
+        "GO_Term": "GO:1901031",
+        "AOP_ID": "478",
+        "Event_ID": "1634",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative damage to DNA",
+        "AOP_Short_Name": "Deposition of energy leading to cataracts",
+        "Stressor_Name": "Ionizing Radiation"
+    },
+    {
+        "GO_Term": "GO:0045333",
+        "AOP_ID": "108",
+        "Event_ID": "769",
+        "Event_Type": "Key Event",
+        "Description": "Increase, Oxidative metabolism",
+        "AOP_Short_Name": "PDK inhibition- HCC",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0003868",
+        "AOP_ID": "114",
+        "Event_ID": "766",
+        "Event_Type": "Molecular Initiating Event",
+        "Description": "Inhibition, 4-hydroxyphenyl-pyruvate dioxygenase (HPPD) enzyme",
+        "AOP_Short_Name": "HPPD- corneal papilloma/carcinoma",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "320",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV-2 leads to acute respiratory distress",
+        "Stressor_Name": "SARS-CoV, HCoV-NL63, Sars-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "379",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV2 to thrombosis and DIC",
+        "Stressor_Name": "Stressor:624 SARS-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "394",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV-2 causes anosmia",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "406",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV2 to hyperinflammation",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "407",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV2 to pyroptosis",
+        "Stressor_Name": "Not Available"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "422",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV-2 leads to intestinal barrier disruption",
+        "Stressor_Name": "Sars-CoV-2"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "430",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "SARS-CoV-2 leads to infection proliferation",
+        "Stressor_Name": "SARS-CoV, Sars-CoV-2, HCoV-NL63"
+    },
+    {
+        "GO_Term": "GO:0039694",
+        "AOP_ID": "468",
+        "Event_ID": "1847",
+        "Event_Type": "Key Event",
+        "Description": "Increased SARS-CoV-2 production",
+        "AOP_Short_Name": "Cytopathic SARS-CoV-2 leads to hyperinflammation",
+        "Stressor_Name": "Not Available"
+    }
+]

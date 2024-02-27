@@ -1,0 +1,113 @@
+{
+    "id": 387,
+    "title": "Deposition of ionising energy leading to population decline via mitochondrial dysfunction",
+    "short_name": " ROS production leading to population decline via mitochondrial dysfunction",
+    "created_at": "2021-04-11T08:39:27.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        },
+        {
+            "stressor_id": 273,
+            "stressor_name": "Gamma radiation"
+        },
+        {
+            "stressor_id": 274,
+            "stressor_name": "Ultraviolet B radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1770,
+            "event": "Decrease, Mitochondrial membrane potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1477,
+            "event": "Decrease, Oxidative phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 40,
+            "event": "Decrease, Mitochondrial ATP production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1863,
+            "event": "Decrease, Reproduction",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2919,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2920,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1770,
+            "downstream_event": "Decrease, Mitochondrial membrane potential"
+        },
+        {
+            "relation": 2596,
+            "upstream_event_id": 1770,
+            "upstream_event": "Decrease, Mitochondrial membrane potential",
+            "downstream_event_id": 1477,
+            "downstream_event": "Decrease, Oxidative phosphorylation"
+        },
+        {
+            "relation": 2597,
+            "upstream_event_id": 1477,
+            "upstream_event": "Decrease, Oxidative phosphorylation",
+            "downstream_event_id": 40,
+            "downstream_event": "Decrease, Mitochondrial ATP production"
+        },
+        {
+            "relation": 2599,
+            "upstream_event_id": 1863,
+            "upstream_event": "Decrease, Reproduction",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 2921,
+            "upstream_event_id": 40,
+            "upstream_event": "Decrease, Mitochondrial ATP production",
+            "downstream_event_id": 1863,
+            "downstream_event": "Decrease, Reproduction"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "id": 406,
+    "title": "SARS-CoV-2 infection leading to hyperinflammation",
+    "short_name": "SARS-CoV2 to hyperinflammation",
+    "created_at": "2021-06-25T05:13:14.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 3143,
+        "created_at": "2021-03-03T09:56:38.000-05:00",
+        "updated_at": "2023-04-24T03:36:43.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1869,
+            "event": "Diminished protective oxidative stress response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1895,
+            "event": "NLRP3 inflammasome activity, increased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1868,
+            "event": "Hyperinflammation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2720,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 2721,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 2722,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1869,
+            "downstream_event": "Diminished protective oxidative stress response"
+        },
+        {
+            "relation": 2723,
+            "upstream_event_id": 1869,
+            "upstream_event": "Diminished protective oxidative stress response",
+            "downstream_event_id": 1895,
+            "downstream_event": "NLRP3 inflammasome activity, increased"
+        },
+        {
+            "relation": 2725,
+            "upstream_event_id": 1895,
+            "upstream_event": "NLRP3 inflammasome activity, increased",
+            "downstream_event_id": 1868,
+            "downstream_event": "Hyperinflammation"
+        }
+    ]
+}

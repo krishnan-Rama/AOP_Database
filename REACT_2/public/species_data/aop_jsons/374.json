@@ -1,0 +1,84 @@
+{
+    "id": 374,
+    "title": "Binding of Sars-CoV-2 spike protein to ACE 2 receptors expressed on brain cells (neuronal and non-neuronal) leads to neuroinflammation resulting in encephalitis",
+    "short_name": "Sars-CoV-2 causes encephalitis",
+    "created_at": "2021-02-23T04:11:26.000-05:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 30,
+        "created_at": "2014-07-03T10:01:13.000-04:00",
+        "updated_at": "2021-04-13T09:40:29.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 624,
+            "stressor_name": "Sars-CoV-2"
+        },
+        {
+            "stressor_id": 378,
+            "stressor_name": "Virus"
+        },
+        {
+            "stressor_id": 625,
+            "stressor_name": "bacteria"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1841,
+            "event": "Encephalitis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2518,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 2519,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 2520,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 1841,
+            "downstream_event": "Encephalitis"
+        },
+        {
+            "relation": 2521,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 1841,
+            "downstream_event": "Encephalitis"
+        }
+    ]
+}

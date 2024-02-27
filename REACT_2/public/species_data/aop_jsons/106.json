@@ -1,0 +1,112 @@
+{
+    "id": 106,
+    "title": "Chemical binding to tubulin in oocytes leading to aneuploid offspring",
+    "short_name": "Tubulin binding and aneuploidy",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 332,
+        "created_at": "2016-09-02T15:16:17.000-04:00",
+        "updated_at": "2021-04-19T16:37:04.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 124,
+            "stressor_name": "Colchicine"
+        },
+        {
+            "stressor_id": 469,
+            "stressor_name": "Vinblastine sulfate"
+        },
+        {
+            "stressor_id": 128,
+            "stressor_name": "Benomyl"
+        },
+        {
+            "stressor_id": 127,
+            "stressor_name": "Nocodazole"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 718,
+            "event": "Binding, Tubulin",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 720,
+            "event": "Disruption, Microtubule dynamics",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 721,
+            "event": "Disorganization, Meiotic Spindle",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 752,
+            "event": "Altered, Meiotic chromosome dynamics",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 723,
+            "event": "Altered, Chromosome number",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 728,
+            "event": "Increase, Aneuploid offspring",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 392,
+            "upstream_event_id": 718,
+            "upstream_event": "Binding, Tubulin",
+            "downstream_event_id": 720,
+            "downstream_event": "Disruption, Microtubule dynamics"
+        },
+        {
+            "relation": 393,
+            "upstream_event_id": 720,
+            "upstream_event": "Disruption, Microtubule dynamics",
+            "downstream_event_id": 721,
+            "downstream_event": "Disorganization, Meiotic Spindle"
+        },
+        {
+            "relation": 405,
+            "upstream_event_id": 721,
+            "upstream_event": "Disorganization, Meiotic Spindle",
+            "downstream_event_id": 752,
+            "downstream_event": "Altered, Meiotic chromosome dynamics"
+        },
+        {
+            "relation": 406,
+            "upstream_event_id": 752,
+            "upstream_event": "Altered, Meiotic chromosome dynamics",
+            "downstream_event_id": 723,
+            "downstream_event": "Altered, Chromosome number"
+        },
+        {
+            "relation": 395,
+            "upstream_event_id": 723,
+            "upstream_event": "Altered, Chromosome number",
+            "downstream_event_id": 728,
+            "downstream_event": "Increase, Aneuploid offspring"
+        },
+        {
+            "relation": 396,
+            "upstream_event_id": 718,
+            "upstream_event": "Binding, Tubulin",
+            "downstream_event_id": 723,
+            "downstream_event": "Altered, Chromosome number"
+        }
+    ]
+}

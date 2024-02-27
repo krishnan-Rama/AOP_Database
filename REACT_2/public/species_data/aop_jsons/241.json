@@ -1,0 +1,100 @@
+{
+    "id": 241,
+    "title": "Latent Transforming Growth Factor beta1 activation leads to pulmonary fibrosis",
+    "short_name": "Latent TGFbeta1 activation leads to pulmonary fibrosis",
+    "created_at": "2017-07-26T18:54:43.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 410,
+        "created_at": "2017-03-10T05:23:56.000-05:00",
+        "updated_at": "2023-12-11T05:22:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 318,
+            "stressor_name": "Carbon nanotubes"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1468,
+            "event": "Activation, Latent Transforming Growth Factor Beta 1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1456,
+            "event": "Increase, Differentiation of fibroblasts",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1457,
+            "event": "Induction, Epithelial Mesenchymal Transition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 68,
+            "event": "Accumulation, Collagen",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1469,
+            "event": "Activation, Transforming Growth Factor beta pathway",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1458,
+            "event": "Pulmonary fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1499,
+            "upstream_event_id": 68,
+            "upstream_event": "Accumulation, Collagen",
+            "downstream_event_id": 1458,
+            "downstream_event": "Pulmonary fibrosis"
+        },
+        {
+            "relation": 1521,
+            "upstream_event_id": 1468,
+            "upstream_event": "Activation, Latent Transforming Growth Factor Beta 1",
+            "downstream_event_id": 1469,
+            "downstream_event": "Activation, Transforming Growth Factor beta pathway"
+        },
+        {
+            "relation": 1522,
+            "upstream_event_id": 1469,
+            "upstream_event": "Activation, Transforming Growth Factor beta pathway",
+            "downstream_event_id": 1456,
+            "downstream_event": "Increase, Differentiation of fibroblasts"
+        },
+        {
+            "relation": 1523,
+            "upstream_event_id": 1469,
+            "upstream_event": "Activation, Transforming Growth Factor beta pathway",
+            "downstream_event_id": 1457,
+            "downstream_event": "Induction, Epithelial Mesenchymal Transition"
+        },
+        {
+            "relation": 1524,
+            "upstream_event_id": 1456,
+            "upstream_event": "Increase, Differentiation of fibroblasts",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        },
+        {
+            "relation": 1525,
+            "upstream_event_id": 1457,
+            "upstream_event": "Induction, Epithelial Mesenchymal Transition",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        }
+    ]
+}

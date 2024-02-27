@@ -1,0 +1,100 @@
+{
+    "id": 100,
+    "title": "Cyclooxygenase inhibition leading to reproductive dysfunction via inhibition of female spawning behavior",
+    "short_name": "Cyclooxygenase inhibition  2",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 80,
+        "created_at": "2015-03-11T13:01:45.000-04:00",
+        "updated_at": "2022-06-02T15:10:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 79,
+            "event": "Inhibition, Cyclooxygenase activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 671,
+            "event": "Reduced, Prostaglandin F2alpha concentration, plasma ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 672,
+            "event": "Reduced, Prostaglandin F2alpha synthesis, ovary  ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 673,
+            "event": "Reduced, Spawning behavior",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 674,
+            "event": "Reduced, Ability to attract spawning mates",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 675,
+            "event": "Reduced, Reproductive Success",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 352,
+            "upstream_event_id": 79,
+            "upstream_event": "Inhibition, Cyclooxygenase activity",
+            "downstream_event_id": 672,
+            "downstream_event": "Reduced, Prostaglandin F2alpha synthesis, ovary  "
+        },
+        {
+            "relation": 353,
+            "upstream_event_id": 671,
+            "upstream_event": "Reduced, Prostaglandin F2alpha concentration, plasma ",
+            "downstream_event_id": 673,
+            "downstream_event": "Reduced, Spawning behavior"
+        },
+        {
+            "relation": 354,
+            "upstream_event_id": 674,
+            "upstream_event": "Reduced, Ability to attract spawning mates",
+            "downstream_event_id": 675,
+            "downstream_event": "Reduced, Reproductive Success"
+        },
+        {
+            "relation": 355,
+            "upstream_event_id": 675,
+            "upstream_event": "Reduced, Reproductive Success",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 356,
+            "upstream_event_id": 673,
+            "upstream_event": "Reduced, Spawning behavior",
+            "downstream_event_id": 674,
+            "downstream_event": "Reduced, Ability to attract spawning mates"
+        },
+        {
+            "relation": 357,
+            "upstream_event_id": 672,
+            "upstream_event": "Reduced, Prostaglandin F2alpha synthesis, ovary  ",
+            "downstream_event_id": 671,
+            "downstream_event": "Reduced, Prostaglandin F2alpha concentration, plasma "
+        }
+    ]
+}

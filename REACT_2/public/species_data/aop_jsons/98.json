@@ -1,0 +1,76 @@
+{
+    "id": 98,
+    "title": "5-hydroxytryptamine transporter (5-HTT; SERT) inhibition leading to decreased shelter seeking and increased predation",
+    "short_name": "5-HTT block to incr. predation",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 191,
+        "created_at": "2013-10-18T07:49:02.000-04:00",
+        "updated_at": "2021-04-13T09:39:56.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 619,
+            "event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 626,
+            "event": "Increased, serotonin (5-HT) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 627,
+            "event": "Decreased, anxiety",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 629,
+            "event": "Decreased, sheltering",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 588,
+            "event": "Increased, predation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 311,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 627,
+            "downstream_event": "Decreased, anxiety"
+        },
+        {
+            "relation": 312,
+            "upstream_event_id": 627,
+            "upstream_event": "Decreased, anxiety",
+            "downstream_event_id": 629,
+            "downstream_event": "Decreased, sheltering"
+        },
+        {
+            "relation": 310,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 626,
+            "downstream_event": "Increased, serotonin (5-HT) "
+        },
+        {
+            "relation": 313,
+            "upstream_event_id": 629,
+            "upstream_event": "Decreased, sheltering",
+            "downstream_event_id": 588,
+            "downstream_event": "Increased, predation"
+        }
+    ]
+}

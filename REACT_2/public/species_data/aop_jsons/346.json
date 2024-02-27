@@ -1,0 +1,111 @@
+{
+    "id": 346,
+    "title": "Aromatase inhibition leads to male-biased sex ratio via impacts on gonad differentiation",
+    "short_name": "Aromatase inhibition leads to male-biased sex ratio via impacts on gonad differentiation",
+    "created_at": "2020-06-15T09:54:44.000-04:00",
+    "updated_at": "2023-10-17T04:51:27.000-04:00",
+    "corresponding_author": {
+        "id": 1658,
+        "created_at": "2020-06-09T00:43:22.000-04:00",
+        "updated_at": "2022-12-21T10:17:04.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 26,
+            "stressor_name": "Fadrozole"
+        },
+        {
+            "stressor_id": 32,
+            "stressor_name": "Letrozole"
+        },
+        {
+            "stressor_id": 598,
+            "stressor_name": "Exemestane"
+        },
+        {
+            "stressor_id": 599,
+            "stressor_name": "Stressor:292 Clotrimazole"
+        },
+        {
+            "stressor_id": 47,
+            "stressor_name": "Prochloraz"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 36,
+            "event": "Inhibition, Aromatase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1789,
+            "event": "Reduction, 17beta-estradiol synthesis by the undifferentiated gonad ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1790,
+            "event": "Increased, Differentiation to Testis ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1791,
+            "event": "Increased, Male Biased Sex Ratio",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2714,
+            "upstream_event_id": 36,
+            "upstream_event": "Inhibition, Aromatase",
+            "downstream_event_id": 1790,
+            "downstream_event": "Increased, Differentiation to Testis "
+        },
+        {
+            "relation": 2261,
+            "upstream_event_id": 36,
+            "upstream_event": "Inhibition, Aromatase",
+            "downstream_event_id": 1789,
+            "downstream_event": "Reduction, 17beta-estradiol synthesis by the undifferentiated gonad "
+        },
+        {
+            "relation": 2630,
+            "upstream_event_id": 36,
+            "upstream_event": "Inhibition, Aromatase",
+            "downstream_event_id": 1791,
+            "downstream_event": "Increased, Male Biased Sex Ratio"
+        },
+        {
+            "relation": 2262,
+            "upstream_event_id": 1789,
+            "upstream_event": "Reduction, 17beta-estradiol synthesis by the undifferentiated gonad ",
+            "downstream_event_id": 1790,
+            "downstream_event": "Increased, Differentiation to Testis "
+        },
+        {
+            "relation": 2264,
+            "upstream_event_id": 1790,
+            "upstream_event": "Increased, Differentiation to Testis ",
+            "downstream_event_id": 1791,
+            "downstream_event": "Increased, Male Biased Sex Ratio"
+        },
+        {
+            "relation": 2265,
+            "upstream_event_id": 1791,
+            "upstream_event": "Increased, Male Biased Sex Ratio",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

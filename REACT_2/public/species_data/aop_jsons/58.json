@@ -1,0 +1,271 @@
+{
+    "id": 58,
+    "title": "NR1I3 (CAR) suppression leading to hepatic steatosis",
+    "short_name": "NR1I3 suppression to steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 456,
+            "event": "Suppression, Constitutive androstane receptor, NR1l3",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 468,
+            "event": "Inhibition, PPAR alpha",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 167,
+            "event": "Activation, LXR",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 228,
+            "event": "peroxisome proliferator activated receptor promoter demethylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 457,
+            "event": "Activation, SREBF1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 66,
+            "event": "Activation, ChREBP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 458,
+            "event": "Increased, De Novo FA synthesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 454,
+            "event": "Increased, Triglyceride formation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 54,
+            "event": "Up Regulation, CD36",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 462,
+            "event": "Up Regulation, SCD-1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 463,
+            "event": "Up Regulation, FAS",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 451,
+            "event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 327,
+            "event": "Accumulation, Fatty acid",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 470,
+            "event": "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 465,
+            "event": "Increased, FA Influx",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 175,
+            "upstream_event_id": 456,
+            "upstream_event": "Suppression, Constitutive androstane receptor, NR1l3",
+            "downstream_event_id": 167,
+            "downstream_event": "Activation, LXR"
+        },
+        {
+            "relation": 176,
+            "upstream_event_id": 456,
+            "upstream_event": "Suppression, Constitutive androstane receptor, NR1l3",
+            "downstream_event_id": 228,
+            "downstream_event": "peroxisome proliferator activated receptor promoter demethylation"
+        },
+        {
+            "relation": 177,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 457,
+            "downstream_event": "Activation, SREBF1"
+        },
+        {
+            "relation": 178,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 66,
+            "downstream_event": "Activation, ChREBP"
+        },
+        {
+            "relation": 179,
+            "upstream_event_id": 66,
+            "upstream_event": "Activation, ChREBP",
+            "downstream_event_id": 458,
+            "downstream_event": "Increased, De Novo FA synthesis"
+        },
+        {
+            "relation": 180,
+            "upstream_event_id": 454,
+            "upstream_event": "Increased, Triglyceride formation",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        },
+        {
+            "relation": 181,
+            "upstream_event_id": 228,
+            "upstream_event": "peroxisome proliferator activated receptor promoter demethylation",
+            "downstream_event_id": 457,
+            "downstream_event": "Activation, SREBF1"
+        },
+        {
+            "relation": 183,
+            "upstream_event_id": 457,
+            "upstream_event": "Activation, SREBF1",
+            "downstream_event_id": 462,
+            "downstream_event": "Up Regulation, SCD-1"
+        },
+        {
+            "relation": 184,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 54,
+            "downstream_event": "Up Regulation, CD36"
+        },
+        {
+            "relation": 185,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 463,
+            "downstream_event": "Up Regulation, FAS"
+        },
+        {
+            "relation": 186,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 462,
+            "downstream_event": "Up Regulation, SCD-1"
+        },
+        {
+            "relation": 187,
+            "upstream_event_id": 463,
+            "upstream_event": "Up Regulation, FAS",
+            "downstream_event_id": 458,
+            "downstream_event": "Increased, De Novo FA synthesis"
+        },
+        {
+            "relation": 188,
+            "upstream_event_id": 462,
+            "upstream_event": "Up Regulation, SCD-1",
+            "downstream_event_id": 454,
+            "downstream_event": "Increased, Triglyceride formation"
+        },
+        {
+            "relation": 202,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 468,
+            "downstream_event": "Inhibition, PPAR alpha"
+        },
+        {
+            "relation": 203,
+            "upstream_event_id": 468,
+            "upstream_event": "Inhibition, PPAR alpha",
+            "downstream_event_id": 451,
+            "downstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+        },
+        {
+            "relation": 204,
+            "upstream_event_id": 458,
+            "upstream_event": "Increased, De Novo FA synthesis",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 206,
+            "upstream_event_id": 327,
+            "upstream_event": "Accumulation, Fatty acid",
+            "downstream_event_id": 454,
+            "downstream_event": "Increased, Triglyceride formation"
+        },
+        {
+            "relation": 207,
+            "upstream_event_id": 327,
+            "upstream_event": "Accumulation, Fatty acid",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        },
+        {
+            "relation": 208,
+            "upstream_event_id": 451,
+            "upstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 210,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 470,
+            "downstream_event": "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)"
+        },
+        {
+            "relation": 211,
+            "upstream_event_id": 470,
+            "upstream_event": "Up Regulation, Acetyl-CoA carboxylase-1 (ACC-1)",
+            "downstream_event_id": 458,
+            "downstream_event": "Increased, De Novo FA synthesis"
+        },
+        {
+            "relation": 1532,
+            "upstream_event_id": 228,
+            "upstream_event": "peroxisome proliferator activated receptor promoter demethylation",
+            "downstream_event_id": 465,
+            "downstream_event": "Increased, FA Influx"
+        },
+        {
+            "relation": 1533,
+            "upstream_event_id": 54,
+            "upstream_event": "Up Regulation, CD36",
+            "downstream_event_id": 465,
+            "downstream_event": "Increased, FA Influx"
+        },
+        {
+            "relation": 1534,
+            "upstream_event_id": 465,
+            "upstream_event": "Increased, FA Influx",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        }
+    ]
+}

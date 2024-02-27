@@ -1,0 +1,95 @@
+{
+    "id": 190,
+    "title": "Type II iodothyronine deiodinase (DIO2) inhibition leading to altered amphibian metamorphosis",
+    "short_name": "DIO2 inhib alters metamorphosis",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 142,
+        "created_at": "2015-07-24T10:53:28.000-04:00",
+        "updated_at": "2021-07-13T15:26:42.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1002,
+            "event": "Inhibition, Deiodinase 2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1116,
+            "event": "Decreased, Triiodothyronine (T3) in tissues",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1023,
+            "event": "Increased, Thyroid-stimulating hormone (TSH)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1828,
+            "event": "Increased, Thyroxine (T4) in serum",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1829,
+            "event": "Altered, Thyroid hormone-dependent gene expression",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1101,
+            "event": "Altered, Amphibian metamorphosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 892,
+            "upstream_event_id": 1002,
+            "upstream_event": "Inhibition, Deiodinase 2",
+            "downstream_event_id": 1116,
+            "downstream_event": "Decreased, Triiodothyronine (T3) in tissues"
+        },
+        {
+            "relation": 2444,
+            "upstream_event_id": 1828,
+            "upstream_event": "Increased, Thyroxine (T4) in serum",
+            "downstream_event_id": 1101,
+            "downstream_event": "Altered, Amphibian metamorphosis"
+        },
+        {
+            "relation": 2441,
+            "upstream_event_id": 1116,
+            "upstream_event": "Decreased, Triiodothyronine (T3) in tissues",
+            "downstream_event_id": 1023,
+            "downstream_event": "Increased, Thyroid-stimulating hormone (TSH)"
+        },
+        {
+            "relation": 2445,
+            "upstream_event_id": 1828,
+            "upstream_event": "Increased, Thyroxine (T4) in serum",
+            "downstream_event_id": 1829,
+            "downstream_event": "Altered, Thyroid hormone-dependent gene expression"
+        },
+        {
+            "relation": 2442,
+            "upstream_event_id": 1116,
+            "upstream_event": "Decreased, Triiodothyronine (T3) in tissues",
+            "downstream_event_id": 1829,
+            "downstream_event": "Altered, Thyroid hormone-dependent gene expression"
+        },
+        {
+            "relation": 2443,
+            "upstream_event_id": 1023,
+            "upstream_event": "Increased, Thyroid-stimulating hormone (TSH)",
+            "downstream_event_id": 1828,
+            "downstream_event": "Increased, Thyroxine (T4) in serum"
+        }
+    ]
+}

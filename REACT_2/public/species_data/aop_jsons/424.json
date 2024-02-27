@@ -1,0 +1,101 @@
+{
+    "id": 424,
+    "title": "Oxidative stress Leading to Decreased Lung Function via CFTR dysfunction",
+    "short_name": "Ox stress-mediated CFTR/ASL/CBF/MCC impairment",
+    "created_at": "2021-09-27T09:08:13.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 178,
+        "created_at": "2016-02-29T04:55:52.000-05:00",
+        "updated_at": "2023-03-13T11:03:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 319,
+            "stressor_name": "Acrolein"
+        },
+        {
+            "stressor_id": 655,
+            "stressor_name": "Ozone"
+        },
+        {
+            "stressor_id": 645,
+            "stressor_name": "Cigarette smoke"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1906,
+            "event": "Cystic Fibrosis Transmembrane Regulator Function, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1907,
+            "event": "Airway Surface Liquid Height, Decreased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1908,
+            "event": "Cilia Beat Frequency, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1909,
+            "event": "Mucociliary Clearance, Decreased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1250,
+            "event": "Decrease, Lung function",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2840,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1906,
+            "downstream_event": "Cystic Fibrosis Transmembrane Regulator Function, Decreased"
+        },
+        {
+            "relation": 2841,
+            "upstream_event_id": 1906,
+            "upstream_event": "Cystic Fibrosis Transmembrane Regulator Function, Decreased",
+            "downstream_event_id": 1907,
+            "downstream_event": "Airway Surface Liquid Height, Decreased "
+        },
+        {
+            "relation": 2842,
+            "upstream_event_id": 1907,
+            "upstream_event": "Airway Surface Liquid Height, Decreased ",
+            "downstream_event_id": 1908,
+            "downstream_event": "Cilia Beat Frequency, Decreased"
+        },
+        {
+            "relation": 2843,
+            "upstream_event_id": 1908,
+            "upstream_event": "Cilia Beat Frequency, Decreased",
+            "downstream_event_id": 1909,
+            "downstream_event": "Mucociliary Clearance, Decreased"
+        },
+        {
+            "relation": 2844,
+            "upstream_event_id": 1909,
+            "upstream_event": "Mucociliary Clearance, Decreased",
+            "downstream_event_id": 1250,
+            "downstream_event": "Decrease, Lung function"
+        }
+    ]
+}

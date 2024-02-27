@@ -1,0 +1,91 @@
+{
+    "id": 170,
+    "title": "Anti-dopaminergic activity leading to mammary adenomas and carcinomas in the SD rat",
+    "short_name": "Anti-dopaminergic activity and mammary tumors",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 178,
+            "stressor_name": "Haloperidol"
+        },
+        {
+            "stressor_id": 179,
+            "stressor_name": "Reserpine"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1083,
+            "event": "Decreased, Dopaminergic activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1084,
+            "event": "Increased, prolactin secretion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1085,
+            "event": "Increased, hyperplasia (mammary gland)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1080,
+            "event": "Increased, latency period",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1079,
+            "event": "Increased, Adenomas/carcinomas (mammary)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 790,
+            "upstream_event_id": 1083,
+            "upstream_event": "Decreased, Dopaminergic activity",
+            "downstream_event_id": 1084,
+            "downstream_event": "Increased, prolactin secretion"
+        },
+        {
+            "relation": 791,
+            "upstream_event_id": 1084,
+            "upstream_event": "Increased, prolactin secretion",
+            "downstream_event_id": 1085,
+            "downstream_event": "Increased, hyperplasia (mammary gland)"
+        },
+        {
+            "relation": 792,
+            "upstream_event_id": 1085,
+            "upstream_event": "Increased, hyperplasia (mammary gland)",
+            "downstream_event_id": 1080,
+            "downstream_event": "Increased, latency period"
+        },
+        {
+            "relation": 793,
+            "upstream_event_id": 1085,
+            "upstream_event": "Increased, hyperplasia (mammary gland)",
+            "downstream_event_id": 1079,
+            "downstream_event": "Increased, Adenomas/carcinomas (mammary)"
+        },
+        {
+            "relation": 794,
+            "upstream_event_id": 1080,
+            "upstream_event": "Increased, latency period",
+            "downstream_event_id": 1079,
+            "downstream_event": "Increased, Adenomas/carcinomas (mammary)"
+        }
+    ]
+}

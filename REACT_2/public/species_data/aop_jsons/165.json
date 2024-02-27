@@ -1,0 +1,155 @@
+{
+    "id": 165,
+    "title": "Antiestrogen activity leading to ovarian adenomas and granular cell tumors in the mouse",
+    "short_name": "Antiestrogens and ovarian adenomas/granular cell tumors",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 172,
+            "stressor_name": "Tamoxifen"
+        },
+        {
+            "stressor_id": 173,
+            "stressor_name": "Raloxifene"
+        },
+        {
+            "stressor_id": 174,
+            "stressor_name": "Fulvestrant"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1045,
+            "event": "Decreased, Ovarian E2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1046,
+            "event": "Suppression, Estrogen receptor (ER) activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1047,
+            "event": "Increased, secretion of GnRH from hypothalamus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1049,
+            "event": "Increased, secrection of FSH from anterior pituitary",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1050,
+            "event": "Increased, secretion of LH from anterior pituitary",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1051,
+            "event": "Hyperplasia, ovarian stromal cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1052,
+            "event": "Hyperplasia, ovarian epithelium",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1056,
+            "event": "Decrease, E2 blood concentrations at hypothalamus",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1053,
+            "event": "Promotion, ovarian adenomas",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1054,
+            "event": "Promotion, ovarian granular cell tumors",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 750,
+            "upstream_event_id": 1045,
+            "upstream_event": "Decreased, Ovarian E2",
+            "downstream_event_id": 1056,
+            "downstream_event": "Decrease, E2 blood concentrations at hypothalamus"
+        },
+        {
+            "relation": 751,
+            "upstream_event_id": 1046,
+            "upstream_event": "Suppression, Estrogen receptor (ER) activity",
+            "downstream_event_id": 1056,
+            "downstream_event": "Decrease, E2 blood concentrations at hypothalamus"
+        },
+        {
+            "relation": 752,
+            "upstream_event_id": 1056,
+            "upstream_event": "Decrease, E2 blood concentrations at hypothalamus",
+            "downstream_event_id": 1047,
+            "downstream_event": "Increased, secretion of GnRH from hypothalamus"
+        },
+        {
+            "relation": 753,
+            "upstream_event_id": 1047,
+            "upstream_event": "Increased, secretion of GnRH from hypothalamus",
+            "downstream_event_id": 1049,
+            "downstream_event": "Increased, secrection of FSH from anterior pituitary"
+        },
+        {
+            "relation": 754,
+            "upstream_event_id": 1047,
+            "upstream_event": "Increased, secretion of GnRH from hypothalamus",
+            "downstream_event_id": 1050,
+            "downstream_event": "Increased, secretion of LH from anterior pituitary"
+        },
+        {
+            "relation": 755,
+            "upstream_event_id": 1049,
+            "upstream_event": "Increased, secrection of FSH from anterior pituitary",
+            "downstream_event_id": 1051,
+            "downstream_event": "Hyperplasia, ovarian stromal cells"
+        },
+        {
+            "relation": 756,
+            "upstream_event_id": 1049,
+            "upstream_event": "Increased, secrection of FSH from anterior pituitary",
+            "downstream_event_id": 1052,
+            "downstream_event": "Hyperplasia, ovarian epithelium"
+        },
+        {
+            "relation": 757,
+            "upstream_event_id": 1050,
+            "upstream_event": "Increased, secretion of LH from anterior pituitary",
+            "downstream_event_id": 1051,
+            "downstream_event": "Hyperplasia, ovarian stromal cells"
+        },
+        {
+            "relation": 758,
+            "upstream_event_id": 1052,
+            "upstream_event": "Hyperplasia, ovarian epithelium",
+            "downstream_event_id": 1053,
+            "downstream_event": "Promotion, ovarian adenomas"
+        },
+        {
+            "relation": 759,
+            "upstream_event_id": 1051,
+            "upstream_event": "Hyperplasia, ovarian stromal cells",
+            "downstream_event_id": 1054,
+            "downstream_event": "Promotion, ovarian granular cell tumors"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "id": 60,
+    "title": "NR1I2 (Pregnane X Receptor, PXR)  activation leading to hepatic steatosis",
+    "short_name": "PXR activation to steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 245,
+            "event": "Activation, PXR/SXR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 471,
+            "event": "Inhibition, FoxA2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 179,
+            "event": "Decreased, Mitochondrial fatty acid beta-oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 472,
+            "event": "Down Regulation, CPT1A",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 474,
+            "event": "Down Regulation, HMGCS2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 462,
+            "event": "Up Regulation, SCD-1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 54,
+            "event": "Up Regulation, CD36",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 465,
+            "event": "Increased, FA Influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 477,
+            "event": "Decreased, Ketogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 454,
+            "event": "Increased, Triglyceride formation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 327,
+            "event": "Accumulation, Fatty acid",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 214,
+            "upstream_event_id": 54,
+            "upstream_event": "Up Regulation, CD36",
+            "downstream_event_id": 465,
+            "downstream_event": "Increased, FA Influx"
+        },
+        {
+            "relation": 218,
+            "upstream_event_id": 474,
+            "upstream_event": "Down Regulation, HMGCS2",
+            "downstream_event_id": 477,
+            "downstream_event": "Decreased, Ketogenesis"
+        },
+        {
+            "relation": 219,
+            "upstream_event_id": 245,
+            "upstream_event": "Activation, PXR/SXR",
+            "downstream_event_id": 471,
+            "downstream_event": "Inhibition, FoxA2"
+        },
+        {
+            "relation": 220,
+            "upstream_event_id": 472,
+            "upstream_event": "Down Regulation, CPT1A",
+            "downstream_event_id": 179,
+            "downstream_event": "Decreased, Mitochondrial fatty acid beta-oxidation"
+        },
+        {
+            "relation": 221,
+            "upstream_event_id": 245,
+            "upstream_event": "Activation, PXR/SXR",
+            "downstream_event_id": 54,
+            "downstream_event": "Up Regulation, CD36"
+        },
+        {
+            "relation": 222,
+            "upstream_event_id": 245,
+            "upstream_event": "Activation, PXR/SXR",
+            "downstream_event_id": 462,
+            "downstream_event": "Up Regulation, SCD-1"
+        },
+        {
+            "relation": 224,
+            "upstream_event_id": 471,
+            "upstream_event": "Inhibition, FoxA2",
+            "downstream_event_id": 474,
+            "downstream_event": "Down Regulation, HMGCS2"
+        },
+        {
+            "relation": 226,
+            "upstream_event_id": 471,
+            "upstream_event": "Inhibition, FoxA2",
+            "downstream_event_id": 472,
+            "downstream_event": "Down Regulation, CPT1A"
+        },
+        {
+            "relation": 1529,
+            "upstream_event_id": 462,
+            "upstream_event": "Up Regulation, SCD-1",
+            "downstream_event_id": 454,
+            "downstream_event": "Increased, Triglyceride formation"
+        },
+        {
+            "relation": 1530,
+            "upstream_event_id": 454,
+            "upstream_event": "Increased, Triglyceride formation",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        },
+        {
+            "relation": 1531,
+            "upstream_event_id": 465,
+            "upstream_event": "Increased, FA Influx",
+            "downstream_event_id": 454,
+            "downstream_event": "Increased, Triglyceride formation"
+        },
+        {
+            "relation": 1535,
+            "upstream_event_id": 465,
+            "upstream_event": "Increased, FA Influx",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 1536,
+            "upstream_event_id": 179,
+            "upstream_event": "Decreased, Mitochondrial fatty acid beta-oxidation",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 1537,
+            "upstream_event_id": 477,
+            "upstream_event": "Decreased, Ketogenesis",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 1538,
+            "upstream_event_id": 327,
+            "upstream_event": "Accumulation, Fatty acid",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        }
+    ]
+}

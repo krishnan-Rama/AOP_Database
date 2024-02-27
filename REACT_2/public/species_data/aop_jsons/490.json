@@ -1,0 +1,187 @@
+{
+    "id": 490,
+    "title": "Co-activation of IP3R and RyR leads to socio-economic burden through reduced IQ and non-cholinergic mechanisms",
+    "short_name": "Co-activation of IP3R and RyR to socio-economic burden through lower IQ",
+    "created_at": "2023-03-31T10:13:27.000-04:00",
+    "updated_at": "2024-02-05T11:59:00.000-05:00",
+    "corresponding_author": {
+        "id": 16846,
+        "created_at": "2023-04-03T06:03:38.000-04:00",
+        "updated_at": "2023-04-13T11:09:29.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 280,
+            "stressor_name": "Chlorpyrifos"
+        },
+        {
+            "stressor_id": 766,
+            "stressor_name": "Chlorpyrifos oxon"
+        },
+        {
+            "stressor_id": 43,
+            "stressor_name": "Organophosphates"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2186,
+            "event": "Ryanodine receptor activation",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2037,
+            "event": "Inositol triphosphate receptor activation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1350,
+            "event": "Increased, glutamate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2123,
+            "event": "decreased, Bcl-2 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2124,
+            "event": "increased, Bax expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1998,
+            "event": "Activation, Microglia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 2121,
+            "event": "decreased, Intellectual Quotient",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 2122,
+            "event": "increased, socio-economic burden",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3621,
+            "upstream_event_id": 2037,
+            "upstream_event": "Inositol triphosphate receptor activation",
+            "downstream_event_id": 1350,
+            "downstream_event": "Increased, glutamate"
+        },
+        {
+            "relation": 3620,
+            "upstream_event_id": 2186,
+            "upstream_event": "Ryanodine receptor activation",
+            "downstream_event_id": 1350,
+            "downstream_event": "Increased, glutamate"
+        },
+        {
+            "relation": 3391,
+            "upstream_event_id": 1350,
+            "upstream_event": "Increased, glutamate",
+            "downstream_event_id": 2123,
+            "downstream_event": "decreased, Bcl-2 expression"
+        },
+        {
+            "relation": 3392,
+            "upstream_event_id": 1350,
+            "upstream_event": "Increased, glutamate",
+            "downstream_event_id": 2124,
+            "downstream_event": "increased, Bax expression"
+        },
+        {
+            "relation": 3384,
+            "upstream_event_id": 1350,
+            "upstream_event": "Increased, glutamate",
+            "downstream_event_id": 1998,
+            "downstream_event": "Activation, Microglia"
+        },
+        {
+            "relation": 3385,
+            "upstream_event_id": 1998,
+            "upstream_event": "Activation, Microglia",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 3398,
+            "upstream_event_id": 2123,
+            "upstream_event": "decreased, Bcl-2 expression",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 3399,
+            "upstream_event_id": 2124,
+            "upstream_event": "increased, Bax expression",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 3397,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 3400,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 3388,
+            "upstream_event_id": 758,
+            "upstream_event": "Hippocampal Physiology, Altered",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 3393,
+            "upstream_event_id": 341,
+            "upstream_event": "Impairment, Learning and memory",
+            "downstream_event_id": 2121,
+            "downstream_event": "decreased, Intellectual Quotient"
+        },
+        {
+            "relation": 3394,
+            "upstream_event_id": 2121,
+            "upstream_event": "decreased, Intellectual Quotient",
+            "downstream_event_id": 2122,
+            "downstream_event": "increased, socio-economic burden"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "id": 31,
+    "title": "Oxidation of iron in hemoglobin leading to hematotoxicity",
+    "short_name": "Hemoglobin oxidation leading to hematotoxicity",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 234,
+        "created_at": "2013-05-02T11:27:51.000-04:00",
+        "updated_at": "2016-11-29T18:41:13.000-05:00",
+        "subscribed": true,
+        "novice": false
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 213,
+            "event": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 21,
+            "event": "Altered regulation, Alpha hemoglobin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 211,
+            "event": "Propagation, Oxidative stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 250,
+            "event": "Damaging, Red blood cells; hemolysis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 118,
+            "event": "Formation, Formation of hemoglobin adducts",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 131,
+            "event": "Down Regulation, Gulcose-6-phosphate dehydrogenase",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 246,
+            "event": "Increase, RBC congestion in liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 161,
+            "event": "Increase, Liver and splenic hemosiderosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 173,
+            "event": "N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 321,
+            "event": "N/A, Cyanosis occurs",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 56,
+            "upstream_event_id": 213,
+            "upstream_event": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+            "downstream_event_id": 211,
+            "downstream_event": "Propagation, Oxidative stress"
+        },
+        {
+            "relation": 57,
+            "upstream_event_id": 213,
+            "upstream_event": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+            "downstream_event_id": 250,
+            "downstream_event": "Damaging, Red blood cells; hemolysis"
+        },
+        {
+            "relation": 58,
+            "upstream_event_id": 213,
+            "upstream_event": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+            "downstream_event_id": 118,
+            "downstream_event": "Formation, Formation of hemoglobin adducts"
+        },
+        {
+            "relation": 59,
+            "upstream_event_id": 250,
+            "upstream_event": "Damaging, Red blood cells; hemolysis",
+            "downstream_event_id": 246,
+            "downstream_event": "Increase, RBC congestion in liver"
+        },
+        {
+            "relation": 60,
+            "upstream_event_id": 250,
+            "upstream_event": "Damaging, Red blood cells; hemolysis",
+            "downstream_event_id": 173,
+            "downstream_event": "N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number"
+        },
+        {
+            "relation": 61,
+            "upstream_event_id": 250,
+            "upstream_event": "Damaging, Red blood cells; hemolysis",
+            "downstream_event_id": 161,
+            "downstream_event": "Increase, Liver and splenic hemosiderosis"
+        },
+        {
+            "relation": 62,
+            "upstream_event_id": 211,
+            "upstream_event": "Propagation, Oxidative stress",
+            "downstream_event_id": 131,
+            "downstream_event": "Down Regulation, Gulcose-6-phosphate dehydrogenase"
+        },
+        {
+            "relation": 63,
+            "upstream_event_id": 213,
+            "upstream_event": "N/A, Parent compound is converted to the reactive metabolite and forms free radicals leading to oxidation of heme iron(II) in hemoglobin to iron(III)",
+            "downstream_event_id": 21,
+            "downstream_event": "Altered regulation, Alpha hemoglobin"
+        },
+        {
+            "relation": 64,
+            "upstream_event_id": 173,
+            "upstream_event": "N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number",
+            "downstream_event_id": 321,
+            "downstream_event": "N/A, Cyanosis occurs"
+        },
+        {
+            "relation": 65,
+            "upstream_event_id": 246,
+            "upstream_event": "Increase, RBC congestion in liver",
+            "downstream_event_id": 173,
+            "downstream_event": "N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number"
+        },
+        {
+            "relation": 66,
+            "upstream_event_id": 211,
+            "upstream_event": "Propagation, Oxidative stress",
+            "downstream_event_id": 250,
+            "downstream_event": "Damaging, Red blood cells; hemolysis"
+        },
+        {
+            "relation": 67,
+            "upstream_event_id": 161,
+            "upstream_event": "Increase, Liver and splenic hemosiderosis",
+            "downstream_event_id": 173,
+            "downstream_event": "N/A, Methemoglobinemia, decreased hemoglobin, hematocrit, red blood cell number"
+        }
+    ]
+}

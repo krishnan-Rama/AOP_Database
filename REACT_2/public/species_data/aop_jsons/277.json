@@ -1,0 +1,129 @@
+{
+    "id": 277,
+    "title": "Impaired IL-1R1 signaling leading to Impaired T-Cell Dependent Antibody Response",
+    "short_name": "Impaired IL-1R1 signaling leading to impairment of TDAR",
+    "created_at": "2018-12-20T20:02:52.000-05:00",
+    "updated_at": "2023-08-28T08:41:37.000-04:00",
+    "corresponding_author": {
+        "id": 883,
+        "created_at": "2019-05-30T00:58:21.000-04:00",
+        "updated_at": "2023-12-06T23:46:24.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 489,
+            "stressor_name": "IL-1 receptor antagonist\uff08IL-1Ra\uff09(Anakinra)"
+        },
+        {
+            "stressor_id": 490,
+            "stressor_name": "anti-IL-1b antibody (Canakinumab)"
+        },
+        {
+            "stressor_id": 491,
+            "stressor_name": "soluble IL-1R (Rilonacept)"
+        },
+        {
+            "stressor_id": 518,
+            "stressor_name": "anti-IL-1b antibody (Gevokizumab)"
+        },
+        {
+            "stressor_id": 492,
+            "stressor_name": "Dexamethasone"
+        },
+        {
+            "stressor_id": 486,
+            "stressor_name": "minocycline"
+        },
+        {
+            "stressor_id": 609,
+            "stressor_name": "Belnacasan (VX-765)"
+        },
+        {
+            "stressor_id": 611,
+            "stressor_name": "Pralnacasan (VX-740, HMR3480)"
+        },
+        {
+            "stressor_id": 488,
+            "stressor_name": "cinnamic aldehyde"
+        },
+        {
+            "stressor_id": 637,
+            "stressor_name": "Dimethyl fumarate"
+        },
+        {
+            "stressor_id": 612,
+            "stressor_name": "curcumin"
+        },
+        {
+            "stressor_id": 614,
+            "stressor_name": "iguratimod"
+        },
+        {
+            "stressor_id": 638,
+            "stressor_name": "(-)-Epigallocatechin gallate"
+        },
+        {
+            "stressor_id": 616,
+            "stressor_name": "TAK-242"
+        },
+        {
+            "stressor_id": 617,
+            "stressor_name": "IRAK4 inhibitors"
+        },
+        {
+            "stressor_id": 636,
+            "stressor_name": "Dehydroxymethylepoxyquinomicin (DHMEQ)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1700,
+            "event": "Impaired IL-1R1 signaling in T cell",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 202,
+            "event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1702,
+            "event": "Suppression of  T cell activation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 984,
+            "event": "Impairment, T-cell dependent antibody response",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2024,
+            "upstream_event_id": 1700,
+            "upstream_event": "Impaired IL-1R1 signaling in T cell",
+            "downstream_event_id": 202,
+            "downstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 2025,
+            "upstream_event_id": 202,
+            "upstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1702,
+            "downstream_event": "Suppression of  T cell activation"
+        },
+        {
+            "relation": 3476,
+            "upstream_event_id": 1702,
+            "upstream_event": "Suppression of  T cell activation",
+            "downstream_event_id": 984,
+            "downstream_event": "Impairment, T-cell dependent antibody response"
+        }
+    ]
+}

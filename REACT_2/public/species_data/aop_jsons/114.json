@@ -1,0 +1,88 @@
+{
+    "id": 114,
+    "title": "HPPD inhibition leading to corneal papillomas and carcinomas (in rat)",
+    "short_name": "HPPD- corneal papilloma/carcinoma",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 766,
+            "event": "Inhibition, 4-hydroxyphenyl-pyruvate dioxygenase (HPPD) enzyme",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 775,
+            "event": "Increased, Plasma tyrosine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 776,
+            "event": "Increase, Cytotoxicity (corneal cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 777,
+            "event": "Increase, Inflammation (corneal cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 778,
+            "event": "Increase, Regenerative cell proliferation (corneal cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 779,
+            "event": "Increase, Papillomas/carcinomas (squamous cells)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 436,
+            "upstream_event_id": 766,
+            "upstream_event": "Inhibition, 4-hydroxyphenyl-pyruvate dioxygenase (HPPD) enzyme",
+            "downstream_event_id": 775,
+            "downstream_event": "Increased, Plasma tyrosine"
+        },
+        {
+            "relation": 437,
+            "upstream_event_id": 775,
+            "upstream_event": "Increased, Plasma tyrosine",
+            "downstream_event_id": 776,
+            "downstream_event": "Increase, Cytotoxicity (corneal cells)"
+        },
+        {
+            "relation": 438,
+            "upstream_event_id": 776,
+            "upstream_event": "Increase, Cytotoxicity (corneal cells)",
+            "downstream_event_id": 777,
+            "downstream_event": "Increase, Inflammation (corneal cells)"
+        },
+        {
+            "relation": 439,
+            "upstream_event_id": 777,
+            "upstream_event": "Increase, Inflammation (corneal cells)",
+            "downstream_event_id": 778,
+            "downstream_event": "Increase, Regenerative cell proliferation (corneal cells)"
+        },
+        {
+            "relation": 440,
+            "upstream_event_id": 778,
+            "upstream_event": "Increase, Regenerative cell proliferation (corneal cells)",
+            "downstream_event_id": 779,
+            "downstream_event": "Increase, Papillomas/carcinomas (squamous cells)"
+        }
+    ]
+}

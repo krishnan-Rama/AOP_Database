@@ -1,0 +1,63 @@
+{
+    "id": 82,
+    "title": "Abnormal role change in worker caste contributes to reduced brood care and leads to colony loss/failure",
+    "short_name": "Chane in caste - Colony loss",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 198,
+        "created_at": "2014-01-14T10:26:18.000-05:00",
+        "updated_at": "2022-08-08T13:04:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 564,
+            "event": "Abnormal, Roll change within caste",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 565,
+            "event": "Reduced, Brood care",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 566,
+            "event": "impaired, Larval development",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 563,
+            "event": "Death/Failure, Colony",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 256,
+            "upstream_event_id": 564,
+            "upstream_event": "Abnormal, Roll change within caste",
+            "downstream_event_id": 565,
+            "downstream_event": "Reduced, Brood care"
+        },
+        {
+            "relation": 257,
+            "upstream_event_id": 565,
+            "upstream_event": "Reduced, Brood care",
+            "downstream_event_id": 566,
+            "downstream_event": "impaired, Larval development"
+        },
+        {
+            "relation": 258,
+            "upstream_event_id": 566,
+            "upstream_event": "impaired, Larval development",
+            "downstream_event_id": 563,
+            "downstream_event": "Death/Failure, Colony"
+        }
+    ]
+}

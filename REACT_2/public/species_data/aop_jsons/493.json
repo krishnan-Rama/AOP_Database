@@ -1,0 +1,157 @@
+{
+    "id": 493,
+    "title": "ERa inactivation alters AT expansion and functions and leads to insulin resistance and metabolically unhealthy obesity",
+    "short_name": "ERa inactivation leads to increased fat mass and insulin resistance. ",
+    "created_at": "2023-04-05T05:11:25.000-04:00",
+    "updated_at": "2023-07-06T05:57:33.000-04:00",
+    "corresponding_author": {
+        "id": 14127,
+        "created_at": "2022-10-10T03:37:35.000-04:00",
+        "updated_at": "2023-09-11T06:47:23.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2126,
+            "event": "Estrogen receptor alpha inactivation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2018,
+            "event": "Insulin resistance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2127,
+            "event": "Increased adipocyte size",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2128,
+            "event": "Increased adipocyte numbers",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2125,
+            "event": "Increased fat mass",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2130,
+            "event": "increased lipid accumulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2132,
+            "event": "Increased pro-inflammatory cytokine expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1633,
+            "event": "Increase in inflammation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2129,
+            "event": "Metabolically unhealthy Obesity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3433,
+            "upstream_event_id": 2126,
+            "upstream_event": "Estrogen receptor alpha inactivation",
+            "downstream_event_id": 2128,
+            "downstream_event": "Increased adipocyte numbers"
+        },
+        {
+            "relation": 3434,
+            "upstream_event_id": 2128,
+            "upstream_event": "Increased adipocyte numbers",
+            "downstream_event_id": 2125,
+            "downstream_event": "Increased fat mass"
+        },
+        {
+            "relation": 3435,
+            "upstream_event_id": 2127,
+            "upstream_event": "Increased adipocyte size",
+            "downstream_event_id": 2125,
+            "downstream_event": "Increased fat mass"
+        },
+        {
+            "relation": 3436,
+            "upstream_event_id": 2130,
+            "upstream_event": "increased lipid accumulation",
+            "downstream_event_id": 2125,
+            "downstream_event": "Increased fat mass"
+        },
+        {
+            "relation": 3437,
+            "upstream_event_id": 2125,
+            "upstream_event": "Increased fat mass",
+            "downstream_event_id": 2132,
+            "downstream_event": "Increased pro-inflammatory cytokine expression"
+        },
+        {
+            "relation": 3438,
+            "upstream_event_id": 2125,
+            "upstream_event": "Increased fat mass",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 3439,
+            "upstream_event_id": 2126,
+            "upstream_event": "Estrogen receptor alpha inactivation",
+            "downstream_event_id": 2130,
+            "downstream_event": "increased lipid accumulation"
+        },
+        {
+            "relation": 3440,
+            "upstream_event_id": 2126,
+            "upstream_event": "Estrogen receptor alpha inactivation",
+            "downstream_event_id": 2127,
+            "downstream_event": "Increased adipocyte size"
+        },
+        {
+            "relation": 3441,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1633,
+            "downstream_event": "Increase in inflammation"
+        },
+        {
+            "relation": 3442,
+            "upstream_event_id": 2132,
+            "upstream_event": "Increased pro-inflammatory cytokine expression",
+            "downstream_event_id": 1633,
+            "downstream_event": "Increase in inflammation"
+        },
+        {
+            "relation": 3443,
+            "upstream_event_id": 1633,
+            "upstream_event": "Increase in inflammation",
+            "downstream_event_id": 2018,
+            "downstream_event": "Insulin resistance"
+        },
+        {
+            "relation": 3444,
+            "upstream_event_id": 2018,
+            "upstream_event": "Insulin resistance",
+            "downstream_event_id": 2129,
+            "downstream_event": "Metabolically unhealthy Obesity"
+        }
+    ]
+}

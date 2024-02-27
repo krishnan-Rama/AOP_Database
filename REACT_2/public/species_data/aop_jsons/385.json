@@ -1,0 +1,68 @@
+{
+    "id": 385,
+    "title": "Viral spike protein interaction with ACE2 leads to microvascular dysfunction, via ACE2 dysregulation",
+    "short_name": "Viral spike protein interaction with ACE2 leads to microvascular dysfunction",
+    "created_at": "2021-03-31T04:27:09.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 173,
+        "created_at": "2013-08-06T16:49:39.000-04:00",
+        "updated_at": "2024-02-22T22:16:11.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1854,
+            "event": "Dysregulation, ACE2 expression and activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1787,
+            "event": "Downregulation, ACE2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1752,
+            "event": "Increased Angiotensin II ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2096,
+            "event": "Occurrence, (Micro)vascular dysfunction",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 2561,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1854,
+            "downstream_event": "Dysregulation, ACE2 expression and activity"
+        },
+        {
+            "relation": 2562,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1787,
+            "downstream_event": "Downregulation, ACE2"
+        },
+        {
+            "relation": 3324,
+            "upstream_event_id": 1854,
+            "upstream_event": "Dysregulation, ACE2 expression and activity",
+            "downstream_event_id": 2096,
+            "downstream_event": "Occurrence, (Micro)vascular dysfunction"
+        }
+    ]
+}

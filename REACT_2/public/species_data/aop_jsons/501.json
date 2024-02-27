@@ -1,0 +1,64 @@
+{
+    "id": 501,
+    "title": "Excessive iron accumulation leading to neurological disorders",
+    "short_name": "Excessive iron accumulation in Neuron, Neurological disorders",
+    "created_at": "2023-06-21T09:43:46.000-04:00",
+    "updated_at": "2023-06-21T09:58:00.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2149,
+            "event": "Increased intracelluar Iron accumulation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1510,
+            "event": "Oxidative Stress in Brain",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 386,
+            "event": "Decrease of neuronal network function",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2150,
+            "event": "Neurological disorder",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3503,
+            "upstream_event_id": 2149,
+            "upstream_event": "Increased intracelluar Iron accumulation",
+            "downstream_event_id": 1510,
+            "downstream_event": "Oxidative Stress in Brain"
+        },
+        {
+            "relation": 3504,
+            "upstream_event_id": 1510,
+            "upstream_event": "Oxidative Stress in Brain",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        },
+        {
+            "relation": 3505,
+            "upstream_event_id": 386,
+            "upstream_event": "Decrease of neuronal network function",
+            "downstream_event_id": 2150,
+            "downstream_event": "Neurological disorder"
+        }
+    ]
+}

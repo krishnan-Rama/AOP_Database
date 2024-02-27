@@ -1,0 +1,105 @@
+{
+    "id": 186,
+    "title": "unknown MIE leading to renal failure and mortality",
+    "short_name": "unknown MIE renal failure",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 15,
+            "stressor_name": "Diclofenac sodium"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1114,
+            "event": "Unknown, MIE",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1097,
+            "event": "Occurrence, renal proximal tubular necrosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1098,
+            "event": "Increased, blood potassium concentration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1106,
+            "event": "Occurrence, cardiac arrhythmia",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 852,
+            "upstream_event_id": 1114,
+            "upstream_event": "Unknown, MIE",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 853,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 854,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 855,
+            "upstream_event_id": 1097,
+            "upstream_event": "Occurrence, renal proximal tubular necrosis",
+            "downstream_event_id": 1098,
+            "downstream_event": "Increased, blood potassium concentration"
+        },
+        {
+            "relation": 856,
+            "upstream_event_id": 1098,
+            "upstream_event": "Increased, blood potassium concentration",
+            "downstream_event_id": 1106,
+            "downstream_event": "Occurrence, cardiac arrhythmia"
+        },
+        {
+            "relation": 857,
+            "upstream_event_id": 1106,
+            "upstream_event": "Occurrence, cardiac arrhythmia",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        }
+    ]
+}

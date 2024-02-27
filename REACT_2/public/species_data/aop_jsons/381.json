@@ -1,0 +1,88 @@
+{
+    "id": 381,
+    "title": "Binding of viral S-glycoprotein to ACE2 receptor leading to dysgeusia",
+    "short_name": "S glycoprotein, taste impairment",
+    "created_at": "2021-03-28T09:51:50.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1787,
+            "event": "Downregulation, ACE2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1752,
+            "event": "Increased Angiotensin II ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1856,
+            "event": "Imbalanced salty and sweet taste responses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1849,
+            "event": "Impaired gustatory nerve",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1850,
+            "event": "dysgeusia",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2567,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1787,
+            "downstream_event": "Downregulation, ACE2"
+        },
+        {
+            "relation": 2568,
+            "upstream_event_id": 1787,
+            "upstream_event": "Downregulation, ACE2",
+            "downstream_event_id": 1752,
+            "downstream_event": "Increased Angiotensin II "
+        },
+        {
+            "relation": 2569,
+            "upstream_event_id": 1752,
+            "upstream_event": "Increased Angiotensin II ",
+            "downstream_event_id": 1856,
+            "downstream_event": "Imbalanced salty and sweet taste responses"
+        },
+        {
+            "relation": 2570,
+            "upstream_event_id": 1849,
+            "upstream_event": "Impaired gustatory nerve",
+            "downstream_event_id": 1850,
+            "downstream_event": "dysgeusia"
+        },
+        {
+            "relation": 2571,
+            "upstream_event_id": 1856,
+            "upstream_event": "Imbalanced salty and sweet taste responses",
+            "downstream_event_id": 1849,
+            "downstream_event": "Impaired gustatory nerve"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 46,
+    "title": "AFB1: Mutagenic Mode-of-Action leading to Hepatocellular Carcinoma (HCC)",
+    "short_name": "Mutagenic MOA for Cancer 2",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 298,
+        "created_at": "2014-02-12T09:42:11.000-05:00",
+        "updated_at": "2021-04-13T09:40:16.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 373,
+            "event": "Formation, Pro-mutagenic DNA Adducts",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 376,
+            "event": "Increased, Induced Mutations in Critical Genes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 409,
+            "event": "Metabolism of AFB1, Production of Reactive Electrophiles",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 491,
+            "event": "Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 493,
+            "event": "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 378,
+            "event": "Tumorigenesis, Hepatocellular carcinoma",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 97,
+            "upstream_event_id": 376,
+            "upstream_event": "Increased, Induced Mutations in Critical Genes",
+            "downstream_event_id": 378,
+            "downstream_event": "Tumorigenesis, Hepatocellular carcinoma"
+        },
+        {
+            "relation": 243,
+            "upstream_event_id": 376,
+            "upstream_event": "Increased, Induced Mutations in Critical Genes",
+            "downstream_event_id": 491,
+            "downstream_event": "Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)"
+        },
+        {
+            "relation": 244,
+            "upstream_event_id": 491,
+            "upstream_event": "Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)",
+            "downstream_event_id": 378,
+            "downstream_event": "Tumorigenesis, Hepatocellular carcinoma"
+        },
+        {
+            "relation": 245,
+            "upstream_event_id": 493,
+            "upstream_event": "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts",
+            "downstream_event_id": 376,
+            "downstream_event": "Increased, Induced Mutations in Critical Genes"
+        },
+        {
+            "relation": 613,
+            "upstream_event_id": 373,
+            "upstream_event": "Formation, Pro-mutagenic DNA Adducts",
+            "downstream_event_id": 491,
+            "downstream_event": "Clonal Expansion/Cell Proliferation, to form Altered Hepatic Foci (AHF)"
+        },
+        {
+            "relation": 614,
+            "upstream_event_id": 373,
+            "upstream_event": "Formation, Pro-mutagenic DNA Adducts",
+            "downstream_event_id": 378,
+            "downstream_event": "Tumorigenesis, Hepatocellular carcinoma"
+        },
+        {
+            "relation": 615,
+            "upstream_event_id": 409,
+            "upstream_event": "Metabolism of AFB1, Production of Reactive Electrophiles",
+            "downstream_event_id": 373,
+            "downstream_event": "Formation, Pro-mutagenic DNA Adducts"
+        },
+        {
+            "relation": 616,
+            "upstream_event_id": 373,
+            "upstream_event": "Formation, Pro-mutagenic DNA Adducts",
+            "downstream_event_id": 493,
+            "downstream_event": "Increased, Insufficient repair or mis-repair of pro-mutagenic DNA adducts"
+        }
+    ]
+}

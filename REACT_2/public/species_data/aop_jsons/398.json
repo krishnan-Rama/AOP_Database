@@ -1,0 +1,88 @@
+{
+    "id": 398,
+    "title": "Inhibition of ALDH1A (RALDH) leading to impaired fertility via disrupted meiotic initiation of fetal oogonia of the ovary",
+    "short_name": "Inhibition of ALDH1A leading to reduced fertility",
+    "created_at": "2021-05-24T11:29:40.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 918,
+        "created_at": "2019-06-27T09:30:29.000-04:00",
+        "updated_at": "2023-08-02T04:46:41.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1880,
+            "event": "Inhibition of ALDH1A (RALDH)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1881,
+            "event": "Decreased, all-trans retinoic acid (atRA) concentration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1882,
+            "event": "Disrupted meiotic initiation of fetal oogonia of the ovary",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1883,
+            "event": "Reduced size of the ovarian follicle pool ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 405,
+            "event": "irregularities, ovarian cycle",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2698,
+            "upstream_event_id": 1880,
+            "upstream_event": "Inhibition of ALDH1A (RALDH)",
+            "downstream_event_id": 1881,
+            "downstream_event": "Decreased, all-trans retinoic acid (atRA) concentration"
+        },
+        {
+            "relation": 2817,
+            "upstream_event_id": 1881,
+            "upstream_event": "Decreased, all-trans retinoic acid (atRA) concentration",
+            "downstream_event_id": 1882,
+            "downstream_event": "Disrupted meiotic initiation of fetal oogonia of the ovary"
+        },
+        {
+            "relation": 2829,
+            "upstream_event_id": 1882,
+            "upstream_event": "Disrupted meiotic initiation of fetal oogonia of the ovary",
+            "downstream_event_id": 1883,
+            "downstream_event": "Reduced size of the ovarian follicle pool "
+        },
+        {
+            "relation": 2889,
+            "upstream_event_id": 1883,
+            "upstream_event": "Reduced size of the ovarian follicle pool ",
+            "downstream_event_id": 405,
+            "downstream_event": "irregularities, ovarian cycle"
+        },
+        {
+            "relation": 2875,
+            "upstream_event_id": 405,
+            "upstream_event": "irregularities, ovarian cycle",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        }
+    ]
+}

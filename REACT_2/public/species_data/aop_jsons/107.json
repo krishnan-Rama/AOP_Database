@@ -1,0 +1,89 @@
+{
+    "id": 107,
+    "title": "Constitutive androstane receptor activation leading to hepatocellular adenomas and carcinomas in the mouse and the rat",
+    "short_name": "CAR activation- Hepatocellular tumors",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 417,
+        "created_at": "2017-03-22T15:13:08.000-04:00",
+        "updated_at": "2021-04-13T09:39:34.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 133,
+            "stressor_name": "Phenobarbital"
+        },
+        {
+            "stressor_id": 218,
+            "stressor_name": "metofluthrin"
+        },
+        {
+            "stressor_id": 251,
+            "stressor_name": "TCPOBOP"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 715,
+            "event": "Activation, Constitutive androstane receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1214,
+            "event": "Altered gene expression specific to CAR activation, Hepatocytes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 716,
+            "event": "Increase, cell proliferation (hepatocytes)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 774,
+            "event": "Increase, Preneoplastic foci (hepatocytes)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 719,
+            "event": "Increase, hepatocellular adenomas and carcinomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 962,
+            "upstream_event_id": 715,
+            "upstream_event": "Activation, Constitutive androstane receptor",
+            "downstream_event_id": 1214,
+            "downstream_event": "Altered gene expression specific to CAR activation, Hepatocytes"
+        },
+        {
+            "relation": 963,
+            "upstream_event_id": 1214,
+            "upstream_event": "Altered gene expression specific to CAR activation, Hepatocytes",
+            "downstream_event_id": 716,
+            "downstream_event": "Increase, cell proliferation (hepatocytes)"
+        },
+        {
+            "relation": 434,
+            "upstream_event_id": 716,
+            "upstream_event": "Increase, cell proliferation (hepatocytes)",
+            "downstream_event_id": 774,
+            "downstream_event": "Increase, Preneoplastic foci (hepatocytes)"
+        },
+        {
+            "relation": 435,
+            "upstream_event_id": 774,
+            "upstream_event": "Increase, Preneoplastic foci (hepatocytes)",
+            "downstream_event_id": 719,
+            "downstream_event": "Increase, hepatocellular adenomas and carcinomas"
+        }
+    ]
+}

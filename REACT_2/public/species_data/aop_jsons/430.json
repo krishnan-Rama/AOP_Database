@@ -1,0 +1,89 @@
+{
+    "id": 430,
+    "title": "Binding of SARS-CoV-2 to ACE2 leads to viral infection proliferation",
+    "short_name": "SARS-CoV-2 leads to infection proliferation",
+    "created_at": "2021-10-24T16:58:05.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 5148,
+        "created_at": "2021-07-06T14:26:51.000-04:00",
+        "updated_at": "2023-12-15T14:22:39.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 526,
+            "stressor_name": "SARS-CoV"
+        },
+        {
+            "stressor_id": 624,
+            "stressor_name": "Sars-CoV-2"
+        },
+        {
+            "stressor_id": 620,
+            "stressor_name": "HCoV-NL63"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1901,
+            "event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1939,
+            "event": "Viral infection and host-to-host transmission, proliferated",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2876,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 2877,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1901,
+            "downstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2"
+        },
+        {
+            "relation": 2878,
+            "upstream_event_id": 1901,
+            "upstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 2879,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1939,
+            "downstream_event": "Viral infection and host-to-host transmission, proliferated"
+        }
+    ]
+}

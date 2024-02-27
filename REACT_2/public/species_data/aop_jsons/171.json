@@ -1,0 +1,94 @@
+{
+    "id": 171,
+    "title": "Chronic cytotoxicity of the serous membrane leading to pleural/peritoneal mesotheliomas in the rat.",
+    "short_name": "Chronic cytotoxicity of the serous membrane and mesotheliomas.",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1086,
+            "event": "persistent, cytotoxicity (pleura or peritoneum)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1087,
+            "event": "Increased, inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1032,
+            "event": "Increased, secretion of local growth factors",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1089,
+            "event": "Increased, Cell Proliferation (mesothelium)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1090,
+            "event": "Increased, mesotheliomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 795,
+            "upstream_event_id": 1086,
+            "upstream_event": "persistent, cytotoxicity (pleura or peritoneum)",
+            "downstream_event_id": 1087,
+            "downstream_event": "Increased, inflammation"
+        },
+        {
+            "relation": 796,
+            "upstream_event_id": 1086,
+            "upstream_event": "persistent, cytotoxicity (pleura or peritoneum)",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 797,
+            "upstream_event_id": 1087,
+            "upstream_event": "Increased, inflammation",
+            "downstream_event_id": 1032,
+            "downstream_event": "Increased, secretion of local growth factors"
+        },
+        {
+            "relation": 798,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1032,
+            "downstream_event": "Increased, secretion of local growth factors"
+        },
+        {
+            "relation": 799,
+            "upstream_event_id": 1032,
+            "upstream_event": "Increased, secretion of local growth factors",
+            "downstream_event_id": 1089,
+            "downstream_event": "Increased, Cell Proliferation (mesothelium)"
+        },
+        {
+            "relation": 800,
+            "upstream_event_id": 1089,
+            "upstream_event": "Increased, Cell Proliferation (mesothelium)",
+            "downstream_event_id": 1090,
+            "downstream_event": "Increased, mesotheliomas"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 312,
+    "title": "Acetylcholinesterase Inhibition leading to Acute Mortality via Impaired Coordination & Movement\u200b",
+    "short_name": "AChE inhibition - acute mortality via predation",
+    "created_at": "2019-12-20T15:55:10.000-05:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 192,
+        "created_at": "2013-08-13T11:01:07.000-04:00",
+        "updated_at": "2023-02-22T18:34:26.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 12,
+            "event": "Acetylcholinesterase (AchE) Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 10,
+            "event": "Acetylcholine accumulation in synapses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 39,
+            "event": "Increased Cholinergic Signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1705,
+            "event": "Impaired coordination and movement",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2034,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 10,
+            "downstream_event": "Acetylcholine accumulation in synapses"
+        },
+        {
+            "relation": 2039,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 39,
+            "downstream_event": "Increased Cholinergic Signaling"
+        },
+        {
+            "relation": 2035,
+            "upstream_event_id": 10,
+            "upstream_event": "Acetylcholine accumulation in synapses",
+            "downstream_event_id": 39,
+            "downstream_event": "Increased Cholinergic Signaling"
+        },
+        {
+            "relation": 2040,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 1705,
+            "downstream_event": "Impaired coordination and movement"
+        },
+        {
+            "relation": 2036,
+            "upstream_event_id": 39,
+            "upstream_event": "Increased Cholinergic Signaling",
+            "downstream_event_id": 1705,
+            "downstream_event": "Impaired coordination and movement"
+        },
+        {
+            "relation": 2041,
+            "upstream_event_id": 1705,
+            "upstream_event": "Impaired coordination and movement",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 2037,
+            "upstream_event_id": 1705,
+            "upstream_event": "Impaired coordination and movement",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2038,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

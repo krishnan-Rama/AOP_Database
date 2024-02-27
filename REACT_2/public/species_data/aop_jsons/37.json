@@ -1,0 +1,134 @@
+{
+    "id": 37,
+    "title": "PPAR\u03b1 activation leading to hepatocellular adenomas and carcinomas in rodents",
+    "short_name": "PPARalpha-dependent liver tumors in rodents",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 74,
+        "created_at": "2014-02-03T11:10:50.000-05:00",
+        "updated_at": "2021-04-13T09:41:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 205,
+            "stressor_name": "pirinixic acid"
+        },
+        {
+            "stressor_id": 191,
+            "stressor_name": "Clofibrate"
+        },
+        {
+            "stressor_id": 11,
+            "stressor_name": "Bis(2-ethylhexyl) phthalate"
+        },
+        {
+            "stressor_id": 206,
+            "stressor_name": "Nafenopin"
+        },
+        {
+            "stressor_id": 207,
+            "stressor_name": "ciprofibrate"
+        },
+        {
+            "stressor_id": 208,
+            "stressor_name": "Gemfibrozil"
+        },
+        {
+            "stressor_id": 175,
+            "stressor_name": "PERFLUOROOCTANOIC ACID"
+        },
+        {
+            "stressor_id": 210,
+            "stressor_name": "Bezafibrate"
+        },
+        {
+            "stressor_id": 211,
+            "stressor_name": "Fenofibrate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1170,
+            "event": "Increase, Phenotypic enzyme activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 716,
+            "event": "Increase, cell proliferation (hepatocytes)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1171,
+            "event": "Increase, Clonal Expansion of Altered Hepatic Foci",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 719,
+            "event": "Increase, hepatocellular adenomas and carcinomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2471,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 1170,
+            "downstream_event": "Increase, Phenotypic enzyme activity"
+        },
+        {
+            "relation": 923,
+            "upstream_event_id": 1170,
+            "upstream_event": "Increase, Phenotypic enzyme activity",
+            "downstream_event_id": 716,
+            "downstream_event": "Increase, cell proliferation (hepatocytes)"
+        },
+        {
+            "relation": 931,
+            "upstream_event_id": 716,
+            "upstream_event": "Increase, cell proliferation (hepatocytes)",
+            "downstream_event_id": 1171,
+            "downstream_event": "Increase, Clonal Expansion of Altered Hepatic Foci"
+        },
+        {
+            "relation": 925,
+            "upstream_event_id": 1171,
+            "upstream_event": "Increase, Clonal Expansion of Altered Hepatic Foci",
+            "downstream_event_id": 719,
+            "downstream_event": "Increase, hepatocellular adenomas and carcinomas"
+        },
+        {
+            "relation": 2470,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 716,
+            "downstream_event": "Increase, cell proliferation (hepatocytes)"
+        },
+        {
+            "relation": 2472,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 719,
+            "downstream_event": "Increase, hepatocellular adenomas and carcinomas"
+        },
+        {
+            "relation": 2473,
+            "upstream_event_id": 716,
+            "upstream_event": "Increase, cell proliferation (hepatocytes)",
+            "downstream_event_id": 719,
+            "downstream_event": "Increase, hepatocellular adenomas and carcinomas"
+        }
+    ]
+}

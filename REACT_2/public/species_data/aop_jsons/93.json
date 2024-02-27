@@ -1,0 +1,64 @@
+{
+    "id": 93,
+    "title": "sodium channel inhibition leading to increased predation",
+    "short_name": "sodium channel inhibition 2",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 584,
+            "event": "Inhibition, sodium channel",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 585,
+            "event": "Decreased, Sodium conductance 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 586,
+            "event": "Reduced, swimming speed",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 588,
+            "event": "Increased, predation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 281,
+            "upstream_event_id": 584,
+            "upstream_event": "Inhibition, sodium channel",
+            "downstream_event_id": 585,
+            "downstream_event": "Decreased, Sodium conductance 1"
+        },
+        {
+            "relation": 282,
+            "upstream_event_id": 585,
+            "upstream_event": "Decreased, Sodium conductance 1",
+            "downstream_event_id": 586,
+            "downstream_event": "Reduced, swimming speed"
+        },
+        {
+            "relation": 315,
+            "upstream_event_id": 586,
+            "upstream_event": "Reduced, swimming speed",
+            "downstream_event_id": 588,
+            "downstream_event": "Increased, predation"
+        }
+    ]
+}

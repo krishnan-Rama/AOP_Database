@@ -1,0 +1,125 @@
+{
+    "id": 237,
+    "title": "Substance interaction with lung resident cell membrane components leading to atherosclerosis",
+    "short_name": "Interaction with lung cells leading to atherosclerosis",
+    "created_at": "2017-06-29T01:37:35.000-04:00",
+    "updated_at": "2023-12-19T09:56:37.000-05:00",
+    "corresponding_author": {
+        "id": 15664,
+        "created_at": "2023-01-26T07:20:45.000-05:00",
+        "updated_at": "2024-02-26T03:30:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 376,
+            "stressor_name": "Lipopolysaccharride"
+        },
+        {
+            "stressor_id": 255,
+            "stressor_name": "Graphene oxide nanoparticles"
+        },
+        {
+            "stressor_id": 318,
+            "stressor_name": "Carbon nanotubes"
+        },
+        {
+            "stressor_id": 377,
+            "stressor_name": "Insoluble nano-sized particles"
+        },
+        {
+            "stressor_id": 378,
+            "stressor_name": "Virus"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1495,
+            "event": "Substance interaction with the lung resident cell membrane components",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1438,
+            "event": "Transcription of genes encoding acute phase proteins, Increased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1439,
+            "event": "Systemic acute phase response",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1443,
+            "event": "Atherosclerosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3379,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 3515,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1438,
+            "downstream_event": "Transcription of genes encoding acute phase proteins, Increased"
+        },
+        {
+            "relation": 3380,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1438,
+            "downstream_event": "Transcription of genes encoding acute phase proteins, Increased"
+        },
+        {
+            "relation": 3516,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1439,
+            "downstream_event": "Systemic acute phase response"
+        },
+        {
+            "relation": 3637,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1439,
+            "downstream_event": "Systemic acute phase response"
+        },
+        {
+            "relation": 3381,
+            "upstream_event_id": 1438,
+            "upstream_event": "Transcription of genes encoding acute phase proteins, Increased",
+            "downstream_event_id": 1439,
+            "downstream_event": "Systemic acute phase response"
+        },
+        {
+            "relation": 3517,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1443,
+            "downstream_event": "Atherosclerosis"
+        },
+        {
+            "relation": 3382,
+            "upstream_event_id": 1439,
+            "upstream_event": "Systemic acute phase response",
+            "downstream_event_id": 1443,
+            "downstream_event": "Atherosclerosis"
+        }
+    ]
+}

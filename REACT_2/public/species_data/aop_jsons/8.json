@@ -1,0 +1,124 @@
+{
+    "id": 8,
+    "title": "Upregulation of Thyroid Hormone Catabolism via Activation of Hepatic Nuclear Receptors, and Subsequent Adverse Neurodevelopmental Outcomes in Mammals",
+    "short_name": "Nuclear receptor induced TH Catabolism and Developmental Hearing Loss",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 181,
+        "created_at": "2013-10-30T16:52:42.000-04:00",
+        "updated_at": "2021-04-13T09:42:55.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 239,
+            "event": "Activation, Pregnane-X receptor, NR1l2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 295,
+            "event": "Induction, Upregulation of glucuronyltransferase activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 961,
+            "event": "Increased, Clearance of thyroxine from serum",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 280,
+            "event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 756,
+            "event": "Hippocampal gene expression, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 757,
+            "event": "Hippocampal anatomy, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 319,
+            "event": "Loss, Cochlear function",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2830,
+            "upstream_event_id": 239,
+            "upstream_event": "Activation, Pregnane-X receptor, NR1l2",
+            "downstream_event_id": 295,
+            "downstream_event": "Induction, Upregulation of glucuronyltransferase activity"
+        },
+        {
+            "relation": 2834,
+            "upstream_event_id": 295,
+            "upstream_event": "Induction, Upregulation of glucuronyltransferase activity",
+            "downstream_event_id": 961,
+            "downstream_event": "Increased, Clearance of thyroxine from serum"
+        },
+        {
+            "relation": 2835,
+            "upstream_event_id": 961,
+            "upstream_event": "Increased, Clearance of thyroxine from serum",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 2832,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 280,
+            "downstream_event": "Thyroxine (T4) in neuronal tissue, Decreased "
+        },
+        {
+            "relation": 2833,
+            "upstream_event_id": 280,
+            "upstream_event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "downstream_event_id": 756,
+            "downstream_event": "Hippocampal gene expression, Altered "
+        },
+        {
+            "relation": 2836,
+            "upstream_event_id": 756,
+            "upstream_event": "Hippocampal gene expression, Altered ",
+            "downstream_event_id": 757,
+            "downstream_event": "Hippocampal anatomy, Altered "
+        },
+        {
+            "relation": 2837,
+            "upstream_event_id": 757,
+            "upstream_event": "Hippocampal anatomy, Altered ",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 2838,
+            "upstream_event_id": 758,
+            "upstream_event": "Hippocampal Physiology, Altered",
+            "downstream_event_id": 319,
+            "downstream_event": "Loss, Cochlear function"
+        }
+    ]
+}

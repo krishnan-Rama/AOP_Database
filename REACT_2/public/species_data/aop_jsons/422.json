@@ -1,0 +1,80 @@
+{
+    "id": 422,
+    "title": "Binding of SARS-CoV-2 to ACE2 in enterocytes leads to intestinal barrier disruption",
+    "short_name": "SARS-CoV-2 leads to intestinal barrier disruption",
+    "created_at": "2021-09-13T02:52:15.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 2471,
+        "created_at": "2020-12-02T07:47:44.000-05:00",
+        "updated_at": "2024-01-12T03:01:47.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 624,
+            "stressor_name": "Sars-CoV-2"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1901,
+            "event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1931,
+            "event": "Intestinal barrier, disruption",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 2863,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 2966,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1901,
+            "downstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2"
+        },
+        {
+            "relation": 2967,
+            "upstream_event_id": 1901,
+            "upstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 2913,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1931,
+            "downstream_event": "Intestinal barrier, disruption"
+        }
+    ]
+}

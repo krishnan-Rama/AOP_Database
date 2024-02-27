@@ -1,0 +1,31 @@
+{
+    "id": 35,
+    "title": "Narcosis leading to respiratory failure",
+    "short_name": "Narcosis leading to respiratory failure",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 102,
+        "created_at": "2014-01-23T11:09:25.000-05:00",
+        "updated_at": "2023-06-22T10:29:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 46,
+            "event": "Accumulation, Biological membranes",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 169,
+            "event": "Disruption, Membrane integrity",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": []
+}

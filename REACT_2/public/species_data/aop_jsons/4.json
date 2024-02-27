@@ -1,0 +1,181 @@
+{
+    "id": 4,
+    "title": "Ecdysone receptor agonism leading to incomplete ecdysis associated mortality",
+    "short_name": "EcR agonism leading to incomplete ecdysis associated mortality",
+    "created_at": "2016-11-29T18:41:15.000-05:00",
+    "updated_at": "2023-09-03T13:16:04.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 164,
+            "stressor_name": "Tebufenozide"
+        },
+        {
+            "stressor_id": 241,
+            "stressor_name": "20-hydroxyecdysone"
+        },
+        {
+            "stressor_id": 242,
+            "stressor_name": "Ponasterone A"
+        },
+        {
+            "stressor_id": 238,
+            "stressor_name": "Methoxyfenozide"
+        },
+        {
+            "stressor_id": 239,
+            "stressor_name": "Halofenozide"
+        },
+        {
+            "stressor_id": 243,
+            "stressor_name": "Chromafenozide"
+        },
+        {
+            "stressor_id": 244,
+            "stressor_name": "Cyasterone"
+        },
+        {
+            "stressor_id": 245,
+            "stressor_name": "Makisterone A"
+        },
+        {
+            "stressor_id": 246,
+            "stressor_name": "Inokosterone"
+        },
+        {
+            "stressor_id": 247,
+            "stressor_name": "Ecdysone"
+        },
+        {
+            "stressor_id": 248,
+            "stressor_name": "RH-5849"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 103,
+            "event": "Increase, Ecdysone receptor agonism",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1264,
+            "event": "Increase, Nuclear receptor E75b gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1265,
+            "event": "Increase, Fushi tarazu factor-1 gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 988,
+            "event": "Decrease, Circulating ecdysis triggering hormone",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1266,
+            "event": "Decrease, Circulating crustacean cardioactive peptide",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1267,
+            "event": "Decrease, Ecdysis motoneuron bursts",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1268,
+            "event": "Decrease, Excitatory postsynaptic potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 993,
+            "event": "Decrease, Abdominal muscle contraction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 990,
+            "event": "Increase, Incomplete ecdysis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1121,
+            "upstream_event_id": 103,
+            "upstream_event": "Increase, Ecdysone receptor agonism",
+            "downstream_event_id": 1264,
+            "downstream_event": "Increase, Nuclear receptor E75b gene expression"
+        },
+        {
+            "relation": 1122,
+            "upstream_event_id": 1264,
+            "upstream_event": "Increase, Nuclear receptor E75b gene expression",
+            "downstream_event_id": 1265,
+            "downstream_event": "Increase, Fushi tarazu factor-1 gene expression"
+        },
+        {
+            "relation": 1123,
+            "upstream_event_id": 1265,
+            "upstream_event": "Increase, Fushi tarazu factor-1 gene expression",
+            "downstream_event_id": 988,
+            "downstream_event": "Decrease, Circulating ecdysis triggering hormone"
+        },
+        {
+            "relation": 1124,
+            "upstream_event_id": 988,
+            "upstream_event": "Decrease, Circulating ecdysis triggering hormone",
+            "downstream_event_id": 1266,
+            "downstream_event": "Decrease, Circulating crustacean cardioactive peptide"
+        },
+        {
+            "relation": 1125,
+            "upstream_event_id": 1266,
+            "upstream_event": "Decrease, Circulating crustacean cardioactive peptide",
+            "downstream_event_id": 1267,
+            "downstream_event": "Decrease, Ecdysis motoneuron bursts"
+        },
+        {
+            "relation": 1126,
+            "upstream_event_id": 1267,
+            "upstream_event": "Decrease, Ecdysis motoneuron bursts",
+            "downstream_event_id": 1268,
+            "downstream_event": "Decrease, Excitatory postsynaptic potential"
+        },
+        {
+            "relation": 1127,
+            "upstream_event_id": 1268,
+            "upstream_event": "Decrease, Excitatory postsynaptic potential",
+            "downstream_event_id": 993,
+            "downstream_event": "Decrease, Abdominal muscle contraction"
+        },
+        {
+            "relation": 1082,
+            "upstream_event_id": 993,
+            "upstream_event": "Decrease, Abdominal muscle contraction",
+            "downstream_event_id": 990,
+            "downstream_event": "Increase, Incomplete ecdysis"
+        },
+        {
+            "relation": 1646,
+            "upstream_event_id": 990,
+            "upstream_event": "Increase, Incomplete ecdysis",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        }
+    ]
+}

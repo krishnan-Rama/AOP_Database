@@ -1,0 +1,52 @@
+{
+    "id": 407,
+    "title": "SARS-CoV-2 infection leading to pyroptosis",
+    "short_name": "SARS-CoV2 to pyroptosis",
+    "created_at": "2021-06-25T05:14:42.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 3143,
+        "created_at": "2021-03-03T09:56:38.000-05:00",
+        "updated_at": "2023-04-24T03:36:43.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1869,
+            "event": "Diminished protective oxidative stress response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1895,
+            "event": "NLRP3 inflammasome activity, increased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1967,
+            "event": "Pyroptosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

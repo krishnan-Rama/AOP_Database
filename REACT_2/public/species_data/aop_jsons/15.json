@@ -1,0 +1,78 @@
+{
+    "id": 15,
+    "title": "Alkylation of DNA in male pre-meiotic germ cells leading to heritable mutations",
+    "short_name": "Alkylation of DNA leading to heritable mutations",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 61,
+        "created_at": "2013-12-16T13:44:19.000-05:00",
+        "updated_at": "2023-01-09T20:14:28.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 97,
+            "event": "Alkylation, DNA",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 336,
+            "event": "Increase, Heritable mutations in offspring",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 10,
+            "upstream_event_id": 97,
+            "upstream_event": "Alkylation, DNA",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 11,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 12,
+            "upstream_event_id": 97,
+            "upstream_event": "Alkylation, DNA",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 13,
+            "upstream_event_id": 97,
+            "upstream_event": "Alkylation, DNA",
+            "downstream_event_id": 336,
+            "downstream_event": "Increase, Heritable mutations in offspring"
+        },
+        {
+            "relation": 590,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 336,
+            "downstream_event": "Increase, Heritable mutations in offspring"
+        }
+    ]
+}

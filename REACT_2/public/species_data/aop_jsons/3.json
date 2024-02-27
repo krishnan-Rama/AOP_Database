@@ -1,0 +1,123 @@
+{
+    "id": 3,
+    "title": "Inhibition of the mitochondrial complex I of nigro-striatal neurons leads to parkinsonian motor deficits",
+    "short_name": "Mitochondrial dysfunction and Neurotoxicity",
+    "created_at": "2016-11-29T18:41:15.000-05:00",
+    "updated_at": "2023-04-29T16:02:54.000-04:00",
+    "corresponding_author": {
+        "id": 27,
+        "created_at": "2016-01-22T06:12:31.000-05:00",
+        "updated_at": "2023-11-08T06:22:42.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 222,
+            "stressor_name": "MPP+"
+        },
+        {
+            "stressor_id": 50,
+            "stressor_name": "Rotenone"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 888,
+            "event": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 887,
+            "event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 889,
+            "event": "Impaired, Proteostasis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 890,
+            "event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 896,
+            "event": "Parkinsonian motor deficits",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 604,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 890,
+            "downstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway"
+        },
+        {
+            "relation": 626,
+            "upstream_event_id": 888,
+            "upstream_event": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+            "downstream_event_id": 887,
+            "downstream_event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)"
+        },
+        {
+            "relation": 627,
+            "upstream_event_id": 887,
+            "upstream_event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 600,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 889,
+            "downstream_event": "Impaired, Proteostasis"
+        },
+        {
+            "relation": 601,
+            "upstream_event_id": 889,
+            "upstream_event": "Impaired, Proteostasis",
+            "downstream_event_id": 890,
+            "downstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway"
+        },
+        {
+            "relation": 625,
+            "upstream_event_id": 890,
+            "upstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+            "downstream_event_id": 896,
+            "downstream_event": "Parkinsonian motor deficits"
+        },
+        {
+            "relation": 603,
+            "upstream_event_id": 890,
+            "upstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 602,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 890,
+            "downstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway"
+        }
+    ]
+}

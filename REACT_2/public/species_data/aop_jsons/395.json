@@ -1,0 +1,47 @@
+{
+    "id": 395,
+    "title": "Binding of Sars-CoV-2 spike protein to ACE 2 receptors expressed on pericytes leads to disseminated intravascular coagulation resulting in cerebrovascular disease (stroke)",
+    "short_name": "Sars-CoV-2 causes stroke",
+    "created_at": "2021-04-27T13:41:53.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 377,
+        "created_at": "2017-01-25T09:24:01.000-05:00",
+        "updated_at": "2023-12-11T09:07:51.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1874,
+            "event": "blood brain barrier disruption ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1846,
+            "event": "Thrombosis and Disseminated Intravascular Coagulation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1875,
+            "event": "Cerebrovascular disease (stroke)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

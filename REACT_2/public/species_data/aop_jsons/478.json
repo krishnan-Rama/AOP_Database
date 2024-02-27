@@ -1,0 +1,232 @@
+{
+    "id": 478,
+    "title": "Deposition of energy leading to occurrence of cataracts",
+    "short_name": "Deposition of energy leading to cataracts",
+    "created_at": "2022-12-19T09:56:03.000-05:00",
+    "updated_at": "2023-05-07T13:56:28.000-04:00",
+    "corresponding_author": {
+        "id": 475,
+        "created_at": "2017-09-13T13:30:53.000-04:00",
+        "updated_at": "2024-02-16T11:14:45.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2081,
+            "event": "Increased Modified Proteins",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1634,
+            "event": "Increase, Oxidative damage to DNA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1635,
+            "event": "Increase, DNA strand breaks",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1636,
+            "event": "Increase, Chromosomal aberrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2083,
+            "event": "Occurrence of Cataracts",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3287,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 3298,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1634,
+            "downstream_event": "Increase, Oxidative damage to DNA"
+        },
+        {
+            "relation": 3432,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 3299,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 3288,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 2081,
+            "downstream_event": "Increased Modified Proteins"
+        },
+        {
+            "relation": 3289,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1634,
+            "downstream_event": "Increase, Oxidative damage to DNA"
+        },
+        {
+            "relation": 3300,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 3301,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 3290,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 3302,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 2083,
+            "downstream_event": "Occurrence of Cataracts"
+        },
+        {
+            "relation": 3291,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 2081,
+            "downstream_event": "Increased Modified Proteins"
+        },
+        {
+            "relation": 3304,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 2083,
+            "downstream_event": "Occurrence of Cataracts"
+        },
+        {
+            "relation": 3292,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 3293,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 3305,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 2083,
+            "downstream_event": "Occurrence of Cataracts"
+        },
+        {
+            "relation": 3294,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 3295,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 3296,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 3297,
+            "upstream_event_id": 1636,
+            "upstream_event": "Increase, Chromosomal aberrations",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 3303,
+            "upstream_event_id": 2081,
+            "upstream_event": "Increased Modified Proteins",
+            "downstream_event_id": 2083,
+            "downstream_event": "Occurrence of Cataracts"
+        },
+        {
+            "relation": 3306,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 2083,
+            "downstream_event": "Occurrence of Cataracts"
+        },
+        {
+            "relation": 3307,
+            "upstream_event_id": 1634,
+            "upstream_event": "Increase, Oxidative damage to DNA",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        }
+    ]
+}

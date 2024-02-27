@@ -1,0 +1,175 @@
+{
+    "id": 293,
+    "title": "Increased DNA damage leading to increased risk of breast cancer",
+    "short_name": "Increased DNA damage leading to breast cancer",
+    "created_at": "2019-05-03T10:20:11.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 814,
+        "created_at": "2019-02-06T12:01:55.000-05:00",
+        "updated_at": "2021-05-19T20:50:10.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        },
+        {
+            "stressor_id": 453,
+            "stressor_name": "Other DNA damaging agents"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1492,
+            "event": "Tissue resident cell activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1493,
+            "event": "Increased Pro-inflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1632,
+            "event": "Increase in reactive oxygen and nitrogen species (RONS)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1494,
+            "event": "Leukocyte recruitment/activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1182,
+            "event": "Increase, Cell Proliferation (Epithelial Cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1192,
+            "event": "Increased, Ductal Hyperplasia ",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1193,
+            "event": "N/A, Breast Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1889,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1890,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 1182,
+            "downstream_event": "Increase, Cell Proliferation (Epithelial Cells)"
+        },
+        {
+            "relation": 1899,
+            "upstream_event_id": 1182,
+            "upstream_event": "Increase, Cell Proliferation (Epithelial Cells)",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1873,
+            "upstream_event_id": 1182,
+            "upstream_event": "Increase, Cell Proliferation (Epithelial Cells)",
+            "downstream_event_id": 1192,
+            "downstream_event": "Increased, Ductal Hyperplasia "
+        },
+        {
+            "relation": 1874,
+            "upstream_event_id": 1192,
+            "upstream_event": "Increased, Ductal Hyperplasia ",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        },
+        {
+            "relation": 1892,
+            "upstream_event_id": 1632,
+            "upstream_event": "Increase in reactive oxygen and nitrogen species (RONS)",
+            "downstream_event_id": 1492,
+            "downstream_event": "Tissue resident cell activation"
+        },
+        {
+            "relation": 1876,
+            "upstream_event_id": 1632,
+            "upstream_event": "Increase in reactive oxygen and nitrogen species (RONS)",
+            "downstream_event_id": 1194,
+            "downstream_event": "Increase, DNA damage"
+        },
+        {
+            "relation": 1869,
+            "upstream_event_id": 1492,
+            "upstream_event": "Tissue resident cell activation",
+            "downstream_event_id": 1493,
+            "downstream_event": "Increased Pro-inflammatory mediators"
+        },
+        {
+            "relation": 1870,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 1494,
+            "downstream_event": "Leukocyte recruitment/activation"
+        },
+        {
+            "relation": 1875,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 1632,
+            "downstream_event": "Increase in reactive oxygen and nitrogen species (RONS)"
+        },
+        {
+            "relation": 1877,
+            "upstream_event_id": 1494,
+            "upstream_event": "Leukocyte recruitment/activation",
+            "downstream_event_id": 1632,
+            "downstream_event": "Increase in reactive oxygen and nitrogen species (RONS)"
+        },
+        {
+            "relation": 1896,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 1492,
+            "downstream_event": "Tissue resident cell activation"
+        },
+        {
+            "relation": 1897,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 1182,
+            "downstream_event": "Increase, Cell Proliferation (Epithelial Cells)"
+        },
+        {
+            "relation": 1898,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        }
+    ]
+}

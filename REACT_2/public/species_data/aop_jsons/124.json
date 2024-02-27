@@ -1,0 +1,88 @@
+{
+    "id": 124,
+    "title": "HMG-CoA reductase inhibition leading to decreased fertility",
+    "short_name": "HMGCR inhibition to male fertility",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 804,
+            "event": "Inhibition, HMG-CoA reductase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 805,
+            "event": "Decreased, mevalonate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 807,
+            "event": "Decreased, cholesterol",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 808,
+            "event": "Decreased, Testosterone",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 809,
+            "event": "malformed, Male reproductive tract",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 330,
+            "event": "Decrease, Fertility",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 487,
+            "upstream_event_id": 804,
+            "upstream_event": "Inhibition, HMG-CoA reductase",
+            "downstream_event_id": 805,
+            "downstream_event": "Decreased, mevalonate"
+        },
+        {
+            "relation": 488,
+            "upstream_event_id": 805,
+            "upstream_event": "Decreased, mevalonate",
+            "downstream_event_id": 807,
+            "downstream_event": "Decreased, cholesterol"
+        },
+        {
+            "relation": 489,
+            "upstream_event_id": 807,
+            "upstream_event": "Decreased, cholesterol",
+            "downstream_event_id": 808,
+            "downstream_event": "Decreased, Testosterone"
+        },
+        {
+            "relation": 490,
+            "upstream_event_id": 808,
+            "upstream_event": "Decreased, Testosterone",
+            "downstream_event_id": 809,
+            "downstream_event": "malformed, Male reproductive tract"
+        },
+        {
+            "relation": 491,
+            "upstream_event_id": 809,
+            "upstream_event": "malformed, Male reproductive tract",
+            "downstream_event_id": 330,
+            "downstream_event": "Decrease, Fertility"
+        }
+    ]
+}

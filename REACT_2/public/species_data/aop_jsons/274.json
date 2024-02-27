@@ -1,0 +1,96 @@
+{
+    "id": 274,
+    "title": "Histone deacetylase inhibition leads to impeded craniofacial development",
+    "short_name": "HDAC inhibition leads to impeded craniofacial development",
+    "created_at": "2018-12-20T03:45:23.000-05:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 410,
+        "created_at": "2017-03-10T05:23:56.000-05:00",
+        "updated_at": "2023-12-11T05:22:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 401,
+            "stressor_name": "Valproic acid"
+        },
+        {
+            "stressor_id": 341,
+            "stressor_name": "Butyrate"
+        },
+        {
+            "stressor_id": 342,
+            "stressor_name": "Trichostatin A"
+        },
+        {
+            "stressor_id": 402,
+            "stressor_name": "Suberoylanilide hydroxamic acid"
+        },
+        {
+            "stressor_id": 403,
+            "stressor_name": "MS-275"
+        },
+        {
+            "stressor_id": 404,
+            "stressor_name": "Apicidin"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1502,
+            "event": "Histone deacetylase inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1557,
+            "event": "Neural crest cell migration, reduced",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1558,
+            "event": "Collagen production, reduced",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1559,
+            "event": "Facial cartilage structures are reduced in size and morphologically distorted",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1732,
+            "upstream_event_id": 1502,
+            "upstream_event": "Histone deacetylase inhibition",
+            "downstream_event_id": 1557,
+            "downstream_event": "Neural crest cell migration, reduced"
+        },
+        {
+            "relation": 1735,
+            "upstream_event_id": 1502,
+            "upstream_event": "Histone deacetylase inhibition",
+            "downstream_event_id": 1558,
+            "downstream_event": "Collagen production, reduced"
+        },
+        {
+            "relation": 1733,
+            "upstream_event_id": 1557,
+            "upstream_event": "Neural crest cell migration, reduced",
+            "downstream_event_id": 1558,
+            "downstream_event": "Collagen production, reduced"
+        },
+        {
+            "relation": 1734,
+            "upstream_event_id": 1558,
+            "upstream_event": "Collagen production, reduced",
+            "downstream_event_id": 1559,
+            "downstream_event": "Facial cartilage structures are reduced in size and morphologically distorted"
+        }
+    ]
+}

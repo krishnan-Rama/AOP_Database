@@ -1,0 +1,76 @@
+{
+    "id": 111,
+    "title": "Decrease in androgen receptor activity leading to Leydig cell tumors (in rat)",
+    "short_name": "Decreased AR activity- Leydig cell tumors",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 742,
+            "event": "Decreased, Androgen receptor activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 743,
+            "event": "Decreased, Testosterone binding to androgen receptor (hypothalamus)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 744,
+            "event": "Increase, Hyperplasia (Leydig cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 754,
+            "event": "Increased, Luteinizing hormone (LH) ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 745,
+            "event": "Increase, Leydig cell tumors",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 400,
+            "upstream_event_id": 742,
+            "upstream_event": "Decreased, Androgen receptor activity",
+            "downstream_event_id": 743,
+            "downstream_event": "Decreased, Testosterone binding to androgen receptor (hypothalamus)"
+        },
+        {
+            "relation": 401,
+            "upstream_event_id": 744,
+            "upstream_event": "Increase, Hyperplasia (Leydig cells)",
+            "downstream_event_id": 745,
+            "downstream_event": "Increase, Leydig cell tumors"
+        },
+        {
+            "relation": 410,
+            "upstream_event_id": 743,
+            "upstream_event": "Decreased, Testosterone binding to androgen receptor (hypothalamus)",
+            "downstream_event_id": 754,
+            "downstream_event": "Increased, Luteinizing hormone (LH) "
+        },
+        {
+            "relation": 411,
+            "upstream_event_id": 754,
+            "upstream_event": "Increased, Luteinizing hormone (LH) ",
+            "downstream_event_id": 744,
+            "downstream_event": "Increase, Hyperplasia (Leydig cells)"
+        }
+    ]
+}

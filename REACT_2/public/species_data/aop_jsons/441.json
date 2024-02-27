@@ -1,0 +1,119 @@
+{
+    "id": 441,
+    "title": "Ionizing radiation-induced DNA damage leads to microcephaly via apoptosis and premature cell differentiation",
+    "short_name": "Increased DNA damages during embryonic development lead to microcephaly",
+    "created_at": "2022-03-09T07:33:35.000-05:00",
+    "updated_at": "2024-01-10T04:54:09.000-05:00",
+    "corresponding_author": {
+        "id": 9243,
+        "created_at": "2022-03-03T03:31:19.000-05:00",
+        "updated_at": "2024-01-08T09:40:30.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1974,
+            "event": "Activation of Tumor Protein 53",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1979,
+            "event": "Premature cell differentiation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2200,
+            "event": "decline, neural progenitor cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1978,
+            "event": "Increase risk, microcephaly",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3013,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1194,
+            "downstream_event": "Increase, DNA damage"
+        },
+        {
+            "relation": 3025,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1978,
+            "downstream_event": "Increase risk, microcephaly"
+        },
+        {
+            "relation": 3020,
+            "upstream_event_id": 1194,
+            "upstream_event": "Increase, DNA damage",
+            "downstream_event_id": 1974,
+            "downstream_event": "Activation of Tumor Protein 53"
+        },
+        {
+            "relation": 3027,
+            "upstream_event_id": 1974,
+            "upstream_event": "Activation of Tumor Protein 53",
+            "downstream_event_id": 1979,
+            "downstream_event": "Premature cell differentiation"
+        },
+        {
+            "relation": 3710,
+            "upstream_event_id": 1974,
+            "upstream_event": "Activation of Tumor Protein 53",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 3711,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 2200,
+            "downstream_event": "decline, neural progenitor cells"
+        },
+        {
+            "relation": 3712,
+            "upstream_event_id": 1979,
+            "upstream_event": "Premature cell differentiation",
+            "downstream_event_id": 2200,
+            "downstream_event": "decline, neural progenitor cells"
+        },
+        {
+            "relation": 3713,
+            "upstream_event_id": 2200,
+            "upstream_event": "decline, neural progenitor cells",
+            "downstream_event_id": 1978,
+            "downstream_event": "Increase risk, microcephaly"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": 53,
+    "title": "ER agonism leading to reduced survival due to renal failure",
+    "short_name": "ER agonism : reduced survival",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 305,
+        "created_at": "2014-01-14T10:22:57.000-05:00",
+        "updated_at": "2016-11-29T18:41:14.000-05:00",
+        "subscribed": true,
+        "novice": false
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 111,
+            "event": "Agonism, Estrogen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 418,
+            "event": "Increased, Vitellogenin synthesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 220,
+            "event": "Increase, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 419,
+            "event": "Increased, renal vitellogenin deposition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 421,
+            "event": "Increased, glomerular rupture and renal hemorrhaging",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 422,
+            "event": "Increased, nephropathy",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": []
+}

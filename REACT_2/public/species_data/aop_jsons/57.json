@@ -1,0 +1,207 @@
+{
+    "id": 57,
+    "title": "AhR activation leading to hepatic steatosis",
+    "short_name": "AhR activation to steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 450,
+            "event": "Suppression, VLDL secretion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 451,
+            "event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 327,
+            "event": "Accumulation, Fatty acid",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 216,
+            "event": "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 291,
+            "event": "Accumulation, Triglyceride",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 54,
+            "event": "Up Regulation, CD36",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 465,
+            "event": "Increased, FA Influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 466,
+            "event": "Up Regulation, LDLR (low density lipoprotein receptor)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 467,
+            "event": "Increased, LDL uptake",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 80,
+            "event": "Up Regulation, CYP1A1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 462,
+            "event": "Up Regulation, SCD-1",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 455,
+            "event": "Accumulation, Liver lipid",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 171,
+            "upstream_event_id": 450,
+            "upstream_event": "Suppression, VLDL secretion",
+            "downstream_event_id": 455,
+            "downstream_event": "Accumulation, Liver lipid"
+        },
+        {
+            "relation": 172,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 451,
+            "downstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+        },
+        {
+            "relation": 173,
+            "upstream_event_id": 291,
+            "upstream_event": "Accumulation, Triglyceride",
+            "downstream_event_id": 455,
+            "downstream_event": "Accumulation, Liver lipid"
+        },
+        {
+            "relation": 174,
+            "upstream_event_id": 451,
+            "upstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 190,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 54,
+            "downstream_event": "Up Regulation, CD36"
+        },
+        {
+            "relation": 192,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 216,
+            "downstream_event": "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)"
+        },
+        {
+            "relation": 194,
+            "upstream_event_id": 54,
+            "upstream_event": "Up Regulation, CD36",
+            "downstream_event_id": 465,
+            "downstream_event": "Increased, FA Influx"
+        },
+        {
+            "relation": 195,
+            "upstream_event_id": 327,
+            "upstream_event": "Accumulation, Fatty acid",
+            "downstream_event_id": 455,
+            "downstream_event": "Accumulation, Liver lipid"
+        },
+        {
+            "relation": 196,
+            "upstream_event_id": 216,
+            "upstream_event": "Decreased, PCK1 expression (control point for glycolysis/gluconeogenesis pathway)",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 197,
+            "upstream_event_id": 465,
+            "upstream_event": "Increased, FA Influx",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 198,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 466,
+            "downstream_event": "Up Regulation, LDLR (low density lipoprotein receptor)"
+        },
+        {
+            "relation": 199,
+            "upstream_event_id": 466,
+            "upstream_event": "Up Regulation, LDLR (low density lipoprotein receptor)",
+            "downstream_event_id": 467,
+            "downstream_event": "Increased, LDL uptake"
+        },
+        {
+            "relation": 200,
+            "upstream_event_id": 467,
+            "upstream_event": "Increased, LDL uptake",
+            "downstream_event_id": 327,
+            "downstream_event": "Accumulation, Fatty acid"
+        },
+        {
+            "relation": 201,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 450,
+            "downstream_event": "Suppression, VLDL secretion"
+        },
+        {
+            "relation": 209,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 80,
+            "downstream_event": "Up Regulation, CYP1A1"
+        },
+        {
+            "relation": 1527,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 462,
+            "downstream_event": "Up Regulation, SCD-1"
+        },
+        {
+            "relation": 1528,
+            "upstream_event_id": 462,
+            "upstream_event": "Up Regulation, SCD-1",
+            "downstream_event_id": 291,
+            "downstream_event": "Accumulation, Triglyceride"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": 62,
+    "title": "AKT2 activation leading to hepatic steatosis",
+    "short_name": "AKT2 activation to steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 486,
+            "event": "systemic inflammation leading to hepatic steatosis",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 484,
+            "event": "Activation, AKT2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 457,
+            "event": "Activation, SREBF1",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 239,
+            "upstream_event_id": 486,
+            "upstream_event": "systemic inflammation leading to hepatic steatosis",
+            "downstream_event_id": 484,
+            "downstream_event": "Activation, AKT2"
+        },
+        {
+            "relation": 1539,
+            "upstream_event_id": 484,
+            "upstream_event": "Activation, AKT2",
+            "downstream_event_id": 457,
+            "downstream_event": "Activation, SREBF1"
+        },
+        {
+            "relation": 1540,
+            "upstream_event_id": 457,
+            "upstream_event": "Activation, SREBF1",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        }
+    ]
+}

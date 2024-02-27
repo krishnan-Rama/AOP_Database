@@ -1,0 +1,76 @@
+{
+    "id": 148,
+    "title": "EGFR Activation Leading to Decreased Lung Function",
+    "short_name": "Decreased lung function",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 178,
+        "created_at": "2016-02-29T04:55:52.000-05:00",
+        "updated_at": "2023-03-13T11:03:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 303,
+            "stressor_name": "Reactive oxygen species"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 941,
+            "event": "Activation, EGFR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2117,
+            "event": "Increase, goblet cell number",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 962,
+            "event": "Increase, Mucin production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1250,
+            "event": "Decrease, Lung function",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3372,
+            "upstream_event_id": 941,
+            "upstream_event": "Activation, EGFR",
+            "downstream_event_id": 2117,
+            "downstream_event": "Increase, goblet cell number"
+        },
+        {
+            "relation": 3375,
+            "upstream_event_id": 941,
+            "upstream_event": "Activation, EGFR",
+            "downstream_event_id": 962,
+            "downstream_event": "Increase, Mucin production"
+        },
+        {
+            "relation": 3373,
+            "upstream_event_id": 2117,
+            "upstream_event": "Increase, goblet cell number",
+            "downstream_event_id": 962,
+            "downstream_event": "Increase, Mucin production"
+        },
+        {
+            "relation": 3374,
+            "upstream_event_id": 962,
+            "upstream_event": "Increase, Mucin production",
+            "downstream_event_id": 1250,
+            "downstream_event": "Decrease, Lung function"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "id": 51,
+    "title": "PPAR\u03b1 activation leading to impaired fertility in adult male rodents ",
+    "short_name": "PPAR and reproductive toxicity",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 109,
+        "created_at": "2016-07-01T09:27:11.000-04:00",
+        "updated_at": "2021-04-13T09:40:27.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 414,
+            "event": "Increase, Luteinizing hormone (LH) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 415,
+            "event": "Hyperplasia, Leydig cell",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 416,
+            "event": "Increase proliferation, Leydig cell ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 446,
+            "event": "Reduction, fetal/adult testosterone ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 413,
+            "event": "Reduction, Testosterone synthesis in Leydig cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 447,
+            "event": "Reduction, Cholesterol transport in mitochondria",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 129,
+            "upstream_event_id": 416,
+            "upstream_event": "Increase proliferation, Leydig cell ",
+            "downstream_event_id": 415,
+            "downstream_event": "Hyperplasia, Leydig cell"
+        },
+        {
+            "relation": 166,
+            "upstream_event_id": 413,
+            "upstream_event": "Reduction, Testosterone synthesis in Leydig cells",
+            "downstream_event_id": 446,
+            "downstream_event": "Reduction, fetal/adult testosterone "
+        },
+        {
+            "relation": 167,
+            "upstream_event_id": 447,
+            "upstream_event": "Reduction, Cholesterol transport in mitochondria",
+            "downstream_event_id": 413,
+            "downstream_event": "Reduction, Testosterone synthesis in Leydig cells"
+        },
+        {
+            "relation": 168,
+            "upstream_event_id": 446,
+            "upstream_event": "Reduction, fetal/adult testosterone ",
+            "downstream_event_id": 414,
+            "downstream_event": "Increase, Luteinizing hormone (LH) "
+        },
+        {
+            "relation": 169,
+            "upstream_event_id": 414,
+            "upstream_event": "Increase, Luteinizing hormone (LH) ",
+            "downstream_event_id": 416,
+            "downstream_event": "Increase proliferation, Leydig cell "
+        },
+        {
+            "relation": 170,
+            "upstream_event_id": 415,
+            "upstream_event": "Hyperplasia, Leydig cell",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        }
+    ]
+}

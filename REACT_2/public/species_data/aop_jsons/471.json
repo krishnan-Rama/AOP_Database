@@ -1,0 +1,484 @@
+{
+    "id": 471,
+    "title": "Various neuronal effects induced by elavl3, sox10, and mbp",
+    "short_name": "elavl3, sox10, mbp induced neuronal effects",
+    "created_at": "2022-10-04T00:33:28.000-04:00",
+    "updated_at": "2023-10-17T05:06:15.000-04:00",
+    "corresponding_author": {
+        "id": 9148,
+        "created_at": "2022-02-21T20:18:20.000-05:00",
+        "updated_at": "2023-10-23T03:42:13.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2195,
+            "event": "Increase, CNS Neural cell death",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2078,
+            "event": "Loss of drebrin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2150,
+            "event": "Neurological disorder",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2196,
+            "event": "Decrease, elavl3 ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2197,
+            "event": "Decrease, sox10",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2198,
+            "event": "Decrease, mbp",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1510,
+            "event": "Oxidative Stress in Brain",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 618,
+            "event": "Decreased, Neuronal network function in adult brain",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 10,
+            "event": "Acetylcholine accumulation in synapses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 12,
+            "event": "Acetylcholinesterase (AchE) Inhibition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1582,
+            "event": "Impaired axonial transport",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1583,
+            "event": "Sensory axonal peripheral neuropathy",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 388,
+            "event": "Overactivation, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 191,
+            "event": "Neuronal dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 890,
+            "event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1944,
+            "event": "Synaptic dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2151,
+            "event": "Disruption, neurotransmitter release",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1018,
+            "event": "Activation, Glutamate-gated chloride channels",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1349,
+            "event": "Activated, presynaptic neuron 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1177,
+            "event": "Decreased, Ionotropic GABA receptor chloride channel conductance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1012,
+            "event": "Increased, Inhibitory postsynaptic potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1014,
+            "event": "Induction, Somatic muscle paralysis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1015,
+            "event": "Increased, Neuronal synaptic inhibition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 637,
+            "event": "impaired, Learning and memory",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1841,
+            "event": "Encephalitis",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 896,
+            "event": "Parkinsonian motor deficits",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1348,
+            "event": "Increase, seizure",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1363,
+            "event": "Increased, epilepsy",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1016,
+            "event": "Inhibition, Feeding",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3641,
+            "upstream_event_id": 2195,
+            "upstream_event": "Increase, CNS Neural cell death",
+            "downstream_event_id": 2196,
+            "downstream_event": "Decrease, elavl3 "
+        },
+        {
+            "relation": 3642,
+            "upstream_event_id": 2195,
+            "upstream_event": "Increase, CNS Neural cell death",
+            "downstream_event_id": 2197,
+            "downstream_event": "Decrease, sox10"
+        },
+        {
+            "relation": 3643,
+            "upstream_event_id": 2195,
+            "upstream_event": "Increase, CNS Neural cell death",
+            "downstream_event_id": 2198,
+            "downstream_event": "Decrease, mbp"
+        },
+        {
+            "relation": 3644,
+            "upstream_event_id": 2196,
+            "upstream_event": "Decrease, elavl3 ",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3645,
+            "upstream_event_id": 2197,
+            "upstream_event": "Decrease, sox10",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3646,
+            "upstream_event_id": 2198,
+            "upstream_event": "Decrease, mbp",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3647,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3648,
+            "upstream_event_id": 1510,
+            "upstream_event": "Oxidative Stress in Brain",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 3649,
+            "upstream_event_id": 1510,
+            "upstream_event": "Oxidative Stress in Brain",
+            "downstream_event_id": 618,
+            "downstream_event": "Decreased, Neuronal network function in adult brain"
+        },
+        {
+            "relation": 3650,
+            "upstream_event_id": 10,
+            "upstream_event": "Acetylcholine accumulation in synapses",
+            "downstream_event_id": 12,
+            "downstream_event": "Acetylcholinesterase (AchE) Inhibition"
+        },
+        {
+            "relation": 3651,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 2195,
+            "downstream_event": "Increase, CNS Neural cell death"
+        },
+        {
+            "relation": 3652,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 1944,
+            "downstream_event": "Synaptic dysfunction"
+        },
+        {
+            "relation": 3653,
+            "upstream_event_id": 1944,
+            "upstream_event": "Synaptic dysfunction",
+            "downstream_event_id": 1582,
+            "downstream_event": "Impaired axonial transport"
+        },
+        {
+            "relation": 3654,
+            "upstream_event_id": 1582,
+            "upstream_event": "Impaired axonial transport",
+            "downstream_event_id": 1583,
+            "downstream_event": "Sensory axonal peripheral neuropathy"
+        },
+        {
+            "relation": 3655,
+            "upstream_event_id": 1583,
+            "upstream_event": "Sensory axonal peripheral neuropathy",
+            "downstream_event_id": 618,
+            "downstream_event": "Decreased, Neuronal network function in adult brain"
+        },
+        {
+            "relation": 3657,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 12,
+            "downstream_event": "Acetylcholinesterase (AchE) Inhibition"
+        },
+        {
+            "relation": 3658,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 618,
+            "downstream_event": "Decreased, Neuronal network function in adult brain"
+        },
+        {
+            "relation": 3659,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 388,
+            "downstream_event": "Overactivation, NMDARs"
+        },
+        {
+            "relation": 3660,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 3661,
+            "upstream_event_id": 618,
+            "upstream_event": "Decreased, Neuronal network function in adult brain",
+            "downstream_event_id": 2150,
+            "downstream_event": "Neurological disorder"
+        },
+        {
+            "relation": 3662,
+            "upstream_event_id": 191,
+            "upstream_event": "Neuronal dysfunction",
+            "downstream_event_id": 2150,
+            "downstream_event": "Neurological disorder"
+        },
+        {
+            "relation": 3663,
+            "upstream_event_id": 618,
+            "upstream_event": "Decreased, Neuronal network function in adult brain",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 3665,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 890,
+            "downstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway"
+        },
+        {
+            "relation": 3666,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 637,
+            "downstream_event": "impaired, Learning and memory"
+        },
+        {
+            "relation": 3667,
+            "upstream_event_id": 618,
+            "upstream_event": "Decreased, Neuronal network function in adult brain",
+            "downstream_event_id": 637,
+            "downstream_event": "impaired, Learning and memory"
+        },
+        {
+            "relation": 3668,
+            "upstream_event_id": 890,
+            "upstream_event": "Degeneration of dopaminergic neurons of the nigrostriatal pathway",
+            "downstream_event_id": 637,
+            "downstream_event": "impaired, Learning and memory"
+        },
+        {
+            "relation": 3669,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 1841,
+            "downstream_event": "Encephalitis"
+        },
+        {
+            "relation": 3670,
+            "upstream_event_id": 1944,
+            "upstream_event": "Synaptic dysfunction",
+            "downstream_event_id": 637,
+            "downstream_event": "impaired, Learning and memory"
+        },
+        {
+            "relation": 3671,
+            "upstream_event_id": 2078,
+            "upstream_event": "Loss of drebrin",
+            "downstream_event_id": 1944,
+            "downstream_event": "Synaptic dysfunction"
+        },
+        {
+            "relation": 3672,
+            "upstream_event_id": 637,
+            "upstream_event": "impaired, Learning and memory",
+            "downstream_event_id": 896,
+            "downstream_event": "Parkinsonian motor deficits"
+        },
+        {
+            "relation": 3673,
+            "upstream_event_id": 2151,
+            "upstream_event": "Disruption, neurotransmitter release",
+            "downstream_event_id": 637,
+            "downstream_event": "impaired, Learning and memory"
+        },
+        {
+            "relation": 3674,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 1348,
+            "downstream_event": "Increase, seizure"
+        },
+        {
+            "relation": 3675,
+            "upstream_event_id": 1348,
+            "upstream_event": "Increase, seizure",
+            "downstream_event_id": 1363,
+            "downstream_event": "Increased, epilepsy"
+        },
+        {
+            "relation": 3676,
+            "upstream_event_id": 1363,
+            "upstream_event": "Increased, epilepsy",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 3677,
+            "upstream_event_id": 896,
+            "upstream_event": "Parkinsonian motor deficits",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 3678,
+            "upstream_event_id": 1018,
+            "upstream_event": "Activation, Glutamate-gated chloride channels",
+            "downstream_event_id": 388,
+            "downstream_event": "Overactivation, NMDARs"
+        },
+        {
+            "relation": 3679,
+            "upstream_event_id": 1018,
+            "upstream_event": "Activation, Glutamate-gated chloride channels",
+            "downstream_event_id": 2195,
+            "downstream_event": "Increase, CNS Neural cell death"
+        },
+        {
+            "relation": 3680,
+            "upstream_event_id": 1349,
+            "upstream_event": "Activated, presynaptic neuron 1",
+            "downstream_event_id": 1018,
+            "downstream_event": "Activation, Glutamate-gated chloride channels"
+        },
+        {
+            "relation": 3681,
+            "upstream_event_id": 1016,
+            "upstream_event": "Inhibition, Feeding",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 3682,
+            "upstream_event_id": 1349,
+            "upstream_event": "Activated, presynaptic neuron 1",
+            "downstream_event_id": 1177,
+            "downstream_event": "Decreased, Ionotropic GABA receptor chloride channel conductance"
+        },
+        {
+            "relation": 3683,
+            "upstream_event_id": 1012,
+            "upstream_event": "Increased, Inhibitory postsynaptic potential",
+            "downstream_event_id": 1014,
+            "downstream_event": "Induction, Somatic muscle paralysis"
+        },
+        {
+            "relation": 3684,
+            "upstream_event_id": 1014,
+            "upstream_event": "Induction, Somatic muscle paralysis",
+            "downstream_event_id": 1015,
+            "downstream_event": "Increased, Neuronal synaptic inhibition"
+        },
+        {
+            "relation": 3685,
+            "upstream_event_id": 1015,
+            "upstream_event": "Increased, Neuronal synaptic inhibition",
+            "downstream_event_id": 1016,
+            "downstream_event": "Inhibition, Feeding"
+        }
+    ]
+}

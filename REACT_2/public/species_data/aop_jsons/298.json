@@ -1,0 +1,113 @@
+{
+    "id": 298,
+    "title": "Increases in cellular reactive oxygen species and chronic reactive oxygen species leading to human treatment-resistant gastric cancer",
+    "short_name": "Increases in ROS and chronic ROS leading to human treatment-resistant gastric cancer",
+    "created_at": "2019-05-28T22:10:22.000-04:00",
+    "updated_at": "2023-07-06T01:40:56.000-04:00",
+    "corresponding_author": {
+        "id": 355,
+        "created_at": "2016-12-05T02:52:54.000-05:00",
+        "updated_at": "2024-02-25T18:50:18.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 470,
+            "stressor_name": "Wnt"
+        },
+        {
+            "stressor_id": 471,
+            "stressor_name": "WNT2"
+        },
+        {
+            "stressor_id": 522,
+            "stressor_name": "Porcupine"
+        },
+        {
+            "stressor_id": 523,
+            "stressor_name": "Wntless"
+        },
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        },
+        {
+            "stressor_id": 571,
+            "stressor_name": "ferric nitrilotriacetate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1940,
+            "event": "Increases in cellular reactive oxygen species",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1753,
+            "event": "Chronic reactive oxygen species",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1754,
+            "event": "Porcupine-induced Wnt secretion and Wnt signaling activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1755,
+            "event": "beta-catenin activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1650,
+            "event": "Epithelial-mesenchymal transition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1651,
+            "event": "Treatment-resistant gastric cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2890,
+            "upstream_event_id": 1940,
+            "upstream_event": "Increases in cellular reactive oxygen species",
+            "downstream_event_id": 1754,
+            "downstream_event": "Porcupine-induced Wnt secretion and Wnt signaling activation"
+        },
+        {
+            "relation": 2103,
+            "upstream_event_id": 1753,
+            "upstream_event": "Chronic reactive oxygen species",
+            "downstream_event_id": 1754,
+            "downstream_event": "Porcupine-induced Wnt secretion and Wnt signaling activation"
+        },
+        {
+            "relation": 2104,
+            "upstream_event_id": 1754,
+            "upstream_event": "Porcupine-induced Wnt secretion and Wnt signaling activation",
+            "downstream_event_id": 1755,
+            "downstream_event": "beta-catenin activation"
+        },
+        {
+            "relation": 2105,
+            "upstream_event_id": 1755,
+            "upstream_event": "beta-catenin activation",
+            "downstream_event_id": 1650,
+            "downstream_event": "Epithelial-mesenchymal transition"
+        },
+        {
+            "relation": 1923,
+            "upstream_event_id": 1650,
+            "upstream_event": "Epithelial-mesenchymal transition",
+            "downstream_event_id": 1651,
+            "downstream_event": "Treatment-resistant gastric cancer"
+        }
+    ]
+}

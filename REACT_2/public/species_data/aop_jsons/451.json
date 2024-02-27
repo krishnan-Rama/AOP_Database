@@ -1,0 +1,170 @@
+{
+    "id": 451,
+    "title": "Interaction with lung resident cell membrane components leads to lung cancer",
+    "short_name": "Interaction with lung cells leads to lung cancer",
+    "created_at": "2022-05-25T05:09:25.000-04:00",
+    "updated_at": "2023-04-29T16:03:06.000-04:00",
+    "corresponding_author": {
+        "id": 259,
+        "created_at": "2014-10-30T03:38:57.000-04:00",
+        "updated_at": "2023-05-12T04:10:02.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 224,
+            "stressor_name": "nanoparticles"
+        },
+        {
+            "stressor_id": 739,
+            "stressor_name": "welding fumes"
+        },
+        {
+            "stressor_id": 740,
+            "stressor_name": "Carbon black"
+        },
+        {
+            "stressor_id": 667,
+            "stressor_name": "Diesel engine exhaust"
+        },
+        {
+            "stressor_id": 634,
+            "stressor_name": "nanomaterials"
+        },
+        {
+            "stressor_id": 749,
+            "stressor_name": "Titanium dioxide nanoparticles"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1495,
+            "event": "Substance interaction with the lung resident cell membrane components",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 780,
+            "event": "Increase, Cytotoxicity (epithelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2006,
+            "event": "Secondary genotoxicity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1669,
+            "event": "Increased, DNA damage and mutation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1670,
+            "event": "Lung cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3090,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 3098,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 3091,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 3099,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1669,
+            "downstream_event": "Increased, DNA damage and mutation"
+        },
+        {
+            "relation": 3100,
+            "upstream_event_id": 780,
+            "upstream_event": "Increase, Cytotoxicity (epithelial cells)",
+            "downstream_event_id": 2006,
+            "downstream_event": "Secondary genotoxicity"
+        },
+        {
+            "relation": 3092,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 780,
+            "downstream_event": "Increase, Cytotoxicity (epithelial cells)"
+        },
+        {
+            "relation": 3093,
+            "upstream_event_id": 780,
+            "upstream_event": "Increase, Cytotoxicity (epithelial cells)",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 3094,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 2006,
+            "downstream_event": "Secondary genotoxicity"
+        },
+        {
+            "relation": 3095,
+            "upstream_event_id": 2006,
+            "upstream_event": "Secondary genotoxicity",
+            "downstream_event_id": 1669,
+            "downstream_event": "Increased, DNA damage and mutation"
+        },
+        {
+            "relation": 3096,
+            "upstream_event_id": 1669,
+            "upstream_event": "Increased, DNA damage and mutation",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 3097,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 1670,
+            "downstream_event": "Lung cancer"
+        }
+    ]
+}

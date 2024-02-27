@@ -1,0 +1,100 @@
+{
+    "id": 334,
+    "title": "Glucocorticoid Receptor Agonism Leading to Impaired Fin Regeneration",
+    "short_name": "GR Agonism Leading to Impaired Fin Regeneration",
+    "created_at": "2020-04-20T16:16:51.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 1006,
+        "created_at": "2019-10-09T11:16:23.000-04:00",
+        "updated_at": "2023-08-15T10:19:04.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 573,
+            "stressor_name": "Beclomethasone dipropionate monohydrate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 122,
+            "event": "Activation, Glucocorticoid Receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1759,
+            "event": "Increase, Cripto-1 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1760,
+            "event": "Inhibition, Activin signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1761,
+            "event": "Inhibition, Fin regeneration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1005,
+            "event": "Reduced, Swimming performance",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2114,
+            "upstream_event_id": 122,
+            "upstream_event": "Activation, Glucocorticoid Receptor",
+            "downstream_event_id": 1759,
+            "downstream_event": "Increase, Cripto-1 expression"
+        },
+        {
+            "relation": 2119,
+            "upstream_event_id": 1759,
+            "upstream_event": "Increase, Cripto-1 expression",
+            "downstream_event_id": 1761,
+            "downstream_event": "Inhibition, Fin regeneration"
+        },
+        {
+            "relation": 2115,
+            "upstream_event_id": 1759,
+            "upstream_event": "Increase, Cripto-1 expression",
+            "downstream_event_id": 1760,
+            "downstream_event": "Inhibition, Activin signaling"
+        },
+        {
+            "relation": 2116,
+            "upstream_event_id": 1760,
+            "upstream_event": "Inhibition, Activin signaling",
+            "downstream_event_id": 1761,
+            "downstream_event": "Inhibition, Fin regeneration"
+        },
+        {
+            "relation": 2117,
+            "upstream_event_id": 1761,
+            "upstream_event": "Inhibition, Fin regeneration",
+            "downstream_event_id": 1005,
+            "downstream_event": "Reduced, Swimming performance"
+        },
+        {
+            "relation": 2118,
+            "upstream_event_id": 1005,
+            "upstream_event": "Reduced, Swimming performance",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

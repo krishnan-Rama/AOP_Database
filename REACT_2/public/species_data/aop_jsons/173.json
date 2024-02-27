@@ -1,0 +1,121 @@
+{
+    "id": 173,
+    "title": "Substance interaction with the pulmonary resident cell membrane components leading to pulmonary fibrosis",
+    "short_name": "Substance interaction with the pulmonary cell membrane leading to pulmonary fibrosis",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-11-30T08:11:18.000-05:00",
+    "corresponding_author": {
+        "id": 279,
+        "created_at": "2015-02-27T10:22:38.000-05:00",
+        "updated_at": "2023-10-17T09:17:13.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 337,
+            "stressor_name": "Bleomycin"
+        },
+        {
+            "stressor_id": 338,
+            "stressor_name": "Carbon nanotubes, Multi-walled carbon nanotubes, single-walled carbon nanotubes, carbon nanofibres"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1495,
+            "event": "Substance interaction with the lung resident cell membrane components",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1498,
+            "event": "Loss of alveolar capillary membrane integrity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1499,
+            "event": "Increased, activation of T (T) helper (h) type 2 cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1500,
+            "event": "Increased, fibroblast proliferation and myofibroblast differentiation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 68,
+            "event": "Accumulation, Collagen",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1458,
+            "event": "Pulmonary fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1591,
+            "upstream_event_id": 1495,
+            "upstream_event": "Substance interaction with the lung resident cell membrane components",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 1592,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 1593,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1498,
+            "downstream_event": "Loss of alveolar capillary membrane integrity"
+        },
+        {
+            "relation": 1594,
+            "upstream_event_id": 1498,
+            "upstream_event": "Loss of alveolar capillary membrane integrity",
+            "downstream_event_id": 1499,
+            "downstream_event": "Increased, activation of T (T) helper (h) type 2 cells"
+        },
+        {
+            "relation": 1595,
+            "upstream_event_id": 1499,
+            "upstream_event": "Increased, activation of T (T) helper (h) type 2 cells",
+            "downstream_event_id": 1500,
+            "downstream_event": "Increased, fibroblast proliferation and myofibroblast differentiation"
+        },
+        {
+            "relation": 3083,
+            "upstream_event_id": 1500,
+            "upstream_event": "Increased, fibroblast proliferation and myofibroblast differentiation",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        },
+        {
+            "relation": 3103,
+            "upstream_event_id": 68,
+            "upstream_event": "Accumulation, Collagen",
+            "downstream_event_id": 1458,
+            "downstream_event": "Pulmonary fibrosis"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "id": 13,
+    "title": "Chronic binding of antagonist to N-methyl-D-aspartate receptors (NMDARs) during brain development induces impairment of learning and memory abilities",
+    "short_name": "Binding of antagonist to NMDARs impairs cognition",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 30,
+        "created_at": "2014-07-03T10:01:13.000-04:00",
+        "updated_at": "2021-04-13T09:40:29.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 201,
+            "event": "Binding of antagonist, NMDA receptors",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 52,
+            "event": "Decreased, Calcium influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 195,
+            "event": "Inhibition, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 381,
+            "event": "Reduced levels of BDNF",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 382,
+            "event": "Aberrant, Dendritic morphology",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 385,
+            "event": "Decrease of synaptogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 386,
+            "event": "Decrease of neuronal network function",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 383,
+            "event": "Reduced, Presynaptic release of glutamate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 9,
+            "upstream_event_id": 201,
+            "upstream_event": "Binding of antagonist, NMDA receptors",
+            "downstream_event_id": 195,
+            "downstream_event": "Inhibition, NMDARs"
+        },
+        {
+            "relation": 116,
+            "upstream_event_id": 195,
+            "upstream_event": "Inhibition, NMDARs",
+            "downstream_event_id": 52,
+            "downstream_event": "Decreased, Calcium influx"
+        },
+        {
+            "relation": 122,
+            "upstream_event_id": 385,
+            "upstream_event": "Decrease of synaptogenesis",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        },
+        {
+            "relation": 1831,
+            "upstream_event_id": 52,
+            "upstream_event": "Decreased, Calcium influx",
+            "downstream_event_id": 381,
+            "downstream_event": "Reduced levels of BDNF"
+        },
+        {
+            "relation": 1832,
+            "upstream_event_id": 381,
+            "upstream_event": "Reduced levels of BDNF",
+            "downstream_event_id": 382,
+            "downstream_event": "Aberrant, Dendritic morphology"
+        },
+        {
+            "relation": 1833,
+            "upstream_event_id": 381,
+            "upstream_event": "Reduced levels of BDNF",
+            "downstream_event_id": 383,
+            "downstream_event": "Reduced, Presynaptic release of glutamate"
+        },
+        {
+            "relation": 1834,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 385,
+            "downstream_event": "Decrease of synaptogenesis"
+        },
+        {
+            "relation": 1835,
+            "upstream_event_id": 382,
+            "upstream_event": "Aberrant, Dendritic morphology",
+            "downstream_event_id": 385,
+            "downstream_event": "Decrease of synaptogenesis"
+        },
+        {
+            "relation": 1836,
+            "upstream_event_id": 386,
+            "upstream_event": "Decrease of neuronal network function",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 1837,
+            "upstream_event_id": 381,
+            "upstream_event": "Reduced levels of BDNF",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 1838,
+            "upstream_event_id": 383,
+            "upstream_event": "Reduced, Presynaptic release of glutamate",
+            "downstream_event_id": 385,
+            "downstream_event": "Decrease of synaptogenesis"
+        }
+    ]
+}

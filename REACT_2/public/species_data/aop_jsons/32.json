@@ -1,0 +1,86 @@
+{
+    "id": 32,
+    "title": "Inhibition of iNOS, hepatotoxicity, and regenerative proliferation leading to liver tumors",
+    "short_name": "Inhibition of iNOS, hepatotoxicity, and regenerative proliferation leading to liver tumors",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 226,
+        "created_at": "2013-07-31T15:30:56.000-04:00",
+        "updated_at": "2016-11-29T18:41:13.000-05:00",
+        "subscribed": true,
+        "novice": false
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 77,
+            "event": "Production, Critical Metabolites (CGA 330050 and CGA 265307)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 164,
+            "event": "Induction, Liver \u201cDysfunctional\u201d Changes by CGA 330050",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 147,
+            "event": "Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 270,
+            "event": "Induction, Sustained Hepatotoxicity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 269,
+            "event": "Induction, Sustained Cell Proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 347,
+            "event": "Formation, Liver tumor",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 68,
+            "upstream_event_id": 77,
+            "upstream_event": "Production, Critical Metabolites (CGA 330050 and CGA 265307)",
+            "downstream_event_id": 164,
+            "downstream_event": "Induction, Liver \u201cDysfunctional\u201d Changes by CGA 330050"
+        },
+        {
+            "relation": 69,
+            "upstream_event_id": 164,
+            "upstream_event": "Induction, Liver \u201cDysfunctional\u201d Changes by CGA 330050",
+            "downstream_event_id": 147,
+            "downstream_event": "Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307"
+        },
+        {
+            "relation": 70,
+            "upstream_event_id": 147,
+            "upstream_event": "Inhibition, Inducible Nitric Oxide Synthase by Metabolite CGA 265307",
+            "downstream_event_id": 270,
+            "downstream_event": "Induction, Sustained Hepatotoxicity"
+        },
+        {
+            "relation": 71,
+            "upstream_event_id": 270,
+            "upstream_event": "Induction, Sustained Hepatotoxicity",
+            "downstream_event_id": 269,
+            "downstream_event": "Induction, Sustained Cell Proliferation"
+        },
+        {
+            "relation": 72,
+            "upstream_event_id": 269,
+            "upstream_event": "Induction, Sustained Cell Proliferation",
+            "downstream_event_id": 347,
+            "downstream_event": "Formation, Liver tumor"
+        }
+    ]
+}

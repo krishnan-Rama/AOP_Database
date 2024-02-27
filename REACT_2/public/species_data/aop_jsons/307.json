@@ -1,0 +1,110 @@
+{
+    "id": 307,
+    "title": "Decreased testosterone synthesis leading to short anogenital distance (AGD) in male (mammalian) offspring",
+    "short_name": "Decreased testosterone synthesis leading to short AGD",
+    "created_at": "2019-08-30T04:36:36.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 918,
+        "created_at": "2019-06-27T09:30:29.000-04:00",
+        "updated_at": "2023-08-02T04:46:41.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 14,
+            "stressor_name": "Dibutyl phthalate"
+        },
+        {
+            "stressor_id": 11,
+            "stressor_name": "Bis(2-ethylhexyl) phthalate"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 413,
+            "event": "Reduction, Testosterone synthesis in Leydig cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1690,
+            "event": "Decrease, testosterone levels ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1613,
+            "event": "Decrease, dihydrotestosterone (DHT) level",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1614,
+            "event": "Decrease, androgen receptor activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 286,
+            "event": "Altered, Transcription of genes by the androgen receptor",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1688,
+            "event": "anogenital distance (AGD), decreased",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2198,
+            "upstream_event_id": 413,
+            "upstream_event": "Reduction, Testosterone synthesis in Leydig cells",
+            "downstream_event_id": 1690,
+            "downstream_event": "Decrease, testosterone levels "
+        },
+        {
+            "relation": 2211,
+            "upstream_event_id": 1690,
+            "upstream_event": "Decrease, testosterone levels ",
+            "downstream_event_id": 1614,
+            "downstream_event": "Decrease, androgen receptor activation"
+        },
+        {
+            "relation": 2199,
+            "upstream_event_id": 1690,
+            "upstream_event": "Decrease, testosterone levels ",
+            "downstream_event_id": 1613,
+            "downstream_event": "Decrease, dihydrotestosterone (DHT) level"
+        },
+        {
+            "relation": 2200,
+            "upstream_event_id": 1613,
+            "upstream_event": "Decrease, dihydrotestosterone (DHT) level",
+            "downstream_event_id": 1614,
+            "downstream_event": "Decrease, androgen receptor activation"
+        },
+        {
+            "relation": 2201,
+            "upstream_event_id": 1614,
+            "upstream_event": "Decrease, androgen receptor activation",
+            "downstream_event_id": 286,
+            "downstream_event": "Altered, Transcription of genes by the androgen receptor"
+        },
+        {
+            "relation": 2202,
+            "upstream_event_id": 286,
+            "upstream_event": "Altered, Transcription of genes by the androgen receptor",
+            "downstream_event_id": 1688,
+            "downstream_event": "anogenital distance (AGD), decreased"
+        },
+        {
+            "relation": 3310,
+            "upstream_event_id": 1614,
+            "upstream_event": "Decrease, androgen receptor activation",
+            "downstream_event_id": 1688,
+            "downstream_event": "anogenital distance (AGD), decreased"
+        }
+    ]
+}

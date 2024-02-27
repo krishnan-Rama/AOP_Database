@@ -1,0 +1,93 @@
+{
+    "id": 14,
+    "title": "Glucocorticoid Receptor Activation Leading to Increased Disease Susceptibility",
+    "short_name": "Glucocorticoid Receptor, Activation",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 198,
+        "created_at": "2014-01-14T10:26:18.000-05:00",
+        "updated_at": "2022-08-08T13:04:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 122,
+            "event": "Activation, Glucocorticoid Receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 202,
+            "event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 152,
+            "event": "Suppression, Inflammatory cytokines",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 168,
+            "event": "Decreased, Lymphocytes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 145,
+            "event": "Induction, IKB inhibitory protein",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 403,
+            "event": "Suppression, Immune system",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 323,
+            "event": "Increased, Disease susceptibility",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 107,
+            "upstream_event_id": 122,
+            "upstream_event": "Activation, Glucocorticoid Receptor",
+            "downstream_event_id": 145,
+            "downstream_event": "Induction, IKB inhibitory protein"
+        },
+        {
+            "relation": 108,
+            "upstream_event_id": 145,
+            "upstream_event": "Induction, IKB inhibitory protein",
+            "downstream_event_id": 202,
+            "downstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 109,
+            "upstream_event_id": 202,
+            "upstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 152,
+            "downstream_event": "Suppression, Inflammatory cytokines"
+        },
+        {
+            "relation": 110,
+            "upstream_event_id": 152,
+            "upstream_event": "Suppression, Inflammatory cytokines",
+            "downstream_event_id": 168,
+            "downstream_event": "Decreased, Lymphocytes"
+        },
+        {
+            "relation": 111,
+            "upstream_event_id": 168,
+            "upstream_event": "Decreased, Lymphocytes",
+            "downstream_event_id": 403,
+            "downstream_event": "Suppression, Immune system"
+        }
+    ]
+}

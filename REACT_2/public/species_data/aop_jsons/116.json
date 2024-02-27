@@ -1,0 +1,64 @@
+{
+    "id": 116,
+    "title": "Cytotoxicity leading to renal tubular adenomas and carcinomas (in male rat) ",
+    "short_name": "Cytotoxicity- renal tubular adenoma/carcinoma",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 783,
+            "event": "Increase, Cytotoxicity (tubular epithelial cells)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 710,
+            "event": "Increase, Regenerative cell proliferation (tubular epithelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 784,
+            "event": "Increase, Hyperplasia (tubular epithelial cells)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 713,
+            "event": "Increase, Adenomas/carcinomas (renal tubular)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 445,
+            "upstream_event_id": 783,
+            "upstream_event": "Increase, Cytotoxicity (tubular epithelial cells)",
+            "downstream_event_id": 710,
+            "downstream_event": "Increase, Regenerative cell proliferation (tubular epithelial cells)"
+        },
+        {
+            "relation": 446,
+            "upstream_event_id": 710,
+            "upstream_event": "Increase, Regenerative cell proliferation (tubular epithelial cells)",
+            "downstream_event_id": 784,
+            "downstream_event": "Increase, Hyperplasia (tubular epithelial cells)"
+        },
+        {
+            "relation": 447,
+            "upstream_event_id": 784,
+            "upstream_event": "Increase, Hyperplasia (tubular epithelial cells)",
+            "downstream_event_id": 713,
+            "downstream_event": "Increase, Adenomas/carcinomas (renal tubular)"
+        }
+    ]
+}

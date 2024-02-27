@@ -1,0 +1,151 @@
+{
+    "id": 61,
+    "title": "NFE2L2/FXR activation leading to hepatic steatosis",
+    "short_name": "NRF2/FXR to steatosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 478,
+            "event": "Activation, NRF2",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 479,
+            "event": "Activation, NR1H4",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 480,
+            "event": "Activation, SHP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 482,
+            "event": "Decreased, DHB4/HSD17B4",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 451,
+            "event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 483,
+            "event": "Activation, LXR alpha",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 878,
+            "event": "Inhibition, SREBP1c",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 879,
+            "event": "Activation, MTTP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 880,
+            "event": "Increased, ApoB100",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 881,
+            "event": "Increased, Triglyceride",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 458,
+            "event": "Increased, De Novo FA synthesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 229,
+            "upstream_event_id": 478,
+            "upstream_event": "Activation, NRF2",
+            "downstream_event_id": 479,
+            "downstream_event": "Activation, NR1H4"
+        },
+        {
+            "relation": 230,
+            "upstream_event_id": 479,
+            "upstream_event": "Activation, NR1H4",
+            "downstream_event_id": 480,
+            "downstream_event": "Activation, SHP"
+        },
+        {
+            "relation": 231,
+            "upstream_event_id": 479,
+            "upstream_event": "Activation, NR1H4",
+            "downstream_event_id": 227,
+            "downstream_event": "Activation, PPAR\u03b1"
+        },
+        {
+            "relation": 232,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 483,
+            "downstream_event": "Activation, LXR alpha"
+        },
+        {
+            "relation": 235,
+            "upstream_event_id": 482,
+            "upstream_event": "Decreased, DHB4/HSD17B4",
+            "downstream_event_id": 451,
+            "downstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation"
+        },
+        {
+            "relation": 236,
+            "upstream_event_id": 451,
+            "upstream_event": "Inhibition, Mitochondrial fatty acid beta-oxidation",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        },
+        {
+            "relation": 591,
+            "upstream_event_id": 480,
+            "upstream_event": "Activation, SHP",
+            "downstream_event_id": 878,
+            "downstream_event": "Inhibition, SREBP1c"
+        },
+        {
+            "relation": 1470,
+            "upstream_event_id": 483,
+            "upstream_event": "Activation, LXR alpha",
+            "downstream_event_id": 458,
+            "downstream_event": "Increased, De Novo FA synthesis"
+        },
+        {
+            "relation": 1471,
+            "upstream_event_id": 458,
+            "upstream_event": "Increased, De Novo FA synthesis",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        }
+    ]
+}

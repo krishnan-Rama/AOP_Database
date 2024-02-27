@@ -1,0 +1,139 @@
+{
+    "id": 159,
+    "title": "Thyroperoxidase inhibition leading to increased mortality via reduced anterior swim bladder inflation",
+    "short_name": "TPOi anterior swim bladder",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 102,
+        "created_at": "2014-01-23T11:09:25.000-05:00",
+        "updated_at": "2023-06-22T10:29:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 37,
+            "stressor_name": "Methimazole"
+        },
+        {
+            "stressor_id": 34,
+            "stressor_name": "Mercaptobenzothiazole"
+        },
+        {
+            "stressor_id": 48,
+            "stressor_name": "Propylthiouracil"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 279,
+            "event": "Thyroperoxidase, Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1003,
+            "event": "Decreased, Triiodothyronine (T3)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1007,
+            "event": "Reduced, Anterior swim bladder inflation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1005,
+            "event": "Reduced, Swimming performance",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1008,
+            "upstream_event_id": 279,
+            "upstream_event": "Thyroperoxidase, Inhibition",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 1009,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 2064,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 1003,
+            "downstream_event": "Decreased, Triiodothyronine (T3)"
+        },
+        {
+            "relation": 2065,
+            "upstream_event_id": 1003,
+            "upstream_event": "Decreased, Triiodothyronine (T3)",
+            "downstream_event_id": 1007,
+            "downstream_event": "Reduced, Anterior swim bladder inflation"
+        },
+        {
+            "relation": 703,
+            "upstream_event_id": 1007,
+            "upstream_event": "Reduced, Anterior swim bladder inflation",
+            "downstream_event_id": 1005,
+            "downstream_event": "Reduced, Swimming performance"
+        },
+        {
+            "relation": 2375,
+            "upstream_event_id": 1005,
+            "upstream_event": "Reduced, Swimming performance",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2376,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 1010,
+            "upstream_event_id": 279,
+            "upstream_event": "Thyroperoxidase, Inhibition",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 2070,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 1007,
+            "downstream_event": "Reduced, Anterior swim bladder inflation"
+        }
+    ]
+}

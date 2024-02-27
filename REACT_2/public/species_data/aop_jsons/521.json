@@ -1,0 +1,107 @@
+{
+    "id": 521,
+    "title": "Essential element imbalance leads to reproductive failure via oxidative stress",
+    "short_name": "Essential element imbalance leads to reproductive failure via oxidative stress",
+    "created_at": "2024-01-24T10:27:51.000-05:00",
+    "updated_at": "2024-02-12T11:26:08.000-05:00",
+    "corresponding_author": {
+        "id": 1120,
+        "created_at": "2019-11-01T12:32:35.000-04:00",
+        "updated_at": "2024-02-22T15:02:52.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2205,
+            "event": "Increased, essential element imbalance",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1445,
+            "event": "Increased, Lipid peroxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2206,
+            "event": "Increased, histomorphological alteration of testis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1758,
+            "event": "Impaired, Spermatogenesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2147,
+            "event": "Decreased, Viable Offspring",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3720,
+            "upstream_event_id": 2205,
+            "upstream_event": "Increased, essential element imbalance",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 3739,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1445,
+            "downstream_event": "Increased, Lipid peroxidation"
+        },
+        {
+            "relation": 3721,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 3722,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1445,
+            "downstream_event": "Increased, Lipid peroxidation"
+        },
+        {
+            "relation": 3723,
+            "upstream_event_id": 1445,
+            "upstream_event": "Increased, Lipid peroxidation",
+            "downstream_event_id": 2206,
+            "downstream_event": "Increased, histomorphological alteration of testis"
+        },
+        {
+            "relation": 3724,
+            "upstream_event_id": 2206,
+            "upstream_event": "Increased, histomorphological alteration of testis",
+            "downstream_event_id": 1758,
+            "downstream_event": "Impaired, Spermatogenesis"
+        },
+        {
+            "relation": 3731,
+            "upstream_event_id": 1758,
+            "upstream_event": "Impaired, Spermatogenesis",
+            "downstream_event_id": 2147,
+            "downstream_event": "Decreased, Viable Offspring"
+        }
+    ]
+}

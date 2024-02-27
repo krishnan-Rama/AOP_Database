@@ -1,0 +1,169 @@
+{
+    "id": 439,
+    "title": "Activation of the AhR leading to breast cancer ",
+    "short_name": "AhR activation to breast cancer",
+    "created_at": "2022-02-15T15:06:25.000-05:00",
+    "updated_at": "2024-02-26T08:49:49.000-05:00",
+    "corresponding_author": {
+        "id": 8894,
+        "created_at": "2022-02-03T07:50:56.000-05:00",
+        "updated_at": "2024-02-26T08:29:16.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 249,
+            "stressor_name": "2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1241,
+            "event": "Increased, Motility",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1190,
+            "event": "Increased, Migration (Endothelial Cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1196,
+            "event": "Increased, Invasion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1376,
+            "event": "Increase, angiogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1971,
+            "event": "Increased, tumor growth",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1982,
+            "event": "metastatic breast cancer",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1193,
+            "event": "N/A, Breast Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2953,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 2954,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 2955,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 1241,
+            "downstream_event": "Increased, Motility"
+        },
+        {
+            "relation": 2956,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 1190,
+            "downstream_event": "Increased, Migration (Endothelial Cells)"
+        },
+        {
+            "relation": 2957,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 1196,
+            "downstream_event": "Increased, Invasion"
+        },
+        {
+            "relation": 2958,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1196,
+            "downstream_event": "Increased, Invasion"
+        },
+        {
+            "relation": 2959,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1376,
+            "downstream_event": "Increase, angiogenesis"
+        },
+        {
+            "relation": 2960,
+            "upstream_event_id": 1241,
+            "upstream_event": "Increased, Motility",
+            "downstream_event_id": 1196,
+            "downstream_event": "Increased, Invasion"
+        },
+        {
+            "relation": 2961,
+            "upstream_event_id": 1190,
+            "upstream_event": "Increased, Migration (Endothelial Cells)",
+            "downstream_event_id": 1376,
+            "downstream_event": "Increase, angiogenesis"
+        },
+        {
+            "relation": 2962,
+            "upstream_event_id": 1196,
+            "upstream_event": "Increased, Invasion",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        },
+        {
+            "relation": 2963,
+            "upstream_event_id": 1262,
+            "upstream_event": "Apoptosis",
+            "downstream_event_id": 1971,
+            "downstream_event": "Increased, tumor growth"
+        },
+        {
+            "relation": 2964,
+            "upstream_event_id": 1376,
+            "upstream_event": "Increase, angiogenesis",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        },
+        {
+            "relation": 2965,
+            "upstream_event_id": 1971,
+            "upstream_event": "Increased, tumor growth",
+            "downstream_event_id": 1193,
+            "downstream_event": "N/A, Breast Cancer"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "id": 394,
+    "title": "SARS-CoV-2 infection of olfactory epithelium leading to impaired olfactory function (short-term anosmia)",
+    "short_name": "SARS-CoV-2 causes anosmia",
+    "created_at": "2021-04-25T11:05:39.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 4389,
+        "created_at": "2021-04-05T06:23:10.000-04:00",
+        "updated_at": "2023-07-13T09:53:04.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1870,
+            "event": "Sustentacular cells, decrease ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1871,
+            "event": "olfactory sensory neurons, decrease ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1872,
+            "event": "Olfactory epithelium degeneration",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1873,
+            "event": "impaired olfactory function (anosmia) ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2643,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 2648,
+            "upstream_event_id": 1870,
+            "upstream_event": "Sustentacular cells, decrease ",
+            "downstream_event_id": 1873,
+            "downstream_event": "impaired olfactory function (anosmia) "
+        },
+        {
+            "relation": 2649,
+            "upstream_event_id": 1871,
+            "upstream_event": "olfactory sensory neurons, decrease ",
+            "downstream_event_id": 1873,
+            "downstream_event": "impaired olfactory function (anosmia) "
+        },
+        {
+            "relation": 2911,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 2912,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1870,
+            "downstream_event": "Sustentacular cells, decrease "
+        },
+        {
+            "relation": 2645,
+            "upstream_event_id": 1870,
+            "upstream_event": "Sustentacular cells, decrease ",
+            "downstream_event_id": 1871,
+            "downstream_event": "olfactory sensory neurons, decrease "
+        },
+        {
+            "relation": 2646,
+            "upstream_event_id": 1871,
+            "upstream_event": "olfactory sensory neurons, decrease ",
+            "downstream_event_id": 1872,
+            "downstream_event": "Olfactory epithelium degeneration"
+        },
+        {
+            "relation": 2647,
+            "upstream_event_id": 1872,
+            "upstream_event": "Olfactory epithelium degeneration",
+            "downstream_event_id": 1873,
+            "downstream_event": "impaired olfactory function (anosmia) "
+        }
+    ]
+}

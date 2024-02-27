@@ -1,0 +1,132 @@
+{
+    "id": 6,
+    "title": "Antagonist binding to PPAR\u03b1 leading to body-weight loss",
+    "short_name": "PPAR\u03b1 antagonism leading to body-weight loss",
+    "created_at": "2016-11-29T18:41:15.000-05:00",
+    "updated_at": "2023-04-29T16:02:54.000-04:00",
+    "corresponding_author": {
+        "id": 329,
+        "created_at": "2013-05-02T11:21:53.000-04:00",
+        "updated_at": "2021-04-13T09:40:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 151,
+            "stressor_name": "GW6471"
+        },
+        {
+            "stressor_id": 237,
+            "stressor_name": "Nitrotoluenes (hypothesized binding)"
+        },
+        {
+            "stressor_id": 300,
+            "stressor_name": "PPARalpha antagonists"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 998,
+            "event": "Binding of antagonist, PPAR alpha",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1000,
+            "event": "stabilization, PPAR alpha co-repressor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 858,
+            "event": "Decreased, PPARalpha transactivation of gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1528,
+            "event": "Fatty Acid Beta Oxidation, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 861,
+            "event": "Decreased, Ketogenesis (production of ketone bodies)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 862,
+            "event": "Not Increased, Circulating Ketone Bodies",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 863,
+            "event": "Increased, Catabolism of Muscle Protein",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 864,
+            "event": "Decreased, Body Weight",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3367,
+            "upstream_event_id": 998,
+            "upstream_event": "Binding of antagonist, PPAR alpha",
+            "downstream_event_id": 1000,
+            "downstream_event": "stabilization, PPAR alpha co-repressor"
+        },
+        {
+            "relation": 665,
+            "upstream_event_id": 1000,
+            "upstream_event": "stabilization, PPAR alpha co-repressor",
+            "downstream_event_id": 858,
+            "downstream_event": "Decreased, PPARalpha transactivation of gene expression"
+        },
+        {
+            "relation": 1647,
+            "upstream_event_id": 858,
+            "upstream_event": "Decreased, PPARalpha transactivation of gene expression",
+            "downstream_event_id": 1528,
+            "downstream_event": "Fatty Acid Beta Oxidation, Decreased"
+        },
+        {
+            "relation": 570,
+            "upstream_event_id": 858,
+            "upstream_event": "Decreased, PPARalpha transactivation of gene expression",
+            "downstream_event_id": 861,
+            "downstream_event": "Decreased, Ketogenesis (production of ketone bodies)"
+        },
+        {
+            "relation": 1648,
+            "upstream_event_id": 1528,
+            "upstream_event": "Fatty Acid Beta Oxidation, Decreased",
+            "downstream_event_id": 861,
+            "downstream_event": "Decreased, Ketogenesis (production of ketone bodies)"
+        },
+        {
+            "relation": 573,
+            "upstream_event_id": 861,
+            "upstream_event": "Decreased, Ketogenesis (production of ketone bodies)",
+            "downstream_event_id": 862,
+            "downstream_event": "Not Increased, Circulating Ketone Bodies"
+        },
+        {
+            "relation": 3368,
+            "upstream_event_id": 862,
+            "upstream_event": "Not Increased, Circulating Ketone Bodies",
+            "downstream_event_id": 863,
+            "downstream_event": "Increased, Catabolism of Muscle Protein"
+        },
+        {
+            "relation": 575,
+            "upstream_event_id": 863,
+            "upstream_event": "Increased, Catabolism of Muscle Protein",
+            "downstream_event_id": 864,
+            "downstream_event": "Decreased, Body Weight"
+        }
+    ]
+}

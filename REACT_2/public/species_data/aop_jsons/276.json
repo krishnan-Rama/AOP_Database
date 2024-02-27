@@ -1,0 +1,88 @@
+{
+    "id": 276,
+    "title": "Inhibition of complex I of the electron transport chain leading to chemical induced Fanconi syndrome",
+    "short_name": "Complex I inhibition leads to Fanconi syndrome",
+    "created_at": "2018-12-20T09:40:37.000-05:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 410,
+        "created_at": "2017-03-10T05:23:56.000-05:00",
+        "updated_at": "2023-12-11T05:22:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 888,
+            "event": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 887,
+            "event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1477,
+            "event": "Decrease, Oxidative phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1562,
+            "event": "Decreased Na/K ATPase activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1563,
+            "event": "Decreased proximal tubular vectorial transport",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1564,
+            "event": "Chemical induced Fanconi syndrome",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1740,
+            "upstream_event_id": 888,
+            "upstream_event": "Binding of inhibitor, NADH-ubiquinone oxidoreductase (complex I)",
+            "downstream_event_id": 887,
+            "downstream_event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)"
+        },
+        {
+            "relation": 1741,
+            "upstream_event_id": 887,
+            "upstream_event": "Inhibition, NADH-ubiquinone oxidoreductase  (complex I)",
+            "downstream_event_id": 1477,
+            "downstream_event": "Decrease, Oxidative phosphorylation"
+        },
+        {
+            "relation": 1742,
+            "upstream_event_id": 1477,
+            "upstream_event": "Decrease, Oxidative phosphorylation",
+            "downstream_event_id": 1562,
+            "downstream_event": "Decreased Na/K ATPase activity"
+        },
+        {
+            "relation": 1743,
+            "upstream_event_id": 1562,
+            "upstream_event": "Decreased Na/K ATPase activity",
+            "downstream_event_id": 1563,
+            "downstream_event": "Decreased proximal tubular vectorial transport"
+        },
+        {
+            "relation": 1744,
+            "upstream_event_id": 1563,
+            "upstream_event": "Decreased proximal tubular vectorial transport",
+            "downstream_event_id": 1564,
+            "downstream_event": "Chemical induced Fanconi syndrome"
+        }
+    ]
+}

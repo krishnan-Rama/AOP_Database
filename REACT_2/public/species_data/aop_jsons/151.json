@@ -1,0 +1,100 @@
+{
+    "id": 151,
+    "title": "AhR activation leading to preeclampsia",
+    "short_name": "AhR activation leading to preeclampsia",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 280,
+        "created_at": "2016-02-03T04:36:45.000-05:00",
+        "updated_at": "2023-11-15T10:35:02.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 944,
+            "event": "dimerization, AHR/ARNT",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 945,
+            "event": "reduced dimerization, ARNT/HIF1-alpha",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 948,
+            "event": "reduced production, VEGF",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1891,
+            "event": "abnormal, placental labyrinth vasculature morphology",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1892,
+            "event": "increase, placental insufficiency",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1893,
+            "event": "increase, Preeclampsia",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2706,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 944,
+            "downstream_event": "dimerization, AHR/ARNT"
+        },
+        {
+            "relation": 2707,
+            "upstream_event_id": 944,
+            "upstream_event": "dimerization, AHR/ARNT",
+            "downstream_event_id": 945,
+            "downstream_event": "reduced dimerization, ARNT/HIF1-alpha"
+        },
+        {
+            "relation": 2708,
+            "upstream_event_id": 945,
+            "upstream_event": "reduced dimerization, ARNT/HIF1-alpha",
+            "downstream_event_id": 948,
+            "downstream_event": "reduced production, VEGF"
+        },
+        {
+            "relation": 2709,
+            "upstream_event_id": 948,
+            "upstream_event": "reduced production, VEGF",
+            "downstream_event_id": 1891,
+            "downstream_event": "abnormal, placental labyrinth vasculature morphology"
+        },
+        {
+            "relation": 2710,
+            "upstream_event_id": 1891,
+            "upstream_event": "abnormal, placental labyrinth vasculature morphology",
+            "downstream_event_id": 1892,
+            "downstream_event": "increase, placental insufficiency"
+        },
+        {
+            "relation": 2711,
+            "upstream_event_id": 1892,
+            "upstream_event": "increase, placental insufficiency",
+            "downstream_event_id": 1893,
+            "downstream_event": "increase, Preeclampsia"
+        }
+    ]
+}

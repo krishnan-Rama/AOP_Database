@@ -1,0 +1,138 @@
+{
+    "id": 48,
+    "title": "Binding of agonists to ionotropic glutamate receptors in adult brain causes excitotoxicity that mediates neuronal cell death, contributing to learning and memory impairment.",
+    "short_name": "ionotropic glutamatergic receptors and cognition",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 30,
+        "created_at": "2014-07-03T10:01:13.000-04:00",
+        "updated_at": "2021-04-13T09:40:29.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 875,
+            "event": "Binding of agonist, Ionotropic glutamate receptors",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 388,
+            "event": "Overactivation, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 389,
+            "event": "Increased, Intracellular Calcium overload",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 618,
+            "event": "Decreased, Neuronal network function in adult brain",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 112,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 114,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 227,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 228,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 612,
+            "upstream_event_id": 875,
+            "upstream_event": "Binding of agonist, Ionotropic glutamate receptors",
+            "downstream_event_id": 388,
+            "downstream_event": "Overactivation, NMDARs"
+        },
+        {
+            "relation": 1826,
+            "upstream_event_id": 389,
+            "upstream_event": "Increased, Intracellular Calcium overload",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 1827,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 1828,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 1829,
+            "upstream_event_id": 618,
+            "upstream_event": "Decreased, Neuronal network function in adult brain",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 1830,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 618,
+            "downstream_event": "Decreased, Neuronal network function in adult brain"
+        }
+    ]
+}

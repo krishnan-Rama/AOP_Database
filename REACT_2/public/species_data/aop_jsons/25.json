@@ -1,0 +1,124 @@
+{
+    "id": 25,
+    "title": "Aromatase inhibition leading to reproductive dysfunction",
+    "short_name": "Aromatase inhibition leading to reproductive dysfunction",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 313,
+        "created_at": "2013-05-02T08:44:29.000-04:00",
+        "updated_at": "2024-01-31T12:20:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 26,
+            "stressor_name": "Fadrozole"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 36,
+            "event": "Inhibition, Aromatase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 285,
+            "event": "Reduction, Vitellogenin synthesis in liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 309,
+            "event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 3,
+            "event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 132,
+            "upstream_event_id": 36,
+            "upstream_event": "Inhibition, Aromatase",
+            "downstream_event_id": 3,
+            "downstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells"
+        },
+        {
+            "relation": 133,
+            "upstream_event_id": 3,
+            "upstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 134,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 285,
+            "downstream_event": "Reduction, Vitellogenin synthesis in liver"
+        },
+        {
+            "relation": 135,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 136,
+            "upstream_event_id": 309,
+            "upstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 137,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 309,
+            "downstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"
+        },
+        {
+            "relation": 138,
+            "upstream_event_id": 285,
+            "upstream_event": "Reduction, Vitellogenin synthesis in liver",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 1131,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        }
+    ]
+}

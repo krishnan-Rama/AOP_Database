@@ -1,0 +1,124 @@
+{
+    "id": 12,
+    "title": "Chronic binding of antagonist to N-methyl-D-aspartate receptors (NMDARs) during brain development leads to neurodegeneration with impairment in learning and memory in aging",
+    "short_name": "Binding of antagonist to NMDARs can lead to neuroinflammation and neurodegeneration",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 125,
+        "created_at": "2014-04-09T09:58:21.000-04:00",
+        "updated_at": "2022-04-04T16:07:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 59,
+            "stressor_name": "Lead"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 201,
+            "event": "Binding of antagonist, NMDA receptors",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 195,
+            "event": "Inhibition, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 52,
+            "event": "Decreased, Calcium influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 381,
+            "event": "Reduced levels of BDNF",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 341,
+            "event": "Impairment, Learning and memory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 322,
+            "upstream_event_id": 201,
+            "upstream_event": "Binding of antagonist, NMDA receptors",
+            "downstream_event_id": 195,
+            "downstream_event": "Inhibition, NMDARs"
+        },
+        {
+            "relation": 492,
+            "upstream_event_id": 195,
+            "upstream_event": "Inhibition, NMDARs",
+            "downstream_event_id": 52,
+            "downstream_event": "Decreased, Calcium influx"
+        },
+        {
+            "relation": 732,
+            "upstream_event_id": 52,
+            "upstream_event": "Decreased, Calcium influx",
+            "downstream_event_id": 381,
+            "downstream_event": "Reduced levels of BDNF"
+        },
+        {
+            "relation": 733,
+            "upstream_event_id": 381,
+            "upstream_event": "Reduced levels of BDNF",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 734,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 735,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        },
+        {
+            "relation": 736,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 341,
+            "downstream_event": "Impairment, Learning and memory"
+        },
+        {
+            "relation": 1011,
+            "upstream_event_id": 352,
+            "upstream_event": "N/A, Neurodegeneration",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        }
+    ]
+}

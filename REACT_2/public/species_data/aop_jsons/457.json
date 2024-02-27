@@ -1,0 +1,97 @@
+{
+    "id": 457,
+    "title": "Succinate dehydrogenase inhibition leading to increased insulin resistance through reduction in circulating thyroxine",
+    "short_name": "Succinate dehydrogenase inhibition leading to increased insulin resistance",
+    "created_at": "2022-06-30T09:47:52.000-04:00",
+    "updated_at": "2023-06-02T08:12:35.000-04:00",
+    "corresponding_author": {
+        "id": 4653,
+        "created_at": "2021-05-07T06:47:07.000-04:00",
+        "updated_at": "2023-12-18T04:19:47.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 65,
+            "stressor_name": "Di(2-ethylhexyl) phthalate"
+        },
+        {
+            "stressor_id": 64,
+            "stressor_name": "Mono(2-ethylhexyl) phthalate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2118,
+            "event": "Succinate dehydrogenase, inhibited",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2120,
+            "event": "Superoxide generation, increased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1969,
+            "event": "Increase, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2119,
+            "event": "Insulin resistance, increased",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3390,
+            "upstream_event_id": 2118,
+            "upstream_event": "Succinate dehydrogenase, inhibited",
+            "downstream_event_id": 2120,
+            "downstream_event": "Superoxide generation, increased"
+        },
+        {
+            "relation": 3429,
+            "upstream_event_id": 2120,
+            "upstream_event": "Superoxide generation, increased",
+            "downstream_event_id": 1969,
+            "downstream_event": "Increase, Oxidative Stress"
+        },
+        {
+            "relation": 3430,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 3431,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 3389,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 2119,
+            "downstream_event": "Insulin resistance, increased"
+        }
+    ]
+}

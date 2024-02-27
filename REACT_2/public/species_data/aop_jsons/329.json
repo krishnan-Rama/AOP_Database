@@ -1,0 +1,81 @@
+{
+    "id": 329,
+    "title": "Excessive reactive oxygen species production leading to mortality (3)",
+    "short_name": "Excessive ROS leading to mortality (3)",
+    "created_at": "2020-04-19T04:49:00.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 274,
+            "stressor_name": "Ultraviolet B radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1445,
+            "event": "Increased, Lipid peroxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1772,
+            "event": "Decrease, Neutral lipids",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1771,
+            "event": "Decrease, Adenosine triphosphate pool",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2137,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 1445,
+            "downstream_event": "Increased, Lipid peroxidation"
+        },
+        {
+            "relation": 2140,
+            "upstream_event_id": 1771,
+            "upstream_event": "Decrease, Adenosine triphosphate pool",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 2138,
+            "upstream_event_id": 1445,
+            "upstream_event": "Increased, Lipid peroxidation",
+            "downstream_event_id": 1772,
+            "downstream_event": "Decrease, Neutral lipids"
+        },
+        {
+            "relation": 2139,
+            "upstream_event_id": 1772,
+            "upstream_event": "Decrease, Neutral lipids",
+            "downstream_event_id": 1771,
+            "downstream_event": "Decrease, Adenosine triphosphate pool"
+        }
+    ]
+}

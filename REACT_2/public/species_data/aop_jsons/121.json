@@ -1,0 +1,76 @@
+{
+    "id": 121,
+    "title": "Urinary bladder calculi leading to urothelial papillomas and carcinomas (in mouse and rat)",
+    "short_name": "Urinary calculi- urothelial papilloma/carcinoma",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 793,
+            "event": "Increase, Urinary bladder calculi",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 794,
+            "event": "Increase, Cytotoxicity (urothelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 795,
+            "event": "Increase, Regenerative cell proliferation (urothelial cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 796,
+            "event": "Increase, Hyperplasia (urothelial)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 797,
+            "event": "Increase, Adenomas/carcinomas (urothelial)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 464,
+            "upstream_event_id": 793,
+            "upstream_event": "Increase, Urinary bladder calculi",
+            "downstream_event_id": 794,
+            "downstream_event": "Increase, Cytotoxicity (urothelial cells)"
+        },
+        {
+            "relation": 465,
+            "upstream_event_id": 794,
+            "upstream_event": "Increase, Cytotoxicity (urothelial cells)",
+            "downstream_event_id": 795,
+            "downstream_event": "Increase, Regenerative cell proliferation (urothelial cells)"
+        },
+        {
+            "relation": 466,
+            "upstream_event_id": 795,
+            "upstream_event": "Increase, Regenerative cell proliferation (urothelial cells)",
+            "downstream_event_id": 796,
+            "downstream_event": "Increase, Hyperplasia (urothelial)"
+        },
+        {
+            "relation": 467,
+            "upstream_event_id": 796,
+            "upstream_event": "Increase, Hyperplasia (urothelial)",
+            "downstream_event_id": 797,
+            "downstream_event": "Increase, Adenomas/carcinomas (urothelial)"
+        }
+    ]
+}

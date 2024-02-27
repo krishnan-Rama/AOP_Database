@@ -1,0 +1,64 @@
+{
+    "id": 117,
+    "title": "Androgen receptor activation leading to hepatocellular adenomas and carcinomas (in mouse and rat)",
+    "short_name": "AR- HCC",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 785,
+            "event": "Activation, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 716,
+            "event": "Increase, cell proliferation (hepatocytes)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 774,
+            "event": "Increase, Preneoplastic foci (hepatocytes)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 719,
+            "event": "Increase, hepatocellular adenomas and carcinomas",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 448,
+            "upstream_event_id": 785,
+            "upstream_event": "Activation, Androgen receptor",
+            "downstream_event_id": 716,
+            "downstream_event": "Increase, cell proliferation (hepatocytes)"
+        },
+        {
+            "relation": 449,
+            "upstream_event_id": 716,
+            "upstream_event": "Increase, cell proliferation (hepatocytes)",
+            "downstream_event_id": 774,
+            "downstream_event": "Increase, Preneoplastic foci (hepatocytes)"
+        },
+        {
+            "relation": 450,
+            "upstream_event_id": 774,
+            "upstream_event": "Increase, Preneoplastic foci (hepatocytes)",
+            "downstream_event_id": 719,
+            "downstream_event": "Increase, hepatocellular adenomas and carcinomas"
+        }
+    ]
+}

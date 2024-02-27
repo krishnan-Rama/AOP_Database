@@ -1,0 +1,162 @@
+{
+    "id": 496,
+    "title": "Androgen receptor agonism leading to reproduction dysfunction \uff08in zebrafish\uff09",
+    "short_name": "Androgen receptor agonism leading to reproduction dysfunction",
+    "created_at": "2023-05-16T21:08:20.000-04:00",
+    "updated_at": "2023-05-23T05:13:53.000-04:00",
+    "corresponding_author": {
+        "id": 16708,
+        "created_at": "2023-03-27T03:40:01.000-04:00",
+        "updated_at": "2023-05-22T21:23:59.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 5,
+            "stressor_name": "17beta-Trenbolone"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 25,
+            "event": "Agonism, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2143,
+            "event": "Increased, gene expression of AR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2137,
+            "event": "Increase, Gonadotropins concentration in plasma",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2138,
+            "event": "Reduction,Testosterone concentration in plasma",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2139,
+            "event": "Reduction, the ratio of 17beta-estradiol/11-Keto Testosterone in plasma ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 309,
+            "event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 442,
+            "event": "Decreased, Population trajectory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3462,
+            "upstream_event_id": 25,
+            "upstream_event": "Agonism, Androgen receptor",
+            "downstream_event_id": 2143,
+            "downstream_event": "Increased, gene expression of AR"
+        },
+        {
+            "relation": 3471,
+            "upstream_event_id": 2138,
+            "upstream_event": "Reduction,Testosterone concentration in plasma",
+            "downstream_event_id": 2139,
+            "downstream_event": "Reduction, the ratio of 17beta-estradiol/11-Keto Testosterone in plasma "
+        },
+        {
+            "relation": 3463,
+            "upstream_event_id": 2143,
+            "upstream_event": "Increased, gene expression of AR",
+            "downstream_event_id": 2137,
+            "downstream_event": "Increase, Gonadotropins concentration in plasma"
+        },
+        {
+            "relation": 3473,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 3474,
+            "upstream_event_id": 25,
+            "upstream_event": "Agonism, Androgen receptor",
+            "downstream_event_id": 2139,
+            "downstream_event": "Reduction, the ratio of 17beta-estradiol/11-Keto Testosterone in plasma "
+        },
+        {
+            "relation": 3464,
+            "upstream_event_id": 2137,
+            "upstream_event": "Increase, Gonadotropins concentration in plasma",
+            "downstream_event_id": 2138,
+            "downstream_event": "Reduction,Testosterone concentration in plasma"
+        },
+        {
+            "relation": 3465,
+            "upstream_event_id": 2138,
+            "upstream_event": "Reduction,Testosterone concentration in plasma",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 3466,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 2139,
+            "downstream_event": "Reduction, the ratio of 17beta-estradiol/11-Keto Testosterone in plasma "
+        },
+        {
+            "relation": 3467,
+            "upstream_event_id": 2139,
+            "upstream_event": "Reduction, the ratio of 17beta-estradiol/11-Keto Testosterone in plasma ",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 3468,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 309,
+            "downstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"
+        },
+        {
+            "relation": 3469,
+            "upstream_event_id": 309,
+            "upstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 3470,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 442,
+            "downstream_event": "Decreased, Population trajectory"
+        }
+    ]
+}

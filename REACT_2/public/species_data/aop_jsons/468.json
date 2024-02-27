@@ -1,0 +1,119 @@
+{
+    "id": 468,
+    "title": "Binding of SARS-CoV-2 to ACE2 leads to hyperinflammation (via cell death)",
+    "short_name": "Cytopathic SARS-CoV-2 leads to hyperinflammation",
+    "created_at": "2022-09-01T03:39:14.000-04:00",
+    "updated_at": "2023-04-29T16:03:07.000-04:00",
+    "corresponding_author": {
+        "id": 2471,
+        "created_at": "2020-12-02T07:47:44.000-05:00",
+        "updated_at": "2024-01-12T03:01:47.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1738,
+            "event": "SARS-CoV-2 cell entry ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1901,
+            "event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1847,
+            "event": "Increased SARS-CoV-2 production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1825,
+            "event": "Increase, Cell death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1868,
+            "event": "Hyperinflammation",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3217,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1738,
+            "downstream_event": "SARS-CoV-2 cell entry "
+        },
+        {
+            "relation": 3224,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 3218,
+            "upstream_event_id": 1738,
+            "upstream_event": "SARS-CoV-2 cell entry ",
+            "downstream_event_id": 1901,
+            "downstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2"
+        },
+        {
+            "relation": 3219,
+            "upstream_event_id": 1901,
+            "upstream_event": "Interferon-I antiviral response, antagonized by SARS-CoV-2",
+            "downstream_event_id": 1847,
+            "downstream_event": "Increased SARS-CoV-2 production"
+        },
+        {
+            "relation": 3220,
+            "upstream_event_id": 1847,
+            "upstream_event": "Increased SARS-CoV-2 production",
+            "downstream_event_id": 1825,
+            "downstream_event": "Increase, Cell death"
+        },
+        {
+            "relation": 3221,
+            "upstream_event_id": 1825,
+            "upstream_event": "Increase, Cell death",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 3222,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        },
+        {
+            "relation": 3223,
+            "upstream_event_id": 1497,
+            "upstream_event": "Increased, recruitment of inflammatory cells",
+            "downstream_event_id": 1868,
+            "downstream_event": "Hyperinflammation"
+        }
+    ]
+}

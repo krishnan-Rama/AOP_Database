@@ -1,0 +1,88 @@
+{
+    "id": 28,
+    "title": "Cyclooxygenase inhibition leading reproductive failure",
+    "short_name": "Cyclooxygenase inhibition leading reproductive failure",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 313,
+        "created_at": "2013-05-02T08:44:29.000-04:00",
+        "updated_at": "2024-01-31T12:20:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 79,
+            "event": "Inhibition, Cyclooxygenase activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 243,
+            "event": "Reduction, Prostaglandin E2 concentration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 49,
+            "event": "Reduction, Ca and HCO3 transport to shell gland",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 106,
+            "event": "Reduction, Eggshell thickness",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 119,
+            "event": "N/A, Gap",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 253,
+            "event": "N/A, Reproductive failure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 45,
+            "upstream_event_id": 79,
+            "upstream_event": "Inhibition, Cyclooxygenase activity",
+            "downstream_event_id": 243,
+            "downstream_event": "Reduction, Prostaglandin E2 concentration"
+        },
+        {
+            "relation": 46,
+            "upstream_event_id": 243,
+            "upstream_event": "Reduction, Prostaglandin E2 concentration",
+            "downstream_event_id": 119,
+            "downstream_event": "N/A, Gap"
+        },
+        {
+            "relation": 47,
+            "upstream_event_id": 119,
+            "upstream_event": "N/A, Gap",
+            "downstream_event_id": 49,
+            "downstream_event": "Reduction, Ca and HCO3 transport to shell gland"
+        },
+        {
+            "relation": 48,
+            "upstream_event_id": 49,
+            "upstream_event": "Reduction, Ca and HCO3 transport to shell gland",
+            "downstream_event_id": 106,
+            "downstream_event": "Reduction, Eggshell thickness"
+        },
+        {
+            "relation": 49,
+            "upstream_event_id": 106,
+            "upstream_event": "Reduction, Eggshell thickness",
+            "downstream_event_id": 253,
+            "downstream_event": "N/A, Reproductive failure"
+        }
+    ]
+}

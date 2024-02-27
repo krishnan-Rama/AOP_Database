@@ -1,0 +1,156 @@
+{
+    "id": 187,
+    "title": "Anticoagulant rodenticide inhibition of vitamin K epoxide reductase resulting coagulopathy and hemorrhage",
+    "short_name": "VKOR inhibition resulting in coagulopathy",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 54,
+        "created_at": "2016-01-29T15:06:26.000-05:00",
+        "updated_at": "2021-04-13T09:40:18.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 195,
+            "stressor_name": "Warfarin"
+        },
+        {
+            "stressor_id": 196,
+            "stressor_name": "coumachlor"
+        },
+        {
+            "stressor_id": 197,
+            "stressor_name": "coumatetralyl"
+        },
+        {
+            "stressor_id": 198,
+            "stressor_name": "chlorophacinone"
+        },
+        {
+            "stressor_id": 199,
+            "stressor_name": "diphacinone"
+        },
+        {
+            "stressor_id": 200,
+            "stressor_name": "pindone"
+        },
+        {
+            "stressor_id": 201,
+            "stressor_name": "3-[3-(4'-bromo[1,1'-biphenyl]-4-yl)-3-hydroxy-1-phenylpropyl]-4-hydroxy-2-benzopyrone"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1134,
+            "event": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1138,
+            "event": "Uncoupling of oxidative phosphorylation, Reduced ability to generate ATP",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1169,
+            "event": "Anticoagulant rodenticide interferes with carboxylation of Gla proteins in bone, Impairment of post-translational modification (carboxylation) of osteocalcin",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1122,
+            "event": "Under carboxylated clotting factors will not assemble on cell surfaces to form clot, Failure of secondary hemostasis  ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1130,
+            "event": "Failure in vascular repair mechanisms, Unresolved blood loss (hemorrhage)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1131,
+            "event": "Failure in gamma-glutamyl carboxylation of  clotting factors II, VII, IX and X, Under carboxylation of clotting factors (e.g., des-gamma-carboxy prothrombin) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1132,
+            "event": "Blood loss and development of anemia, Impaired oxygen delivery and nutrient delivery to tissue, impaired carbon dioxide and waste product removal",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1133,
+            "event": "Hemostasis, Depletion from blood of fully functional carboxylated clotting factors",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1135,
+            "event": "Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1151,
+            "event": "Osteoporosis and vascular calcification, Bone deterioration",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1136,
+            "event": "Impaired recruitment , Population trajectory",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 865,
+            "upstream_event_id": 1131,
+            "upstream_event": "Failure in gamma-glutamyl carboxylation of  clotting factors II, VII, IX and X, Under carboxylation of clotting factors (e.g., des-gamma-carboxy prothrombin) ",
+            "downstream_event_id": 1133,
+            "downstream_event": "Hemostasis, Depletion from blood of fully functional carboxylated clotting factors"
+        },
+        {
+            "relation": 866,
+            "upstream_event_id": 1133,
+            "upstream_event": "Hemostasis, Depletion from blood of fully functional carboxylated clotting factors",
+            "downstream_event_id": 1122,
+            "downstream_event": "Under carboxylated clotting factors will not assemble on cell surfaces to form clot, Failure of secondary hemostasis  "
+        },
+        {
+            "relation": 867,
+            "upstream_event_id": 1134,
+            "upstream_event": "Irreversible inhibition of hepatic VKOR by binding of AR at tyrosine 139, Failure to cycle vitamin K epoxide to vitamin K to form vitamin K hydroquinone",
+            "downstream_event_id": 1131,
+            "downstream_event": "Failure in gamma-glutamyl carboxylation of  clotting factors II, VII, IX and X, Under carboxylation of clotting factors (e.g., des-gamma-carboxy prothrombin) "
+        },
+        {
+            "relation": 868,
+            "upstream_event_id": 1122,
+            "upstream_event": "Under carboxylated clotting factors will not assemble on cell surfaces to form clot, Failure of secondary hemostasis  ",
+            "downstream_event_id": 1130,
+            "downstream_event": "Failure in vascular repair mechanisms, Unresolved blood loss (hemorrhage)"
+        },
+        {
+            "relation": 869,
+            "upstream_event_id": 1130,
+            "upstream_event": "Failure in vascular repair mechanisms, Unresolved blood loss (hemorrhage)",
+            "downstream_event_id": 1132,
+            "downstream_event": "Blood loss and development of anemia, Impaired oxygen delivery and nutrient delivery to tissue, impaired carbon dioxide and waste product removal"
+        },
+        {
+            "relation": 870,
+            "upstream_event_id": 1132,
+            "upstream_event": "Blood loss and development of anemia, Impaired oxygen delivery and nutrient delivery to tissue, impaired carbon dioxide and waste product removal",
+            "downstream_event_id": 1135,
+            "downstream_event": "Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction"
+        },
+        {
+            "relation": 871,
+            "upstream_event_id": 1135,
+            "upstream_event": "Reduced fitness or even mortality, Acidosis, hypovolemic shock and organ dysfunction",
+            "downstream_event_id": 1136,
+            "downstream_event": "Impaired recruitment , Population trajectory"
+        }
+    ]
+}

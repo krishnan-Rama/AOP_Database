@@ -1,0 +1,161 @@
+{
+    "id": 272,
+    "title": "Deposition of energy leading to lung cancer",
+    "short_name": "Deposition of energy leading to lung cancer",
+    "created_at": "2018-12-18T16:25:49.000-05:00",
+    "updated_at": "2023-10-24T11:02:02.000-04:00",
+    "corresponding_author": {
+        "id": 475,
+        "created_at": "2017-09-13T13:30:53.000-04:00",
+        "updated_at": "2024-02-16T11:14:45.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1635,
+            "event": "Increase, DNA strand breaks",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1636,
+            "event": "Increase, Chromosomal aberrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1556,
+            "event": "Increase, lung cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1979,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 1986,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1993,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 1980,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 1992,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1556,
+            "downstream_event": "Increase, lung cancer"
+        },
+        {
+            "relation": 1981,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1996,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 1997,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 1994,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 1556,
+            "downstream_event": "Increase, lung cancer"
+        },
+        {
+            "relation": 1982,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 1636,
+            "downstream_event": "Increase, Chromosomal aberrations"
+        },
+        {
+            "relation": 1983,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 1995,
+            "upstream_event_id": 1636,
+            "upstream_event": "Increase, Chromosomal aberrations",
+            "downstream_event_id": 1556,
+            "downstream_event": "Increase, lung cancer"
+        },
+        {
+            "relation": 1984,
+            "upstream_event_id": 1636,
+            "upstream_event": "Increase, Chromosomal aberrations",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 1991,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 1556,
+            "downstream_event": "Increase, lung cancer"
+        }
+    ]
+}

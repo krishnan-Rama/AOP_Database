@@ -1,0 +1,52 @@
+{
+    "id": 33,
+    "title": "Kidney toxicity induced by activation of 5HT2C",
+    "short_name": "Kidney toxicity induced by activation of 5HT2C",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 77,
+        "created_at": "2013-05-02T08:31:41.000-04:00",
+        "updated_at": "2023-11-08T05:49:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 9,
+            "event": "Activation, 5HT2c",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 294,
+            "event": "N/A, Unknown",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 759,
+            "event": "Increased, Kidney Failure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 416,
+            "upstream_event_id": 9,
+            "upstream_event": "Activation, 5HT2c",
+            "downstream_event_id": 294,
+            "downstream_event": "N/A, Unknown"
+        },
+        {
+            "relation": 417,
+            "upstream_event_id": 294,
+            "upstream_event": "N/A, Unknown",
+            "downstream_event_id": 759,
+            "downstream_event": "Increased, Kidney Failure"
+        }
+    ]
+}

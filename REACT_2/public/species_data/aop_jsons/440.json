@@ -1,0 +1,137 @@
+{
+    "id": 440,
+    "title": "Hypothalamus estrogen receptors activity suppression leading to ovarian cancer via ovarian epithelial cell hyperplasia",
+    "short_name": "Hypothalamic estrogen receptors inhibition leading to ovarian cancer",
+    "created_at": "2022-02-25T23:35:43.000-05:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 2719,
+        "created_at": "2020-12-31T05:54:44.000-05:00",
+        "updated_at": "2023-03-10T23:00:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 172,
+            "stressor_name": "Tamoxifen"
+        },
+        {
+            "stressor_id": 173,
+            "stressor_name": "Raloxifene"
+        },
+        {
+            "stressor_id": 734,
+            "stressor_name": "Clomiphene citrate (1:1)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1046,
+            "event": "Suppression, Estrogen receptor (ER) activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1047,
+            "event": "Increased, secretion of GnRH from hypothalamus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1050,
+            "event": "Increased, secretion of LH from anterior pituitary",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1972,
+            "event": "Increased, Steroidogenic acute regulatory protein (StAR) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1973,
+            "event": "Increased, estrogens ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1076,
+            "event": "Increased, circulating estrogen levels",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1052,
+            "event": "Hyperplasia, ovarian epithelium",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1053,
+            "event": "Promotion, ovarian adenomas",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 2092,
+            "event": "Promotion, Ovarian Cancer ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2968,
+            "upstream_event_id": 1046,
+            "upstream_event": "Suppression, Estrogen receptor (ER) activity",
+            "downstream_event_id": 1047,
+            "downstream_event": "Increased, secretion of GnRH from hypothalamus"
+        },
+        {
+            "relation": 2969,
+            "upstream_event_id": 1047,
+            "upstream_event": "Increased, secretion of GnRH from hypothalamus",
+            "downstream_event_id": 1050,
+            "downstream_event": "Increased, secretion of LH from anterior pituitary"
+        },
+        {
+            "relation": 2974,
+            "upstream_event_id": 1076,
+            "upstream_event": "Increased, circulating estrogen levels",
+            "downstream_event_id": 1052,
+            "downstream_event": "Hyperplasia, ovarian epithelium"
+        },
+        {
+            "relation": 2970,
+            "upstream_event_id": 1050,
+            "upstream_event": "Increased, secretion of LH from anterior pituitary",
+            "downstream_event_id": 1972,
+            "downstream_event": "Increased, Steroidogenic acute regulatory protein (StAR) "
+        },
+        {
+            "relation": 2975,
+            "upstream_event_id": 1052,
+            "upstream_event": "Hyperplasia, ovarian epithelium",
+            "downstream_event_id": 1053,
+            "downstream_event": "Promotion, ovarian adenomas"
+        },
+        {
+            "relation": 2971,
+            "upstream_event_id": 1972,
+            "upstream_event": "Increased, Steroidogenic acute regulatory protein (StAR) ",
+            "downstream_event_id": 1973,
+            "downstream_event": "Increased, estrogens "
+        },
+        {
+            "relation": 3351,
+            "upstream_event_id": 1053,
+            "upstream_event": "Promotion, ovarian adenomas",
+            "downstream_event_id": 2092,
+            "downstream_event": "Promotion, Ovarian Cancer "
+        },
+        {
+            "relation": 2972,
+            "upstream_event_id": 1973,
+            "upstream_event": "Increased, estrogens ",
+            "downstream_event_id": 1076,
+            "downstream_event": "Increased, circulating estrogen levels"
+        }
+    ]
+}

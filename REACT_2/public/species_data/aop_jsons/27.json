@@ -1,0 +1,126 @@
+{
+    "id": 27,
+    "title": "Cholestatic Liver Injury induced by Inhibition of the Bile Salt Export Pump (ABCB11)",
+    "short_name": "Cholestatic Liver Injury induced by Inhibition of the Bile Salt Export Pump (ABCB11)",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 242,
+        "created_at": "2013-12-16T13:58:17.000-05:00",
+        "updated_at": "2021-04-13T09:39:39.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 41,
+            "event": "Inhibition, Bile Salt Export Pump (ABCB11)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 288,
+            "event": "Activation of specific nuclear receptors, Transcriptional change",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 214,
+            "event": "Bile accumulation, Pathological condition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 87,
+            "event": "Release, Cytokine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 249,
+            "event": "Production, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 209,
+            "event": "Peptide Oxidation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 357,
+            "event": "Cholestasis, Pathology",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 41,
+            "upstream_event_id": 214,
+            "upstream_event": "Bile accumulation, Pathological condition",
+            "downstream_event_id": 288,
+            "downstream_event": "Activation of specific nuclear receptors, Transcriptional change"
+        },
+        {
+            "relation": 42,
+            "upstream_event_id": 288,
+            "upstream_event": "Activation of specific nuclear receptors, Transcriptional change",
+            "downstream_event_id": 357,
+            "downstream_event": "Cholestasis, Pathology"
+        },
+        {
+            "relation": 43,
+            "upstream_event_id": 87,
+            "upstream_event": "Release, Cytokine",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 44,
+            "upstream_event_id": 249,
+            "upstream_event": "Production, Reactive oxygen species",
+            "downstream_event_id": 209,
+            "downstream_event": "Peptide Oxidation"
+        },
+        {
+            "relation": 620,
+            "upstream_event_id": 41,
+            "upstream_event": "Inhibition, Bile Salt Export Pump (ABCB11)",
+            "downstream_event_id": 214,
+            "downstream_event": "Bile accumulation, Pathological condition"
+        },
+        {
+            "relation": 621,
+            "upstream_event_id": 214,
+            "upstream_event": "Bile accumulation, Pathological condition",
+            "downstream_event_id": 87,
+            "downstream_event": "Release, Cytokine"
+        },
+        {
+            "relation": 622,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 357,
+            "downstream_event": "Cholestasis, Pathology"
+        },
+        {
+            "relation": 623,
+            "upstream_event_id": 214,
+            "upstream_event": "Bile accumulation, Pathological condition",
+            "downstream_event_id": 249,
+            "downstream_event": "Production, Reactive oxygen species"
+        },
+        {
+            "relation": 624,
+            "upstream_event_id": 209,
+            "upstream_event": "Peptide Oxidation",
+            "downstream_event_id": 357,
+            "downstream_event": "Cholestasis, Pathology"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "id": 367,
+    "title": "Competitive binding to thyroid hormone carrier protein thyroid binding globulin (TBG) leading to altered amphibian metamorphosis",
+    "short_name": "TH displacement from serum TBG leading to altered amphibian metamorphosis",
+    "created_at": "2020-12-09T15:22:16.000-05:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 142,
+        "created_at": "2015-07-24T10:53:28.000-04:00",
+        "updated_at": "2021-07-13T15:26:42.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1831,
+            "event": "Binding, Thyroid binding globulin in serum",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1830,
+            "event": "Displacement, Serum thyroxine (T4) from carrier protein",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 959,
+            "event": "Increased, Free serum thyroxine (T4)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1158,
+            "event": "Increased, Hepatic thyroid hormone uptake/transport",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 961,
+            "event": "Increased, Clearance of thyroxine from serum",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1101,
+            "event": "Altered, Amphibian metamorphosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2825,
+            "upstream_event_id": 1158,
+            "upstream_event": "Increased, Hepatic thyroid hormone uptake/transport",
+            "downstream_event_id": 961,
+            "downstream_event": "Increased, Clearance of thyroxine from serum"
+        },
+        {
+            "relation": 2457,
+            "upstream_event_id": 1831,
+            "upstream_event": "Binding, Thyroid binding globulin in serum",
+            "downstream_event_id": 1830,
+            "downstream_event": "Displacement, Serum thyroxine (T4) from carrier protein"
+        },
+        {
+            "relation": 2458,
+            "upstream_event_id": 1830,
+            "upstream_event": "Displacement, Serum thyroxine (T4) from carrier protein",
+            "downstream_event_id": 959,
+            "downstream_event": "Increased, Free serum thyroxine (T4)"
+        },
+        {
+            "relation": 2463,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 1101,
+            "downstream_event": "Altered, Amphibian metamorphosis"
+        },
+        {
+            "relation": 2459,
+            "upstream_event_id": 959,
+            "upstream_event": "Increased, Free serum thyroxine (T4)",
+            "downstream_event_id": 1158,
+            "downstream_event": "Increased, Hepatic thyroid hormone uptake/transport"
+        },
+        {
+            "relation": 2460,
+            "upstream_event_id": 1158,
+            "upstream_event": "Increased, Hepatic thyroid hormone uptake/transport",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        },
+        {
+            "relation": 2824,
+            "upstream_event_id": 961,
+            "upstream_event": "Increased, Clearance of thyroxine from serum",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        }
+    ]
+}

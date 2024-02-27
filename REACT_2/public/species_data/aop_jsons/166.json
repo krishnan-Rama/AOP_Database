@@ -1,0 +1,111 @@
+{
+    "id": 166,
+    "title": "PPARalpha activation leading to pancreatic acinar tumors in the rat and mouse",
+    "short_name": "PPAR\u03b1 activation and pancreatic acinar tumors",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 175,
+            "stressor_name": "PERFLUOROOCTANOIC ACID"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1057,
+            "event": "Increased, PPAR-alpha activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1058,
+            "event": "Decreased, bile flow",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1059,
+            "event": "Increased, cholestasis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1060,
+            "event": "Alteration, lipid metabolism",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1061,
+            "event": "prolonged, elevation of serun CCK",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1062,
+            "event": "Increased, Cellular proliferation / hyperplasia of acinar cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1063,
+            "event": "Increased, Pancreatic acinar tumors",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 760,
+            "upstream_event_id": 1057,
+            "upstream_event": "Increased, PPAR-alpha activation",
+            "downstream_event_id": 1058,
+            "downstream_event": "Decreased, bile flow"
+        },
+        {
+            "relation": 761,
+            "upstream_event_id": 1057,
+            "upstream_event": "Increased, PPAR-alpha activation",
+            "downstream_event_id": 1059,
+            "downstream_event": "Increased, cholestasis"
+        },
+        {
+            "relation": 762,
+            "upstream_event_id": 1057,
+            "upstream_event": "Increased, PPAR-alpha activation",
+            "downstream_event_id": 1060,
+            "downstream_event": "Alteration, lipid metabolism"
+        },
+        {
+            "relation": 763,
+            "upstream_event_id": 1061,
+            "upstream_event": "prolonged, elevation of serun CCK",
+            "downstream_event_id": 1062,
+            "downstream_event": "Increased, Cellular proliferation / hyperplasia of acinar cells"
+        },
+        {
+            "relation": 764,
+            "upstream_event_id": 1062,
+            "upstream_event": "Increased, Cellular proliferation / hyperplasia of acinar cells",
+            "downstream_event_id": 1063,
+            "downstream_event": "Increased, Pancreatic acinar tumors"
+        },
+        {
+            "relation": 765,
+            "upstream_event_id": 1059,
+            "upstream_event": "Increased, cholestasis",
+            "downstream_event_id": 1061,
+            "downstream_event": "prolonged, elevation of serun CCK"
+        },
+        {
+            "relation": 766,
+            "upstream_event_id": 1058,
+            "upstream_event": "Decreased, bile flow",
+            "downstream_event_id": 1059,
+            "downstream_event": "Increased, cholestasis"
+        }
+    ]
+}

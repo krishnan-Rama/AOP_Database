@@ -1,0 +1,90 @@
+{
+    "id": 19,
+    "title": "Androgen receptor antagonism leading to adverse effects in the male foetus (mammals)",
+    "short_name": "AR antagonism leading to foetal feminisation",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 241,
+        "created_at": "2013-08-07T10:21:10.000-04:00",
+        "updated_at": "2017-09-29T05:50:23.000-04:00",
+        "subscribed": true,
+        "novice": false
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 27,
+            "event": "N/A, Androgen receptor, Antagonism",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 310,
+            "event": "Alteration, Wnt pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 240,
+            "event": "Feminisation or incomplete development, Primary and accessory male sex organs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 286,
+            "event": "Altered, Transcription of genes by the androgen receptor",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 337,
+            "event": "N/A, Impairment of reproductive capacity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 21,
+            "upstream_event_id": 27,
+            "upstream_event": "N/A, Androgen receptor, Antagonism",
+            "downstream_event_id": 310,
+            "downstream_event": "Alteration, Wnt pathway"
+        },
+        {
+            "relation": 22,
+            "upstream_event_id": 27,
+            "upstream_event": "N/A, Androgen receptor, Antagonism",
+            "downstream_event_id": 286,
+            "downstream_event": "Altered, Transcription of genes by the androgen receptor"
+        },
+        {
+            "relation": 23,
+            "upstream_event_id": 286,
+            "upstream_event": "Altered, Transcription of genes by the androgen receptor",
+            "downstream_event_id": 310,
+            "downstream_event": "Alteration, Wnt pathway"
+        },
+        {
+            "relation": 24,
+            "upstream_event_id": 286,
+            "upstream_event": "Altered, Transcription of genes by the androgen receptor",
+            "downstream_event_id": 240,
+            "downstream_event": "Feminisation or incomplete development, Primary and accessory male sex organs"
+        },
+        {
+            "relation": 25,
+            "upstream_event_id": 310,
+            "upstream_event": "Alteration, Wnt pathway",
+            "downstream_event_id": 240,
+            "downstream_event": "Feminisation or incomplete development, Primary and accessory male sex organs"
+        },
+        {
+            "relation": 26,
+            "upstream_event_id": 240,
+            "upstream_event": "Feminisation or incomplete development, Primary and accessory male sex organs",
+            "downstream_event_id": 337,
+            "downstream_event": "N/A, Impairment of reproductive capacity"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "id": 196,
+    "title": "Volatile Organic Chemicals Activate TRPA1 Receptor to Induce Sensory Pulmonary Irritation",
+    "short_name": "TRPA1 activation leads to pulmonary sensory irritation",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 160,
+        "created_at": "2016-06-28T11:29:58.000-04:00",
+        "updated_at": "2021-04-13T09:39:44.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 235,
+            "stressor_name": "Dibenzo[B,F][1,4]Oxazepine"
+        },
+        {
+            "stressor_id": 236,
+            "stressor_name": "2-Chlorobenzalmalononitrile"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1215,
+            "event": "TRPA1 activation, TRPA1 Receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1218,
+            "event": "Opening of calcium channel, Calcium influx",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1220,
+            "event": "Trigeminal nerve activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1222,
+            "event": "SP (Substance P) release, Local increase of SP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1433,
+            "event": "Increased CGRP, neuronal release of CGRP",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1435,
+            "event": "Increased neurokinin A (NKA) by neuronal cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1223,
+            "event": "Trigeminal and/or vagal nerve excitation causes Airway Hyper-responsiveness,Cough, Dyspnea",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1434,
+            "event": "Irritation of nasal mucosa inducing sneeze reflex",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1226,
+            "event": "Increased Respiratory irritability and Chronic Cough, ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 964,
+            "upstream_event_id": 1215,
+            "upstream_event": "TRPA1 activation, TRPA1 Receptor",
+            "downstream_event_id": 1218,
+            "downstream_event": "Opening of calcium channel, Calcium influx"
+        },
+        {
+            "relation": 965,
+            "upstream_event_id": 1218,
+            "upstream_event": "Opening of calcium channel, Calcium influx",
+            "downstream_event_id": 1220,
+            "downstream_event": "Trigeminal nerve activation"
+        },
+        {
+            "relation": 1432,
+            "upstream_event_id": 1220,
+            "upstream_event": "Trigeminal nerve activation",
+            "downstream_event_id": 1222,
+            "downstream_event": "SP (Substance P) release, Local increase of SP"
+        },
+        {
+            "relation": 1435,
+            "upstream_event_id": 1220,
+            "upstream_event": "Trigeminal nerve activation",
+            "downstream_event_id": 1433,
+            "downstream_event": "Increased CGRP, neuronal release of CGRP"
+        },
+        {
+            "relation": 1440,
+            "upstream_event_id": 1220,
+            "upstream_event": "Trigeminal nerve activation",
+            "downstream_event_id": 1435,
+            "downstream_event": "Increased neurokinin A (NKA) by neuronal cells"
+        },
+        {
+            "relation": 1688,
+            "upstream_event_id": 1222,
+            "upstream_event": "SP (Substance P) release, Local increase of SP",
+            "downstream_event_id": 1226,
+            "downstream_event": "Increased Respiratory irritability and Chronic Cough, "
+        },
+        {
+            "relation": 1689,
+            "upstream_event_id": 1433,
+            "upstream_event": "Increased CGRP, neuronal release of CGRP",
+            "downstream_event_id": 1226,
+            "downstream_event": "Increased Respiratory irritability and Chronic Cough, "
+        },
+        {
+            "relation": 1690,
+            "upstream_event_id": 1435,
+            "upstream_event": "Increased neurokinin A (NKA) by neuronal cells",
+            "downstream_event_id": 1226,
+            "downstream_event": "Increased Respiratory irritability and Chronic Cough, "
+        },
+        {
+            "relation": 1691,
+            "upstream_event_id": 1226,
+            "upstream_event": "Increased Respiratory irritability and Chronic Cough, ",
+            "downstream_event_id": 1223,
+            "downstream_event": "Trigeminal and/or vagal nerve excitation causes Airway Hyper-responsiveness,Cough, Dyspnea"
+        },
+        {
+            "relation": 1692,
+            "upstream_event_id": 1220,
+            "upstream_event": "Trigeminal nerve activation",
+            "downstream_event_id": 1434,
+            "downstream_event": "Irritation of nasal mucosa inducing sneeze reflex"
+        }
+    ]
+}

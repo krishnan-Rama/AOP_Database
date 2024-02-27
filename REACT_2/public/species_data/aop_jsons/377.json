@@ -1,0 +1,257 @@
+{
+    "id": 377,
+    "title": "Dysregulated prolonged Toll Like Receptor 9 (TLR9) activation leading to Multi Organ Failure involving Acute Respiratory Distress Syndrome (ARDS)",
+    "short_name": "TLR9 activation leading to Multi Organ Failure and ARDS",
+    "created_at": "2021-03-19T09:45:21.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 3154,
+        "created_at": "2021-03-08T06:07:14.000-05:00",
+        "updated_at": "2023-01-18T08:59:06.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 628,
+            "stressor_name": "cell free mitochondrial DNA (mtDNA)"
+        },
+        {
+            "stressor_id": 629,
+            "stressor_name": "unmethylated CpG motifs (DNA;RNA;ODN)"
+        },
+        {
+            "stressor_id": 526,
+            "stressor_name": "SARS-CoV"
+        },
+        {
+            "stressor_id": 624,
+            "stressor_name": "Sars-CoV-2"
+        },
+        {
+            "stressor_id": 631,
+            "stressor_name": "Danger Associated Molecular Patters (DAMPs)"
+        },
+        {
+            "stressor_id": 632,
+            "stressor_name": "Pathogen Associated Molecular Patterns (PAMPs)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1842,
+            "event": "Prolonged TLR9 activation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1897,
+            "event": "increased MyD88 activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1895,
+            "event": "NLRP3 inflammasome activity, increased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1172,
+            "event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 87,
+            "event": "Release, Cytokine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1493,
+            "event": "Increased Pro-inflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1497,
+            "event": "Increased, recruitment of inflammatory cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1708,
+            "event": "Th17 cell migration and inflammation induction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1869,
+            "event": "Diminished protective oxidative stress response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 211,
+            "event": "Propagation, Oxidative stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1825,
+            "event": "Increase, Cell death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1809,
+            "event": "Increase, Tissue/organ damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1898,
+            "event": "increased release of danger/damage associated molecular patterns",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1848,
+            "event": "Toll Like Receptor (TLR) Dysregulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1900,
+            "event": "increased platelet surface TLR9 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1899,
+            "event": "formation of neutrophil extracellular traps (NETs)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1857,
+            "event": "Platelet-neutrophil interactions, Increased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1846,
+            "event": "Thrombosis and Disseminated Intravascular Coagulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1868,
+            "event": "Hyperinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 902,
+            "event": "Inflammation, Liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1844,
+            "event": "systemic inflammatory response syndrome",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1748,
+            "event": "Increase, the risk of acute respiratory failure",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1535,
+            "event": "Heart failure ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 814,
+            "event": "Occurrence, Kidney toxicity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 759,
+            "event": "Increased, Kidney Failure",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1843,
+            "event": "Multi Organ Failure involving Acute Respiratory Distress Syndrome",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2755,
+            "upstream_event_id": 1842,
+            "upstream_event": "Prolonged TLR9 activation",
+            "downstream_event_id": 1897,
+            "downstream_event": "increased MyD88 activation"
+        },
+        {
+            "relation": 2761,
+            "upstream_event_id": 1842,
+            "upstream_event": "Prolonged TLR9 activation",
+            "downstream_event_id": 1895,
+            "downstream_event": "NLRP3 inflammasome activity, increased"
+        },
+        {
+            "relation": 2756,
+            "upstream_event_id": 1897,
+            "upstream_event": "increased MyD88 activation",
+            "downstream_event_id": 1172,
+            "downstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 2757,
+            "upstream_event_id": 1172,
+            "upstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 87,
+            "downstream_event": "Release, Cytokine"
+        },
+        {
+            "relation": 2758,
+            "upstream_event_id": 1172,
+            "upstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1493,
+            "downstream_event": "Increased Pro-inflammatory mediators"
+        },
+        {
+            "relation": 2759,
+            "upstream_event_id": 1172,
+            "upstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 2760,
+            "upstream_event_id": 87,
+            "upstream_event": "Release, Cytokine",
+            "downstream_event_id": 1497,
+            "downstream_event": "Increased, recruitment of inflammatory cells"
+        }
+    ]
+}

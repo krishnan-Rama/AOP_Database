@@ -1,0 +1,140 @@
+{
+    "id": 349,
+    "title": "Inhibition of 11\u03b2-hydroxylase leading to decresed population trajectory ",
+    "short_name": "11\u03b2-hydroxylase inhibition,  infertility in fish ",
+    "created_at": "2020-07-12T10:16:17.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 574,
+            "stressor_name": "Metyrapone"
+        },
+        {
+            "stressor_id": 575,
+            "stressor_name": "Lysodren, Mitotan, Mitotane"
+        },
+        {
+            "stressor_id": 576,
+            "stressor_name": "Etomidate"
+        },
+        {
+            "stressor_id": 282,
+            "stressor_name": "Ketoconazole"
+        },
+        {
+            "stressor_id": 577,
+            "stressor_name": "Osilodrostat(LCI699)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1796,
+            "event": "11\u03b2-hydroxylase inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1835,
+            "event": "Cortisol and 11\u03b2-(OH) testosterone decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1756,
+            "event": "Decreased,  plasma 11-ketotestosterone level",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1836,
+            "event": "Decreased plasma Cortisol level",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1798,
+            "event": "Decreased spermatogenesis ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1837,
+            "event": "decreased oocyte maturation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2501,
+            "upstream_event_id": 1796,
+            "upstream_event": "11\u03b2-hydroxylase inhibition",
+            "downstream_event_id": 1835,
+            "downstream_event": "Cortisol and 11\u03b2-(OH) testosterone decreased"
+        },
+        {
+            "relation": 2531,
+            "upstream_event_id": 1835,
+            "upstream_event": "Cortisol and 11\u03b2-(OH) testosterone decreased",
+            "downstream_event_id": 1756,
+            "downstream_event": "Decreased,  plasma 11-ketotestosterone level"
+        },
+        {
+            "relation": 2532,
+            "upstream_event_id": 1835,
+            "upstream_event": "Cortisol and 11\u03b2-(OH) testosterone decreased",
+            "downstream_event_id": 1836,
+            "downstream_event": "Decreased plasma Cortisol level"
+        },
+        {
+            "relation": 2533,
+            "upstream_event_id": 1756,
+            "upstream_event": "Decreased,  plasma 11-ketotestosterone level",
+            "downstream_event_id": 1798,
+            "downstream_event": "Decreased spermatogenesis "
+        },
+        {
+            "relation": 2534,
+            "upstream_event_id": 1836,
+            "upstream_event": "Decreased plasma Cortisol level",
+            "downstream_event_id": 1837,
+            "downstream_event": "decreased oocyte maturation"
+        },
+        {
+            "relation": 2535,
+            "upstream_event_id": 1798,
+            "upstream_event": "Decreased spermatogenesis ",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2536,
+            "upstream_event_id": 1837,
+            "upstream_event": "decreased oocyte maturation",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2537,
+            "upstream_event_id": 406,
+            "upstream_event": "impaired, Fertility",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

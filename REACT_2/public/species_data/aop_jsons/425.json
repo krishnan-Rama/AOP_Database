@@ -1,0 +1,93 @@
+{
+    "id": 425,
+    "title": "Oxidative Stress Leading to Decreased Lung Function via Decreased FOXJ1",
+    "short_name": "ox stress-mediated FOXJ1/cilia/CBF/MCC impairment",
+    "created_at": "2021-09-28T04:51:39.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 178,
+        "created_at": "2016-02-29T04:55:52.000-05:00",
+        "updated_at": "2023-03-13T11:03:03.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 645,
+            "stressor_name": "Cigarette smoke"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1911,
+            "event": "FOXJ1 Protein, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1912,
+            "event": "Motile Cilia Number/Length, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1908,
+            "event": "Cilia Beat Frequency, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1909,
+            "event": "Mucociliary Clearance, Decreased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1250,
+            "event": "Decrease, Lung function",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2845,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1911,
+            "downstream_event": "FOXJ1 Protein, Decreased"
+        },
+        {
+            "relation": 2846,
+            "upstream_event_id": 1911,
+            "upstream_event": "FOXJ1 Protein, Decreased",
+            "downstream_event_id": 1912,
+            "downstream_event": "Motile Cilia Number/Length, Decreased"
+        },
+        {
+            "relation": 2847,
+            "upstream_event_id": 1912,
+            "upstream_event": "Motile Cilia Number/Length, Decreased",
+            "downstream_event_id": 1908,
+            "downstream_event": "Cilia Beat Frequency, Decreased"
+        },
+        {
+            "relation": 2848,
+            "upstream_event_id": 1908,
+            "upstream_event": "Cilia Beat Frequency, Decreased",
+            "downstream_event_id": 1909,
+            "downstream_event": "Mucociliary Clearance, Decreased"
+        },
+        {
+            "relation": 2849,
+            "upstream_event_id": 1909,
+            "upstream_event": "Mucociliary Clearance, Decreased",
+            "downstream_event_id": 1250,
+            "downstream_event": "Decrease, Lung function"
+        }
+    ]
+}

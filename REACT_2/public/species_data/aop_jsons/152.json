@@ -1,0 +1,159 @@
+{
+    "id": 152,
+    "title": "Interference with thyroid serum binding protein transthyretin and subsequent adverse human neurodevelopmental toxicity ",
+    "short_name": "Transthyretin interference",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 192,
+        "created_at": "2013-08-13T11:01:07.000-04:00",
+        "updated_at": "2023-02-22T18:34:26.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 160,
+            "stressor_name": "Halogenated phenols"
+        },
+        {
+            "stressor_id": 148,
+            "stressor_name": "Polychlorinated biphenyl"
+        },
+        {
+            "stressor_id": 256,
+            "stressor_name": "Polychlorinated dibenzodioxins"
+        },
+        {
+            "stressor_id": 257,
+            "stressor_name": "Polybrominated diphenyl ethers"
+        },
+        {
+            "stressor_id": 258,
+            "stressor_name": "Isoflavones"
+        },
+        {
+            "stressor_id": 259,
+            "stressor_name": "Perflourinated chemicals"
+        },
+        {
+            "stressor_id": 260,
+            "stressor_name": "Phthalates"
+        },
+        {
+            "stressor_id": 261,
+            "stressor_name": "Tetrabromobisphenol A"
+        },
+        {
+            "stressor_id": 262,
+            "stressor_name": "Clonixin"
+        },
+        {
+            "stressor_id": 263,
+            "stressor_name": "Meclofenamic acid"
+        },
+        {
+            "stressor_id": 264,
+            "stressor_name": "2,6-dinitro-p-cresol"
+        },
+        {
+            "stressor_id": 265,
+            "stressor_name": "Triclopyr"
+        },
+        {
+            "stressor_id": 74,
+            "stressor_name": "2,2',4,4'-Tetrahydroxybenzophenone"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 957,
+            "event": "Binding, Transthyretin in serum",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 958,
+            "event": "Displacement, Serum thyroxine (T4) from transthyretin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 959,
+            "event": "Increased, Free serum thyroxine (T4)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 960,
+            "event": "Increased, Uptake of thyroxine into tissue",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 961,
+            "event": "Increased, Clearance of thyroxine from serum",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 280,
+            "event": "Thyroxine (T4) in neuronal tissue, Decreased ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 756,
+            "event": "Hippocampal gene expression, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 757,
+            "event": "Hippocampal anatomy, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2491,
+            "upstream_event_id": 957,
+            "upstream_event": "Binding, Transthyretin in serum",
+            "downstream_event_id": 958,
+            "downstream_event": "Displacement, Serum thyroxine (T4) from transthyretin"
+        },
+        {
+            "relation": 2498,
+            "upstream_event_id": 958,
+            "upstream_event": "Displacement, Serum thyroxine (T4) from transthyretin",
+            "downstream_event_id": 959,
+            "downstream_event": "Increased, Free serum thyroxine (T4)"
+        },
+        {
+            "relation": 2497,
+            "upstream_event_id": 959,
+            "upstream_event": "Increased, Free serum thyroxine (T4)",
+            "downstream_event_id": 961,
+            "downstream_event": "Increased, Clearance of thyroxine from serum"
+        },
+        {
+            "relation": 2495,
+            "upstream_event_id": 961,
+            "upstream_event": "Increased, Clearance of thyroxine from serum",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        }
+    ]
+}

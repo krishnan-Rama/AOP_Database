@@ -1,0 +1,155 @@
+{
+    "id": 149,
+    "title": "Peptide Oxidation Leading to Hypertension",
+    "short_name": "Hypertension",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 333,
+        "created_at": "2016-09-02T08:32:05.000-04:00",
+        "updated_at": "2021-04-13T09:40:58.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 303,
+            "stressor_name": "Reactive oxygen species"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 209,
+            "event": "Peptide Oxidation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 927,
+            "event": "KE1 : S-Glutathionylation, eNOS",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 935,
+            "event": "KE2 : Decrease, GTPCH-1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 934,
+            "event": "KE3 : Decrease, Tetrahydrobiopterin",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 932,
+            "event": "KE4 : Uncoupling, eNOS",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 933,
+            "event": "KE6 : Depletion, Nitric Oxide",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 937,
+            "event": "KE7 : Impaired, Vasodilation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 951,
+            "event": "KE8 : Increase, Vascular Resistance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 973,
+            "event": "KE5 : Decrease, AKT/eNOS activity",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 952,
+            "event": "Hypertension",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 639,
+            "upstream_event_id": 209,
+            "upstream_event": "Peptide Oxidation",
+            "downstream_event_id": 935,
+            "downstream_event": "KE2 : Decrease, GTPCH-1"
+        },
+        {
+            "relation": 641,
+            "upstream_event_id": 927,
+            "upstream_event": "KE1 : S-Glutathionylation, eNOS",
+            "downstream_event_id": 932,
+            "downstream_event": "KE4 : Uncoupling, eNOS"
+        },
+        {
+            "relation": 642,
+            "upstream_event_id": 935,
+            "upstream_event": "KE2 : Decrease, GTPCH-1",
+            "downstream_event_id": 934,
+            "downstream_event": "KE3 : Decrease, Tetrahydrobiopterin"
+        },
+        {
+            "relation": 643,
+            "upstream_event_id": 934,
+            "upstream_event": "KE3 : Decrease, Tetrahydrobiopterin",
+            "downstream_event_id": 932,
+            "downstream_event": "KE4 : Uncoupling, eNOS"
+        },
+        {
+            "relation": 644,
+            "upstream_event_id": 932,
+            "upstream_event": "KE4 : Uncoupling, eNOS",
+            "downstream_event_id": 933,
+            "downstream_event": "KE6 : Depletion, Nitric Oxide"
+        },
+        {
+            "relation": 645,
+            "upstream_event_id": 933,
+            "upstream_event": "KE6 : Depletion, Nitric Oxide",
+            "downstream_event_id": 937,
+            "downstream_event": "KE7 : Impaired, Vasodilation"
+        },
+        {
+            "relation": 646,
+            "upstream_event_id": 937,
+            "upstream_event": "KE7 : Impaired, Vasodilation",
+            "downstream_event_id": 951,
+            "downstream_event": "KE8 : Increase, Vascular Resistance"
+        },
+        {
+            "relation": 647,
+            "upstream_event_id": 951,
+            "upstream_event": "KE8 : Increase, Vascular Resistance",
+            "downstream_event_id": 952,
+            "downstream_event": "Hypertension"
+        },
+        {
+            "relation": 656,
+            "upstream_event_id": 973,
+            "upstream_event": "KE5 : Decrease, AKT/eNOS activity",
+            "downstream_event_id": 933,
+            "downstream_event": "KE6 : Depletion, Nitric Oxide"
+        },
+        {
+            "relation": 657,
+            "upstream_event_id": 209,
+            "upstream_event": "Peptide Oxidation",
+            "downstream_event_id": 973,
+            "downstream_event": "KE5 : Decrease, AKT/eNOS activity"
+        },
+        {
+            "relation": 1581,
+            "upstream_event_id": 209,
+            "upstream_event": "Peptide Oxidation",
+            "downstream_event_id": 927,
+            "downstream_event": "KE1 : S-Glutathionylation, eNOS"
+        }
+    ]
+}

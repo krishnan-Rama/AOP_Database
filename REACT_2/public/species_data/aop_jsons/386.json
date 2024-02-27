@@ -1,0 +1,118 @@
+{
+    "id": 386,
+    "title": "Deposition of ionizing energy leading to population decline via inhibition of photosynthesis",
+    "short_name": " ROS production leading to population decline via photosynthesis inhibition",
+    "created_at": "2021-04-11T07:13:32.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 451,
+            "stressor_name": "Ionizing Radiation"
+        },
+        {
+            "stressor_id": 273,
+            "stressor_name": "Gamma radiation"
+        },
+        {
+            "stressor_id": 274,
+            "stressor_name": "Ultraviolet B radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1686,
+            "event": "Deposition of Energy",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1861,
+            "event": "Increase, D1 protein deactivation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1862,
+            "event": "Decrease, Photosystem II efficiency",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1475,
+            "event": "Decrease, Photosynthesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1472,
+            "event": "Decrease, ATP production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1863,
+            "event": "Decrease, Reproduction",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2917,
+            "upstream_event_id": 1686,
+            "upstream_event": "Deposition of Energy",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2918,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1861,
+            "downstream_event": "Increase, D1 protein deactivation"
+        },
+        {
+            "relation": 2590,
+            "upstream_event_id": 1862,
+            "upstream_event": "Decrease, Photosystem II efficiency",
+            "downstream_event_id": 1475,
+            "downstream_event": "Decrease, Photosynthesis"
+        },
+        {
+            "relation": 2591,
+            "upstream_event_id": 1475,
+            "upstream_event": "Decrease, Photosynthesis",
+            "downstream_event_id": 1472,
+            "downstream_event": "Decrease, ATP production"
+        },
+        {
+            "relation": 2916,
+            "upstream_event_id": 1472,
+            "upstream_event": "Decrease, ATP production",
+            "downstream_event_id": 1863,
+            "downstream_event": "Decrease, Reproduction"
+        },
+        {
+            "relation": 2593,
+            "upstream_event_id": 1863,
+            "upstream_event": "Decrease, Reproduction",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

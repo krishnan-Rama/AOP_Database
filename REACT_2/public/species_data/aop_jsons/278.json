@@ -1,0 +1,112 @@
+{
+    "id": 278,
+    "title": "IKK complex inhibition leading to liver injury",
+    "short_name": "IKK complex inhibition leading to liver injury",
+    "created_at": "2019-01-07T08:00:15.000-05:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 488,
+        "created_at": "2017-10-17T07:36:43.000-04:00",
+        "updated_at": "2019-01-07T03:26:33.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1574,
+            "event": "Inhibition, IKK complex",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 202,
+            "event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1575,
+            "event": "Activation, Caspase 8 pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1576,
+            "event": "Activation, Tissue resident cells (Kuppfer cells)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1579,
+            "event": "Increase, proinflammatory mediators (TNFalpha)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1548,
+            "event": "Necrotic Tissue",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1549,
+            "event": "Liver Injury",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1759,
+            "upstream_event_id": 1574,
+            "upstream_event": "Inhibition, IKK complex",
+            "downstream_event_id": 202,
+            "downstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 1767,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1576,
+            "downstream_event": "Activation, Tissue resident cells (Kuppfer cells)"
+        },
+        {
+            "relation": 1760,
+            "upstream_event_id": 202,
+            "upstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1575,
+            "downstream_event": "Activation, Caspase 8 pathway"
+        },
+        {
+            "relation": 1761,
+            "upstream_event_id": 1575,
+            "upstream_event": "Activation, Caspase 8 pathway",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 1765,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1548,
+            "downstream_event": "Necrotic Tissue"
+        },
+        {
+            "relation": 1766,
+            "upstream_event_id": 1548,
+            "upstream_event": "Necrotic Tissue",
+            "downstream_event_id": 1549,
+            "downstream_event": "Liver Injury"
+        },
+        {
+            "relation": 1768,
+            "upstream_event_id": 1576,
+            "upstream_event": "Activation, Tissue resident cells (Kuppfer cells)",
+            "downstream_event_id": 1579,
+            "downstream_event": "Increase, proinflammatory mediators (TNFalpha)"
+        }
+    ]
+}

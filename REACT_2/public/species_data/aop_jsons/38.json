@@ -1,0 +1,128 @@
+{
+    "id": 38,
+    "title": "Protein Alkylation leading to Liver Fibrosis",
+    "short_name": "Protein Alkylation to Liver Fibrosis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 55,
+        "created_at": "2013-05-02T12:22:29.000-04:00",
+        "updated_at": "2023-04-03T04:29:54.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 9,
+            "stressor_name": "Allyl Alcohol"
+        },
+        {
+            "stressor_id": 13,
+            "stressor_name": "Carbon tetrachloride"
+        },
+        {
+            "stressor_id": 60,
+            "stressor_name": "Retinol"
+        },
+        {
+            "stressor_id": 18,
+            "stressor_name": "Dimethyl nitrosamine"
+        },
+        {
+            "stressor_id": 63,
+            "stressor_name": "Thioacetamide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 244,
+            "event": "Alkylation, Protein",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1492,
+            "event": "Tissue resident cell activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1493,
+            "event": "Increased Pro-inflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 265,
+            "event": "Activation, Stellate cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 68,
+            "event": "Accumulation, Collagen",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 344,
+            "event": "N/A, Liver fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 576,
+            "upstream_event_id": 244,
+            "upstream_event": "Alkylation, Protein",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 1675,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 1492,
+            "downstream_event": "Tissue resident cell activation"
+        },
+        {
+            "relation": 1676,
+            "upstream_event_id": 1492,
+            "upstream_event": "Tissue resident cell activation",
+            "downstream_event_id": 1493,
+            "downstream_event": "Increased Pro-inflammatory mediators"
+        },
+        {
+            "relation": 1677,
+            "upstream_event_id": 1493,
+            "upstream_event": "Increased Pro-inflammatory mediators",
+            "downstream_event_id": 265,
+            "downstream_event": "Activation, Stellate cells"
+        },
+        {
+            "relation": 581,
+            "upstream_event_id": 265,
+            "upstream_event": "Activation, Stellate cells",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        },
+        {
+            "relation": 582,
+            "upstream_event_id": 68,
+            "upstream_event": "Accumulation, Collagen",
+            "downstream_event_id": 344,
+            "downstream_event": "N/A, Liver fibrosis"
+        },
+        {
+            "relation": 578,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 265,
+            "downstream_event": "Activation, Stellate cells"
+        }
+    ]
+}

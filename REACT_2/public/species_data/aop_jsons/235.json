@@ -1,0 +1,76 @@
+{
+    "id": 235,
+    "title": "Serotonin 1A Receptor Agonism leading to Anti-depressant Activity via K Channel Opening",
+    "short_name": "Serotonin 1A Receptor Agonism to Anti-depressant Activity via K Channel",
+    "created_at": "2017-06-23T07:02:54.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 423,
+        "created_at": "2017-03-30T13:43:31.000-04:00",
+        "updated_at": "2021-04-13T09:41:08.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1431,
+            "event": "Serotonin 1A Receptor Agonism",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1426,
+            "event": "Release of G Proteins",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1427,
+            "event": "Opening of G protein gated inward rectifying K channels",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 763,
+            "event": "hyperpolarisation, neuron",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1432,
+            "event": "Anti-depressant Activity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1423,
+            "upstream_event_id": 1431,
+            "upstream_event": "Serotonin 1A Receptor Agonism",
+            "downstream_event_id": 1426,
+            "downstream_event": "Release of G Proteins"
+        },
+        {
+            "relation": 1424,
+            "upstream_event_id": 1426,
+            "upstream_event": "Release of G Proteins",
+            "downstream_event_id": 1427,
+            "downstream_event": "Opening of G protein gated inward rectifying K channels"
+        },
+        {
+            "relation": 1425,
+            "upstream_event_id": 1427,
+            "upstream_event": "Opening of G protein gated inward rectifying K channels",
+            "downstream_event_id": 763,
+            "downstream_event": "hyperpolarisation, neuron"
+        },
+        {
+            "relation": 1426,
+            "upstream_event_id": 763,
+            "upstream_event": "hyperpolarisation, neuron",
+            "downstream_event_id": 1432,
+            "downstream_event": "Anti-depressant Activity"
+        }
+    ]
+}

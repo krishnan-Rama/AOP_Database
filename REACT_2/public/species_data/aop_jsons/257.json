@@ -1,0 +1,113 @@
+{
+    "id": 257,
+    "title": "Receptor mediated endocytosis and lysosomal overload leading to kidney toxicity",
+    "short_name": "Receptor mediated endocytosis and lysosomal overload leading to kidney toxicity",
+    "created_at": "2017-10-25T08:13:54.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 374,
+        "created_at": "2017-01-17T08:38:15.000-05:00",
+        "updated_at": "2021-04-13T09:40:45.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 327,
+            "stressor_name": "Aminoglycosides"
+        },
+        {
+            "stressor_id": 328,
+            "stressor_name": "Gentamicin"
+        },
+        {
+            "stressor_id": 329,
+            "stressor_name": "Tobramycin"
+        },
+        {
+            "stressor_id": 330,
+            "stressor_name": "Vancomycin"
+        },
+        {
+            "stressor_id": 331,
+            "stressor_name": "Polymyxin B"
+        },
+        {
+            "stressor_id": 332,
+            "stressor_name": "Colistin"
+        },
+        {
+            "stressor_id": 333,
+            "stressor_name": "Albumin"
+        },
+        {
+            "stressor_id": 334,
+            "stressor_name": "low molecular weight proteins"
+        },
+        {
+            "stressor_id": 335,
+            "stressor_name": "Cadmium"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1486,
+            "event": "Binding of substrate, endocytic receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 831,
+            "event": "Disturbance, Lysosomal function",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 898,
+            "event": "Disruption, Lysosome",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 709,
+            "event": "Increase, Cytotoxicity (renal tubular cell)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 814,
+            "event": "Occurrence, Kidney toxicity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1555,
+            "upstream_event_id": 1486,
+            "upstream_event": "Binding of substrate, endocytic receptor",
+            "downstream_event_id": 831,
+            "downstream_event": "Disturbance, Lysosomal function"
+        },
+        {
+            "relation": 1556,
+            "upstream_event_id": 831,
+            "upstream_event": "Disturbance, Lysosomal function",
+            "downstream_event_id": 898,
+            "downstream_event": "Disruption, Lysosome"
+        },
+        {
+            "relation": 1557,
+            "upstream_event_id": 898,
+            "upstream_event": "Disruption, Lysosome",
+            "downstream_event_id": 709,
+            "downstream_event": "Increase, Cytotoxicity (renal tubular cell)"
+        },
+        {
+            "relation": 1558,
+            "upstream_event_id": 709,
+            "upstream_event": "Increase, Cytotoxicity (renal tubular cell)",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "id": 497,
+    "title": "ERa inactivation alters mitochondrial functions and insulin signalling in skeletal muscle and leads to insulin resistance and metabolic syndrome",
+    "short_name": "ERa inactivation leads to insulin resistance in skeletal muscle and metabolic syndrome",
+    "created_at": "2023-05-25T08:44:03.000-04:00",
+    "updated_at": "2023-05-26T03:22:55.000-04:00",
+    "corresponding_author": {
+        "id": 14127,
+        "created_at": "2022-10-10T03:37:35.000-04:00",
+        "updated_at": "2023-09-11T06:47:23.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2126,
+            "event": "Estrogen receptor alpha inactivation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 179,
+            "event": "Decreased, Mitochondrial fatty acid beta-oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1816,
+            "event": "Mitochondrial dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2144,
+            "event": "Impaired insulin signaling",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2018,
+            "event": "Insulin resistance",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 2145,
+            "event": "Metabolic syndrome",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3477,
+            "upstream_event_id": 2126,
+            "upstream_event": "Estrogen receptor alpha inactivation",
+            "downstream_event_id": 179,
+            "downstream_event": "Decreased, Mitochondrial fatty acid beta-oxidation"
+        },
+        {
+            "relation": 3478,
+            "upstream_event_id": 2126,
+            "upstream_event": "Estrogen receptor alpha inactivation",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 3479,
+            "upstream_event_id": 179,
+            "upstream_event": "Decreased, Mitochondrial fatty acid beta-oxidation",
+            "downstream_event_id": 1816,
+            "downstream_event": "Mitochondrial dysfunction"
+        },
+        {
+            "relation": 3480,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 3481,
+            "upstream_event_id": 1816,
+            "upstream_event": "Mitochondrial dysfunction",
+            "downstream_event_id": 2144,
+            "downstream_event": "Impaired insulin signaling"
+        },
+        {
+            "relation": 3482,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 2144,
+            "downstream_event": "Impaired insulin signaling"
+        },
+        {
+            "relation": 3483,
+            "upstream_event_id": 2144,
+            "upstream_event": "Impaired insulin signaling",
+            "downstream_event_id": 2018,
+            "downstream_event": "Insulin resistance"
+        },
+        {
+            "relation": 3484,
+            "upstream_event_id": 2018,
+            "upstream_event": "Insulin resistance",
+            "downstream_event_id": 2145,
+            "downstream_event": "Metabolic syndrome"
+        },
+        {
+            "relation": 3485,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1816,
+            "downstream_event": "Mitochondrial dysfunction"
+        }
+    ]
+}

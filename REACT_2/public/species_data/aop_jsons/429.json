@@ -1,0 +1,135 @@
+{
+    "id": 429,
+    "title": "A cholesterol/glucose dysmetabolism initiated Tau-driven AOP toward memory loss (AO) in sporadic Alzheimer's Disease with plausible MIE's plug-ins for environmental neurotoxicants",
+    "short_name": "tau-AOP",
+    "created_at": "2021-10-21T06:22:49.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 11,
+        "created_at": "2014-02-12T09:36:29.000-05:00",
+        "updated_at": "2023-05-09T02:52:36.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1816,
+            "event": "Mitochondrial dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1943,
+            "event": "Hyperphosphorylation of Tau",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1945,
+            "event": "Dysfunctional Autophagy",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1942,
+            "event": "Accumulation, Cytosolic toxic Tau oligomers",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1944,
+            "event": "Synaptic dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1582,
+            "event": "Impaired axonial transport",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 188,
+            "event": "Neuroinflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 386,
+            "event": "Decrease of neuronal network function",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1941,
+            "event": "Memory Loss",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2880,
+            "upstream_event_id": 1816,
+            "upstream_event": "Mitochondrial dysfunction",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 2886,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1943,
+            "downstream_event": "Hyperphosphorylation of Tau"
+        },
+        {
+            "relation": 2883,
+            "upstream_event_id": 1945,
+            "upstream_event": "Dysfunctional Autophagy",
+            "downstream_event_id": 1942,
+            "downstream_event": "Accumulation, Cytosolic toxic Tau oligomers"
+        },
+        {
+            "relation": 2884,
+            "upstream_event_id": 1942,
+            "upstream_event": "Accumulation, Cytosolic toxic Tau oligomers",
+            "downstream_event_id": 1582,
+            "downstream_event": "Impaired axonial transport"
+        },
+        {
+            "relation": 2887,
+            "upstream_event_id": 1582,
+            "upstream_event": "Impaired axonial transport",
+            "downstream_event_id": 1944,
+            "downstream_event": "Synaptic dysfunction"
+        },
+        {
+            "relation": 2885,
+            "upstream_event_id": 1944,
+            "upstream_event": "Synaptic dysfunction",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        },
+        {
+            "relation": 2888,
+            "upstream_event_id": 1942,
+            "upstream_event": "Accumulation, Cytosolic toxic Tau oligomers",
+            "downstream_event_id": 188,
+            "downstream_event": "Neuroinflammation"
+        },
+        {
+            "relation": 2881,
+            "upstream_event_id": 188,
+            "upstream_event": "Neuroinflammation",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        },
+        {
+            "relation": 2882,
+            "upstream_event_id": 386,
+            "upstream_event": "Decrease of neuronal network function",
+            "downstream_event_id": 1941,
+            "downstream_event": "Memory Loss"
+        }
+    ]
+}

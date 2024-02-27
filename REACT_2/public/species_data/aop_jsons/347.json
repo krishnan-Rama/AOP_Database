@@ -1,0 +1,131 @@
+{
+    "id": 347,
+    "title": "Toll-like receptor 4 activation and peroxisome proliferator-activated receptor gamma inactivation leading to pulmonary fibrosis",
+    "short_name": "TLR4 activation, PPAR gamma activation and Pulmonary fibrosis",
+    "created_at": "2020-06-29T02:57:02.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 286,
+        "created_at": "2015-09-07T04:17:35.000-04:00",
+        "updated_at": "2021-04-13T09:42:59.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1792,
+            "event": "Toll-like receptor 4 activation",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1270,
+            "event": "Inactivation of PPAR\u03b3",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1292,
+            "event": "Activation, JNK",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1793,
+            "event": "Activator protein 1 activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1794,
+            "event": "Pin-1 activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1795,
+            "event": "Latent Transforming growth Factor beta expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1283,
+            "event": "Activation, TGF-beta pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1457,
+            "event": "Induction, Epithelial Mesenchymal Transition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1458,
+            "event": "Pulmonary fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2232,
+            "upstream_event_id": 1792,
+            "upstream_event": "Toll-like receptor 4 activation",
+            "downstream_event_id": 1292,
+            "downstream_event": "Activation, JNK"
+        },
+        {
+            "relation": 2469,
+            "upstream_event_id": 1292,
+            "upstream_event": "Activation, JNK",
+            "downstream_event_id": 1793,
+            "downstream_event": "Activator protein 1 activation"
+        },
+        {
+            "relation": 2234,
+            "upstream_event_id": 1292,
+            "upstream_event": "Activation, JNK",
+            "downstream_event_id": 1794,
+            "downstream_event": "Pin-1 activation"
+        },
+        {
+            "relation": 2235,
+            "upstream_event_id": 1794,
+            "upstream_event": "Pin-1 activation",
+            "downstream_event_id": 1795,
+            "downstream_event": "Latent Transforming growth Factor beta expression"
+        },
+        {
+            "relation": 2236,
+            "upstream_event_id": 1795,
+            "upstream_event": "Latent Transforming growth Factor beta expression",
+            "downstream_event_id": 1283,
+            "downstream_event": "Activation, TGF-beta pathway"
+        },
+        {
+            "relation": 2237,
+            "upstream_event_id": 1283,
+            "upstream_event": "Activation, TGF-beta pathway",
+            "downstream_event_id": 1457,
+            "downstream_event": "Induction, Epithelial Mesenchymal Transition"
+        },
+        {
+            "relation": 2238,
+            "upstream_event_id": 1457,
+            "upstream_event": "Induction, Epithelial Mesenchymal Transition",
+            "downstream_event_id": 1458,
+            "downstream_event": "Pulmonary fibrosis"
+        },
+        {
+            "relation": 2240,
+            "upstream_event_id": 1270,
+            "upstream_event": "Inactivation of PPAR\u03b3",
+            "downstream_event_id": 1283,
+            "downstream_event": "Activation, TGF-beta pathway"
+        },
+        {
+            "relation": 2241,
+            "upstream_event_id": 1793,
+            "upstream_event": "Activator protein 1 activation",
+            "downstream_event_id": 1795,
+            "downstream_event": "Latent Transforming growth Factor beta expression"
+        }
+    ]
+}

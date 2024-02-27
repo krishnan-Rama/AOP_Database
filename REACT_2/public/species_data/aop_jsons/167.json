@@ -1,0 +1,109 @@
+{
+    "id": 167,
+    "title": "Early-life estrogen receptor activity leading to endometrial carcinoma in the mouse.",
+    "short_name": "Early onset ER activity and endometrial carcinoma",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 176,
+            "stressor_name": "Diethylstilbestrol"
+        },
+        {
+            "stressor_id": 76,
+            "stressor_name": "Genistein"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1064,
+            "event": "prepubertal increase, Estrogen receptor (ER) activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1065,
+            "event": "Activation, estrogen receptor alpha",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1066,
+            "event": "Promotion, SIX-1 postive basal-type progenitor cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1067,
+            "event": "Proliferation/Clonal Expansion, aberrant basal cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1068,
+            "event": "squamous metaplasia, aberrant basal cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1069,
+            "event": "Increased, Hyperplasia (glandular epithelial cells of endometrium)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1070,
+            "event": "Increased, adenosquamous carcinomas of endometrium",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 767,
+            "upstream_event_id": 1064,
+            "upstream_event": "prepubertal increase, Estrogen receptor (ER) activity",
+            "downstream_event_id": 1065,
+            "downstream_event": "Activation, estrogen receptor alpha"
+        },
+        {
+            "relation": 768,
+            "upstream_event_id": 1065,
+            "upstream_event": "Activation, estrogen receptor alpha",
+            "downstream_event_id": 1066,
+            "downstream_event": "Promotion, SIX-1 postive basal-type progenitor cells"
+        },
+        {
+            "relation": 769,
+            "upstream_event_id": 1066,
+            "upstream_event": "Promotion, SIX-1 postive basal-type progenitor cells",
+            "downstream_event_id": 1067,
+            "downstream_event": "Proliferation/Clonal Expansion, aberrant basal cells"
+        },
+        {
+            "relation": 770,
+            "upstream_event_id": 1067,
+            "upstream_event": "Proliferation/Clonal Expansion, aberrant basal cells",
+            "downstream_event_id": 1068,
+            "downstream_event": "squamous metaplasia, aberrant basal cells"
+        },
+        {
+            "relation": 771,
+            "upstream_event_id": 1068,
+            "upstream_event": "squamous metaplasia, aberrant basal cells",
+            "downstream_event_id": 1069,
+            "downstream_event": "Increased, Hyperplasia (glandular epithelial cells of endometrium)"
+        },
+        {
+            "relation": 772,
+            "upstream_event_id": 1069,
+            "upstream_event": "Increased, Hyperplasia (glandular epithelial cells of endometrium)",
+            "downstream_event_id": 1070,
+            "downstream_event": "Increased, adenosquamous carcinomas of endometrium"
+        }
+    ]
+}

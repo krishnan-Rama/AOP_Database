@@ -1,0 +1,85 @@
+{
+    "id": 505,
+    "title": "Reactive Oxygen Species (ROS) formation leads to cancer via inflammation pathway",
+    "short_name": "ROS formation leads to cancer via inflammation pathway",
+    "created_at": "2023-07-31T09:02:24.000-04:00",
+    "updated_at": "2024-01-31T09:31:05.000-05:00",
+    "corresponding_author": {
+        "id": 17529,
+        "created_at": "2023-05-10T14:47:26.000-04:00",
+        "updated_at": "2024-02-26T08:52:40.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 769,
+            "stressor_name": "Polyethylene AS low Mol.Wt."
+        },
+        {
+            "stressor_id": 770,
+            "stressor_name": "Polyvinyl chloride"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 149,
+            "event": "Increase, Inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1513,
+            "event": "General Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 885,
+            "event": "Increase, Cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3534,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 3535,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 149,
+            "downstream_event": "Increase, Inflammation"
+        },
+        {
+            "relation": 3536,
+            "upstream_event_id": 149,
+            "upstream_event": "Increase, Inflammation",
+            "downstream_event_id": 1513,
+            "downstream_event": "General Apoptosis"
+        },
+        {
+            "relation": 3537,
+            "upstream_event_id": 1513,
+            "upstream_event": "General Apoptosis",
+            "downstream_event_id": 885,
+            "downstream_event": "Increase, Cancer"
+        }
+    ]
+}

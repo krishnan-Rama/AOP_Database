@@ -1,0 +1,87 @@
+{
+    "id": 306,
+    "title": "Androgen receptor (AR) antagonism leading to short anogenital distance (AGD) in male (mammalian) offspring",
+    "short_name": "AR antagonism leading to short AGD",
+    "created_at": "2019-08-30T04:27:36.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 918,
+        "created_at": "2019-06-27T09:30:29.000-04:00",
+        "updated_at": "2023-08-02T04:46:41.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 145,
+            "stressor_name": "Finasteride"
+        },
+        {
+            "stressor_id": 137,
+            "stressor_name": "Flutamide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 26,
+            "event": "Antagonism, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1614,
+            "event": "Decrease, androgen receptor activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1687,
+            "event": "decrease, transcription of genes by AR ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1688,
+            "event": "anogenital distance (AGD), decreased",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2207,
+            "upstream_event_id": 26,
+            "upstream_event": "Antagonism, Androgen receptor",
+            "downstream_event_id": 1614,
+            "downstream_event": "Decrease, androgen receptor activation"
+        },
+        {
+            "relation": 2210,
+            "upstream_event_id": 26,
+            "upstream_event": "Antagonism, Androgen receptor",
+            "downstream_event_id": 1688,
+            "downstream_event": "anogenital distance (AGD), decreased"
+        },
+        {
+            "relation": 2208,
+            "upstream_event_id": 1614,
+            "upstream_event": "Decrease, androgen receptor activation",
+            "downstream_event_id": 1687,
+            "downstream_event": "decrease, transcription of genes by AR "
+        },
+        {
+            "relation": 2209,
+            "upstream_event_id": 1687,
+            "upstream_event": "decrease, transcription of genes by AR ",
+            "downstream_event_id": 1688,
+            "downstream_event": "anogenital distance (AGD), decreased"
+        },
+        {
+            "relation": 3309,
+            "upstream_event_id": 1614,
+            "upstream_event": "Decrease, androgen receptor activation",
+            "downstream_event_id": 1688,
+            "downstream_event": "anogenital distance (AGD), decreased"
+        }
+    ]
+}

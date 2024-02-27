@@ -1,0 +1,150 @@
+{
+    "id": 281,
+    "title": "Acetylcholinesterase Inhibition Leading to Neurodegeneration",
+    "short_name": "AChE Inhibition Leading to Neurodegeneration",
+    "created_at": "2019-01-30T12:36:17.000-05:00",
+    "updated_at": "2023-09-03T05:47:47.000-04:00",
+    "corresponding_author": {
+        "id": 795,
+        "created_at": "2018-12-27T11:21:20.000-05:00",
+        "updated_at": "2023-09-10T19:07:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 12,
+            "event": "Acetylcholinesterase (AchE) Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 10,
+            "event": "Acetylcholine accumulation in synapses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1602,
+            "event": "Activation, Muscarinic Acetylcholine Receptors",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1623,
+            "event": "Occurrence, Focal Seizure",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1350,
+            "event": "Increased, glutamate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 388,
+            "event": "Overactivation, NMDARs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1788,
+            "event": "Status epilepticus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 389,
+            "event": "Increased, Intracellular Calcium overload",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 55,
+            "event": "Cell injury/death",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 352,
+            "event": "N/A, Neurodegeneration",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1801,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 10,
+            "downstream_event": "Acetylcholine accumulation in synapses"
+        },
+        {
+            "relation": 1803,
+            "upstream_event_id": 10,
+            "upstream_event": "Acetylcholine accumulation in synapses",
+            "downstream_event_id": 1602,
+            "downstream_event": "Activation, Muscarinic Acetylcholine Receptors"
+        },
+        {
+            "relation": 1855,
+            "upstream_event_id": 1602,
+            "upstream_event": "Activation, Muscarinic Acetylcholine Receptors",
+            "downstream_event_id": 1623,
+            "downstream_event": "Occurrence, Focal Seizure"
+        },
+        {
+            "relation": 3250,
+            "upstream_event_id": 1623,
+            "upstream_event": "Occurrence, Focal Seizure",
+            "downstream_event_id": 1350,
+            "downstream_event": "Increased, glutamate"
+        },
+        {
+            "relation": 3251,
+            "upstream_event_id": 1350,
+            "upstream_event": "Increased, glutamate",
+            "downstream_event_id": 388,
+            "downstream_event": "Overactivation, NMDARs"
+        },
+        {
+            "relation": 3249,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 1788,
+            "downstream_event": "Status epilepticus"
+        },
+        {
+            "relation": 3252,
+            "upstream_event_id": 1788,
+            "upstream_event": "Status epilepticus",
+            "downstream_event_id": 1350,
+            "downstream_event": "Increased, glutamate"
+        },
+        {
+            "relation": 1802,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 3253,
+            "upstream_event_id": 1788,
+            "upstream_event": "Status epilepticus",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 1808,
+            "upstream_event_id": 389,
+            "upstream_event": "Increased, Intracellular Calcium overload",
+            "downstream_event_id": 55,
+            "downstream_event": "Cell injury/death"
+        },
+        {
+            "relation": 2124,
+            "upstream_event_id": 55,
+            "upstream_event": "Cell injury/death",
+            "downstream_event_id": 352,
+            "downstream_event": "N/A, Neurodegeneration"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "id": 376,
+    "title": "Androgen receptor agonism leading to male-biased sex ratio",
+    "short_name": "AR agonism leading to male-biased sex ratio",
+    "created_at": "2021-03-10T09:35:37.000-05:00",
+    "updated_at": "2023-10-17T04:52:10.000-04:00",
+    "corresponding_author": {
+        "id": 313,
+        "created_at": "2013-05-02T08:44:29.000-04:00",
+        "updated_at": "2024-01-31T12:20:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 5,
+            "stressor_name": "17beta-Trenbolone"
+        },
+        {
+            "stressor_id": 630,
+            "stressor_name": "Chemical:33664 17-Methyltestosterone"
+        },
+        {
+            "stressor_id": 267,
+            "stressor_name": "5alpha-Dihydrotestosterone"
+        },
+        {
+            "stressor_id": 639,
+            "stressor_name": "Methyldihydrotestosterone"
+        },
+        {
+            "stressor_id": 640,
+            "stressor_name": "11-Keto-testosterone"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 25,
+            "event": "Agonism, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1790,
+            "event": "Increased, Differentiation to Testis ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1791,
+            "event": "Increased, Male Biased Sex Ratio",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2522,
+            "upstream_event_id": 25,
+            "upstream_event": "Agonism, Androgen receptor",
+            "downstream_event_id": 1790,
+            "downstream_event": "Increased, Differentiation to Testis "
+        },
+        {
+            "relation": 2629,
+            "upstream_event_id": 25,
+            "upstream_event": "Agonism, Androgen receptor",
+            "downstream_event_id": 1791,
+            "downstream_event": "Increased, Male Biased Sex Ratio"
+        },
+        {
+            "relation": 2523,
+            "upstream_event_id": 1790,
+            "upstream_event": "Increased, Differentiation to Testis ",
+            "downstream_event_id": 1791,
+            "downstream_event": "Increased, Male Biased Sex Ratio"
+        },
+        {
+            "relation": 2524,
+            "upstream_event_id": 1791,
+            "upstream_event": "Increased, Male Biased Sex Ratio",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

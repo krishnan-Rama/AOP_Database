@@ -1,0 +1,56 @@
+{
+    "id": 393,
+    "title": "AOP for thyroid disorder caused by triphenyl phosphate via TR\u03b2 activation",
+    "short_name": "Thyroid hormone effect",
+    "created_at": "2021-04-21T21:08:37.000-04:00",
+    "updated_at": "2023-05-26T03:22:45.000-04:00",
+    "corresponding_author": {
+        "id": 900,
+        "created_at": "2019-06-10T03:59:01.000-04:00",
+        "updated_at": "2023-06-13T22:56:45.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 548,
+            "stressor_name": "Triphenyl phosphate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1158,
+            "event": "Increased, Hepatic thyroid hormone uptake/transport",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1505,
+            "event": "Cell cycle, disrupted",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1829,
+            "event": "Altered, Thyroid hormone-dependent gene expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1844,
+            "event": "systemic inflammatory response syndrome",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1555,
+            "event": "Increase cell proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": []
+}

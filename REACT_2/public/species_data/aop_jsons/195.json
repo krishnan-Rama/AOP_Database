@@ -1,0 +1,149 @@
+{
+    "id": 195,
+    "title": "5-hydroxytryptamine transporter (5-HTT) inhibition leading to population increase",
+    "short_name": "5-HTT leading to population increase",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 202,
+            "stressor_name": "Fluoxetine"
+        },
+        {
+            "stressor_id": 203,
+            "stressor_name": "Fluvoxamine"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 619,
+            "event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 626,
+            "event": "Increased, serotonin (5-HT) ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1161,
+            "event": "Increased, oocyte maturation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1255,
+            "event": "induced spawning",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1142,
+            "event": "Increased, valve movement",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1163,
+            "event": "Increased, Reproductive Success",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 621,
+            "event": "Increase, cilia movement",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1164,
+            "event": "Increased, Population",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 905,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 1161,
+            "downstream_event": "Increased, oocyte maturation"
+        },
+        {
+            "relation": 908,
+            "upstream_event_id": 1163,
+            "upstream_event": "Increased, Reproductive Success",
+            "downstream_event_id": 1164,
+            "downstream_event": "Increased, Population"
+        },
+        {
+            "relation": 1040,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 626,
+            "downstream_event": "Increased, serotonin (5-HT) "
+        },
+        {
+            "relation": 1041,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 1042,
+            "upstream_event_id": 1161,
+            "upstream_event": "Increased, oocyte maturation",
+            "downstream_event_id": 1255,
+            "downstream_event": "induced spawning"
+        },
+        {
+            "relation": 1043,
+            "upstream_event_id": 1142,
+            "upstream_event": "Increased, valve movement",
+            "downstream_event_id": 1255,
+            "downstream_event": "induced spawning"
+        },
+        {
+            "relation": 1047,
+            "upstream_event_id": 1255,
+            "upstream_event": "induced spawning",
+            "downstream_event_id": 1163,
+            "downstream_event": "Increased, Reproductive Success"
+        },
+        {
+            "relation": 1048,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 621,
+            "downstream_event": "Increase, cilia movement"
+        },
+        {
+            "relation": 1049,
+            "upstream_event_id": 621,
+            "upstream_event": "Increase, cilia movement",
+            "downstream_event_id": 1255,
+            "downstream_event": "induced spawning"
+        },
+        {
+            "relation": 1062,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 621,
+            "downstream_event": "Increase, cilia movement"
+        },
+        {
+            "relation": 1069,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 1161,
+            "downstream_event": "Increased, oocyte maturation"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "id": 204,
+    "title": "5-hydroxytryptamine transporter inhibition leading to increased reproductive success and population increase",
+    "short_name": "5-HTT inhibition leading to population increase",
+    "created_at": "2017-01-13T16:19:04.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 619,
+            "event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1142,
+            "event": "Increased, valve movement",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 621,
+            "event": "Increase, cilia movement",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1257,
+            "event": "Induced parturition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1256,
+            "event": "increased mantel display",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 626,
+            "event": "Increased, serotonin (5-HT) ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1163,
+            "event": "Increased, Reproductive Success",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1164,
+            "event": "Increased, Population",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1031,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 1032,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 621,
+            "downstream_event": "Increase, cilia movement"
+        },
+        {
+            "relation": 1033,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 1256,
+            "downstream_event": "increased mantel display"
+        },
+        {
+            "relation": 1034,
+            "upstream_event_id": 1256,
+            "upstream_event": "increased mantel display",
+            "downstream_event_id": 1257,
+            "downstream_event": "Induced parturition"
+        },
+        {
+            "relation": 1036,
+            "upstream_event_id": 1163,
+            "upstream_event": "Increased, Reproductive Success",
+            "downstream_event_id": 1164,
+            "downstream_event": "Increased, Population"
+        },
+        {
+            "relation": 1039,
+            "upstream_event_id": 1257,
+            "upstream_event": "Induced parturition",
+            "downstream_event_id": 1163,
+            "downstream_event": "Increased, Reproductive Success"
+        },
+        {
+            "relation": 1055,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 626,
+            "downstream_event": "Increased, serotonin (5-HT) "
+        },
+        {
+            "relation": 1056,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 1058,
+            "upstream_event_id": 1142,
+            "upstream_event": "Increased, valve movement",
+            "downstream_event_id": 1257,
+            "downstream_event": "Induced parturition"
+        },
+        {
+            "relation": 1059,
+            "upstream_event_id": 621,
+            "upstream_event": "Increase, cilia movement",
+            "downstream_event_id": 1257,
+            "downstream_event": "Induced parturition"
+        },
+        {
+            "relation": 1060,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 1256,
+            "downstream_event": "increased mantel display"
+        },
+        {
+            "relation": 1061,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 621,
+            "downstream_event": "Increase, cilia movement"
+        }
+    ]
+}

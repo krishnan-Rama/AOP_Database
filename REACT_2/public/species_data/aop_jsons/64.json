@@ -1,0 +1,107 @@
+{
+    "id": 64,
+    "title": "Glucocorticoid Receptor (GR) Mediated Adult Leydig Cell Dysfunction Leading to Decreased Male Fertility",
+    "short_name": "Adult Leydig Cell Dysfunction",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 199,
+        "created_at": "2015-03-16T17:02:21.000-04:00",
+        "updated_at": "2021-04-13T09:41:07.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 494,
+            "event": "Glucocorticoid Receptor Agonist, Activation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 495,
+            "event": "Repressed expression of steroidogenic enzymes ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 496,
+            "event": "Increased apoptosis, decreased fetal/adult Leydig Cells ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 413,
+            "event": "Reduction, Testosterone synthesis in Leydig cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 446,
+            "event": "Reduction, fetal/adult testosterone ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 520,
+            "event": "Decreased sperm quantity or quality in the adult, Decreased fertility ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1514,
+            "upstream_event_id": 494,
+            "upstream_event": "Glucocorticoid Receptor Agonist, Activation",
+            "downstream_event_id": 496,
+            "downstream_event": "Increased apoptosis, decreased fetal/adult Leydig Cells "
+        },
+        {
+            "relation": 1515,
+            "upstream_event_id": 494,
+            "upstream_event": "Glucocorticoid Receptor Agonist, Activation",
+            "downstream_event_id": 495,
+            "downstream_event": "Repressed expression of steroidogenic enzymes "
+        },
+        {
+            "relation": 1516,
+            "upstream_event_id": 496,
+            "upstream_event": "Increased apoptosis, decreased fetal/adult Leydig Cells ",
+            "downstream_event_id": 413,
+            "downstream_event": "Reduction, Testosterone synthesis in Leydig cells"
+        },
+        {
+            "relation": 1517,
+            "upstream_event_id": 495,
+            "upstream_event": "Repressed expression of steroidogenic enzymes ",
+            "downstream_event_id": 413,
+            "downstream_event": "Reduction, Testosterone synthesis in Leydig cells"
+        },
+        {
+            "relation": 1518,
+            "upstream_event_id": 413,
+            "upstream_event": "Reduction, Testosterone synthesis in Leydig cells",
+            "downstream_event_id": 446,
+            "downstream_event": "Reduction, fetal/adult testosterone "
+        },
+        {
+            "relation": 1519,
+            "upstream_event_id": 446,
+            "upstream_event": "Reduction, fetal/adult testosterone ",
+            "downstream_event_id": 520,
+            "downstream_event": "Decreased sperm quantity or quality in the adult, Decreased fertility "
+        },
+        {
+            "relation": 1520,
+            "upstream_event_id": 520,
+            "upstream_event": "Decreased sperm quantity or quality in the adult, Decreased fertility ",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        }
+    ]
+}

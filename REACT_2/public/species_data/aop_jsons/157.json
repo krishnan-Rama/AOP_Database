@@ -1,0 +1,102 @@
+{
+    "id": 157,
+    "title": "Deiodinase 1 inhibition leading to increased mortality via reduced posterior swim bladder inflation ",
+    "short_name": "DIO1i posterior swim bladder",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 102,
+        "created_at": "2014-01-23T11:09:25.000-05:00",
+        "updated_at": "2023-06-22T10:29:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1009,
+            "event": "Inhibition, Deiodinase 1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1003,
+            "event": "Decreased, Triiodothyronine (T3)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1004,
+            "event": "Reduced, Posterior swim bladder inflation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1005,
+            "event": "Reduced, Swimming performance",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 683,
+            "upstream_event_id": 1009,
+            "upstream_event": "Inhibition, Deiodinase 1",
+            "downstream_event_id": 1003,
+            "downstream_event": "Decreased, Triiodothyronine (T3)"
+        },
+        {
+            "relation": 684,
+            "upstream_event_id": 1003,
+            "upstream_event": "Decreased, Triiodothyronine (T3)",
+            "downstream_event_id": 1004,
+            "downstream_event": "Reduced, Posterior swim bladder inflation"
+        },
+        {
+            "relation": 685,
+            "upstream_event_id": 1004,
+            "upstream_event": "Reduced, Posterior swim bladder inflation",
+            "downstream_event_id": 1005,
+            "downstream_event": "Reduced, Swimming performance"
+        },
+        {
+            "relation": 2370,
+            "upstream_event_id": 1005,
+            "upstream_event": "Reduced, Swimming performance",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2371,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 708,
+            "upstream_event_id": 1009,
+            "upstream_event": "Inhibition, Deiodinase 1",
+            "downstream_event_id": 1004,
+            "downstream_event": "Reduced, Posterior swim bladder inflation"
+        },
+        {
+            "relation": 2372,
+            "upstream_event_id": 1004,
+            "upstream_event": "Reduced, Posterior swim bladder inflation",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        }
+    ]
+}

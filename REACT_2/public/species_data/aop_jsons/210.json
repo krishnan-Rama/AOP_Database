@@ -1,0 +1,92 @@
+{
+    "id": 210,
+    "title": "Activation of c-Jun N-terminal kinase (JNK) and Forkhead box O (FOXO) and reduction of WNT pathways leading to reproductive failure: Integrated multi-OMICS approach for AOP building",
+    "short_name": "JNK, FOXO and WNT alteration leading to reproductive failure: Multi-OMICS approach",
+    "created_at": "2017-02-15T04:35:06.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 392,
+        "created_at": "2017-02-08T10:41:54.000-05:00",
+        "updated_at": "2023-11-12T23:35:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 255,
+            "stressor_name": "Graphene oxide nanoparticles"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 209,
+            "event": "Peptide Oxidation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1292,
+            "event": "Activation, JNK",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1293,
+            "event": "Activation, FOXO",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1294,
+            "event": "Inhibition, Wnt pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1295,
+            "event": "Defect of Embryogenesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1277,
+            "event": "Reproductive failure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1116,
+            "upstream_event_id": 209,
+            "upstream_event": "Peptide Oxidation",
+            "downstream_event_id": 1292,
+            "downstream_event": "Activation, JNK"
+        },
+        {
+            "relation": 1117,
+            "upstream_event_id": 1292,
+            "upstream_event": "Activation, JNK",
+            "downstream_event_id": 1293,
+            "downstream_event": "Activation, FOXO"
+        },
+        {
+            "relation": 1118,
+            "upstream_event_id": 1293,
+            "upstream_event": "Activation, FOXO",
+            "downstream_event_id": 1294,
+            "downstream_event": "Inhibition, Wnt pathway"
+        },
+        {
+            "relation": 1119,
+            "upstream_event_id": 1294,
+            "upstream_event": "Inhibition, Wnt pathway",
+            "downstream_event_id": 1295,
+            "downstream_event": "Defect of Embryogenesis"
+        },
+        {
+            "relation": 1120,
+            "upstream_event_id": 1295,
+            "upstream_event": "Defect of Embryogenesis",
+            "downstream_event_id": 1277,
+            "downstream_event": "Reproductive failure"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": 328,
+    "title": "Excessive reactive oxygen species production leading to mortality (2)",
+    "short_name": "Excessive ROS leading to mortality (2)",
+    "created_at": "2020-04-19T04:48:39.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 274,
+            "stressor_name": "Ultraviolet B radiation"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1770,
+            "event": "Decrease, Mitochondrial membrane potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1477,
+            "event": "Decrease, Oxidative phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1771,
+            "event": "Decrease, Adenosine triphosphate pool",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2133,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 1770,
+            "downstream_event": "Decrease, Mitochondrial membrane potential"
+        },
+        {
+            "relation": 2136,
+            "upstream_event_id": 1771,
+            "upstream_event": "Decrease, Adenosine triphosphate pool",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        },
+        {
+            "relation": 2134,
+            "upstream_event_id": 1770,
+            "upstream_event": "Decrease, Mitochondrial membrane potential",
+            "downstream_event_id": 1477,
+            "downstream_event": "Decrease, Oxidative phosphorylation"
+        },
+        {
+            "relation": 2135,
+            "upstream_event_id": 1477,
+            "upstream_event": "Decrease, Oxidative phosphorylation",
+            "downstream_event_id": 1771,
+            "downstream_event": "Decrease, Adenosine triphosphate pool"
+        }
+    ]
+}

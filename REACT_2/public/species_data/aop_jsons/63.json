@@ -1,0 +1,76 @@
+{
+    "id": 63,
+    "title": "Cyclooxygenase inhibition leading to reproductive dysfunction",
+    "short_name": "Cyclooxygenase inhibition  1",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 80,
+        "created_at": "2015-03-11T13:01:45.000-04:00",
+        "updated_at": "2022-06-02T15:10:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 79,
+            "event": "Inhibition, Cyclooxygenase activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 488,
+            "event": "Decrease, Ovulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 685,
+            "event": "Reduced, Prostaglandins, ovary",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 675,
+            "event": "Reduced, Reproductive Success",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 365,
+            "upstream_event_id": 685,
+            "upstream_event": "Reduced, Prostaglandins, ovary",
+            "downstream_event_id": 488,
+            "downstream_event": "Decrease, Ovulation"
+        },
+        {
+            "relation": 366,
+            "upstream_event_id": 488,
+            "upstream_event": "Decrease, Ovulation",
+            "downstream_event_id": 675,
+            "downstream_event": "Reduced, Reproductive Success"
+        },
+        {
+            "relation": 542,
+            "upstream_event_id": 79,
+            "upstream_event": "Inhibition, Cyclooxygenase activity",
+            "downstream_event_id": 685,
+            "downstream_event": "Reduced, Prostaglandins, ovary"
+        },
+        {
+            "relation": 1673,
+            "upstream_event_id": 675,
+            "upstream_event": "Reduced, Reproductive Success",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "id": 384,
+    "title": "Hyperactivation of ACE/Ang-II/AT1R axis leading to chronic kidney disease ",
+    "short_name": "ACE/Ang-II/AT1R axis, chronic kidney disease (CKD)",
+    "created_at": "2021-03-31T03:30:51.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1853,
+            "event": "Hyperactivation of ACE/Ang-II/AT1R axis",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1752,
+            "event": "Increased Angiotensin II ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1852,
+            "event": "Increased Ang II type 1 receptor (AT1R)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1855,
+            "event": "Increased Sodium-sensitive hypertension",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1603,
+            "event": "Chronic kidney disease",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2582,
+            "upstream_event_id": 1853,
+            "upstream_event": "Hyperactivation of ACE/Ang-II/AT1R axis",
+            "downstream_event_id": 1752,
+            "downstream_event": "Increased Angiotensin II "
+        },
+        {
+            "relation": 2583,
+            "upstream_event_id": 1752,
+            "upstream_event": "Increased Angiotensin II ",
+            "downstream_event_id": 1852,
+            "downstream_event": "Increased Ang II type 1 receptor (AT1R)"
+        },
+        {
+            "relation": 2584,
+            "upstream_event_id": 1852,
+            "upstream_event": "Increased Ang II type 1 receptor (AT1R)",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2585,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1855,
+            "downstream_event": "Increased Sodium-sensitive hypertension"
+        },
+        {
+            "relation": 2586,
+            "upstream_event_id": 1855,
+            "upstream_event": "Increased Sodium-sensitive hypertension",
+            "downstream_event_id": 1603,
+            "downstream_event": "Chronic kidney disease"
+        }
+    ]
+}

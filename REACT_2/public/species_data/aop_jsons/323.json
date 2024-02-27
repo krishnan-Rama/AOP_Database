@@ -1,0 +1,101 @@
+{
+    "id": 323,
+    "title": "PPARalpha Agonism Leading to Decreased Viable Offspring via Decreased 11-Ketotestosterone",
+    "short_name": "PPARa Agonism Impairs Fish Reproduction",
+    "created_at": "2020-04-09T10:47:50.000-04:00",
+    "updated_at": "2023-09-28T16:35:32.000-04:00",
+    "corresponding_author": {
+        "id": 3100,
+        "created_at": "2021-02-08T16:04:45.000-05:00",
+        "updated_at": "2023-10-04T14:53:16.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 191,
+            "stressor_name": "Clofibrate"
+        },
+        {
+            "stressor_id": 208,
+            "stressor_name": "Gemfibrozil"
+        },
+        {
+            "stressor_id": 211,
+            "stressor_name": "Fenofibrate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 227,
+            "event": "Activation, PPAR\u03b1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 807,
+            "event": "Decreased, cholesterol",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1756,
+            "event": "Decreased,  plasma 11-ketotestosterone level",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1758,
+            "event": "Impaired, Spermatogenesis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2147,
+            "event": "Decreased, Viable Offspring",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2111,
+            "upstream_event_id": 227,
+            "upstream_event": "Activation, PPAR\u03b1",
+            "downstream_event_id": 807,
+            "downstream_event": "Decreased, cholesterol"
+        },
+        {
+            "relation": 2112,
+            "upstream_event_id": 807,
+            "upstream_event": "Decreased, cholesterol",
+            "downstream_event_id": 1756,
+            "downstream_event": "Decreased,  plasma 11-ketotestosterone level"
+        },
+        {
+            "relation": 2113,
+            "upstream_event_id": 1756,
+            "upstream_event": "Decreased,  plasma 11-ketotestosterone level",
+            "downstream_event_id": 1758,
+            "downstream_event": "Impaired, Spermatogenesis"
+        },
+        {
+            "relation": 3487,
+            "upstream_event_id": 1758,
+            "upstream_event": "Impaired, Spermatogenesis",
+            "downstream_event_id": 2147,
+            "downstream_event": "Decreased, Viable Offspring"
+        },
+        {
+            "relation": 3488,
+            "upstream_event_id": 2147,
+            "upstream_event": "Decreased, Viable Offspring",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

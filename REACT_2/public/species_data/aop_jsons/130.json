@@ -1,0 +1,253 @@
+{
+    "id": 130,
+    "title": "Phospholipase A2 (LPLA2) inhibitors leading to hepatotoxicity",
+    "short_name": "Inhibition of LPLA2, hepatotoxicity ",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 585,
+        "created_at": "2018-03-20T08:57:53.000-04:00",
+        "updated_at": "2022-04-25T22:08:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 828,
+            "event": "Inhibition, Phospholipase A",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 829,
+            "event": "Damage, Lipid bilayer",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 831,
+            "event": "Disturbance, Lysosomal function",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 832,
+            "event": "Injury, Mitochondria",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 833,
+            "event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 835,
+            "event": "Occurrence, Ballooning degeneration (hepatocyte)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 837,
+            "event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 838,
+            "event": "Induction, Microvesicular fat",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 839,
+            "event": "Formation, Mallory body",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 836,
+            "event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 840,
+            "event": "Formation, Liver fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 517,
+            "upstream_event_id": 828,
+            "upstream_event": "Inhibition, Phospholipase A",
+            "downstream_event_id": 829,
+            "downstream_event": "Damage, Lipid bilayer"
+        },
+        {
+            "relation": 518,
+            "upstream_event_id": 828,
+            "upstream_event": "Inhibition, Phospholipase A",
+            "downstream_event_id": 831,
+            "downstream_event": "Disturbance, Lysosomal function"
+        },
+        {
+            "relation": 519,
+            "upstream_event_id": 828,
+            "upstream_event": "Inhibition, Phospholipase A",
+            "downstream_event_id": 832,
+            "downstream_event": "Injury, Mitochondria"
+        },
+        {
+            "relation": 520,
+            "upstream_event_id": 829,
+            "upstream_event": "Damage, Lipid bilayer",
+            "downstream_event_id": 833,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)"
+        },
+        {
+            "relation": 521,
+            "upstream_event_id": 829,
+            "upstream_event": "Damage, Lipid bilayer",
+            "downstream_event_id": 835,
+            "downstream_event": "Occurrence, Ballooning degeneration (hepatocyte)"
+        },
+        {
+            "relation": 522,
+            "upstream_event_id": 829,
+            "upstream_event": "Damage, Lipid bilayer",
+            "downstream_event_id": 836,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"
+        },
+        {
+            "relation": 523,
+            "upstream_event_id": 829,
+            "upstream_event": "Damage, Lipid bilayer",
+            "downstream_event_id": 837,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)"
+        },
+        {
+            "relation": 524,
+            "upstream_event_id": 831,
+            "upstream_event": "Disturbance, Lysosomal function",
+            "downstream_event_id": 833,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)"
+        },
+        {
+            "relation": 525,
+            "upstream_event_id": 831,
+            "upstream_event": "Disturbance, Lysosomal function",
+            "downstream_event_id": 835,
+            "downstream_event": "Occurrence, Ballooning degeneration (hepatocyte)"
+        },
+        {
+            "relation": 526,
+            "upstream_event_id": 831,
+            "upstream_event": "Disturbance, Lysosomal function",
+            "downstream_event_id": 836,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"
+        },
+        {
+            "relation": 527,
+            "upstream_event_id": 831,
+            "upstream_event": "Disturbance, Lysosomal function",
+            "downstream_event_id": 837,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)"
+        },
+        {
+            "relation": 528,
+            "upstream_event_id": 832,
+            "upstream_event": "Injury, Mitochondria",
+            "downstream_event_id": 833,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)"
+        },
+        {
+            "relation": 529,
+            "upstream_event_id": 832,
+            "upstream_event": "Injury, Mitochondria",
+            "downstream_event_id": 835,
+            "downstream_event": "Occurrence, Ballooning degeneration (hepatocyte)"
+        },
+        {
+            "relation": 530,
+            "upstream_event_id": 832,
+            "upstream_event": "Injury, Mitochondria",
+            "downstream_event_id": 836,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)"
+        },
+        {
+            "relation": 531,
+            "upstream_event_id": 832,
+            "upstream_event": "Injury, Mitochondria",
+            "downstream_event_id": 837,
+            "downstream_event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)"
+        },
+        {
+            "relation": 532,
+            "upstream_event_id": 833,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)",
+            "downstream_event_id": 838,
+            "downstream_event": "Induction, Microvesicular fat"
+        },
+        {
+            "relation": 533,
+            "upstream_event_id": 833,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (hepatocyte)",
+            "downstream_event_id": 839,
+            "downstream_event": "Formation, Mallory body"
+        },
+        {
+            "relation": 534,
+            "upstream_event_id": 835,
+            "upstream_event": "Occurrence, Ballooning degeneration (hepatocyte)",
+            "downstream_event_id": 838,
+            "downstream_event": "Induction, Microvesicular fat"
+        },
+        {
+            "relation": 535,
+            "upstream_event_id": 835,
+            "upstream_event": "Occurrence, Ballooning degeneration (hepatocyte)",
+            "downstream_event_id": 839,
+            "downstream_event": "Formation, Mallory body"
+        },
+        {
+            "relation": 536,
+            "upstream_event_id": 836,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)",
+            "downstream_event_id": 838,
+            "downstream_event": "Induction, Microvesicular fat"
+        },
+        {
+            "relation": 537,
+            "upstream_event_id": 836,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (Bile duct cell)",
+            "downstream_event_id": 839,
+            "downstream_event": "Formation, Mallory body"
+        },
+        {
+            "relation": 538,
+            "upstream_event_id": 837,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)",
+            "downstream_event_id": 838,
+            "downstream_event": "Induction, Microvesicular fat"
+        },
+        {
+            "relation": 539,
+            "upstream_event_id": 837,
+            "upstream_event": "Occurrence, Cytoplasmic vacuolization (kupffer cell)",
+            "downstream_event_id": 839,
+            "downstream_event": "Formation, Mallory body"
+        },
+        {
+            "relation": 540,
+            "upstream_event_id": 838,
+            "upstream_event": "Induction, Microvesicular fat",
+            "downstream_event_id": 840,
+            "downstream_event": "Formation, Liver fibrosis"
+        },
+        {
+            "relation": 541,
+            "upstream_event_id": 839,
+            "upstream_event": "Formation, Mallory body",
+            "downstream_event_id": 840,
+            "downstream_event": "Formation, Liver fibrosis"
+        }
+    ]
+}

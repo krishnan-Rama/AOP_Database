@@ -1,0 +1,197 @@
+{
+    "id": 97,
+    "title": "5-hydroxytryptamine transporter (5-HTT; SERT) inhibition leading to population decline",
+    "short_name": "5-HTT block to population decline",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 202,
+            "stressor_name": "Fluoxetine"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 619,
+            "event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 625,
+            "event": "Increased, muscular waves in foot",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1139,
+            "event": "Increased, water retention in foot",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1142,
+            "event": "Increased, valve movement",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1143,
+            "event": "Depletion, energy reserves",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 624,
+            "event": "Increased, foot detachment",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 622,
+            "event": "Increased, locomotion",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 626,
+            "event": "Increased, serotonin (5-HT) ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 623,
+            "event": "Increase, predation",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 878,
+            "upstream_event_id": 1143,
+            "upstream_event": "Depletion, energy reserves",
+            "downstream_event_id": 623,
+            "downstream_event": "Increase, predation"
+        },
+        {
+            "relation": 909,
+            "upstream_event_id": 622,
+            "upstream_event": "Increased, locomotion",
+            "downstream_event_id": 623,
+            "downstream_event": "Increase, predation"
+        },
+        {
+            "relation": 917,
+            "upstream_event_id": 1139,
+            "upstream_event": "Increased, water retention in foot",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 921,
+            "upstream_event_id": 1142,
+            "upstream_event": "Increased, valve movement",
+            "downstream_event_id": 623,
+            "downstream_event": "Increase, predation"
+        },
+        {
+            "relation": 1012,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 625,
+            "downstream_event": "Increased, muscular waves in foot"
+        },
+        {
+            "relation": 1013,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 1014,
+            "upstream_event_id": 1142,
+            "upstream_event": "Increased, valve movement",
+            "downstream_event_id": 1139,
+            "downstream_event": "Increased, water retention in foot"
+        },
+        {
+            "relation": 1015,
+            "upstream_event_id": 625,
+            "upstream_event": "Increased, muscular waves in foot",
+            "downstream_event_id": 624,
+            "downstream_event": "Increased, foot detachment"
+        },
+        {
+            "relation": 1016,
+            "upstream_event_id": 1139,
+            "upstream_event": "Increased, water retention in foot",
+            "downstream_event_id": 624,
+            "downstream_event": "Increased, foot detachment"
+        },
+        {
+            "relation": 1017,
+            "upstream_event_id": 625,
+            "upstream_event": "Increased, muscular waves in foot",
+            "downstream_event_id": 622,
+            "downstream_event": "Increased, locomotion"
+        },
+        {
+            "relation": 1018,
+            "upstream_event_id": 1142,
+            "upstream_event": "Increased, valve movement",
+            "downstream_event_id": 1143,
+            "downstream_event": "Depletion, energy reserves"
+        },
+        {
+            "relation": 1019,
+            "upstream_event_id": 622,
+            "upstream_event": "Increased, locomotion",
+            "downstream_event_id": 1143,
+            "downstream_event": "Depletion, energy reserves"
+        },
+        {
+            "relation": 1021,
+            "upstream_event_id": 624,
+            "upstream_event": "Increased, foot detachment",
+            "downstream_event_id": 1143,
+            "downstream_event": "Depletion, energy reserves"
+        },
+        {
+            "relation": 1052,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 1142,
+            "downstream_event": "Increased, valve movement"
+        },
+        {
+            "relation": 1053,
+            "upstream_event_id": 619,
+            "upstream_event": "Inhibition, 5-hydroxytryptamine transporter (5-HTT; SERT)",
+            "downstream_event_id": 626,
+            "downstream_event": "Increased, serotonin (5-HT) "
+        },
+        {
+            "relation": 1054,
+            "upstream_event_id": 626,
+            "upstream_event": "Increased, serotonin (5-HT) ",
+            "downstream_event_id": 625,
+            "downstream_event": "Increased, muscular waves in foot"
+        },
+        {
+            "relation": 3062,
+            "upstream_event_id": 623,
+            "upstream_event": "Increase, predation",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

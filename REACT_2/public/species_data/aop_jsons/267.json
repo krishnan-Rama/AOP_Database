@@ -1,0 +1,76 @@
+{
+    "id": 267,
+    "title": "Uncoupling of oxidative phosphorylation leading to growth inhibition via glucose depletion",
+    "short_name": "Uncoupling of OXPHOS leading to growth inhibition 5",
+    "created_at": "2018-06-12T04:23:10.000-04:00",
+    "updated_at": "2023-04-29T16:03:01.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1446,
+            "event": "Decrease, Coupling of oxidative phosphorylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2070,
+            "event": "Increase, Glycolysis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2071,
+            "event": "Decrease, Glucose pool",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1821,
+            "event": "Decrease, Cell proliferation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1521,
+            "event": "Decrease, Growth",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3266,
+            "upstream_event_id": 1446,
+            "upstream_event": "Decrease, Coupling of oxidative phosphorylation",
+            "downstream_event_id": 2070,
+            "downstream_event": "Increase, Glycolysis"
+        },
+        {
+            "relation": 3267,
+            "upstream_event_id": 2070,
+            "upstream_event": "Increase, Glycolysis",
+            "downstream_event_id": 2071,
+            "downstream_event": "Decrease, Glucose pool"
+        },
+        {
+            "relation": 3268,
+            "upstream_event_id": 2071,
+            "upstream_event": "Decrease, Glucose pool",
+            "downstream_event_id": 1821,
+            "downstream_event": "Decrease, Cell proliferation"
+        },
+        {
+            "relation": 3269,
+            "upstream_event_id": 1821,
+            "upstream_event": "Decrease, Cell proliferation",
+            "downstream_event_id": 1521,
+            "downstream_event": "Decrease, Growth"
+        }
+    ]
+}

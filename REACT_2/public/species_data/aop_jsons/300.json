@@ -1,0 +1,83 @@
+{
+    "id": 300,
+    "title": "Thyroid Receptor Antagonism and Subsequent Adverse Neurodevelopmental Outcomes in Mammals",
+    "short_name": "TR Antagonism and DNT",
+    "created_at": "2019-06-08T17:12:01.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 77,
+        "created_at": "2013-05-02T08:31:41.000-04:00",
+        "updated_at": "2023-11-08T05:49:00.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1656,
+            "event": "Antagonism, Thyroid Receptor ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 756,
+            "event": "Hippocampal gene expression, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 757,
+            "event": "Hippocampal anatomy, Altered ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 758,
+            "event": "Hippocampal Physiology, Altered",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1945,
+            "upstream_event_id": 1656,
+            "upstream_event": "Antagonism, Thyroid Receptor ",
+            "downstream_event_id": 756,
+            "downstream_event": "Hippocampal gene expression, Altered "
+        },
+        {
+            "relation": 1949,
+            "upstream_event_id": 1656,
+            "upstream_event": "Antagonism, Thyroid Receptor ",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        },
+        {
+            "relation": 1947,
+            "upstream_event_id": 756,
+            "upstream_event": "Hippocampal gene expression, Altered ",
+            "downstream_event_id": 757,
+            "downstream_event": "Hippocampal anatomy, Altered "
+        },
+        {
+            "relation": 1946,
+            "upstream_event_id": 757,
+            "upstream_event": "Hippocampal anatomy, Altered ",
+            "downstream_event_id": 758,
+            "downstream_event": "Hippocampal Physiology, Altered"
+        },
+        {
+            "relation": 1948,
+            "upstream_event_id": 758,
+            "upstream_event": "Hippocampal Physiology, Altered",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        }
+    ]
+}

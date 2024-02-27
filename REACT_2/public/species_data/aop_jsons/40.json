@@ -1,0 +1,83 @@
+{
+    "id": 40,
+    "title": "Covalent Protein binding leading to Skin Sensitisation",
+    "short_name": "Skin Sensitisation AOP",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 330,
+        "created_at": "2013-05-02T12:34:38.000-04:00",
+        "updated_at": "2021-04-13T09:41:10.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 396,
+            "event": "Covalent Binding, Protein",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 826,
+            "event": "Activation, Keratinocytes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 398,
+            "event": "Activation, Dendritic Cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 272,
+            "event": "Activation/Proliferation, T-cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 827,
+            "event": "sensitisation, skin",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 605,
+            "upstream_event_id": 396,
+            "upstream_event": "Covalent Binding, Protein",
+            "downstream_event_id": 826,
+            "downstream_event": "Activation, Keratinocytes"
+        },
+        {
+            "relation": 606,
+            "upstream_event_id": 396,
+            "upstream_event": "Covalent Binding, Protein",
+            "downstream_event_id": 398,
+            "downstream_event": "Activation, Dendritic Cells"
+        },
+        {
+            "relation": 607,
+            "upstream_event_id": 826,
+            "upstream_event": "Activation, Keratinocytes",
+            "downstream_event_id": 398,
+            "downstream_event": "Activation, Dendritic Cells"
+        },
+        {
+            "relation": 608,
+            "upstream_event_id": 398,
+            "upstream_event": "Activation, Dendritic Cells",
+            "downstream_event_id": 272,
+            "downstream_event": "Activation/Proliferation, T-cells"
+        },
+        {
+            "relation": 609,
+            "upstream_event_id": 272,
+            "upstream_event": "Activation/Proliferation, T-cells",
+            "downstream_event_id": 827,
+            "downstream_event": "sensitisation, skin"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "id": 399,
+    "title": "Inhibition of Fyna leading to increased mortality via decreased eye size (Microphthalmos)",
+    "short_name": "Inhibition of Fyna leading to increased mortality",
+    "created_at": "2021-05-28T05:20:57.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 4439,
+        "created_at": "2021-04-09T08:21:26.000-04:00",
+        "updated_at": "2022-01-13T03:37:05.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 641,
+            "stressor_name": "Rosmarinic acid"
+        },
+        {
+            "stressor_id": 642,
+            "stressor_name": "Saracatinib"
+        },
+        {
+            "stressor_id": 643,
+            "stressor_name": "Staurosporine"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1884,
+            "event": "Inhibition of Fyna",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1885,
+            "event": "Inhibition of Plxna2",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1886,
+            "event": "Overexpression of rasl11b",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1821,
+            "event": "Decrease, Cell proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1878,
+            "event": "Decreased, Eye size",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1643,
+            "event": "Altered, Visual function",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2700,
+            "upstream_event_id": 1884,
+            "upstream_event": "Inhibition of Fyna",
+            "downstream_event_id": 1885,
+            "downstream_event": "Inhibition of Plxna2"
+        },
+        {
+            "relation": 2701,
+            "upstream_event_id": 1885,
+            "upstream_event": "Inhibition of Plxna2",
+            "downstream_event_id": 1886,
+            "downstream_event": "Overexpression of rasl11b"
+        },
+        {
+            "relation": 2702,
+            "upstream_event_id": 1886,
+            "upstream_event": "Overexpression of rasl11b",
+            "downstream_event_id": 1821,
+            "downstream_event": "Decrease, Cell proliferation"
+        },
+        {
+            "relation": 2703,
+            "upstream_event_id": 1821,
+            "upstream_event": "Decrease, Cell proliferation",
+            "downstream_event_id": 1878,
+            "downstream_event": "Decreased, Eye size"
+        },
+        {
+            "relation": 2712,
+            "upstream_event_id": 1878,
+            "upstream_event": "Decreased, Eye size",
+            "downstream_event_id": 1643,
+            "downstream_event": "Altered, Visual function"
+        },
+        {
+            "relation": 2713,
+            "upstream_event_id": 1643,
+            "upstream_event": "Altered, Visual function",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2705,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

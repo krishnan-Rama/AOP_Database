@@ -1,0 +1,102 @@
+{
+    "id": 476,
+    "title": "Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity",
+    "short_name": "Adverse Outcome Pathways diagram related to PBDEs associated male reproductive toxicity",
+    "created_at": "2022-12-13T21:19:44.000-05:00",
+    "updated_at": "2023-05-17T08:59:01.000-04:00",
+    "corresponding_author": {
+        "id": 14770,
+        "created_at": "2022-11-20T03:53:01.000-05:00",
+        "updated_at": "2023-05-17T08:44:28.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2141,
+            "event": "Disruption, Estrogen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 26,
+            "event": "Antagonism, Androgen receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1194,
+            "event": "Increase, DNA damage",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 176,
+            "event": "Damaging, Mitochondria",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2079,
+            "event": "Increased, glycolipid levels",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2142,
+            "event": "Depletion, Ectoplasmic specialization (ES)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2080,
+            "event": "Impaired, blood testis barrier",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 496,
+            "event": "Increased apoptosis, decreased fetal/adult Leydig Cells ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 446,
+            "event": "Reduction, fetal/adult testosterone ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 520,
+            "event": "Decreased sperm quantity or quality in the adult, Decreased fertility ",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1688,
+            "event": "anogenital distance (AGD), decreased",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1616,
+            "event": "Malformation, cryptorchidism - maldescended testis",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1863,
+            "event": "Decrease, Reproduction",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

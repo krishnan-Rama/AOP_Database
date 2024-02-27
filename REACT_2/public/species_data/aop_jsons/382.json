@@ -1,0 +1,88 @@
+{
+    "id": 382,
+    "title": "Angiotensin II type 1 receptor (AT1R) agonism leading to lung fibrosis",
+    "short_name": "AT1R, lung fibrosis",
+    "created_at": "2021-03-30T12:00:28.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1851,
+            "event": "Binding of agonist, Angiotensin II receptor type 1 receptor (AT1R)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1172,
+            "event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1496,
+            "event": "Increased, secretion of proinflammatory mediators",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 68,
+            "event": "Accumulation, Collagen",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1276,
+            "event": "Lung fibrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2572,
+            "upstream_event_id": 1851,
+            "upstream_event": "Binding of agonist, Angiotensin II receptor type 1 receptor (AT1R)",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 2573,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1172,
+            "downstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 2574,
+            "upstream_event_id": 1172,
+            "upstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1496,
+            "downstream_event": "Increased, secretion of proinflammatory mediators"
+        },
+        {
+            "relation": 2575,
+            "upstream_event_id": 1496,
+            "upstream_event": "Increased, secretion of proinflammatory mediators",
+            "downstream_event_id": 68,
+            "downstream_event": "Accumulation, Collagen"
+        },
+        {
+            "relation": 2576,
+            "upstream_event_id": 68,
+            "upstream_event": "Accumulation, Collagen",
+            "downstream_event_id": 1276,
+            "downstream_event": "Lung fibrosis"
+        }
+    ]
+}

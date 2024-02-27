@@ -1,52 +1,62 @@
-import os
 import json
-import pandas as pd
+import os
+import requests
 
-# Define the base directory where the species JSON files are located
-species_json_dir = '/home/c23048124/Desktop/REACT_2/my-react-app/public/species_data/go_aop_ev'
+# Define your source and destination directories
+source_dir = '/home/c23048124/Desktop/REACT_2/my-react-app/public/species_data/go_aop_ev'  # Source directory
+destination_dir = '/home/c23048124/Desktop/REACT_2/my-react-app/public/species_data/go_aop_chem'  # Destination directory for processed files
+aop_jsons_dir = '/home/c23048124/Desktop/REACT_2/my-react-app/public/species_data/aop_jsons'  # Local directory for AOP JSON files
 
-# Define the path to the TSV file
-aop_ke_mie_ao_path = '/home/c23048124/Desktop/REACT_2/my-react-app/aop_ke_mie_ao.tsv'
+# Ensure directories exist
+os.makedirs(destination_dir, exist_ok=True)
+os.makedirs(aop_jsons_dir, exist_ok=True)
 
-# Load the TSV file into a DataFrame
-aop_ke_mie_ao_df = pd.read_csv(aop_ke_mie_ao_path, sep='\t', header=0)
-aop_ke_mie_ao_df['AOP_ID'] = aop_ke_mie_ao_df['Aop:1'].str.extract(r'(\d+)')
-aop_ke_mie_ao_df['Event_ID'] = aop_ke_mie_ao_df['Event:142'].str.extract(r'(\d+)')
-aop_ke_mie_ao_df['Event_Type'] = aop_ke_mie_ao_df['KeyEvent'].replace({
-    'KeyEvent': 'Key Event',
-    'AdverseOutcome': 'Adverse Outcome',
-    'MolecularInitiatingEvent': 'Molecular Initiating Event'
-})
-aop_ke_mie_ao_df['Description'] = aop_ke_mie_ao_df['Hyperplasia, Hyperplasia']
-simplified_df = aop_ke_mie_ao_df[['AOP_ID', 'Event_ID', 'Event_Type', 'Description']]
+# Function to fetch or load AOP details
+def get_or_fetch_aop_details(aop_id):
+    local_file_path = os.path.join(aop_jsons_dir, f"{aop_id}.json")
+    if os.path.exists(local_file_path):
+        with open(local_file_path, 'r') as file:
+            return json.load(file)
+    else:
+        url = f"https://aopwiki.org/aops/{aop_id}.json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            aop_data = response.json()
+            with open(local_file_path, 'w') as file:
+                json.dump(aop_data, file, indent=4)
+            return aop_data
+        else:
+            print(f"Failed to fetch data for AOP ID {aop_id}")
+            return None
 
-# Function to enrich JSON data
-def enrich_json_data(json_data):
-    for entry in json_data:
-        additional_info = simplified_df[
-            (simplified_df['AOP_ID'] == str(entry['AOP_ID'])) &
-            (simplified_df['Event_ID'] == str(entry['Event_ID']))
-        ]
-        if not additional_info.empty:
-            entry['Event_Type'] = additional_info.iloc[0]['Event_Type']
-            entry['Description'] = additional_info.iloc[0]['Description']
-    return json_data
+# Enrich each entry
+def enrich_entry(entry):
+    aop_details = get_or_fetch_aop_details(entry["AOP_ID"])
+    if aop_details:
+        entry["AOP_Short_Name"] = aop_details.get("short_name", "Not Available")
+        stressors = aop_details.get("aop_stressors", [])
+        entry["Stressor_Name"] = ", ".join([stressor["stressor_name"] for stressor in stressors]) if stressors else "Not Available"
+        # Removed "Event" and "Relationships" fields as they are not populated from the API in this script
+    else:
+        entry["AOP_Short_Name"] = "Not Available"
+        entry["Stressor_Name"] = "Not Available"
 
-# Iterate through each JSON file in the directory
-for filename in os.listdir(species_json_dir):
-    if filename.endswith('_aop_event_mapping.json'):
-        file_path = os.path.join(species_json_dir, filename)
-        
-        # Read the current JSON data
-        with open(file_path, 'r') as file:
-            json_data = json.load(file)
-        
-        # Enrich the JSON data
-        enriched_json_data = enrich_json_data(json_data)
-        
-        # Write the enriched JSON data back to the file
-        with open(file_path, 'w') as file:
-            json.dump(enriched_json_data, file, indent=4)
+# Process and enrich all species JSON files
+def process_all_species(source_dir, destination_dir):
+    for filename in os.listdir(source_dir):
+        if filename.endswith('_aop_event_mapping.json'):
+            source_file_path = os.path.join(source_dir, filename)
+            with open(source_file_path, 'r') as file:
+                enriched_data = json.load(file)
 
-        print(f"Enriched data written to {file_path}")
+            enriched_entries = [enrich_entry(entry) for entry in enriched_data]
+
+            destination_file_path = os.path.join(destination_dir, filename)
+            with open(destination_file_path, 'w') as file:
+                json.dump(enriched_entries, file, indent=4)
+
+            print(f"Enriched data written to {destination_file_path}")
+
+# Start the process
+process_all_species(source_dir, destination_dir)
 

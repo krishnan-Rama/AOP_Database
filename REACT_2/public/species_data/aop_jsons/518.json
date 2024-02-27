@@ -1,0 +1,76 @@
+{
+    "id": 518,
+    "title": "Liver X Receptor (LXR) activation leads to liver steatosis",
+    "short_name": "LXR activation leads to liver steatosis",
+    "created_at": "2023-12-07T14:47:29.000-05:00",
+    "updated_at": "2024-02-21T15:08:09.000-05:00",
+    "corresponding_author": {
+        "id": 17529,
+        "created_at": "2023-05-10T14:47:26.000-04:00",
+        "updated_at": "2024-02-26T08:52:40.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 167,
+            "event": "Activation, LXR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2199,
+            "event": "Increased, Expression of LXR activated genes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 89,
+            "event": "Synthesis, De Novo FA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 291,
+            "event": "Accumulation, Triglyceride",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3705,
+            "upstream_event_id": 167,
+            "upstream_event": "Activation, LXR",
+            "downstream_event_id": 2199,
+            "downstream_event": "Increased, Expression of LXR activated genes"
+        },
+        {
+            "relation": 3706,
+            "upstream_event_id": 2199,
+            "upstream_event": "Increased, Expression of LXR activated genes",
+            "downstream_event_id": 89,
+            "downstream_event": "Synthesis, De Novo FA"
+        },
+        {
+            "relation": 3707,
+            "upstream_event_id": 89,
+            "upstream_event": "Synthesis, De Novo FA",
+            "downstream_event_id": 291,
+            "downstream_event": "Accumulation, Triglyceride"
+        },
+        {
+            "relation": 3742,
+            "upstream_event_id": 291,
+            "upstream_event": "Accumulation, Triglyceride",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        }
+    ]
+}

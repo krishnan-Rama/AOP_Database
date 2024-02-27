@@ -1,0 +1,189 @@
+{
+    "id": 447,
+    "title": "Kidney failure induced by inhibition of mitochondrial electron transfer chain through apoptosis, inflammation and oxidative stress pathways",
+    "short_name": "Kidney failure induced by inhibition of mitochondrial ETC",
+    "created_at": "2022-04-08T07:56:32.000-04:00",
+    "updated_at": "2023-04-29T16:03:06.000-04:00",
+    "corresponding_author": {
+        "id": 9640,
+        "created_at": "2022-04-06T09:49:15.000-04:00",
+        "updated_at": "2022-04-14T04:21:57.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 664,
+            "stressor_name": "Uranium"
+        },
+        {
+            "stressor_id": 738,
+            "stressor_name": "Uranium, soluble salts"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 105,
+            "event": "Inhibition, Mitochondrial Electron Transport Chain Complexes",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1770,
+            "event": "Decrease, Mitochondrial membrane potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1968,
+            "event": "Increase, Mitochondrial Dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1917,
+            "event": "Altered gene expression, NRF2 dependent antioxidant pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 202,
+            "event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1815,
+            "event": "Activation of ER stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1365,
+            "event": "Increase, Apoptosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1633,
+            "event": "Increase in inflammation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1097,
+            "event": "Occurrence, renal proximal tubular necrosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 814,
+            "event": "Occurrence, Kidney toxicity",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 759,
+            "event": "Increased, Kidney Failure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3064,
+            "upstream_event_id": 105,
+            "upstream_event": "Inhibition, Mitochondrial Electron Transport Chain Complexes",
+            "downstream_event_id": 1770,
+            "downstream_event": "Decrease, Mitochondrial membrane potential"
+        },
+        {
+            "relation": 3065,
+            "upstream_event_id": 1770,
+            "upstream_event": "Decrease, Mitochondrial membrane potential",
+            "downstream_event_id": 1968,
+            "downstream_event": "Increase, Mitochondrial Dysfunction"
+        },
+        {
+            "relation": 3066,
+            "upstream_event_id": 1968,
+            "upstream_event": "Increase, Mitochondrial Dysfunction",
+            "downstream_event_id": 1917,
+            "downstream_event": "Altered gene expression, NRF2 dependent antioxidant pathway"
+        },
+        {
+            "relation": 3067,
+            "upstream_event_id": 1968,
+            "upstream_event": "Increase, Mitochondrial Dysfunction",
+            "downstream_event_id": 202,
+            "downstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 3068,
+            "upstream_event_id": 1968,
+            "upstream_event": "Increase, Mitochondrial Dysfunction",
+            "downstream_event_id": 1365,
+            "downstream_event": "Increase, Apoptosis"
+        },
+        {
+            "relation": 3069,
+            "upstream_event_id": 1917,
+            "upstream_event": "Altered gene expression, NRF2 dependent antioxidant pathway",
+            "downstream_event_id": 1815,
+            "downstream_event": "Activation of ER stress"
+        },
+        {
+            "relation": 3070,
+            "upstream_event_id": 1917,
+            "upstream_event": "Altered gene expression, NRF2 dependent antioxidant pathway",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 3071,
+            "upstream_event_id": 1815,
+            "upstream_event": "Activation of ER stress",
+            "downstream_event_id": 1365,
+            "downstream_event": "Increase, Apoptosis"
+        },
+        {
+            "relation": 3072,
+            "upstream_event_id": 202,
+            "upstream_event": "Inhibition, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 1633,
+            "downstream_event": "Increase in inflammation"
+        },
+        {
+            "relation": 3073,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 3074,
+            "upstream_event_id": 1365,
+            "upstream_event": "Increase, Apoptosis",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 3075,
+            "upstream_event_id": 1633,
+            "upstream_event": "Increase in inflammation",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 3076,
+            "upstream_event_id": 1097,
+            "upstream_event": "Occurrence, renal proximal tubular necrosis",
+            "downstream_event_id": 814,
+            "downstream_event": "Occurrence, Kidney toxicity"
+        },
+        {
+            "relation": 3077,
+            "upstream_event_id": 814,
+            "upstream_event": "Occurrence, Kidney toxicity",
+            "downstream_event_id": 759,
+            "downstream_event": "Increased, Kidney Failure"
+        }
+    ]
+}

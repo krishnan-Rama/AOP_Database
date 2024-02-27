@@ -1,0 +1,117 @@
+{
+    "id": 10,
+    "title": "Binding to the picrotoxin site of ionotropic GABA receptors leading to epileptic seizures in adult brain",
+    "short_name": "Blocking iGABA receptor ion channel leading to seizures",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 261,
+        "created_at": "2013-05-02T11:25:27.000-04:00",
+        "updated_at": "2021-04-13T09:42:58.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 110,
+            "stressor_name": "Picrotoxin"
+        },
+        {
+            "stressor_id": 112,
+            "stressor_name": "Lindane"
+        },
+        {
+            "stressor_id": 115,
+            "stressor_name": "Dieldrin"
+        },
+        {
+            "stressor_id": 344,
+            "stressor_name": "Heptachlor"
+        },
+        {
+            "stressor_id": 345,
+            "stressor_name": "Endosulfan"
+        },
+        {
+            "stressor_id": 113,
+            "stressor_name": "RDX"
+        },
+        {
+            "stressor_id": 111,
+            "stressor_name": "Fipronil"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 667,
+            "event": "Binding at picrotoxin site, iGABAR chloride channel",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 64,
+            "event": "Reduction, Ionotropic GABA receptor chloride channel conductance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 669,
+            "event": "Reduction, Neuronal synaptic inhibition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 682,
+            "event": "Generation, Amplified excitatory postsynaptic potential (EPSP)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 616,
+            "event": "Occurrence, A paroxysmal depolarizing shift",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 613,
+            "event": "Occurrence, Epileptic seizure",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 349,
+            "upstream_event_id": 667,
+            "upstream_event": "Binding at picrotoxin site, iGABAR chloride channel",
+            "downstream_event_id": 64,
+            "downstream_event": "Reduction, Ionotropic GABA receptor chloride channel conductance"
+        },
+        {
+            "relation": 350,
+            "upstream_event_id": 64,
+            "upstream_event": "Reduction, Ionotropic GABA receptor chloride channel conductance",
+            "downstream_event_id": 669,
+            "downstream_event": "Reduction, Neuronal synaptic inhibition"
+        },
+        {
+            "relation": 364,
+            "upstream_event_id": 669,
+            "upstream_event": "Reduction, Neuronal synaptic inhibition",
+            "downstream_event_id": 682,
+            "downstream_event": "Generation, Amplified excitatory postsynaptic potential (EPSP)"
+        },
+        {
+            "relation": 610,
+            "upstream_event_id": 682,
+            "upstream_event": "Generation, Amplified excitatory postsynaptic potential (EPSP)",
+            "downstream_event_id": 616,
+            "downstream_event": "Occurrence, A paroxysmal depolarizing shift"
+        },
+        {
+            "relation": 351,
+            "upstream_event_id": 616,
+            "upstream_event": "Occurrence, A paroxysmal depolarizing shift",
+            "downstream_event_id": 613,
+            "downstream_event": "Occurrence, Epileptic seizure"
+        }
+    ]
+}

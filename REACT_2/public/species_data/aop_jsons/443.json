@@ -1,0 +1,148 @@
+{
+    "id": 443,
+    "title": " DNA damage and mutations leading to Metastatic Breast Cancer",
+    "short_name": "DNA damage and metastatic breast  cancer",
+    "created_at": "2022-03-21T00:52:30.000-04:00",
+    "updated_at": "2023-12-06T01:50:37.000-05:00",
+    "corresponding_author": {
+        "id": 9118,
+        "created_at": "2022-02-19T22:31:50.000-05:00",
+        "updated_at": "2023-12-06T01:32:09.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 737,
+            "stressor_name": "Ethyl alcohol"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1669,
+            "event": "Increased, DNA damage and mutation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 185,
+            "event": "Increase, Mutations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1554,
+            "event": "Increase Chromosomal Aberrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1980,
+            "event": "Increased microRNA expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1981,
+            "event": "Decreased SIRT1 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1172,
+            "event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 112,
+            "event": "Antagonism, Estrogen receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1457,
+            "event": "Induction, Epithelial Mesenchymal Transition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1982,
+            "event": "metastatic breast cancer",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3029,
+            "upstream_event_id": 1669,
+            "upstream_event": "Increased, DNA damage and mutation",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 3183,
+            "upstream_event_id": 1669,
+            "upstream_event": "Increased, DNA damage and mutation",
+            "downstream_event_id": 1554,
+            "downstream_event": "Increase Chromosomal Aberrations"
+        },
+        {
+            "relation": 3184,
+            "upstream_event_id": 1554,
+            "upstream_event": "Increase Chromosomal Aberrations",
+            "downstream_event_id": 1980,
+            "downstream_event": "Increased microRNA expression"
+        },
+        {
+            "relation": 3030,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 185,
+            "downstream_event": "Increase, Mutations"
+        },
+        {
+            "relation": 3031,
+            "upstream_event_id": 185,
+            "upstream_event": "Increase, Mutations",
+            "downstream_event_id": 1980,
+            "downstream_event": "Increased microRNA expression"
+        },
+        {
+            "relation": 3032,
+            "upstream_event_id": 1980,
+            "upstream_event": "Increased microRNA expression",
+            "downstream_event_id": 1981,
+            "downstream_event": "Decreased SIRT1 expression"
+        },
+        {
+            "relation": 3033,
+            "upstream_event_id": 1981,
+            "upstream_event": "Decreased SIRT1 expression",
+            "downstream_event_id": 1172,
+            "downstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)"
+        },
+        {
+            "relation": 3034,
+            "upstream_event_id": 1172,
+            "upstream_event": "Increased activation, Nuclear factor kappa B (NF-kB)",
+            "downstream_event_id": 112,
+            "downstream_event": "Antagonism, Estrogen receptor"
+        },
+        {
+            "relation": 3035,
+            "upstream_event_id": 112,
+            "upstream_event": "Antagonism, Estrogen receptor",
+            "downstream_event_id": 1457,
+            "downstream_event": "Induction, Epithelial Mesenchymal Transition"
+        },
+        {
+            "relation": 3036,
+            "upstream_event_id": 1457,
+            "upstream_event": "Induction, Epithelial Mesenchymal Transition",
+            "downstream_event_id": 1982,
+            "downstream_event": "metastatic breast cancer"
+        }
+    ]
+}

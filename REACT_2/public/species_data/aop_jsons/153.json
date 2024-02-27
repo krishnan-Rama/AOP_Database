@@ -1,0 +1,80 @@
+{
+    "id": 153,
+    "title": "Aromatase Inhibition leading to Ovulation Inhibition and Decreased Fertility in Female Rats",
+    "short_name": "Aromatase Inhibition in Female Rats",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 290,
+        "created_at": "2015-03-16T15:56:10.000-04:00",
+        "updated_at": "2021-04-13T09:39:50.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 32,
+            "stressor_name": "Letrozole"
+        },
+        {
+            "stressor_id": 26,
+            "stressor_name": "Fadrozole"
+        },
+        {
+            "stressor_id": 162,
+            "stressor_name": "1,2,4-triazole"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 964,
+            "event": "Inhibition of Aromatase Enzyme, Chemical exposure during critical window of estrous cycle between diestrus 2 and proestrus inhibits aromatase conversion of testosterone to estradiol",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 965,
+            "event": "reduction in ovarian granulosa cells synthesis of estradiol, Reduced steroidogenic production of estradiol in granulosa cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 966,
+            "event": "Reduced Estradiol in Circulation, Reduced steroidogenic production of estradiol in granulosa cells leading to decreased estradiol in circulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 967,
+            "event": "Decreased positive estrogenic feedback on hypothalamus, Reduced estradiol in circulation decreases estrogen concentration at hypothalamus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 968,
+            "event": "Decreased Kisspeptin release from neurons in AVPV, Decreased hypothalamic estrogen reduces kisspeptinergic neuron response ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 969,
+            "event": "Decreased GnRH Release, Decreased Kisspeptin stimulation of GnRH neurons ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 970,
+            "event": "Decreased LH release from Anterior Pituitary, Decreased GnRH stimulation of Anterior Pituitary Gonadotrophs",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 971,
+            "event": "Ovulation of oocytes Reduced, Delayed, or Blocked, Decrease or delay in LH surge required for ovulation ",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 972,
+            "event": "Decreased fertility, Reduced number of oocytes ovulated ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": []
+}

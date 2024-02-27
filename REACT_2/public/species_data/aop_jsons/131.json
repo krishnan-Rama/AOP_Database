@@ -1,0 +1,105 @@
+{
+    "id": 131,
+    "title": "Aryl hydrocarbon receptor activation leading to uroporphyria",
+    "short_name": "AHR activation-uroporphyria",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 24,
+        "created_at": "2013-09-18T07:08:16.000-04:00",
+        "updated_at": "2021-04-13T09:41:20.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 147,
+            "stressor_name": "Dibenzo-p-dioxin"
+        },
+        {
+            "stressor_id": 148,
+            "stressor_name": "Polychlorinated biphenyl"
+        },
+        {
+            "stressor_id": 150,
+            "stressor_name": "Hexachlorobenzene"
+        },
+        {
+            "stressor_id": 250,
+            "stressor_name": "Polycyclic aromatic hydrocarbons (PAHs)"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 850,
+            "event": "Induction, CYP1A2/CYP1A5",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 844,
+            "event": "Oxidation, Uroporphyrinogen",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 845,
+            "event": "Inhibition, UROD",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 846,
+            "event": "Accumulation, Highly carboxylated porphyrins",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 369,
+            "event": "Uroporphyria",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 599,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 850,
+            "downstream_event": "Induction, CYP1A2/CYP1A5"
+        },
+        {
+            "relation": 544,
+            "upstream_event_id": 850,
+            "upstream_event": "Induction, CYP1A2/CYP1A5",
+            "downstream_event_id": 844,
+            "downstream_event": "Oxidation, Uroporphyrinogen"
+        },
+        {
+            "relation": 801,
+            "upstream_event_id": 844,
+            "upstream_event": "Oxidation, Uroporphyrinogen",
+            "downstream_event_id": 845,
+            "downstream_event": "Inhibition, UROD"
+        },
+        {
+            "relation": 802,
+            "upstream_event_id": 845,
+            "upstream_event": "Inhibition, UROD",
+            "downstream_event_id": 846,
+            "downstream_event": "Accumulation, Highly carboxylated porphyrins"
+        },
+        {
+            "relation": 543,
+            "upstream_event_id": 846,
+            "upstream_event": "Accumulation, Highly carboxylated porphyrins",
+            "downstream_event_id": 369,
+            "downstream_event": "Uroporphyria"
+        }
+    ]
+}

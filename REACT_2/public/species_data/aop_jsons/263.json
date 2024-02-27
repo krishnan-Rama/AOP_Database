@@ -1,0 +1,109 @@
+{
+    "id": 263,
+    "title": "Uncoupling of oxidative phosphorylation leading to  growth inhibition via decreased cell proliferation",
+    "short_name": "Uncoupling of OXPHOS leading to growth inhibition 1",
+    "created_at": "2018-05-24T12:15:32.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 322,
+        "created_at": "2016-06-30T07:13:47.000-04:00",
+        "updated_at": "2024-01-17T05:17:22.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 180,
+            "stressor_name": "2,4-Dinitrophenol"
+        },
+        {
+            "stressor_id": 600,
+            "stressor_name": "Pentachlorophenol"
+        },
+        {
+            "stressor_id": 601,
+            "stressor_name": "Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone"
+        },
+        {
+            "stressor_id": 602,
+            "stressor_name": "Carbonyl cyanide m-chlorophenyl hydrazone"
+        },
+        {
+            "stressor_id": 603,
+            "stressor_name": "Triclosan"
+        },
+        {
+            "stressor_id": 604,
+            "stressor_name": "Dinoseb"
+        },
+        {
+            "stressor_id": 321,
+            "stressor_name": "3,5-Dichlorophenol"
+        },
+        {
+            "stressor_id": 605,
+            "stressor_name": "Emodin"
+        },
+        {
+            "stressor_id": 430,
+            "stressor_name": "Arsenite"
+        },
+        {
+            "stressor_id": 743,
+            "stressor_name": "Niclosamide ethanolamine"
+        },
+        {
+            "stressor_id": 744,
+            "stressor_name": "Oxyclozanide"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1446,
+            "event": "Decrease, Coupling of oxidative phosphorylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1771,
+            "event": "Decrease, Adenosine triphosphate pool",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1821,
+            "event": "Decrease, Cell proliferation",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1521,
+            "event": "Decrease, Growth",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2338,
+            "upstream_event_id": 1446,
+            "upstream_event": "Decrease, Coupling of oxidative phosphorylation",
+            "downstream_event_id": 1771,
+            "downstream_event": "Decrease, Adenosine triphosphate pool"
+        },
+        {
+            "relation": 2339,
+            "upstream_event_id": 1771,
+            "upstream_event": "Decrease, Adenosine triphosphate pool",
+            "downstream_event_id": 1821,
+            "downstream_event": "Decrease, Cell proliferation"
+        },
+        {
+            "relation": 2340,
+            "upstream_event_id": 1821,
+            "upstream_event": "Decrease, Cell proliferation",
+            "downstream_event_id": 1521,
+            "downstream_event": "Decrease, Growth"
+        }
+    ]
+}

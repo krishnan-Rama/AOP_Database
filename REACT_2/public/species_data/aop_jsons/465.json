@@ -1,0 +1,118 @@
+{
+    "id": 465,
+    "title": "Alcohol dehydrogenase leading to reproductive dysfunction",
+    "short_name": "Alcohol dehydrogenase leading to reproductive dysfunction",
+    "created_at": "2022-08-28T20:07:22.000-04:00",
+    "updated_at": "2023-05-25T03:25:45.000-04:00",
+    "corresponding_author": {
+        "id": 9148,
+        "created_at": "2022-02-21T20:18:20.000-05:00",
+        "updated_at": "2023-10-23T03:42:13.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2045,
+            "event": "Increase, Alcohol dehydrogenase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 748,
+            "event": "Increased, Estrogen receptor (ER) activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2046,
+            "event": "Increase, Vitellogenin mRNA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2047,
+            "event": "Delay, Ovarian maturation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2048,
+            "event": "Increase, Body volume of female adults",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2049,
+            "event": "Increase, sex ratio (F/M)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2050,
+            "event": "Increase, developmental abnormalities",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 350,
+            "event": "Increase, Mortality",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 3191,
+            "upstream_event_id": 2045,
+            "upstream_event": "Increase, Alcohol dehydrogenase",
+            "downstream_event_id": 748,
+            "downstream_event": "Increased, Estrogen receptor (ER) activity"
+        },
+        {
+            "relation": 3192,
+            "upstream_event_id": 748,
+            "upstream_event": "Increased, Estrogen receptor (ER) activity",
+            "downstream_event_id": 2046,
+            "downstream_event": "Increase, Vitellogenin mRNA"
+        },
+        {
+            "relation": 3193,
+            "upstream_event_id": 2046,
+            "upstream_event": "Increase, Vitellogenin mRNA",
+            "downstream_event_id": 2047,
+            "downstream_event": "Delay, Ovarian maturation"
+        },
+        {
+            "relation": 3194,
+            "upstream_event_id": 2047,
+            "upstream_event": "Delay, Ovarian maturation",
+            "downstream_event_id": 2048,
+            "downstream_event": "Increase, Body volume of female adults"
+        },
+        {
+            "relation": 3195,
+            "upstream_event_id": 2047,
+            "upstream_event": "Delay, Ovarian maturation",
+            "downstream_event_id": 2049,
+            "downstream_event": "Increase, sex ratio (F/M)"
+        },
+        {
+            "relation": 3196,
+            "upstream_event_id": 2048,
+            "upstream_event": "Increase, Body volume of female adults",
+            "downstream_event_id": 2050,
+            "downstream_event": "Increase, developmental abnormalities"
+        },
+        {
+            "relation": 3197,
+            "upstream_event_id": 2049,
+            "upstream_event": "Increase, sex ratio (F/M)",
+            "downstream_event_id": 2050,
+            "downstream_event": "Increase, developmental abnormalities"
+        },
+        {
+            "relation": 3198,
+            "upstream_event_id": 2050,
+            "upstream_event": "Increase, developmental abnormalities",
+            "downstream_event_id": 350,
+            "downstream_event": "Increase, Mortality"
+        }
+    ]
+}

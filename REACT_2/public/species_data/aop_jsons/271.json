@@ -1,0 +1,89 @@
+{
+    "id": 271,
+    "title": "Inhibition of thyroid peroxidase leading to impaired fertility in fish",
+    "short_name": "TPO inhibition and impaired fertility ",
+    "created_at": "2018-09-18T20:33:14.000-04:00",
+    "updated_at": "2023-06-07T05:33:54.000-04:00",
+    "corresponding_author": {
+        "id": 622,
+        "created_at": "2018-04-24T00:57:36.000-04:00",
+        "updated_at": "2023-01-25T18:05:36.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 48,
+            "stressor_name": "Propylthiouracil"
+        },
+        {
+            "stressor_id": 37,
+            "stressor_name": "Methimazole"
+        },
+        {
+            "stressor_id": 25,
+            "stressor_name": "Ethylene thiourea"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 279,
+            "event": "Thyroperoxidase, Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1680,
+            "upstream_event_id": 279,
+            "upstream_event": "Thyroperoxidase, Inhibition",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 1681,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 1682,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 1683,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        }
+    ]
+}

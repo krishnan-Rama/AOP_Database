@@ -1,0 +1,104 @@
+{
+    "id": 405,
+    "title": "Organo-Phosphate Chemicals induced inhibition of AChE  leading to impaired cognitive function",
+    "short_name": "Organo-Phosphate Chemicals leading to impaired cognitive function",
+    "created_at": "2021-06-24T16:59:59.000-04:00",
+    "updated_at": "2023-04-29T16:03:04.000-04:00",
+    "corresponding_author": {
+        "id": 1529,
+        "created_at": "2020-05-02T15:51:11.000-04:00",
+        "updated_at": "2023-08-03T13:00:22.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 43,
+            "stressor_name": "Organophosphates"
+        },
+        {
+            "stressor_id": 649,
+            "stressor_name": "Paraoxon"
+        },
+        {
+            "stressor_id": 650,
+            "stressor_name": "Methyl parathion"
+        },
+        {
+            "stressor_id": 651,
+            "stressor_name": "Ethyl Parathion"
+        },
+        {
+            "stressor_id": 80,
+            "stressor_name": "N-methyl Carbamates"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 12,
+            "event": "Acetylcholinesterase (AchE) Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 10,
+            "event": "Acetylcholine accumulation in synapses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 39,
+            "event": "Increased Cholinergic Signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 386,
+            "event": "Decrease of neuronal network function",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 402,
+            "event": "Cognitive Function, Decreased ",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2715,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 10,
+            "downstream_event": "Acetylcholine accumulation in synapses"
+        },
+        {
+            "relation": 2718,
+            "upstream_event_id": 386,
+            "upstream_event": "Decrease of neuronal network function",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        },
+        {
+            "relation": 2716,
+            "upstream_event_id": 10,
+            "upstream_event": "Acetylcholine accumulation in synapses",
+            "downstream_event_id": 39,
+            "downstream_event": "Increased Cholinergic Signaling"
+        },
+        {
+            "relation": 2719,
+            "upstream_event_id": 39,
+            "upstream_event": "Increased Cholinergic Signaling",
+            "downstream_event_id": 402,
+            "downstream_event": "Cognitive Function, Decreased "
+        },
+        {
+            "relation": 2717,
+            "upstream_event_id": 39,
+            "upstream_event": "Increased Cholinergic Signaling",
+            "downstream_event_id": 386,
+            "downstream_event": "Decrease of neuronal network function"
+        }
+    ]
+}

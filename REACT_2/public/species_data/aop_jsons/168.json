@@ -1,0 +1,142 @@
+{
+    "id": 168,
+    "title": "GnRH pulse disruption leading to mammary adenomas and carcinomas in the SD rat.",
+    "short_name": "GnRH pulse disruption and mammary tumors.",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 319,
+        "created_at": "2015-08-18T16:59:44.000-04:00",
+        "updated_at": "2021-04-13T09:40:52.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 177,
+            "stressor_name": "atrazine"
+        }
+    ],
+    "aop_mies": [],
+    "aop_kes": [
+        {
+            "event_id": 1071,
+            "event": "Decreased, GnRH pulsatility/release in hypothalamus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1072,
+            "event": "Decreased, LH Surge from anterior pituitary",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1074,
+            "event": "interruption, Ovulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1075,
+            "event": "prolonged, estrus",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1076,
+            "event": "Increased, circulating estrogen levels",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1077,
+            "event": "Increased, prolactin exposure",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1078,
+            "event": "Hyperplasia, Mammary gland",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1080,
+            "event": "Increased, latency period",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1079,
+            "event": "Increased, Adenomas/carcinomas (mammary)",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 773,
+            "upstream_event_id": 1071,
+            "upstream_event": "Decreased, GnRH pulsatility/release in hypothalamus",
+            "downstream_event_id": 1072,
+            "downstream_event": "Decreased, LH Surge from anterior pituitary"
+        },
+        {
+            "relation": 774,
+            "upstream_event_id": 1072,
+            "upstream_event": "Decreased, LH Surge from anterior pituitary",
+            "downstream_event_id": 1074,
+            "downstream_event": "interruption, Ovulation"
+        },
+        {
+            "relation": 775,
+            "upstream_event_id": 1072,
+            "upstream_event": "Decreased, LH Surge from anterior pituitary",
+            "downstream_event_id": 1075,
+            "downstream_event": "prolonged, estrus"
+        },
+        {
+            "relation": 776,
+            "upstream_event_id": 1075,
+            "upstream_event": "prolonged, estrus",
+            "downstream_event_id": 1076,
+            "downstream_event": "Increased, circulating estrogen levels"
+        },
+        {
+            "relation": 777,
+            "upstream_event_id": 1075,
+            "upstream_event": "prolonged, estrus",
+            "downstream_event_id": 1077,
+            "downstream_event": "Increased, prolactin exposure"
+        },
+        {
+            "relation": 778,
+            "upstream_event_id": 1076,
+            "upstream_event": "Increased, circulating estrogen levels",
+            "downstream_event_id": 1078,
+            "downstream_event": "Hyperplasia, Mammary gland"
+        },
+        {
+            "relation": 779,
+            "upstream_event_id": 1077,
+            "upstream_event": "Increased, prolactin exposure",
+            "downstream_event_id": 1078,
+            "downstream_event": "Hyperplasia, Mammary gland"
+        },
+        {
+            "relation": 780,
+            "upstream_event_id": 1078,
+            "upstream_event": "Hyperplasia, Mammary gland",
+            "downstream_event_id": 1080,
+            "downstream_event": "Increased, latency period"
+        },
+        {
+            "relation": 781,
+            "upstream_event_id": 1078,
+            "upstream_event": "Hyperplasia, Mammary gland",
+            "downstream_event_id": 1079,
+            "downstream_event": "Increased, Adenomas/carcinomas (mammary)"
+        },
+        {
+            "relation": 782,
+            "upstream_event_id": 1080,
+            "upstream_event": "Increased, latency period",
+            "downstream_event_id": 1079,
+            "downstream_event": "Increased, Adenomas/carcinomas (mammary)"
+        }
+    ]
+}

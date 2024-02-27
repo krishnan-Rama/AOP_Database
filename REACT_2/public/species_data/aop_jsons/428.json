@@ -1,0 +1,51 @@
+{
+    "id": 428,
+    "title": "Binding of S-protein to ACE2 in enterocytes induces ACE2 dysregulation leading to gut dysbiosis ",
+    "short_name": "ACE2 dysregulation leads to gut dysbiosis",
+    "created_at": "2021-10-19T13:52:33.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 2471,
+        "created_at": "2020-12-02T07:47:44.000-05:00",
+        "updated_at": "2024-01-12T03:01:47.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1739,
+            "event": "Binding to ACE2",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1854,
+            "event": "Dysregulation, ACE2 expression and activity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1954,
+            "event": "Gut microbiota, alteration",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [],
+    "relationships": [
+        {
+            "relation": 2870,
+            "upstream_event_id": 1739,
+            "upstream_event": "Binding to ACE2",
+            "downstream_event_id": 1854,
+            "downstream_event": "Dysregulation, ACE2 expression and activity"
+        },
+        {
+            "relation": 2897,
+            "upstream_event_id": 1854,
+            "upstream_event": "Dysregulation, ACE2 expression and activity",
+            "downstream_event_id": 1954,
+            "downstream_event": "Gut microbiota, alteration"
+        }
+    ]
+}

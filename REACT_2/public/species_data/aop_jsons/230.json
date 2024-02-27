@@ -1,0 +1,141 @@
+{
+    "id": 230,
+    "title": "presynaptic neuron 1 activation to epilepsy",
+    "short_name": "presynaptic neuron 1 activation to epilepsy",
+    "created_at": "2017-06-02T11:27:37.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 56,
+        "created_at": "2014-03-03T12:01:56.000-05:00",
+        "updated_at": "2021-04-13T09:41:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1349,
+            "event": "Activated, presynaptic neuron 1",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1350,
+            "event": "Increased, glutamate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1351,
+            "event": "Activated, NMDA receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1321,
+            "event": "Increased, intracellular sodium (Na+)",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1352,
+            "event": "Activated, voltage-gated sodium channel",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1354,
+            "event": "Treat, carbamazepine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1353,
+            "event": "Binding to voltage-gated sodium channel",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1355,
+            "event": "Activated, membrane depolarization",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1362,
+            "event": "Increased, hippocampal hyperdepolarization",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1344,
+            "event": "Increased, seizure",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1363,
+            "event": "Increased, epilepsy",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1390,
+            "upstream_event_id": 1349,
+            "upstream_event": "Activated, presynaptic neuron 1",
+            "downstream_event_id": 1350,
+            "downstream_event": "Increased, glutamate"
+        },
+        {
+            "relation": 1391,
+            "upstream_event_id": 1350,
+            "upstream_event": "Increased, glutamate",
+            "downstream_event_id": 1351,
+            "downstream_event": "Activated, NMDA receptor"
+        },
+        {
+            "relation": 1392,
+            "upstream_event_id": 1351,
+            "upstream_event": "Activated, NMDA receptor",
+            "downstream_event_id": 1321,
+            "downstream_event": "Increased, intracellular sodium (Na+)"
+        },
+        {
+            "relation": 1393,
+            "upstream_event_id": 1321,
+            "upstream_event": "Increased, intracellular sodium (Na+)",
+            "downstream_event_id": 1352,
+            "downstream_event": "Activated, voltage-gated sodium channel"
+        },
+        {
+            "relation": 1394,
+            "upstream_event_id": 1352,
+            "upstream_event": "Activated, voltage-gated sodium channel",
+            "downstream_event_id": 1355,
+            "downstream_event": "Activated, membrane depolarization"
+        },
+        {
+            "relation": 1395,
+            "upstream_event_id": 1355,
+            "upstream_event": "Activated, membrane depolarization",
+            "downstream_event_id": 1362,
+            "downstream_event": "Increased, hippocampal hyperdepolarization"
+        },
+        {
+            "relation": 1396,
+            "upstream_event_id": 1362,
+            "upstream_event": "Increased, hippocampal hyperdepolarization",
+            "downstream_event_id": 1344,
+            "downstream_event": "Increased, seizure"
+        },
+        {
+            "relation": 1397,
+            "upstream_event_id": 1344,
+            "upstream_event": "Increased, seizure",
+            "downstream_event_id": 1363,
+            "downstream_event": "Increased, epilepsy"
+        },
+        {
+            "relation": 1398,
+            "upstream_event_id": 1354,
+            "upstream_event": "Treat, carbamazepine",
+            "downstream_event_id": 1353,
+            "downstream_event": "Binding to voltage-gated sodium channel"
+        }
+    ]
+}

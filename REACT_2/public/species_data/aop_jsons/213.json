@@ -1,0 +1,88 @@
+{
+    "id": 213,
+    "title": "Inhibition of fatty acid beta oxidation leading to nonalcoholic steatohepatitis (NASH)",
+    "short_name": "Inhibition fatty acid beta oxidation leading to nonalcoholic steatohepatisis (NASH) ",
+    "created_at": "2017-04-12T13:28:27.000-04:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 56,
+        "created_at": "2014-03-03T12:01:56.000-05:00",
+        "updated_at": "2021-04-13T09:41:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1490,
+            "event": "Inhibition, Fatty Acid Beta Oxidation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1305,
+            "event": "Increase, cytosolic fatty acid",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 459,
+            "event": "Increased, Liver Steatosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1115,
+            "event": "Increased, Reactive oxygen species",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1491,
+            "event": "Increased, Oncotic Necrosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1489,
+            "event": "N/A, Steatohepatisis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1575,
+            "upstream_event_id": 1490,
+            "upstream_event": "Inhibition, Fatty Acid Beta Oxidation",
+            "downstream_event_id": 1305,
+            "downstream_event": "Increase, cytosolic fatty acid"
+        },
+        {
+            "relation": 1577,
+            "upstream_event_id": 1305,
+            "upstream_event": "Increase, cytosolic fatty acid",
+            "downstream_event_id": 459,
+            "downstream_event": "Increased, Liver Steatosis"
+        },
+        {
+            "relation": 1578,
+            "upstream_event_id": 459,
+            "upstream_event": "Increased, Liver Steatosis",
+            "downstream_event_id": 1115,
+            "downstream_event": "Increased, Reactive oxygen species"
+        },
+        {
+            "relation": 1579,
+            "upstream_event_id": 1115,
+            "upstream_event": "Increased, Reactive oxygen species",
+            "downstream_event_id": 1491,
+            "downstream_event": "Increased, Oncotic Necrosis"
+        },
+        {
+            "relation": 1580,
+            "upstream_event_id": 1491,
+            "upstream_event": "Increased, Oncotic Necrosis",
+            "downstream_event_id": 1489,
+            "downstream_event": "N/A, Steatohepatisis"
+        }
+    ]
+}

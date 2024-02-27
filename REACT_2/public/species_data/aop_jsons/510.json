@@ -1,0 +1,157 @@
+{
+    "id": 510,
+    "title": "Demethylation of PPAR promotor leading to vascular disrupting effects",
+    "short_name": "Demethylation of PPAR promotor leading to vascular disrupting effects",
+    "created_at": "2023-08-20T13:42:30.000-04:00",
+    "updated_at": "2023-08-28T07:21:56.000-04:00",
+    "corresponding_author": {
+        "id": 17644,
+        "created_at": "2023-07-09T02:21:52.000-04:00",
+        "updated_at": "2024-02-19T09:49:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 228,
+            "event": "peroxisome proliferator activated receptor promoter demethylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2165,
+            "event": "Activation of PPAR",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1969,
+            "event": "Increase, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2166,
+            "event": "Abnormal expression of NO",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2167,
+            "event": "Activation of MMP-2 MMP-9",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2168,
+            "event": "Activation of angiopoietin like protein 4",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2169,
+            "event": "Activation of Angiogenic cytokines",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1928,
+            "event": "increased\uff0cVascular endothelial dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2181,
+            "event": "Angiogenesis dysfunction",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2161,
+            "event": "Increase, Vascular disrupting effects",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3550,
+            "upstream_event_id": 228,
+            "upstream_event": "peroxisome proliferator activated receptor promoter demethylation",
+            "downstream_event_id": 2165,
+            "downstream_event": "Activation of PPAR"
+        },
+        {
+            "relation": 3551,
+            "upstream_event_id": 2165,
+            "upstream_event": "Activation of PPAR",
+            "downstream_event_id": 1969,
+            "downstream_event": "Increase, Oxidative Stress"
+        },
+        {
+            "relation": 3552,
+            "upstream_event_id": 2165,
+            "upstream_event": "Activation of PPAR",
+            "downstream_event_id": 2167,
+            "downstream_event": "Activation of MMP-2 MMP-9"
+        },
+        {
+            "relation": 3553,
+            "upstream_event_id": 2165,
+            "upstream_event": "Activation of PPAR",
+            "downstream_event_id": 2168,
+            "downstream_event": "Activation of angiopoietin like protein 4"
+        },
+        {
+            "relation": 3554,
+            "upstream_event_id": 2165,
+            "upstream_event": "Activation of PPAR",
+            "downstream_event_id": 2169,
+            "downstream_event": "Activation of Angiogenic cytokines"
+        },
+        {
+            "relation": 3555,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2166,
+            "downstream_event": "Abnormal expression of NO"
+        },
+        {
+            "relation": 3556,
+            "upstream_event_id": 2167,
+            "upstream_event": "Activation of MMP-2 MMP-9",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3557,
+            "upstream_event_id": 2168,
+            "upstream_event": "Activation of angiopoietin like protein 4",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3558,
+            "upstream_event_id": 2169,
+            "upstream_event": "Activation of Angiogenic cytokines",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3559,
+            "upstream_event_id": 2166,
+            "upstream_event": "Abnormal expression of NO",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3613,
+            "upstream_event_id": 1928,
+            "upstream_event": "increased\uff0cVascular endothelial dysfunction",
+            "downstream_event_id": 2181,
+            "downstream_event": "Angiogenesis dysfunction"
+        },
+        {
+            "relation": 3614,
+            "upstream_event_id": 2181,
+            "upstream_event": "Angiogenesis dysfunction",
+            "downstream_event_id": 2161,
+            "downstream_event": "Increase, Vascular disrupting effects"
+        }
+    ]
+}

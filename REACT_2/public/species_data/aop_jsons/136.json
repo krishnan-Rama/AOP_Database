@@ -1,0 +1,112 @@
+{
+    "id": 136,
+    "title": "Intracellular Acidification Induced Olfactory Epithelial Injury Leading to Site of Contact Nasal Tumors",
+    "short_name": "pH Induced Nasal Tumors",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 174,
+        "created_at": "2014-09-18T16:11:15.000-04:00",
+        "updated_at": "2021-04-13T09:40:29.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 153,
+            "stressor_name": "Vinyl acetate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 867,
+            "event": "Decrease, Intracellular pH",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 868,
+            "event": "Increase, Tissue Degeneration, Necrosis & Atrophy ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 870,
+            "event": "Increase, Cell Proliferation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 869,
+            "event": "Increase, Respiratory or Squamous Metaplasia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 768,
+            "event": "Increase, Cytotoxicity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 876,
+            "event": "Increase, Mutations in Critical Genes",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 872,
+            "event": "Increase, Site of Contact Nasal Tumors",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 583,
+            "upstream_event_id": 867,
+            "upstream_event": "Decrease, Intracellular pH",
+            "downstream_event_id": 768,
+            "downstream_event": "Increase, Cytotoxicity"
+        },
+        {
+            "relation": 584,
+            "upstream_event_id": 768,
+            "upstream_event": "Increase, Cytotoxicity",
+            "downstream_event_id": 868,
+            "downstream_event": "Increase, Tissue Degeneration, Necrosis & Atrophy "
+        },
+        {
+            "relation": 585,
+            "upstream_event_id": 868,
+            "upstream_event": "Increase, Tissue Degeneration, Necrosis & Atrophy ",
+            "downstream_event_id": 869,
+            "downstream_event": "Increase, Respiratory or Squamous Metaplasia"
+        },
+        {
+            "relation": 586,
+            "upstream_event_id": 869,
+            "upstream_event": "Increase, Respiratory or Squamous Metaplasia",
+            "downstream_event_id": 870,
+            "downstream_event": "Increase, Cell Proliferation"
+        },
+        {
+            "relation": 587,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 876,
+            "downstream_event": "Increase, Mutations in Critical Genes"
+        },
+        {
+            "relation": 588,
+            "upstream_event_id": 876,
+            "upstream_event": "Increase, Mutations in Critical Genes",
+            "downstream_event_id": 872,
+            "downstream_event": "Increase, Site of Contact Nasal Tumors"
+        },
+        {
+            "relation": 589,
+            "upstream_event_id": 870,
+            "upstream_event": "Increase, Cell Proliferation",
+            "downstream_event_id": 872,
+            "downstream_event": "Increase, Site of Contact Nasal Tumors"
+        }
+    ]
+}

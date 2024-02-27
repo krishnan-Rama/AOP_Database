@@ -1,0 +1,93 @@
+{
+    "id": 348,
+    "title": "Inhibition of 11\u03b2-Hydroxysteroid Dehydrogenase leading to decreased population trajectory ",
+    "short_name": "11\u03b2HSD inhibition, decreased population trajectory",
+    "created_at": "2020-07-03T12:44:29.000-04:00",
+    "updated_at": "2023-04-29T16:03:03.000-04:00",
+    "corresponding_author": {
+        "id": 859,
+        "created_at": "2019-04-12T16:01:11.000-04:00",
+        "updated_at": "2024-01-26T12:57:46.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 572,
+            "stressor_name": "N-(5-Hydroxytricyclo[3.3.1.13,7]dec-2-yl)-\u03b1,\u03b1-dimethyl-4-[5-(trifluoromethyl)-2-pyridinyl]-1-piperazineacetamide"
+        },
+        {
+            "stressor_id": 545,
+            "stressor_name": "Carbenoxolone"
+        },
+        {
+            "stressor_id": 578,
+            "stressor_name": "Glycyrrhizin"
+        },
+        {
+            "stressor_id": 579,
+            "stressor_name": "PF915275"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1799,
+            "event": "Inhibition of 11\u03b2-HSD ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1756,
+            "event": "Decreased,  plasma 11-ketotestosterone level",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1758,
+            "event": "Impaired, Spermatogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2253,
+            "upstream_event_id": 1799,
+            "upstream_event": "Inhibition of 11\u03b2-HSD ",
+            "downstream_event_id": 1756,
+            "downstream_event": "Decreased,  plasma 11-ketotestosterone level"
+        },
+        {
+            "relation": 2254,
+            "upstream_event_id": 1756,
+            "upstream_event": "Decreased,  plasma 11-ketotestosterone level",
+            "downstream_event_id": 1758,
+            "downstream_event": "Impaired, Spermatogenesis"
+        },
+        {
+            "relation": 2529,
+            "upstream_event_id": 1758,
+            "upstream_event": "Impaired, Spermatogenesis",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 2530,
+            "upstream_event_id": 406,
+            "upstream_event": "impaired, Fertility",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "id": 322,
+    "title": "Alkylation of DNA leading to reduced sperm count",
+    "short_name": "Alkylation of DNA leading to reduced sperm count",
+    "created_at": "2020-03-31T15:19:28.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 61,
+        "created_at": "2013-12-16T13:44:19.000-05:00",
+        "updated_at": "2023-01-09T20:14:28.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 97,
+            "event": "Alkylation, DNA",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 155,
+            "event": "Inadequate DNA repair",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1635,
+            "event": "Increase, DNA strand breaks",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1365,
+            "event": "Increase, Apoptosis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1757,
+            "event": "Reduce, Sperm count",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2107,
+            "upstream_event_id": 97,
+            "upstream_event": "Alkylation, DNA",
+            "downstream_event_id": 155,
+            "downstream_event": "Inadequate DNA repair"
+        },
+        {
+            "relation": 2106,
+            "upstream_event_id": 155,
+            "upstream_event": "Inadequate DNA repair",
+            "downstream_event_id": 1635,
+            "downstream_event": "Increase, DNA strand breaks"
+        },
+        {
+            "relation": 2108,
+            "upstream_event_id": 1635,
+            "upstream_event": "Increase, DNA strand breaks",
+            "downstream_event_id": 1365,
+            "downstream_event": "Increase, Apoptosis"
+        },
+        {
+            "relation": 2110,
+            "upstream_event_id": 1365,
+            "upstream_event": "Increase, Apoptosis",
+            "downstream_event_id": 1757,
+            "downstream_event": "Reduce, Sperm count"
+        }
+    ]
+}

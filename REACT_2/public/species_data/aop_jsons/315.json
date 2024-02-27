@@ -1,0 +1,85 @@
+{
+    "id": 315,
+    "title": "Inhibition of JAK3 leading to impairment of T-Cell Dependent Antibody Response",
+    "short_name": "Immune dysfunction induced by JAK3 inhibition",
+    "created_at": "2020-01-05T17:55:25.000-05:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 1279,
+        "created_at": "2020-01-07T18:48:33.000-05:00",
+        "updated_at": "2021-11-03T11:14:57.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 585,
+            "stressor_name": "PF-06651600 (CAS No\uff1a1792180-81-4), "
+        },
+        {
+            "stressor_id": 586,
+            "stressor_name": "RB1"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1715,
+            "event": "Inhibition of JAK3",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1716,
+            "event": "Blockade of STAT5 phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1717,
+            "event": "Suppression of STAT5 binding to cytokine gene promoters",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1718,
+            "event": "Suppression of IL-4 production",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1719,
+            "event": "Impairment of T-cell dependent antibody response",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2051,
+            "upstream_event_id": 1715,
+            "upstream_event": "Inhibition of JAK3",
+            "downstream_event_id": 1716,
+            "downstream_event": "Blockade of STAT5 phosphorylation"
+        },
+        {
+            "relation": 2052,
+            "upstream_event_id": 1716,
+            "upstream_event": "Blockade of STAT5 phosphorylation",
+            "downstream_event_id": 1717,
+            "downstream_event": "Suppression of STAT5 binding to cytokine gene promoters"
+        },
+        {
+            "relation": 2053,
+            "upstream_event_id": 1717,
+            "upstream_event": "Suppression of STAT5 binding to cytokine gene promoters",
+            "downstream_event_id": 1718,
+            "downstream_event": "Suppression of IL-4 production"
+        },
+        {
+            "relation": 2054,
+            "upstream_event_id": 1718,
+            "upstream_event": "Suppression of IL-4 production",
+            "downstream_event_id": 1719,
+            "downstream_event": "Impairment of T-cell dependent antibody response"
+        }
+    ]
+}

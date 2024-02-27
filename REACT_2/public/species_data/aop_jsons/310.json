@@ -1,0 +1,172 @@
+{
+    "id": 310,
+    "title": "Embryonic Activation of the AHR leading to Reproductive failure, via epigenetic down-regulation of GnRHR",
+    "short_name": "AHR mediated epigenetic reproductive failure",
+    "created_at": "2019-10-30T16:09:12.000-04:00",
+    "updated_at": "2023-04-29T16:03:02.000-04:00",
+    "corresponding_author": {
+        "id": 394,
+        "created_at": "2017-02-09T10:25:49.000-05:00",
+        "updated_at": "2022-12-13T09:55:08.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 509,
+            "stressor_name": "benzo[a]pyrene"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 18,
+            "event": "Activation, AhR",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 944,
+            "event": "dimerization, AHR/ARNT",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1697,
+            "event": "Increase, DNA methyltransferase expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1698,
+            "event": "Increase, hypermethylation of the promotor region of gonadotropin releasing hormone receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1699,
+            "event": "Decrease, expression of gonadotropin releasing hormone receptor",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 3,
+            "event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 285,
+            "event": "Reduction, Vitellogenin synthesis in liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 309,
+            "event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2015,
+            "upstream_event_id": 18,
+            "upstream_event": "Activation, AhR",
+            "downstream_event_id": 944,
+            "downstream_event": "dimerization, AHR/ARNT"
+        },
+        {
+            "relation": 2014,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 2016,
+            "upstream_event_id": 944,
+            "upstream_event": "dimerization, AHR/ARNT",
+            "downstream_event_id": 1697,
+            "downstream_event": "Increase, DNA methyltransferase expression"
+        },
+        {
+            "relation": 2005,
+            "upstream_event_id": 1697,
+            "upstream_event": "Increase, DNA methyltransferase expression",
+            "downstream_event_id": 1698,
+            "downstream_event": "Increase, hypermethylation of the promotor region of gonadotropin releasing hormone receptor"
+        },
+        {
+            "relation": 2006,
+            "upstream_event_id": 1698,
+            "upstream_event": "Increase, hypermethylation of the promotor region of gonadotropin releasing hormone receptor",
+            "downstream_event_id": 1699,
+            "downstream_event": "Decrease, expression of gonadotropin releasing hormone receptor"
+        },
+        {
+            "relation": 2007,
+            "upstream_event_id": 1699,
+            "upstream_event": "Decrease, expression of gonadotropin releasing hormone receptor",
+            "downstream_event_id": 3,
+            "downstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells"
+        },
+        {
+            "relation": 2008,
+            "upstream_event_id": 3,
+            "upstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 2009,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 285,
+            "downstream_event": "Reduction, Vitellogenin synthesis in liver"
+        },
+        {
+            "relation": 2010,
+            "upstream_event_id": 285,
+            "upstream_event": "Reduction, Vitellogenin synthesis in liver",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 2011,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 309,
+            "downstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"
+        },
+        {
+            "relation": 2017,
+            "upstream_event_id": 309,
+            "upstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 2018,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

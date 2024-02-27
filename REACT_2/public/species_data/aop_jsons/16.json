@@ -1,0 +1,142 @@
+{
+    "id": 16,
+    "title": "Acetylcholinesterase inhibition leading to acute mortality",
+    "short_name": "AChE inhibition - acute mortality",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:55.000-04:00",
+    "corresponding_author": {
+        "id": 313,
+        "created_at": "2013-05-02T08:44:29.000-04:00",
+        "updated_at": "2024-01-31T12:20:37.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 12,
+            "event": "Acetylcholinesterase (AchE) Inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 10,
+            "event": "Acetylcholine accumulation in synapses",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 39,
+            "event": "Increased Cholinergic Signaling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 445,
+            "event": "Respiratory distress/arrest",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1703,
+            "event": "Dysregulation of heart rate and vascular tone",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2033,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 39,
+            "downstream_event": "Increased Cholinergic Signaling"
+        },
+        {
+            "relation": 155,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 10,
+            "downstream_event": "Acetylcholine accumulation in synapses"
+        },
+        {
+            "relation": 165,
+            "upstream_event_id": 10,
+            "upstream_event": "Acetylcholine accumulation in synapses",
+            "downstream_event_id": 39,
+            "downstream_event": "Increased Cholinergic Signaling"
+        },
+        {
+            "relation": 159,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 445,
+            "downstream_event": "Respiratory distress/arrest"
+        },
+        {
+            "relation": 164,
+            "upstream_event_id": 39,
+            "upstream_event": "Increased Cholinergic Signaling",
+            "downstream_event_id": 445,
+            "downstream_event": "Respiratory distress/arrest"
+        },
+        {
+            "relation": 2029,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 1703,
+            "downstream_event": "Dysregulation of heart rate and vascular tone"
+        },
+        {
+            "relation": 2027,
+            "upstream_event_id": 39,
+            "upstream_event": "Increased Cholinergic Signaling",
+            "downstream_event_id": 1703,
+            "downstream_event": "Dysregulation of heart rate and vascular tone"
+        },
+        {
+            "relation": 2028,
+            "upstream_event_id": 1703,
+            "upstream_event": "Dysregulation of heart rate and vascular tone",
+            "downstream_event_id": 445,
+            "downstream_event": "Respiratory distress/arrest"
+        },
+        {
+            "relation": 158,
+            "upstream_event_id": 445,
+            "upstream_event": "Respiratory distress/arrest",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 160,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2042,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        },
+        {
+            "relation": 2043,
+            "upstream_event_id": 12,
+            "upstream_event": "Acetylcholinesterase (AchE) Inhibition",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

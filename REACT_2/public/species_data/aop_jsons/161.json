@@ -1,0 +1,105 @@
+{
+    "id": 161,
+    "title": "Glutamate-gated chloride channel activation leading to neurotransmission inhibition associated mortality",
+    "short_name": "GluCl activation leading to mortality",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:58.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 83,
+            "stressor_name": "Emamectin benzoate"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1018,
+            "event": "Activation, Glutamate-gated chloride channels",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1015,
+            "event": "Increased, Neuronal synaptic inhibition",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1012,
+            "event": "Increased, Inhibitory postsynaptic potential",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1016,
+            "event": "Inhibition, Feeding",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 761,
+            "event": "Increased, Chloride conductance",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1019,
+            "event": "Induction, pharyngeal muscle paralysis",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 718,
+            "upstream_event_id": 1015,
+            "upstream_event": "Increased, Neuronal synaptic inhibition",
+            "downstream_event_id": 1012,
+            "downstream_event": "Increased, Inhibitory postsynaptic potential"
+        },
+        {
+            "relation": 719,
+            "upstream_event_id": 1016,
+            "upstream_event": "Inhibition, Feeding",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 720,
+            "upstream_event_id": 1018,
+            "upstream_event": "Activation, Glutamate-gated chloride channels",
+            "downstream_event_id": 761,
+            "downstream_event": "Increased, Chloride conductance"
+        },
+        {
+            "relation": 721,
+            "upstream_event_id": 761,
+            "upstream_event": "Increased, Chloride conductance",
+            "downstream_event_id": 1015,
+            "downstream_event": "Increased, Neuronal synaptic inhibition"
+        },
+        {
+            "relation": 722,
+            "upstream_event_id": 1012,
+            "upstream_event": "Increased, Inhibitory postsynaptic potential",
+            "downstream_event_id": 1019,
+            "downstream_event": "Induction, pharyngeal muscle paralysis"
+        },
+        {
+            "relation": 723,
+            "upstream_event_id": 1019,
+            "upstream_event": "Induction, pharyngeal muscle paralysis",
+            "downstream_event_id": 1016,
+            "downstream_event": "Inhibition, Feeding"
+        }
+    ]
+}

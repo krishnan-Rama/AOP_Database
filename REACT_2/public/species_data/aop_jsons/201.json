@@ -1,0 +1,109 @@
+{
+    "id": 201,
+    "title": "Juvenile hormone receptor agonism leading to male offspring induction associated population decline",
+    "short_name": "JHR agonism leading to population decline",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 213,
+            "stressor_name": "fenoxycarb"
+        },
+        {
+            "stressor_id": 214,
+            "stressor_name": "DIOFENOLAN"
+        },
+        {
+            "stressor_id": 215,
+            "stressor_name": "pyriproxyfen"
+        },
+        {
+            "stressor_id": 216,
+            "stressor_name": "(7S)-Hydroprene"
+        },
+        {
+            "stressor_id": 217,
+            "stressor_name": "kinoprene"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1205,
+            "event": "Activation, Juvenile hormone receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1206,
+            "event": "Induction, Doublesex1 gene",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1209,
+            "event": "Induction, Male reproductive tract",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1208,
+            "event": "Increased, Male offspring",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 361,
+            "event": "Decline, Population",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1210,
+            "event": "Alteration, Food-web structures",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 955,
+            "upstream_event_id": 1205,
+            "upstream_event": "Activation, Juvenile hormone receptor",
+            "downstream_event_id": 1206,
+            "downstream_event": "Induction, Doublesex1 gene"
+        },
+        {
+            "relation": 956,
+            "upstream_event_id": 1206,
+            "upstream_event": "Induction, Doublesex1 gene",
+            "downstream_event_id": 1209,
+            "downstream_event": "Induction, Male reproductive tract"
+        },
+        {
+            "relation": 957,
+            "upstream_event_id": 1209,
+            "upstream_event": "Induction, Male reproductive tract",
+            "downstream_event_id": 1208,
+            "downstream_event": "Increased, Male offspring"
+        },
+        {
+            "relation": 958,
+            "upstream_event_id": 1208,
+            "upstream_event": "Increased, Male offspring",
+            "downstream_event_id": 361,
+            "downstream_event": "Decline, Population"
+        },
+        {
+            "relation": 959,
+            "upstream_event_id": 361,
+            "upstream_event": "Decline, Population",
+            "downstream_event_id": 1210,
+            "downstream_event": "Alteration, Food-web structures"
+        }
+    ]
+}

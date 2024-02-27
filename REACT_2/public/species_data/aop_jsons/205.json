@@ -1,0 +1,93 @@
+{
+    "id": 205,
+    "title": "AOP from chemical insult to cell death",
+    "short_name": "AOP on basal cytotoxicity",
+    "created_at": "2017-02-06T14:58:57.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 242,
+        "created_at": "2013-12-16T13:58:17.000-05:00",
+        "updated_at": "2021-04-13T09:39:39.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 240,
+            "stressor_name": "Chemical"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1258,
+            "event": "Decompartmentalization",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1260,
+            "event": "Direct mitochondrial inhibition",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1259,
+            "event": "narcosis",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1261,
+            "event": "Mitochondrial impairment",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1262,
+            "event": "Apoptosis",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 1263,
+            "event": "Necrosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1070,
+            "upstream_event_id": 1258,
+            "upstream_event": "Decompartmentalization",
+            "downstream_event_id": 1261,
+            "downstream_event": "Mitochondrial impairment"
+        },
+        {
+            "relation": 1071,
+            "upstream_event_id": 1260,
+            "upstream_event": "Direct mitochondrial inhibition",
+            "downstream_event_id": 1261,
+            "downstream_event": "Mitochondrial impairment"
+        },
+        {
+            "relation": 1072,
+            "upstream_event_id": 1259,
+            "upstream_event": "narcosis",
+            "downstream_event_id": 1261,
+            "downstream_event": "Mitochondrial impairment"
+        },
+        {
+            "relation": 1073,
+            "upstream_event_id": 1261,
+            "upstream_event": "Mitochondrial impairment",
+            "downstream_event_id": 1262,
+            "downstream_event": "Apoptosis"
+        },
+        {
+            "relation": 1074,
+            "upstream_event_id": 1261,
+            "upstream_event": "Mitochondrial impairment",
+            "downstream_event_id": 1263,
+            "downstream_event": "Necrosis"
+        }
+    ]
+}

@@ -1,0 +1,278 @@
+{
+    "id": 511,
+    "title": "The AOP framework on ROS-mediated oxidative stress induced vascular disrupting effects ",
+    "short_name": "The AOP framework on ROS-mediated oxidative stress induced vascular disrupting effects ",
+    "created_at": "2023-08-21T01:26:50.000-04:00",
+    "updated_at": "2024-02-21T16:05:58.000-05:00",
+    "corresponding_author": {
+        "id": 17644,
+        "created_at": "2023-07-09T02:21:52.000-04:00",
+        "updated_at": "2024-02-19T09:49:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 257,
+            "event": "Increase, Reactive Oxygen Species production",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1969,
+            "event": "Increase, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2009,
+            "event": "Activation of inflammation pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2170,
+            "event": "Activated ANG/Tie2 pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2164,
+            "event": "Activation, Dll4-Notch pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2171,
+            "event": "Activated BMP/TGF-beta pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2172,
+            "event": "Activated Wnt/Frizzled pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 932,
+            "event": "KE4 : Uncoupling, eNOS",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2173,
+            "event": "Activated AKT/ERK/PI3K pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2174,
+            "event": "Inhibition VEGF/VEGFR pathway",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2178,
+            "event": "Vascular barrier disruption",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2179,
+            "event": "Impaired Platelet Aggregation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1928,
+            "event": "increased\uff0cVascular endothelial dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2181,
+            "event": "Angiogenesis dysfunction",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 2161,
+            "event": "Increase, Vascular disrupting effects",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3562,
+            "upstream_event_id": 257,
+            "upstream_event": "Increase, Reactive Oxygen Species production",
+            "downstream_event_id": 1969,
+            "downstream_event": "Increase, Oxidative Stress"
+        },
+        {
+            "relation": 3563,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2009,
+            "downstream_event": "Activation of inflammation pathway"
+        },
+        {
+            "relation": 3564,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2170,
+            "downstream_event": "Activated ANG/Tie2 pathway"
+        },
+        {
+            "relation": 3565,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2164,
+            "downstream_event": "Activation, Dll4-Notch pathway"
+        },
+        {
+            "relation": 3566,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2171,
+            "downstream_event": "Activated BMP/TGF-beta pathway"
+        },
+        {
+            "relation": 3567,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2172,
+            "downstream_event": "Activated Wnt/Frizzled pathway"
+        },
+        {
+            "relation": 3568,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 932,
+            "downstream_event": "KE4 : Uncoupling, eNOS"
+        },
+        {
+            "relation": 3569,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2173,
+            "downstream_event": "Activated AKT/ERK/PI3K pathway"
+        },
+        {
+            "relation": 3570,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 2174,
+            "downstream_event": "Inhibition VEGF/VEGFR pathway"
+        },
+        {
+            "relation": 3746,
+            "upstream_event_id": 1969,
+            "upstream_event": "Increase, Oxidative Stress",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 3586,
+            "upstream_event_id": 2009,
+            "upstream_event": "Activation of inflammation pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3587,
+            "upstream_event_id": 2170,
+            "upstream_event": "Activated ANG/Tie2 pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3588,
+            "upstream_event_id": 2164,
+            "upstream_event": "Activation, Dll4-Notch pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3589,
+            "upstream_event_id": 2171,
+            "upstream_event": "Activated BMP/TGF-beta pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3590,
+            "upstream_event_id": 2172,
+            "upstream_event": "Activated Wnt/Frizzled pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3591,
+            "upstream_event_id": 932,
+            "upstream_event": "KE4 : Uncoupling, eNOS",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3592,
+            "upstream_event_id": 2173,
+            "upstream_event": "Activated AKT/ERK/PI3K pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3593,
+            "upstream_event_id": 2174,
+            "upstream_event": "Inhibition VEGF/VEGFR pathway",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3747,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 1928,
+            "downstream_event": "increased\uff0cVascular endothelial dysfunction"
+        },
+        {
+            "relation": 3597,
+            "upstream_event_id": 1928,
+            "upstream_event": "increased\uff0cVascular endothelial dysfunction",
+            "downstream_event_id": 2179,
+            "downstream_event": "Impaired Platelet Aggregation"
+        },
+        {
+            "relation": 3598,
+            "upstream_event_id": 2178,
+            "upstream_event": "Vascular barrier disruption",
+            "downstream_event_id": 2161,
+            "downstream_event": "Increase, Vascular disrupting effects"
+        },
+        {
+            "relation": 3600,
+            "upstream_event_id": 2179,
+            "upstream_event": "Impaired Platelet Aggregation",
+            "downstream_event_id": 2161,
+            "downstream_event": "Increase, Vascular disrupting effects"
+        },
+        {
+            "relation": 3602,
+            "upstream_event_id": 1928,
+            "upstream_event": "increased\uff0cVascular endothelial dysfunction",
+            "downstream_event_id": 2181,
+            "downstream_event": "Angiogenesis dysfunction"
+        },
+        {
+            "relation": 3603,
+            "upstream_event_id": 2181,
+            "upstream_event": "Angiogenesis dysfunction",
+            "downstream_event_id": 2161,
+            "downstream_event": "Increase, Vascular disrupting effects"
+        },
+        {
+            "relation": 3604,
+            "upstream_event_id": 1928,
+            "upstream_event": "increased\uff0cVascular endothelial dysfunction",
+            "downstream_event_id": 2178,
+            "downstream_event": "Vascular barrier disruption"
+        }
+    ]
+}

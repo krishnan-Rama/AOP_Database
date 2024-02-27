@@ -1,0 +1,64 @@
+{
+    "id": 1,
+    "title": "Uncharacterized liver damage leading to hepatocellular carcinoma",
+    "short_name": "Liver damage and hepatocellular carcinoma",
+    "created_at": "2016-11-29T18:41:15.000-05:00",
+    "updated_at": "2023-04-29T16:02:54.000-04:00",
+    "corresponding_author": {
+        "id": 106,
+        "created_at": "2013-05-02T08:14:24.000-04:00",
+        "updated_at": "2024-01-03T20:12:13.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 294,
+            "event": "N/A, Unknown",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 142,
+            "event": "Hyperplasia, Hyperplasia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 57,
+            "event": "Proliferation, Cell proliferation in the absence of cytotoxicity",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 334,
+            "event": "Promotion, Hepatocelluar carcinoma",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1,
+            "upstream_event_id": 294,
+            "upstream_event": "N/A, Unknown",
+            "downstream_event_id": 57,
+            "downstream_event": "Proliferation, Cell proliferation in the absence of cytotoxicity"
+        },
+        {
+            "relation": 2,
+            "upstream_event_id": 57,
+            "upstream_event": "Proliferation, Cell proliferation in the absence of cytotoxicity",
+            "downstream_event_id": 142,
+            "downstream_event": "Hyperplasia, Hyperplasia"
+        },
+        {
+            "relation": 3,
+            "upstream_event_id": 142,
+            "upstream_event": "Hyperplasia, Hyperplasia",
+            "downstream_event_id": 334,
+            "downstream_event": "Promotion, Hepatocelluar carcinoma"
+        }
+    ]
+}

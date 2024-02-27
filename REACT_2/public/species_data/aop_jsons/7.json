@@ -1,0 +1,76 @@
+{
+    "id": 7,
+    "title": "Aromatase (Cyp19a1) reduction leading to impaired fertility in adult female",
+    "short_name": "Aromatase (Cyp19a1) reduction leading to reproductive toxicity",
+    "created_at": "2016-11-29T18:41:15.000-05:00",
+    "updated_at": "2023-04-29T16:02:54.000-04:00",
+    "corresponding_author": {
+        "id": 109,
+        "created_at": "2016-07-01T09:27:11.000-04:00",
+        "updated_at": "2021-04-13T09:40:27.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 408,
+            "event": "reduction in ovarian granulosa cells, Aromatase (Cyp19a1)",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 3,
+            "event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 406,
+            "event": "impaired, Fertility",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 405,
+            "event": "irregularities, ovarian cycle",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 126,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 405,
+            "downstream_event": "irregularities, ovarian cycle"
+        },
+        {
+            "relation": 127,
+            "upstream_event_id": 3,
+            "upstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 128,
+            "upstream_event_id": 405,
+            "upstream_event": "irregularities, ovarian cycle",
+            "downstream_event_id": 406,
+            "downstream_event": "impaired, Fertility"
+        },
+        {
+            "relation": 637,
+            "upstream_event_id": 408,
+            "upstream_event": "reduction in ovarian granulosa cells, Aromatase (Cyp19a1)",
+            "downstream_event_id": 3,
+            "downstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells"
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "id": 410,
+    "title": "GSK3beta inactivation leading to increased mortality via defects in developing inner ear",
+    "short_name": "GSK3beta inactivation leads to increased mortality",
+    "created_at": "2021-07-14T13:47:28.000-04:00",
+    "updated_at": "2023-04-29T16:03:05.000-04:00",
+    "corresponding_author": {
+        "id": 4439,
+        "created_at": "2021-04-09T08:21:26.000-04:00",
+        "updated_at": "2022-01-13T03:37:05.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 474,
+            "stressor_name": "BIO (6-bromoindirubin-3\u2019-oxime) "
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1647,
+            "event": "GSK3beta inactivation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1902,
+            "event": "Repression of Gbx2 expression",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1903,
+            "event": "foxi1 expression, increased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1904,
+            "event": "six1b expression, increased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1905,
+            "event": "eya1 expression, inhibited",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1825,
+            "event": "Increase, Cell death",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1930,
+            "event": "altered, inner ear development",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1008,
+            "event": "Reduced, Hearing",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 2852,
+            "upstream_event_id": 1647,
+            "upstream_event": "GSK3beta inactivation",
+            "downstream_event_id": 1902,
+            "downstream_event": "Repression of Gbx2 expression"
+        },
+        {
+            "relation": 2853,
+            "upstream_event_id": 1902,
+            "upstream_event": "Repression of Gbx2 expression",
+            "downstream_event_id": 1903,
+            "downstream_event": "foxi1 expression, increased"
+        },
+        {
+            "relation": 2765,
+            "upstream_event_id": 1903,
+            "upstream_event": "foxi1 expression, increased",
+            "downstream_event_id": 1904,
+            "downstream_event": "six1b expression, increased"
+        },
+        {
+            "relation": 2766,
+            "upstream_event_id": 1904,
+            "upstream_event": "six1b expression, increased",
+            "downstream_event_id": 1905,
+            "downstream_event": "eya1 expression, inhibited"
+        },
+        {
+            "relation": 2767,
+            "upstream_event_id": 1905,
+            "upstream_event": "eya1 expression, inhibited",
+            "downstream_event_id": 1825,
+            "downstream_event": "Increase, Cell death"
+        },
+        {
+            "relation": 2798,
+            "upstream_event_id": 1825,
+            "upstream_event": "Increase, Cell death",
+            "downstream_event_id": 1930,
+            "downstream_event": "altered, inner ear development"
+        },
+        {
+            "relation": 2799,
+            "upstream_event_id": 1930,
+            "upstream_event": "altered, inner ear development",
+            "downstream_event_id": 1008,
+            "downstream_event": "Reduced, Hearing"
+        },
+        {
+            "relation": 2854,
+            "upstream_event_id": 1008,
+            "upstream_event": "Reduced, Hearing",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 2891,
+            "upstream_event_id": 351,
+            "upstream_event": "Increased Mortality",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}

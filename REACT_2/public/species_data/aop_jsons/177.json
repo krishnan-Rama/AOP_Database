@@ -1,0 +1,200 @@
+{
+    "id": 177,
+    "title": "Cyclooxygenase 1 (COX1) inhibition leading to renal failure and mortality",
+    "short_name": "Cox1 inhibition renal failure",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 120,
+        "created_at": "2015-03-26T12:07:40.000-04:00",
+        "updated_at": "2022-02-08T14:04:58.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 190,
+            "stressor_name": "flunixin meglumine"
+        },
+        {
+            "stressor_id": 181,
+            "stressor_name": "Ketoprofen"
+        },
+        {
+            "stressor_id": 15,
+            "stressor_name": "Diclofenac sodium"
+        },
+        {
+            "stressor_id": 191,
+            "stressor_name": "Clofibrate"
+        },
+        {
+            "stressor_id": 27,
+            "stressor_name": "Indomethacin"
+        },
+        {
+            "stressor_id": 82,
+            "stressor_name": "Ibuprofen"
+        },
+        {
+            "stressor_id": 192,
+            "stressor_name": "Meloxicam"
+        },
+        {
+            "stressor_id": 86,
+            "stressor_name": "Celecoxib"
+        },
+        {
+            "stressor_id": 193,
+            "stressor_name": "nimesulide"
+        },
+        {
+            "stressor_id": 182,
+            "stressor_name": "Phenylbutazone"
+        },
+        {
+            "stressor_id": 194,
+            "stressor_name": "Carprofen"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1103,
+            "event": "Inhibition, Cyclooxygenase 1 activity",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1104,
+            "event": "Decreased, Prostaglandin F2alpha concentration, plasma ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1105,
+            "event": "Occurrence, renal ischemia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1097,
+            "event": "Occurrence, renal proximal tubular necrosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1098,
+            "event": "Increased, blood potassium concentration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1106,
+            "event": "Occurrence, cardiac arrhythmia",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1088,
+            "event": "Increased, Oxidative Stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1096,
+            "event": "Increased, blood uric acid concentration",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1102,
+            "event": "Occurrence, tophi (urate) deposition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 351,
+            "event": "Increased Mortality",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 808,
+            "upstream_event_id": 1104,
+            "upstream_event": "Decreased, Prostaglandin F2alpha concentration, plasma ",
+            "downstream_event_id": 1105,
+            "downstream_event": "Occurrence, renal ischemia"
+        },
+        {
+            "relation": 809,
+            "upstream_event_id": 1097,
+            "upstream_event": "Occurrence, renal proximal tubular necrosis",
+            "downstream_event_id": 1098,
+            "downstream_event": "Increased, blood potassium concentration"
+        },
+        {
+            "relation": 810,
+            "upstream_event_id": 1103,
+            "upstream_event": "Inhibition, Cyclooxygenase 1 activity",
+            "downstream_event_id": 1104,
+            "downstream_event": "Decreased, Prostaglandin F2alpha concentration, plasma "
+        },
+        {
+            "relation": 831,
+            "upstream_event_id": 1098,
+            "upstream_event": "Increased, blood potassium concentration",
+            "downstream_event_id": 1106,
+            "downstream_event": "Occurrence, cardiac arrhythmia"
+        },
+        {
+            "relation": 834,
+            "upstream_event_id": 1106,
+            "upstream_event": "Occurrence, cardiac arrhythmia",
+            "downstream_event_id": 351,
+            "downstream_event": "Increased Mortality"
+        },
+        {
+            "relation": 850,
+            "upstream_event_id": 1105,
+            "upstream_event": "Occurrence, renal ischemia",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        },
+        {
+            "relation": 851,
+            "upstream_event_id": 1088,
+            "upstream_event": "Increased, Oxidative Stress",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 861,
+            "upstream_event_id": 1097,
+            "upstream_event": "Occurrence, renal proximal tubular necrosis",
+            "downstream_event_id": 1096,
+            "downstream_event": "Increased, blood uric acid concentration"
+        },
+        {
+            "relation": 862,
+            "upstream_event_id": 1096,
+            "upstream_event": "Increased, blood uric acid concentration",
+            "downstream_event_id": 1102,
+            "downstream_event": "Occurrence, tophi (urate) deposition"
+        },
+        {
+            "relation": 863,
+            "upstream_event_id": 1102,
+            "upstream_event": "Occurrence, tophi (urate) deposition",
+            "downstream_event_id": 1097,
+            "downstream_event": "Occurrence, renal proximal tubular necrosis"
+        },
+        {
+            "relation": 864,
+            "upstream_event_id": 1096,
+            "upstream_event": "Increased, blood uric acid concentration",
+            "downstream_event_id": 1088,
+            "downstream_event": "Increased, Oxidative Stress"
+        }
+    ]
+}

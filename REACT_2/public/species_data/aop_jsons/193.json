@@ -1,0 +1,64 @@
+{
+    "id": 193,
+    "title": "Dual oxidase (DUOX) inhibition leading to altered amphibian metamorphosis",
+    "short_name": "DUOX inhib alters metamorphosis",
+    "created_at": "2016-11-29T18:41:17.000-05:00",
+    "updated_at": "2023-04-29T16:02:59.000-04:00",
+    "corresponding_author": {
+        "id": 142,
+        "created_at": "2015-07-24T10:53:28.000-04:00",
+        "updated_at": "2021-07-13T15:26:42.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 1156,
+            "event": "Inhibition, Dual oxidase",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 277,
+            "event": "Thyroid hormone synthesis, Decreased",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 281,
+            "event": " Thyroxine (T4) in serum, Decreased",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1101,
+            "event": "Altered, Amphibian metamorphosis",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 897,
+            "upstream_event_id": 1156,
+            "upstream_event": "Inhibition, Dual oxidase",
+            "downstream_event_id": 277,
+            "downstream_event": "Thyroid hormone synthesis, Decreased"
+        },
+        {
+            "relation": 2816,
+            "upstream_event_id": 281,
+            "upstream_event": " Thyroxine (T4) in serum, Decreased",
+            "downstream_event_id": 1101,
+            "downstream_event": "Altered, Amphibian metamorphosis"
+        },
+        {
+            "relation": 2815,
+            "upstream_event_id": 277,
+            "upstream_event": "Thyroid hormone synthesis, Decreased",
+            "downstream_event_id": 281,
+            "downstream_event": " Thyroxine (T4) in serum, Decreased"
+        }
+    ]
+}

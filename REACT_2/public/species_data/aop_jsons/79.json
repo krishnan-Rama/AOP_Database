@@ -1,0 +1,76 @@
+{
+    "id": 79,
+    "title": "Nicotinic acetylcholine receptor activation contributes to impaired hive thermoregulation and leads to colony loss/failure",
+    "short_name": "nAChR activation - colony loss 3",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 198,
+        "created_at": "2014-01-14T10:26:18.000-05:00",
+        "updated_at": "2022-08-08T13:04:09.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 559,
+            "event": "Activation, Nicotinic acetylcholine receptor",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 177,
+            "event": "N/A, Mitochondrial dysfunction 1",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 568,
+            "event": "impaired, Hive thermoregulation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1107,
+            "event": "Weakened, Colony",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 563,
+            "event": "Death/Failure, Colony",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 339,
+            "upstream_event_id": 559,
+            "upstream_event": "Activation, Nicotinic acetylcholine receptor",
+            "downstream_event_id": 177,
+            "downstream_event": "N/A, Mitochondrial dysfunction 1"
+        },
+        {
+            "relation": 826,
+            "upstream_event_id": 177,
+            "upstream_event": "N/A, Mitochondrial dysfunction 1",
+            "downstream_event_id": 568,
+            "downstream_event": "impaired, Hive thermoregulation"
+        },
+        {
+            "relation": 827,
+            "upstream_event_id": 568,
+            "upstream_event": "impaired, Hive thermoregulation",
+            "downstream_event_id": 1107,
+            "downstream_event": "Weakened, Colony"
+        },
+        {
+            "relation": 828,
+            "upstream_event_id": 1107,
+            "upstream_event": "Weakened, Colony",
+            "downstream_event_id": 563,
+            "downstream_event": "Death/Failure, Colony"
+        }
+    ]
+}

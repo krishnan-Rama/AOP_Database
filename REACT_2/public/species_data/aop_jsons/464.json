@@ -1,0 +1,293 @@
+{
+    "id": 464,
+    "title": "Calcium overload in dopaminergic neurons of the substantia nigra leading to parkinsonian motor deficits",
+    "short_name": "Calcium overload driven development of parkinsonian motor deficits",
+    "created_at": "2022-07-25T03:00:16.000-04:00",
+    "updated_at": "2023-09-14T09:02:53.000-04:00",
+    "corresponding_author": {
+        "id": 11368,
+        "created_at": "2022-07-15T03:15:17.000-04:00",
+        "updated_at": "2023-09-14T08:12:46.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 2036,
+            "event": "Activation of metabotropic glutamate receptor",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2037,
+            "event": "Inositol triphosphate receptor activation",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 388,
+            "event": "Overactivation, NMDARs",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2039,
+            "event": "Inhibition GABAA receptor",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 2187,
+            "event": "Opening, voltage-gated calcium channels",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1527,
+            "event": "Increase, Cell membrane depolarization",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 389,
+            "event": "Increased, Intracellular Calcium overload",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2038,
+            "event": "Activation of calpain signalling",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2017,
+            "event": "Endoplasmic reticulum stress",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1512,
+            "event": "Unfolded Protein Response",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1816,
+            "event": "Mitochondrial dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1585,
+            "event": "Proteasomal dysfunction",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1605,
+            "event": "Accumulation of misfolded proteins",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1392,
+            "event": "Oxidative Stress ",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1547,
+            "event": "Mitochondrial Injury",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1812,
+            "event": "Increase, Cytochrome c release",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2188,
+            "event": "Activation, caspases",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1825,
+            "event": "Increase, Cell death",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 896,
+            "event": "Parkinsonian motor deficits",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3156,
+            "upstream_event_id": 2036,
+            "upstream_event": "Activation of metabotropic glutamate receptor",
+            "downstream_event_id": 2037,
+            "downstream_event": "Inositol triphosphate receptor activation"
+        },
+        {
+            "relation": 3155,
+            "upstream_event_id": 2037,
+            "upstream_event": "Inositol triphosphate receptor activation",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 3160,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 3622,
+            "upstream_event_id": 388,
+            "upstream_event": "Overactivation, NMDARs",
+            "downstream_event_id": 1527,
+            "downstream_event": "Increase, Cell membrane depolarization"
+        },
+        {
+            "relation": 3161,
+            "upstream_event_id": 2039,
+            "upstream_event": "Inhibition GABAA receptor",
+            "downstream_event_id": 1527,
+            "downstream_event": "Increase, Cell membrane depolarization"
+        },
+        {
+            "relation": 3623,
+            "upstream_event_id": 1527,
+            "upstream_event": "Increase, Cell membrane depolarization",
+            "downstream_event_id": 2187,
+            "downstream_event": "Opening, voltage-gated calcium channels"
+        },
+        {
+            "relation": 3624,
+            "upstream_event_id": 2187,
+            "upstream_event": "Opening, voltage-gated calcium channels",
+            "downstream_event_id": 389,
+            "downstream_event": "Increased, Intracellular Calcium overload"
+        },
+        {
+            "relation": 3157,
+            "upstream_event_id": 389,
+            "upstream_event": "Increased, Intracellular Calcium overload",
+            "downstream_event_id": 2038,
+            "downstream_event": "Activation of calpain signalling"
+        },
+        {
+            "relation": 3158,
+            "upstream_event_id": 2038,
+            "upstream_event": "Activation of calpain signalling",
+            "downstream_event_id": 1825,
+            "downstream_event": "Increase, Cell death"
+        },
+        {
+            "relation": 3164,
+            "upstream_event_id": 389,
+            "upstream_event": "Increased, Intracellular Calcium overload",
+            "downstream_event_id": 2017,
+            "downstream_event": "Endoplasmic reticulum stress"
+        },
+        {
+            "relation": 3165,
+            "upstream_event_id": 2017,
+            "upstream_event": "Endoplasmic reticulum stress",
+            "downstream_event_id": 1512,
+            "downstream_event": "Unfolded Protein Response"
+        },
+        {
+            "relation": 3625,
+            "upstream_event_id": 1512,
+            "upstream_event": "Unfolded Protein Response",
+            "downstream_event_id": 2188,
+            "downstream_event": "Activation, caspases"
+        },
+        {
+            "relation": 3626,
+            "upstream_event_id": 389,
+            "upstream_event": "Increased, Intracellular Calcium overload",
+            "downstream_event_id": 1816,
+            "downstream_event": "Mitochondrial dysfunction"
+        },
+        {
+            "relation": 3627,
+            "upstream_event_id": 1816,
+            "upstream_event": "Mitochondrial dysfunction",
+            "downstream_event_id": 1585,
+            "downstream_event": "Proteasomal dysfunction"
+        },
+        {
+            "relation": 3628,
+            "upstream_event_id": 1585,
+            "upstream_event": "Proteasomal dysfunction",
+            "downstream_event_id": 1605,
+            "downstream_event": "Accumulation of misfolded proteins"
+        },
+        {
+            "relation": 3629,
+            "upstream_event_id": 1605,
+            "upstream_event": "Accumulation of misfolded proteins",
+            "downstream_event_id": 2017,
+            "downstream_event": "Endoplasmic reticulum stress"
+        },
+        {
+            "relation": 3630,
+            "upstream_event_id": 1605,
+            "upstream_event": "Accumulation of misfolded proteins",
+            "downstream_event_id": 2188,
+            "downstream_event": "Activation, caspases"
+        },
+        {
+            "relation": 3631,
+            "upstream_event_id": 1816,
+            "upstream_event": "Mitochondrial dysfunction",
+            "downstream_event_id": 1392,
+            "downstream_event": "Oxidative Stress "
+        },
+        {
+            "relation": 3633,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1585,
+            "downstream_event": "Proteasomal dysfunction"
+        },
+        {
+            "relation": 3632,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1605,
+            "downstream_event": "Accumulation of misfolded proteins"
+        },
+        {
+            "relation": 3168,
+            "upstream_event_id": 1392,
+            "upstream_event": "Oxidative Stress ",
+            "downstream_event_id": 1547,
+            "downstream_event": "Mitochondrial Injury"
+        },
+        {
+            "relation": 3634,
+            "upstream_event_id": 1547,
+            "upstream_event": "Mitochondrial Injury",
+            "downstream_event_id": 1812,
+            "downstream_event": "Increase, Cytochrome c release"
+        },
+        {
+            "relation": 3635,
+            "upstream_event_id": 1812,
+            "upstream_event": "Increase, Cytochrome c release",
+            "downstream_event_id": 2188,
+            "downstream_event": "Activation, caspases"
+        },
+        {
+            "relation": 3636,
+            "upstream_event_id": 2188,
+            "upstream_event": "Activation, caspases",
+            "downstream_event_id": 1825,
+            "downstream_event": "Increase, Cell death"
+        },
+        {
+            "relation": 3159,
+            "upstream_event_id": 1825,
+            "upstream_event": "Increase, Cell death",
+            "downstream_event_id": 896,
+            "downstream_event": "Parkinsonian motor deficits"
+        }
+    ]
+}

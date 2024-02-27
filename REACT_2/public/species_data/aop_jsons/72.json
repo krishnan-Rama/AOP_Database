@@ -1,0 +1,176 @@
+{
+    "id": 72,
+    "title": "Epigenetic modification of PPARG leading to adipogenesis",
+    "short_name": "PPARG mod to adipogenesis",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:56.000-04:00",
+    "corresponding_author": {
+        "id": 28,
+        "created_at": "2014-10-23T10:16:40.000-04:00",
+        "updated_at": "2023-11-16T12:51:34.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 304,
+            "stressor_name": "Tributyltin"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 228,
+            "event": "peroxisome proliferator activated receptor promoter demethylation",
+            "event_type": "MolecularInitiatingEvent"
+        },
+        {
+            "event_id": 1454,
+            "event": "chronic high fat diet",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1028,
+            "event": "Activation of specific nuclear receptors, PPAR-gamma activation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1448,
+            "event": "activation of CCAAT/enhancer-binding protein alpha",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1449,
+            "event": "increased adipogenesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1450,
+            "event": "decreased dopamine",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1451,
+            "event": "decreased reward",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1452,
+            "event": "decreased DNA methylation of tyrosine hydroxylase",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1453,
+            "event": "decreased methylation of dopamine transporter promoter",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1447,
+            "event": "obesity",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1472,
+            "upstream_event_id": 228,
+            "upstream_event": "peroxisome proliferator activated receptor promoter demethylation",
+            "downstream_event_id": 1028,
+            "downstream_event": "Activation of specific nuclear receptors, PPAR-gamma activation"
+        },
+        {
+            "relation": 1473,
+            "upstream_event_id": 1028,
+            "upstream_event": "Activation of specific nuclear receptors, PPAR-gamma activation",
+            "downstream_event_id": 1449,
+            "downstream_event": "increased adipogenesis"
+        },
+        {
+            "relation": 1474,
+            "upstream_event_id": 1448,
+            "upstream_event": "activation of CCAAT/enhancer-binding protein alpha",
+            "downstream_event_id": 1028,
+            "downstream_event": "Activation of specific nuclear receptors, PPAR-gamma activation"
+        },
+        {
+            "relation": 1475,
+            "upstream_event_id": 1448,
+            "upstream_event": "activation of CCAAT/enhancer-binding protein alpha",
+            "downstream_event_id": 1449,
+            "downstream_event": "increased adipogenesis"
+        },
+        {
+            "relation": 1476,
+            "upstream_event_id": 1449,
+            "upstream_event": "increased adipogenesis",
+            "downstream_event_id": 1447,
+            "downstream_event": "obesity"
+        },
+        {
+            "relation": 1477,
+            "upstream_event_id": 1454,
+            "upstream_event": "chronic high fat diet",
+            "downstream_event_id": 1450,
+            "downstream_event": "decreased dopamine"
+        },
+        {
+            "relation": 1478,
+            "upstream_event_id": 1450,
+            "upstream_event": "decreased dopamine",
+            "downstream_event_id": 1451,
+            "downstream_event": "decreased reward"
+        },
+        {
+            "relation": 1479,
+            "upstream_event_id": 1451,
+            "upstream_event": "decreased reward",
+            "downstream_event_id": 1452,
+            "downstream_event": "decreased DNA methylation of tyrosine hydroxylase"
+        },
+        {
+            "relation": 1480,
+            "upstream_event_id": 1451,
+            "upstream_event": "decreased reward",
+            "downstream_event_id": 1453,
+            "downstream_event": "decreased methylation of dopamine transporter promoter"
+        },
+        {
+            "relation": 1481,
+            "upstream_event_id": 1451,
+            "upstream_event": "decreased reward",
+            "downstream_event_id": 1450,
+            "downstream_event": "decreased dopamine"
+        },
+        {
+            "relation": 1482,
+            "upstream_event_id": 1452,
+            "upstream_event": "decreased DNA methylation of tyrosine hydroxylase",
+            "downstream_event_id": 1447,
+            "downstream_event": "obesity"
+        },
+        {
+            "relation": 1483,
+            "upstream_event_id": 1453,
+            "upstream_event": "decreased methylation of dopamine transporter promoter",
+            "downstream_event_id": 1447,
+            "downstream_event": "obesity"
+        },
+        {
+            "relation": 1484,
+            "upstream_event_id": 1452,
+            "upstream_event": "decreased DNA methylation of tyrosine hydroxylase",
+            "downstream_event_id": 1450,
+            "downstream_event": "decreased dopamine"
+        },
+        {
+            "relation": 1485,
+            "upstream_event_id": 1453,
+            "upstream_event": "decreased methylation of dopamine transporter promoter",
+            "downstream_event_id": 1450,
+            "downstream_event": "decreased dopamine"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "id": 449,
+    "title": "Ceramide synthase inhibition leading to neural tube defects ",
+    "short_name": "CerS leads to NTDs",
+    "created_at": "2022-05-02T07:15:38.000-04:00",
+    "updated_at": "2023-04-29T16:03:06.000-04:00",
+    "corresponding_author": {
+        "id": 459,
+        "created_at": "2017-07-18T07:11:30.000-04:00",
+        "updated_at": "2021-03-31T09:00:13.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 745,
+            "stressor_name": "Fumonisin B1"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 2023,
+            "event": "Inhibition of Ceramide Synthase ",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 2024,
+            "event": "Reduced complex sphingolipids",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2025,
+            "event": "Affected folate transporter",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2026,
+            "event": "decreased folate uptake",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 2033,
+            "event": "Increased sphingolipid-1-phosphate",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1502,
+            "event": "Histone deacetylase inhibition",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1561,
+            "event": "Neural tube defects",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 3146,
+            "upstream_event_id": 2023,
+            "upstream_event": "Inhibition of Ceramide Synthase ",
+            "downstream_event_id": 2024,
+            "downstream_event": "Reduced complex sphingolipids"
+        },
+        {
+            "relation": 3152,
+            "upstream_event_id": 1502,
+            "upstream_event": "Histone deacetylase inhibition",
+            "downstream_event_id": 1561,
+            "downstream_event": "Neural tube defects"
+        },
+        {
+            "relation": 3147,
+            "upstream_event_id": 2024,
+            "upstream_event": "Reduced complex sphingolipids",
+            "downstream_event_id": 2025,
+            "downstream_event": "Affected folate transporter"
+        },
+        {
+            "relation": 3153,
+            "upstream_event_id": 2026,
+            "upstream_event": "decreased folate uptake",
+            "downstream_event_id": 1561,
+            "downstream_event": "Neural tube defects"
+        },
+        {
+            "relation": 3148,
+            "upstream_event_id": 2025,
+            "upstream_event": "Affected folate transporter",
+            "downstream_event_id": 2026,
+            "downstream_event": "decreased folate uptake"
+        },
+        {
+            "relation": 3149,
+            "upstream_event_id": 2023,
+            "upstream_event": "Inhibition of Ceramide Synthase ",
+            "downstream_event_id": 2033,
+            "downstream_event": "Increased sphingolipid-1-phosphate"
+        },
+        {
+            "relation": 3150,
+            "upstream_event_id": 2033,
+            "upstream_event": "Increased sphingolipid-1-phosphate",
+            "downstream_event_id": 1502,
+            "downstream_event": "Histone deacetylase inhibition"
+        }
+    ]
+}

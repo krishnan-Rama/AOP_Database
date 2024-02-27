@@ -1,0 +1,153 @@
+{
+    "id": 245,
+    "title": "Reduction in photophosphorylation leading to growth inhibition in aquatic plants",
+    "short_name": "Reduction in photophosphorylation leading to growth inhibition in aquatic plants",
+    "created_at": "2017-10-10T07:43:35.000-04:00",
+    "updated_at": "2023-04-29T16:03:00.000-04:00",
+    "corresponding_author": {
+        "id": 184,
+        "created_at": "2013-08-12T09:37:11.000-04:00",
+        "updated_at": "2023-12-04T04:48:31.000-05:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [
+        {
+            "stressor_id": 321,
+            "stressor_name": "3,5-Dichlorophenol"
+        }
+    ],
+    "aop_mies": [
+        {
+            "event_id": 1471,
+            "event": "Increase, Uncoupling of photophosphorylation",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 1472,
+            "event": "Decrease, ATP production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1473,
+            "event": "Decrease, Chlorophyll synthesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1474,
+            "event": "Decrease, Light harvest capacity",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1475,
+            "event": "Decrease, Photosynthesis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1476,
+            "event": "Decrease, Glycolysis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1477,
+            "event": "Decrease, Oxidative phosphorylation",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 40,
+            "event": "Decrease, Mitochondrial ATP production",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1478,
+            "event": "Decrease, Leaf cell mitosis",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 1479,
+            "event": "Decrease, Leaf development",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 1521,
+            "event": "Decrease, Growth",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 1541,
+            "upstream_event_id": 1471,
+            "upstream_event": "Increase, Uncoupling of photophosphorylation",
+            "downstream_event_id": 1472,
+            "downstream_event": "Decrease, ATP production"
+        },
+        {
+            "relation": 1542,
+            "upstream_event_id": 1472,
+            "upstream_event": "Decrease, ATP production",
+            "downstream_event_id": 1473,
+            "downstream_event": "Decrease, Chlorophyll synthesis"
+        },
+        {
+            "relation": 1543,
+            "upstream_event_id": 1473,
+            "upstream_event": "Decrease, Chlorophyll synthesis",
+            "downstream_event_id": 1474,
+            "downstream_event": "Decrease, Light harvest capacity"
+        },
+        {
+            "relation": 1544,
+            "upstream_event_id": 1474,
+            "upstream_event": "Decrease, Light harvest capacity",
+            "downstream_event_id": 1475,
+            "downstream_event": "Decrease, Photosynthesis"
+        },
+        {
+            "relation": 1545,
+            "upstream_event_id": 1475,
+            "upstream_event": "Decrease, Photosynthesis",
+            "downstream_event_id": 1476,
+            "downstream_event": "Decrease, Glycolysis"
+        },
+        {
+            "relation": 1546,
+            "upstream_event_id": 1476,
+            "upstream_event": "Decrease, Glycolysis",
+            "downstream_event_id": 1477,
+            "downstream_event": "Decrease, Oxidative phosphorylation"
+        },
+        {
+            "relation": 1547,
+            "upstream_event_id": 1477,
+            "upstream_event": "Decrease, Oxidative phosphorylation",
+            "downstream_event_id": 40,
+            "downstream_event": "Decrease, Mitochondrial ATP production"
+        },
+        {
+            "relation": 1548,
+            "upstream_event_id": 40,
+            "upstream_event": "Decrease, Mitochondrial ATP production",
+            "downstream_event_id": 1478,
+            "downstream_event": "Decrease, Leaf cell mitosis"
+        },
+        {
+            "relation": 1549,
+            "upstream_event_id": 1478,
+            "upstream_event": "Decrease, Leaf cell mitosis",
+            "downstream_event_id": 1479,
+            "downstream_event": "Decrease, Leaf development"
+        },
+        {
+            "relation": 2511,
+            "upstream_event_id": 1479,
+            "upstream_event": "Decrease, Leaf development",
+            "downstream_event_id": 1521,
+            "downstream_event": "Decrease, Growth"
+        }
+    ]
+}

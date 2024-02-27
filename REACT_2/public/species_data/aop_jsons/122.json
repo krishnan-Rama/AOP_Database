@@ -1,0 +1,136 @@
+{
+    "id": 122,
+    "title": "Prolyl hydroxylase inhibition leading to reproductive dysfunction via increased HIF1 heterodimer formation",
+    "short_name": "Prolyl hydroxylase inhibition ",
+    "created_at": "2016-11-29T18:41:16.000-05:00",
+    "updated_at": "2023-04-29T16:02:57.000-04:00",
+    "corresponding_author": {
+        "id": 80,
+        "created_at": "2015-03-11T13:01:45.000-04:00",
+        "updated_at": "2022-06-02T15:10:05.000-04:00",
+        "subscribed": true,
+        "novice": true
+    },
+    "aop_stressors": [],
+    "aop_mies": [
+        {
+            "event_id": 798,
+            "event": "Inhibition, Prolyl hydroxylases",
+            "event_type": "MolecularInitiatingEvent"
+        }
+    ],
+    "aop_kes": [
+        {
+            "event_id": 799,
+            "event": "Increased, HIF-1 heterodimer",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 800,
+            "event": "Decreased, Aromatase (Cyp19a1) mRNA",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 3,
+            "event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 219,
+            "event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 285,
+            "event": "Reduction, Vitellogenin synthesis in liver",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 221,
+            "event": "Reduction, Plasma vitellogenin concentrations",
+            "event_type": "KeyEvent"
+        },
+        {
+            "event_id": 309,
+            "event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "event_type": "KeyEvent"
+        }
+    ],
+    "aop_aos": [
+        {
+            "event_id": 78,
+            "event": "Reduction, Cumulative fecundity and spawning",
+            "event_type": "AdverseOutcome"
+        },
+        {
+            "event_id": 360,
+            "event": "Decrease, Population growth rate",
+            "event_type": "AdverseOutcome"
+        }
+    ],
+    "relationships": [
+        {
+            "relation": 468,
+            "upstream_event_id": 798,
+            "upstream_event": "Inhibition, Prolyl hydroxylases",
+            "downstream_event_id": 799,
+            "downstream_event": "Increased, HIF-1 heterodimer"
+        },
+        {
+            "relation": 469,
+            "upstream_event_id": 799,
+            "upstream_event": "Increased, HIF-1 heterodimer",
+            "downstream_event_id": 800,
+            "downstream_event": "Decreased, Aromatase (Cyp19a1) mRNA"
+        },
+        {
+            "relation": 470,
+            "upstream_event_id": 800,
+            "upstream_event": "Decreased, Aromatase (Cyp19a1) mRNA",
+            "downstream_event_id": 3,
+            "downstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells"
+        },
+        {
+            "relation": 471,
+            "upstream_event_id": 3,
+            "upstream_event": "Reduction, 17beta-estradiol synthesis by ovarian granulosa cells",
+            "downstream_event_id": 219,
+            "downstream_event": "Reduction, Plasma 17beta-estradiol concentrations"
+        },
+        {
+            "relation": 472,
+            "upstream_event_id": 219,
+            "upstream_event": "Reduction, Plasma 17beta-estradiol concentrations",
+            "downstream_event_id": 285,
+            "downstream_event": "Reduction, Vitellogenin synthesis in liver"
+        },
+        {
+            "relation": 473,
+            "upstream_event_id": 285,
+            "upstream_event": "Reduction, Vitellogenin synthesis in liver",
+            "downstream_event_id": 221,
+            "downstream_event": "Reduction, Plasma vitellogenin concentrations"
+        },
+        {
+            "relation": 474,
+            "upstream_event_id": 221,
+            "upstream_event": "Reduction, Plasma vitellogenin concentrations",
+            "downstream_event_id": 309,
+            "downstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development"
+        },
+        {
+            "relation": 475,
+            "upstream_event_id": 309,
+            "upstream_event": "Reduction, Vitellogenin accumulation into oocytes and oocyte growth/development",
+            "downstream_event_id": 78,
+            "downstream_event": "Reduction, Cumulative fecundity and spawning"
+        },
+        {
+            "relation": 476,
+            "upstream_event_id": 78,
+            "upstream_event": "Reduction, Cumulative fecundity and spawning",
+            "downstream_event_id": 360,
+            "downstream_event": "Decrease, Population growth rate"
+        }
+    ]
+}
