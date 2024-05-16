@@ -15,7 +15,7 @@ function SpeciesSelector() {
   // Fetch species-specific AOP and Event data when a new species is selected
   useEffect(() => {
     if (selectedSpecies) {
-      const speciesFileName = selectedSpecies.replace(/ /g, '_'); // Adjust if your file naming uses a different convention
+      const speciesFileName = selectedSpecies.replace(/ /g, '_'); 
       fetch(`/species_data/${speciesFileName}.json`)
         .then(response => response.json())
         .then(data => setAopEventData(data))
