@@ -30,18 +30,24 @@ args = parser.parse_args()
 if args.drug:
     final_df = final_df[final_df['Drug(s)'].str.contains(args.drug, case=False, na=False)]
 
-# Save the results to a CSV file
-output_file = "Mapped_Drug_Targets_in_Mamestra.csv"
-final_df.to_csv(output_file, index=False)
+# Save the results to a CSV and TSV file
+output_csv = "Mapped_Drug_Targets_in_Mamestra.csv"
+output_tsv = "Mapped_Drug_Targets_in_Mamestra.tsv"
+final_df.to_csv(output_csv, index=False)
+final_df.to_csv(output_tsv, index=False, sep='\t')
 
 # Display results in an elegant tabular format
 print(tabulate(final_df, headers='keys', tablefmt='fancy_grid'))
 
 # Optional: Create a summary report
-print(f"\nTotal matched drug targets: {len(final_df)}")
-print(f"Results saved to {output_file}")
+#print(f"\nTotal matched drug targets: {len(final_df)}")
+#print(f"Results saved to {output_csv} and {output_tsv}")
 
-# Advanced Visualization
+# Normalization of Gene Count and Isoform Count for relative expression analysis
+final_df['Normalized_Gene_Count'] = final_df['Gene_Count'] / final_df['Gene_Count'].max()
+final_df['Normalized_Isoform_Count'] = final_df['Isoform_Count'] / final_df['Isoform_Count'].max()
+
+# Advanced Visualization - Boxplot for Gene Count across Tissues
 plt.figure(figsize=(12, 6))
 sns.boxplot(x='Tissue', y='Gene_Count', data=final_df)
 plt.xticks(rotation=45, ha='right')
@@ -49,7 +55,26 @@ plt.xlabel("Tissue Type")
 plt.ylabel("Gene Count")
 plt.title("Gene Count Distribution Across Different Tissues")
 plt.grid(True, linestyle='--', alpha=0.7)
-
-# Save the improved scientific/artistic plot
 plt.savefig("Gene_Count_Tissue_Distribution.png", bbox_inches='tight')
 print("Plot saved as 'Gene_Count_Tissue_Distribution.png'")
+
+# Normalized expression plots
+plt.figure(figsize=(12, 6))
+sns.boxplot(x='Tissue', y='Normalized_Gene_Count', data=final_df)
+plt.xticks(rotation=45, ha='right')
+plt.xlabel("Tissue Type")
+plt.ylabel("Normalized Gene Count")
+plt.title("Normalized Gene Count Across Different Tissues")
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.savefig("Normalized_Gene_Count_Distribution.png", bbox_inches='tight')
+print("Plot saved as 'Normalized_Gene_Count_Distribution.png'")
+
+plt.figure(figsize=(12, 6))
+sns.boxplot(x='Tissue', y='Normalized_Isoform_Count', data=final_df)
+plt.xticks(rotation=45, ha='right')
+plt.xlabel("Tissue Type")
+plt.ylabel("Normalized Isoform Count")
+plt.title("Normalized Isoform Count Across Different Tissues")
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.savefig("Normalized_Isoform_Count_Distribution.png", bbox_inches='tight')
+print("Plot saved as 'Normalized_Isoform_Count_Distribution.png'")
