@@ -43,7 +43,7 @@ print(tabulate(final_df, headers='keys', tablefmt='fancy_grid'))
 #print(f"\nTotal matched drug targets: {len(final_df)}")
 #print(f"Results saved to {output_csv} and {output_tsv}")
 
-# Normalization of Gene Count and Isoform Count for relative expression analysis
+## Normalization of Gene Count and Isoform Count for relative expression analysis
 final_df['Normalized_Gene_Count'] = final_df['Gene_Count'] / final_df['Gene_Count'].max()
 final_df['Normalized_Isoform_Count'] = final_df['Isoform_Count'] / final_df['Isoform_Count'].max()
 
