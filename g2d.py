@@ -5,6 +5,7 @@ import seaborn as sns
 from tabulate import tabulate
 import networkx as nx
 import warnings
+from pyvis.network import Network  # Interactive HTML network
 
 # Suppress warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -74,68 +75,82 @@ plt.ylabel("Gene Count")
 plt.savefig("Gene_Count_Tissue_Distribution.png", bbox_inches='tight')
 print("Tissue distribution plot saved as 'Gene_Count_Tissue_Distribution.png'")
 
-# === NETWORK ANALYSIS AND VISUALIZATION ===
+
+# === NETWORK ANALYSIS WITH INTERACTIVE HTML GRAPH ===
 if args.network:
     print("\nConstructing Drug-Target Interaction Network...")
 
-    G = nx.Graph()
-    primary_targets = set()
-    drug_nodes = set()
+    # Initialize Pyvis Network
+    net = Network(height="800px", width="100%", notebook=False, bgcolor="#ffffff", font_color="black")
 
     # Create nodes and edges
+    primary_targets = set()
+    drug_nodes = set()
+    existing_edges = set()  # Track added edges
+    target_name_mapping = {}  # Store full target names for legend
+
     for _, row in final_df.iterrows():
         drugs = row['Drug(s)'].split(', ')
-        target = row['Entry']
-        primary_targets.add(target)
+        entry = row['Entry']
+        target_name = row['Human Target'] if pd.notna(row['Human Target']) else "Unknown Target"
 
+        # Store the full target name for legend display
+        target_name_mapping[entry] = target_name
+
+        # Ensure the target node is added before edges
+        if entry not in primary_targets:
+            net.add_node(entry, label=entry, color="green", shape="dot", size=15)  # Only Entry in the plot
+            primary_targets.add(entry)
+
+        # Add drug and target nodes
         for drug in drugs:
-            G.add_edge(drug, target, type='drug-target')  # Direct drug-target connection
-            drug_nodes.add(drug)  # Store drug nodes separately
+            if drug not in drug_nodes:
+                net.add_node(drug, label=drug, color="red", shape="ellipse", size=20)  # Drug nodes
+                drug_nodes.add(drug)
+
+            # Now add the drug-target edge
+            net.add_edge(drug, entry, color="black", title="Drug-Target Interaction")
 
     # Add target-to-target interactions
     for target1 in primary_targets:
         for target2 in primary_targets:
-            if target1 != target2:  # Avoid self-loops
-                G.add_edge(target1, target2, type='target-target')  # Target-to-target interaction
+            if target1 != target2 and (target1, target2) not in existing_edges and (target2, target1) not in existing_edges:
+                net.add_edge(target1, target2, color="gray", dashes=True, title="Target-Target Interaction")
+                existing_edges.add((target1, target2))
 
-    plt.figure(figsize=(12, 8))
-    pos = nx.spring_layout(G, seed=42)
+    # Improve layout dynamically
+    net.repulsion(node_distance=120, central_gravity=0.3, damping=0.9)
 
-    # Assign colors
-    node_colors = ['red' if node in drug_nodes else 'green' for node in G.nodes()]
-    edge_styles = ['solid' if G[u][v]['type'] == 'drug-target' else 'dashed' for u, v in G.edges()]
+    # Generate target name list for legend
+    target_names_html = "<b>Target Name:</b><br>"
+    target_names_html += "<br>".join([f"<b>{entry}</b>: {name}" for entry, name in target_name_mapping.items()])
 
-    # Draw edges with different styles
-    for edge, style in zip(G.edges(), edge_styles):
-        nx.draw_networkx_edges(G, pos, edgelist=[edge], style=style, edge_color='black')
+    # Add custom legend as an HTML overlay
+    legend_html = f"""
+    <div style="position: fixed; top: 10px; left: 10px; background-color: white; padding: 10px;
+                border-radius: 5px; border: 1px solid black; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+                font-family: Arial, sans-serif; font-size: 12px; max-height: 400px; overflow-y: auto;">
+        <b>Legend:</b><br>
+        <span style="color: red;">&#9679;</span> Drug Node (Red)<br>
+        <span style="color: green;">&#9679;</span> Target Node (Green)<br>
+        <span style="color: black;">&#8212;</span> Drug-Target Interaction (Black Edge)<br>
+        <span style="color: gray; text-decoration: dashed;">&#8212;</span> Target-Target Interaction (Gray Dashed Edge)<br>
+        <hr>
+        {target_names_html}
+    </div>
+    """
 
-    # Draw nodes
-    nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=700, edgecolors='black')
+    # Save network to an HTML file manually with legend
+    network_html = "Drug_Target_Network.html"
+    net.save_graph(network_html)
 
-    # Draw labels with increased font size
-    # Increase padding for better spacing
-    plt.margins(0.2)  # Adds extra space around the plot to avoid cutoff
+    # Append legend manually to the saved HTML
+    with open(network_html, "r") as file:
+        html_content = file.read()
 
-    # Adjust label positions dynamically
-    label_pos = {node: (x, y + 0.05) for node, (x, y) in pos.items()}  # Moves labels slightly up
-    nx.draw_networkx_labels(G, label_pos, font_size=10, font_weight='bold', verticalalignment='bottom')
+    html_content = html_content.replace("</body>", legend_html + "</body>")
 
+    with open(network_html, "w") as file:
+        file.write(html_content)
 
-    # Create custom legend
-    from matplotlib.patches import Patch
-    legend_handles = [
-        Patch(color='red', label='Drug'),
-        Patch(color='green', label='Target'),
-        Patch(color='black', linestyle='solid', label='Drug-Target Interaction'),
-        Patch(color='black', linestyle='dashed', label='Target-Target Interaction')
-    ]
-    plt.legend(handles=legend_handles, loc='upper right', fontsize=10, frameon=True)
-
-        # Dynamically update title with queried drug name
-    queried_drug = args.drug if args.drug else "All Drugs"
-    plt.title(f"Drug-Target Interaction Network ({queried_drug})", fontsize=14, fontweight='bold')
-
-#plt.title("Drug-Target Interaction Network", fontsize=14, fontweight='bold')
-    plt.savefig("Drug_Target_Network.png", bbox_inches='tight')
-    print("Network plot saved as 'Drug_Target_Network.png'")
-
+    print(f"Interactive network graph saved as '{network_html}' with clean labels and detailed legend.")
